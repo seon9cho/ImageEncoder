@@ -1,0 +1,50 @@
+Epoch: 0, Iteration: 0, loss: 7.4077, elapsed: 1.93, remaining: 1687.59
+ Input: SOS he went there in person .
+Output: muscles balance becoming broke difficulties latin jokes wow concern doorbell smelled likes smiled tears east bathtub awkward foreigner chair accident inviting panic spelling alibi sandwiches past giving silent independent blocks deer ringing foot repeat classmate secret excuses couple evidence drinks border approaching stand pleased brushed picasso swam true forecast
+Target: he went there in person . EOS
+
+Epoch: 0, Iteration: 100, loss: 6.4034, elapsed: 24.03, remaining: 184.42
+ Input: SOS this conversation is a masterpiece .
+Output: . EOS
+Target: this conversation is a masterpiece . EOS
+
+Epoch: 0, Iteration: 200, loss: 4.2278, elapsed: 46.05, remaining: 154.63
+ Input: SOS i apologized immediately .
+Output: i 'm . EOS
+Target: i apologized immediately . EOS
+
+Epoch: 0, Iteration: 300, loss: 3.6191, elapsed: 67.48, remaining: 128.90
+ Input: SOS that town is two miles away .
+Output: this is a . EOS
+Target: that town is two miles away . EOS
+
+Epoch: 0, Iteration: 400, loss: 3.2281, elapsed: 89.21, remaining: 105.68
+ Input: SOS the party is over .
+Output: the is a . EOS
+Target: the party is over . EOS
+
+Epoch: 0, Iteration: 500, loss: 3.0054, elapsed: 111.59, remaining: 83.52
+ Input: SOS continue digging .
+Output: my . EOS
+Target: continue digging . EOS
+
+Epoch: 0, Iteration: 600, loss: 2.8285, elapsed: 134.48, remaining: 61.54
+ Input: SOS i 'll stay at home tomorrow .
+Output: i can not know that . EOS
+Target: i 'll stay at home tomorrow . EOS
+
+Epoch: 0, Iteration: 700, loss: 2.7031, elapsed: 157.05, remaining: 39.21
+ Input: SOS this dress fits me perfectly .
+Output: you 're very good very good . EOS
+Target: this dress fits me perfectly . EOS
+
+Epoch: 0, Iteration: 800, loss: 2.6170, elapsed: 178.81, remaining: 16.74
+ Input: SOS that 's one of the things i 've ever seen .
+Output: it 's the only one of my father . EOS
+Target: that 's one of the things i 've ever seen . EOS
+
+Epoch: 1, Iteration: 0, loss: 2.4042, elapsed: 196.99, remaining: 172370.58
+ Input: SOS people can turn to the law if they want to correct an .
+Output: we want to go to the bus to go to go to me to go to go to go to go to go to go to go to go to go to go to go to go to go to go to go to do . EOS
+Target: people can turn to the law if they want to correct an . EOS
+

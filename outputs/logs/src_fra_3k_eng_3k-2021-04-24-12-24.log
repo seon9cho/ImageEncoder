@@ -1,0 +1,5 @@
+Epoch: 0, Iteration: 300, loss: 0.6573, elapsed: 38.99, remaining: 111.27
+ Input: SOS alors t es pas content de me voir ?
+Output: pourquoi n allez vous pas lire de livres ? EOS
+Target: alors t es pas content de me voir ? EOS
+

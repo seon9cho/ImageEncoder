@@ -1,0 +1,280 @@
+Epoch: 0, Iteration: 0, loss: 7.0993, elapsed: 1.80, remaining: 41.39
+ Input: SOS je sais que vous pouvez nous aider .
+Output: je sais que vous pouvez nous aider . EOS
+Target: SOS je sais que vous pouvez nous aider .
+
+Epoch: 0, Iteration: 10, loss: 6.5770, elapsed: 6.55, remaining: 7.75
+ Input: SOS personne ne vous arretera .
+Output: personne ne vous ait rien . EOS
+Target: SOS personne ne vous arretera .
+
+Epoch: 0, Iteration: 20, loss: 4.8716, elapsed: 11.52, remaining: 1.65
+ Input: SOS il fait ca depuis plus de vingt ans .
+Output: je n ai pas de plus de temps a parler pour un . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Target: SOS il fait ca depuis plus de vingt ans .
+
+Epoch: 1, Iteration: 0, loss: 3.7556, elapsed: 14.33, remaining: 329.54
+ Input: SOS je ne veux pas devenir comme mon pere .
+Output: je ne me . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Target: SOS je ne veux pas devenir comme mon pere .
+
+Epoch: 1, Iteration: 10, loss: 3.3700, elapsed: 19.37, remaining: 22.89
+ Input: SOS tu parles en quelle langue avec tom d habitude ?
+Output: tu es pas pas pas pas pas pas pas pas pas pas pas pas a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a
+Target: SOS tu parles en quelle langue avec tom d habitude ?
+
+Epoch: 1, Iteration: 20, loss: 3.0175, elapsed: 24.73, remaining: 3.53
+ Input: SOS je ne peux pas te donner autant d argent .
+Output: je je je je je je je je je je je je je je je je je je je je je je je je je je je je je je je je je je je je je je je je je je je je je je je je je
+Target: SOS je ne peux pas te donner autant d argent .
+
+Epoch: 2, Iteration: 0, loss: 2.6708, elapsed: 27.52, remaining: 632.89
+ Input: SOS le cercle compte plus de cinquante membres .
+Output: des des des des des des des des des des des des des des des des des des des des des des des des des des des des des des des des des des des des des des des des des des des des des des des des des
+Target: SOS le cercle compte plus de cinquante membres .
+
+Epoch: 2, Iteration: 10, loss: 2.5856, elapsed: 33.00, remaining: 39.00
+ Input: SOS es tu occupe actuellement ?
+Output: pensez vous vous vous vous vous vous vous vous vous vous vous vous vous vous vous vous vous vous vous vous vous vous vous vous vous vous vous vous vous vous vous vous vous vous vous vous vous vous vous vous vous vous vous vous vous vous vous vous
+Target: SOS es tu occupe actuellement ?
+
+Epoch: 2, Iteration: 20, loss: 2.4247, elapsed: 38.31, remaining: 5.47
+ Input: SOS j ai besoin d un stylo rouge .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS j ai besoin d un stylo rouge .
+
+Epoch: 3, Iteration: 0, loss: 1.9681, elapsed: 41.09, remaining: 944.99
+ Input: SOS y a t il quelqu un que tu veuilles appeler ?
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS y a t il quelqu un que tu veuilles appeler ?
+
+Epoch: 3, Iteration: 10, loss: 1.9638, elapsed: 46.29, remaining: 54.71
+ Input: SOS quel genre de musique ecoutez vous ?
+Output: quel quel quel quel quel quel quel quel quel quel quel quel quel quel quel quel quel quel quel quel quel quel quel quel quel quel quel quel quel quel quel quel quel quel quel quel quel quel quel quel quel quel quel quel quel quel quel quel quel
+Target: SOS quel genre de musique ecoutez vous ?
+
+Epoch: 3, Iteration: 20, loss: 1.9766, elapsed: 51.70, remaining: 7.39
+ Input: SOS peut etre que tu t es trompe de date .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS peut etre que tu t es trompe de date .
+
+Epoch: 4, Iteration: 0, loss: 1.4171, elapsed: 54.46, remaining: 1252.66
+ Input: SOS nous avons un travail a faire .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS nous avons un travail a faire .
+
+Epoch: 4, Iteration: 10, loss: 1.4820, elapsed: 59.66, remaining: 70.51
+ Input: SOS qu avez vous fait aujourd hui ?
+Output: combien combien combien combien combien combien combien combien combien combien combien combien combien combien combien combien combien combien combien combien combien combien combien combien combien combien combien combien combien combien combien combien combien combien combien combien combien combien combien combien combien combien combien combien combien combien combien combien combien
+Target: SOS qu avez vous fait aujourd hui ?
+
+Epoch: 4, Iteration: 20, loss: 1.5130, elapsed: 64.87, remaining: 9.27
+ Input: SOS j ai quelque chose de meilleur .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS j ai quelque chose de meilleur .
+
+Epoch: 5, Iteration: 0, loss: 1.1069, elapsed: 67.53, remaining: 1553.12
+ Input: SOS quand j ai ouvert la porte du refrigerateur une pomme est tombee .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS quand j ai ouvert la porte du refrigerateur une pomme est tombee .
+
+Epoch: 5, Iteration: 10, loss: 1.0764, elapsed: 72.64, remaining: 85.85
+ Input: SOS dans le vin la verite .
+Output: tout tout tout tout tout tout tout tout tout tout tout tout tout tout tout tout tout tout tout tout tout tout tout tout tout tout tout tout tout tout tout tout tout tout tout tout tout tout tout tout tout tout tout tout tout tout tout tout tout
+Target: SOS dans le vin la verite .
+
+Epoch: 5, Iteration: 20, loss: 1.1831, elapsed: 78.21, remaining: 11.17
+ Input: SOS c est ce que je te demande de faire .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS c est ce que je te demande de faire .
+
+Epoch: 6, Iteration: 0, loss: 0.7797, elapsed: 80.92, remaining: 1861.06
+ Input: SOS pourquoi ne vous pas un peu ?
+Output: pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi
+Target: SOS pourquoi ne vous pas un peu ?
+
+Epoch: 6, Iteration: 10, loss: 0.8554, elapsed: 85.93, remaining: 101.56
+ Input: SOS j aimerais maintenant te poser quelques questions .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS j aimerais maintenant te poser quelques questions .
+
+Epoch: 6, Iteration: 20, loss: 0.9850, elapsed: 91.09, remaining: 13.01
+ Input: SOS l argent n est pas tout .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS l argent n est pas tout .
+
+Epoch: 7, Iteration: 0, loss: 0.6303, elapsed: 93.83, remaining: 2158.13
+ Input: SOS j ai songe que tu voudrais savoir .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS j ai songe que tu voudrais savoir .
+
+Epoch: 7, Iteration: 10, loss: 0.7442, elapsed: 99.32, remaining: 117.37
+ Input: SOS elle la maison en preparation de la fete .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS elle la maison en preparation de la fete .
+
+Epoch: 7, Iteration: 20, loss: 0.8355, elapsed: 104.47, remaining: 14.92
+ Input: SOS ces lunettes te vont bien .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS ces lunettes te vont bien .
+
+Epoch: 8, Iteration: 0, loss: 0.5608, elapsed: 107.21, remaining: 2465.91
+ Input: SOS evidemment tom ne vint pas .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS evidemment tom ne vint pas .
+
+Epoch: 8, Iteration: 10, loss: 0.6621, elapsed: 112.64, remaining: 133.12
+ Input: SOS donne moi une minute !
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS donne moi une minute !
+
+Epoch: 8, Iteration: 20, loss: 0.7719, elapsed: 117.73, remaining: 16.82
+ Input: SOS vous vous y un jour .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS vous vous y un jour .
+
+Epoch: 9, Iteration: 0, loss: 0.6180, elapsed: 120.48, remaining: 2770.99
+ Input: SOS comment quelqu un peut il etre si stupide ?
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS comment quelqu un peut il etre si stupide ?
+
+Epoch: 9, Iteration: 10, loss: 0.6652, elapsed: 125.65, remaining: 148.50
+ Input: SOS ou est la telecommande ?
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS ou est la telecommande ?
+
+Epoch: 9, Iteration: 20, loss: 0.7353, elapsed: 130.78, remaining: 18.68
+ Input: SOS ils avaient une sur la porte arriere .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS ils avaient une sur la porte arriere .
+
+Epoch: 10, Iteration: 0, loss: 0.5782, elapsed: 133.54, remaining: 3071.40
+ Input: SOS ou etes vous allee exactement ?
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS ou etes vous allee exactement ?
+
+Epoch: 10, Iteration: 10, loss: 0.6489, elapsed: 138.68, remaining: 163.90
+ Input: SOS que dis tu ?
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS que dis tu ?
+
+Epoch: 10, Iteration: 20, loss: 0.7000, elapsed: 143.86, remaining: 20.55
+ Input: SOS je ne pense pas que je puisse t aider .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS je ne pense pas que je puisse t aider .
+
+Epoch: 11, Iteration: 0, loss: 0.4772, elapsed: 146.59, remaining: 3371.49
+ Input: SOS j ai ete arnaque .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS j ai ete arnaque .
+
+Epoch: 11, Iteration: 10, loss: 0.5753, elapsed: 151.91, remaining: 179.53
+ Input: SOS vous etes les .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS vous etes les .
+
+Epoch: 11, Iteration: 20, loss: 0.6280, elapsed: 156.93, remaining: 22.42
+ Input: SOS j aime parler en francais .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS j aime parler en francais .
+
+Epoch: 12, Iteration: 0, loss: 0.4087, elapsed: 159.63, remaining: 3671.49
+ Input: SOS je ne savais pas que nous n etions pas censes le faire .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS je ne savais pas que nous n etions pas censes le faire .
+
+Epoch: 12, Iteration: 10, loss: 0.4923, elapsed: 164.72, remaining: 194.66
+ Input: SOS tom n est pas ton frere .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS tom n est pas ton frere .
+
+Epoch: 12, Iteration: 20, loss: 0.5266, elapsed: 169.85, remaining: 24.26
+ Input: SOS ils ont la .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS ils ont la .
+
+Epoch: 13, Iteration: 0, loss: 0.3481, elapsed: 172.73, remaining: 3972.70
+ Input: SOS y a t il quelqu un que tu veuilles appeler ?
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS y a t il quelqu un que tu veuilles appeler ?
+
+Epoch: 13, Iteration: 10, loss: 0.4382, elapsed: 178.42, remaining: 210.86
+ Input: SOS je vous attendrai a l arret de bus .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS je vous attendrai a l arret de bus .
+
+Epoch: 13, Iteration: 20, loss: 0.4595, elapsed: 184.13, remaining: 26.30
+ Input: SOS cette question est trop difficile pour moi .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS cette question est trop difficile pour moi .
+
+Epoch: 14, Iteration: 0, loss: 0.3371, elapsed: 186.90, remaining: 4298.75
+ Input: SOS tu es idiote .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS tu es idiote .
+
+Epoch: 14, Iteration: 10, loss: 0.3997, elapsed: 192.35, remaining: 227.33
+ Input: SOS tom a recu un petit marteau et une boite a outils pour noel .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS tom a recu un petit marteau et une boite a outils pour noel .
+
+Epoch: 14, Iteration: 20, loss: 0.4082, elapsed: 197.48, remaining: 28.21
+ Input: SOS pourriez vous prendre contact avec lui ?
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS pourriez vous prendre contact avec lui ?
+
+Epoch: 15, Iteration: 0, loss: 0.3402, elapsed: 200.39, remaining: 4608.94
+ Input: SOS tom etait il en colere ?
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS tom etait il en colere ?
+
+Epoch: 15, Iteration: 10, loss: 0.3572, elapsed: 205.81, remaining: 243.23
+ Input: SOS tom est grand mais pas aussi grand que moi .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS tom est grand mais pas aussi grand que moi .
+
+Epoch: 15, Iteration: 20, loss: 0.3887, elapsed: 211.26, remaining: 30.18
+ Input: SOS je dois me deplacer lentement .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS je dois me deplacer lentement .
+
+Epoch: 16, Iteration: 0, loss: 0.3233, elapsed: 214.06, remaining: 4923.31
+ Input: SOS tom est assis .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS tom est assis .
+
+Epoch: 16, Iteration: 10, loss: 0.3476, elapsed: 219.29, remaining: 259.16
+ Input: SOS un a fait don de plusieurs centaines de milliers de dollars a un .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS un a fait don de plusieurs centaines de milliers de dollars a un .
+
+Epoch: 16, Iteration: 20, loss: 0.3494, elapsed: 224.53, remaining: 32.08
+ Input: SOS ca a un gout affreux .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS ca a un gout affreux .
+
+Epoch: 17, Iteration: 0, loss: 0.2769, elapsed: 227.42, remaining: 5230.58
+ Input: SOS tu ne vas pas gagner .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS tu ne vas pas gagner .
+
+Epoch: 17, Iteration: 10, loss: 0.3082, elapsed: 232.38, remaining: 274.63
+ Input: SOS j aimerais enregistrer une reclamation .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS j aimerais enregistrer une reclamation .
+
+Epoch: 17, Iteration: 20, loss: 0.3198, elapsed: 237.42, remaining: 33.92
+ Input: SOS j etais surprise parce que mon mari avait en fait mange un peu de notre gateau de mariage .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS j etais surprise parce que mon mari avait en fait mange un peu de notre gateau de mariage .
+
+Epoch: 18, Iteration: 0, loss: 0.2522, elapsed: 240.14, remaining: 5523.24
+ Input: SOS nous sommes de bons amis maintenant mais il fut un temps ou nous ne nous pas .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS nous sommes de bons amis maintenant mais il fut un temps ou nous ne nous pas .
+
+Epoch: 18, Iteration: 10, loss: 0.2928, elapsed: 245.15, remaining: 289.72
+ Input: SOS le manteau que je voulais coutait trois cents dollars .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS le manteau que je voulais coutait trois cents dollars .
+

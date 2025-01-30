@@ -1,0 +1,750 @@
+Epoch: 0, Iteration: 0, elapsed: 2.03, remaining: 46.68
+ Input: SOS do you own a computer ?
+Output: il travaille dur que le a . EOS
+Target: possedez vous un ordinateur ? EOS
+
+Epoch: 0, Iteration: 10, elapsed: 6.22, remaining: 7.36
+ Input: SOS we also found this .
+Output: il serait chouette de ca ! EOS
+Target: nous avons aussi trouve ceci . EOS
+
+Epoch: 0, Iteration: 20, elapsed: 10.46, remaining: 1.49
+ Input: SOS these empty boxes take up too much space .
+Output: c est un ami a un ami que vous ne m avez pas donne les enfants ? EOS
+Target: ces boites vides prennent trop de place . EOS
+
+Epoch: 1, Iteration: 0, elapsed: 12.53, remaining: 288.10
+ Input: SOS that s what we need .
+Output: c est un des que vous . EOS
+Target: c est ce dont nous avons besoin . EOS
+
+Epoch: 1, Iteration: 10, elapsed: 16.77, remaining: 19.82
+ Input: SOS i think you should swim .
+Output: je pense que vous etes la plus jeune . EOS
+Target: je pense que vous devriez nager . EOS
+
+Epoch: 1, Iteration: 20, elapsed: 21.15, remaining: 3.02
+ Input: SOS he makes no half .
+Output: il a fait un peu de vin . EOS
+Target: il met toute son energie dans ses . EOS
+
+Epoch: 2, Iteration: 0, elapsed: 22.99, remaining: 528.87
+ Input: SOS think again .
+Output: il est improbable que tu ne le ferais pas . EOS
+Target: pensez y encore . EOS
+
+Epoch: 2, Iteration: 10, elapsed: 27.36, remaining: 32.33
+ Input: SOS i think tom recognized me .
+Output: je suis desole d accord avec toi . EOS
+Target: je crois que tom m a reconnue . EOS
+
+Epoch: 2, Iteration: 20, elapsed: 31.58, remaining: 4.51
+ Input: SOS tom seems to be much happier than mary .
+Output: tom est tres bon d accord . EOS
+Target: tom semble etre bien plus heureux que mary . EOS
+
+Epoch: 3, Iteration: 0, elapsed: 33.38, remaining: 767.84
+ Input: SOS you should go home .
+Output: vous devriez prendre soin de l eau . EOS
+Target: vous devriez rentrer chez vous . EOS
+
+Epoch: 3, Iteration: 10, elapsed: 37.62, remaining: 44.46
+ Input: SOS do you recognize that woman ?
+Output: est ce que tu as fait ca ? EOS
+Target: reconnaissez vous cette femme ? EOS
+
+Epoch: 3, Iteration: 20, elapsed: 41.79, remaining: 5.97
+ Input: SOS if that happens call me .
+Output: fais comme si ca te plait . EOS
+Target: si ca se produit appelle moi ! EOS
+
+Epoch: 4, Iteration: 0, elapsed: 43.66, remaining: 1004.15
+ Input: SOS let s go this afternoon .
+Output: y a t il une place avec cet apres midi . EOS
+Target: allons faire de la cet apres midi . EOS
+
+Epoch: 4, Iteration: 10, elapsed: 47.93, remaining: 56.64
+ Input: SOS can you help me on this one ?
+Output: peux tu m aider a faire ca ? EOS
+Target: pouvez vous m aider pour celui ci ? EOS
+
+Epoch: 4, Iteration: 20, elapsed: 52.40, remaining: 7.49
+ Input: SOS i m sorry if i scared you .
+Output: je suis desolee de ne pas vous aider . EOS
+Target: desole si je vous ai fait peur . EOS
+
+Epoch: 5, Iteration: 0, elapsed: 54.25, remaining: 1247.66
+ Input: SOS we gave it to the man .
+Output: nous avons donne la chance . EOS
+Target: nous l avons donne au monsieur . EOS
+
+Epoch: 5, Iteration: 10, elapsed: 58.54, remaining: 69.19
+ Input: SOS i had some engine trouble yesterday .
+Output: j ai pris une semaine . EOS
+Target: j ai eu quelques problemes avec mon moteur hier . EOS
+
+Epoch: 5, Iteration: 20, elapsed: 62.81, remaining: 8.97
+ Input: SOS he is leaving chicago tomorrow .
+Output: il fait froid . EOS
+Target: il chicago demain . EOS
+
+Epoch: 6, Iteration: 0, elapsed: 64.62, remaining: 1486.19
+ Input: SOS no one knew .
+Output: personne ne s est presente . EOS
+Target: personne ne savait . EOS
+
+Epoch: 6, Iteration: 10, elapsed: 68.96, remaining: 81.49
+ Input: SOS doing it that way will take a long time .
+Output: ca prendra beaucoup de temps . EOS
+Target: le faire ainsi prendra beaucoup de temps . EOS
+
+Epoch: 6, Iteration: 20, elapsed: 73.28, remaining: 10.47
+ Input: SOS my father finally .
+Output: mon pere s est trompe . EOS
+Target: mon pere a finalement . EOS
+
+Epoch: 7, Iteration: 0, elapsed: 75.13, remaining: 1727.92
+ Input: SOS i can do that in less than ten minutes .
+Output: je peux faire ca plus de dix heures . EOS
+Target: je peux faire ca en moins de dix minutes . EOS
+
+Epoch: 7, Iteration: 10, elapsed: 79.38, remaining: 93.82
+ Input: SOS stop .
+Output: arrete de vous chez moi . EOS
+Target: arrete de aux . EOS
+
+Epoch: 7, Iteration: 20, elapsed: 83.66, remaining: 11.95
+ Input: SOS i d love to know if my luggage is arriving soon .
+Output: j aimerais bien savoir si mes bagages vont bientot arriver . EOS
+Target: j aimerais bien savoir si mes bagages vont bientot arriver . EOS
+
+Epoch: 8, Iteration: 0, elapsed: 85.55, remaining: 1967.68
+ Input: SOS i do not like spring .
+Output: je ne fume pas de maniere . EOS
+Target: je n aime pas le printemps . EOS
+
+Epoch: 8, Iteration: 10, elapsed: 89.86, remaining: 106.19
+ Input: SOS you ve probably heard of us .
+Output: vous avez tous deux d amour . EOS
+Target: tu as probablement entendu parler de nous . EOS
+
+Epoch: 8, Iteration: 20, elapsed: 94.15, remaining: 13.45
+ Input: SOS he managed to escape .
+Output: il se leva lentement . EOS
+Target: il a reussi a s echapper . EOS
+
+Epoch: 9, Iteration: 0, elapsed: 95.95, remaining: 2206.91
+ Input: SOS happiness is a delicate flower .
+Output: la vie est une fleur delicate . EOS
+Target: le bonheur est une fleur delicate . EOS
+
+Epoch: 9, Iteration: 10, elapsed: 100.20, remaining: 118.42
+ Input: SOS tom was a kid .
+Output: tom etait un enfant maigre . EOS
+Target: tom etait un enfant maigre . EOS
+
+Epoch: 9, Iteration: 20, elapsed: 104.39, remaining: 14.91
+ Input: SOS we all jumped into the water at the same time .
+Output: nous avons toutes saute dans la nuit dans une grande disposition . EOS
+Target: nous avons toutes saute dans l eau au meme moment . EOS
+
+Epoch: 10, Iteration: 0, elapsed: 106.34, remaining: 2445.81
+ Input: SOS you need to be more careful .
+Output: vous devez etre plus prudentes ! EOS
+Target: vous devez etre plus prudentes ! EOS
+
+Epoch: 10, Iteration: 10, elapsed: 110.62, remaining: 130.73
+ Input: SOS it is not known when he came up to london .
+Output: il est alle a la banque et ne se jamais . EOS
+Target: on ne sait pas quand il est venu a londres . EOS
+
+Epoch: 10, Iteration: 20, elapsed: 114.90, remaining: 16.41
+ Input: SOS that can be a problem .
+Output: ca va etre different . EOS
+Target: cela peut etre un probleme . EOS
+
+Epoch: 11, Iteration: 0, elapsed: 116.73, remaining: 2684.69
+ Input: SOS he narrowly escaped death .
+Output: il a echappe d ses doigts . EOS
+Target: il a echappe de peu a la mort . EOS
+
+Epoch: 11, Iteration: 10, elapsed: 120.96, remaining: 142.95
+ Input: SOS he was just behind me .
+Output: il etait juste derriere moi . EOS
+Target: il etait juste derriere moi . EOS
+
+Epoch: 11, Iteration: 20, elapsed: 125.24, remaining: 17.89
+ Input: SOS i think tom is almost deaf .
+Output: je pense que tom est quasiment sourd . EOS
+Target: je pense que tom est quasiment sourd . EOS
+
+Epoch: 12, Iteration: 0, elapsed: 127.03, remaining: 2921.73
+ Input: SOS did i touch a nerve ?
+Output: ai je touche un point sensible ? EOS
+Target: ai je touche un point sensible ? EOS
+
+Epoch: 12, Iteration: 10, elapsed: 131.28, remaining: 155.15
+ Input: SOS santa claus comes to see us once a year .
+Output: le pere noel vient de l voir ! EOS
+Target: le pere noel vient nous voir une fois par an . EOS
+
+Epoch: 12, Iteration: 20, elapsed: 136.03, remaining: 19.43
+ Input: SOS i m sure my parents won t let me go by myself .
+Output: je me rends compte que mes parents ne me laisseront pas partir seule . EOS
+Target: je suis certaine que mes parents ne me laisseront pas partir seule . EOS
+
+Epoch: 13, Iteration: 0, elapsed: 137.89, remaining: 3171.57
+ Input: SOS it s ridiculous .
+Output: c est ridicule . EOS
+Target: c est ridicule . EOS
+
+Epoch: 13, Iteration: 10, elapsed: 142.10, remaining: 167.94
+ Input: SOS prince is second in line to the english .
+Output: le est le montant total d angleterre . EOS
+Target: le prince est le second en ligne de au d angleterre . EOS
+
+Epoch: 13, Iteration: 20, elapsed: 146.85, remaining: 20.98
+ Input: SOS i guess i was wrong .
+Output: j ai dit d etre venue . EOS
+Target: je suppose que j ai eu tort . EOS
+
+Epoch: 14, Iteration: 0, elapsed: 148.68, remaining: 3419.70
+ Input: SOS i woke up with a headache this morning .
+Output: je me suis levee avec un mal de tete ce matin . EOS
+Target: je me suis levee avec un mal de tete ce matin . EOS
+
+Epoch: 14, Iteration: 10, elapsed: 152.85, remaining: 180.64
+ Input: SOS you need to be patient .
+Output: tu dois etre patient . EOS
+Target: tu dois etre patient . EOS
+
+Epoch: 14, Iteration: 20, elapsed: 157.03, remaining: 22.43
+ Input: SOS i ve done that .
+Output: j ai fait ca . EOS
+Target: j ai fait ca . EOS
+
+Epoch: 15, Iteration: 0, elapsed: 158.77, remaining: 3651.71
+ Input: SOS we re serious .
+Output: nous sommes serieuses . EOS
+Target: nous sommes serieuses . EOS
+
+Epoch: 15, Iteration: 10, elapsed: 162.91, remaining: 192.52
+ Input: SOS i can t tell you where tom lives .
+Output: je ne peux pas vous dire ou tom vit . EOS
+Target: je ne peux pas vous dire ou tom vit . EOS
+
+Epoch: 15, Iteration: 20, elapsed: 167.10, remaining: 23.87
+ Input: SOS let s talk over a cup of coffee .
+Output: parlons autour d une tasse de cafe . EOS
+Target: parlons autour d une tasse de cafe . EOS
+
+Epoch: 16, Iteration: 0, elapsed: 169.08, remaining: 3888.84
+ Input: SOS my sister isn t a good cook and neither am i .
+Output: ma soeur n est pas bonne cuisiniere et moi non plus . EOS
+Target: ma soeur n est pas bonne cuisiniere et moi non plus . EOS
+
+Epoch: 16, Iteration: 10, elapsed: 173.46, remaining: 205.00
+ Input: SOS we talked .
+Output: nous discutames . EOS
+Target: nous discutames . EOS
+
+Epoch: 16, Iteration: 20, elapsed: 177.61, remaining: 25.37
+ Input: SOS black suits you .
+Output: le noir vous va bien . EOS
+Target: le noir vous va bien . EOS
+
+Epoch: 17, Iteration: 0, elapsed: 179.47, remaining: 4127.81
+ Input: SOS if there s something you don t understand let me know .
+Output: ne mettez pas tous ces trucs . vous ne le pensez . EOS
+Target: s il y a quelque chose que vous ne comprenez pas faites le moi savoir . EOS
+
+Epoch: 17, Iteration: 10, elapsed: 183.85, remaining: 217.28
+ Input: SOS we have a witness .
+Output: nous avons un temoin . EOS
+Target: nous avons un temoin . EOS
+
+Epoch: 17, Iteration: 20, elapsed: 187.99, remaining: 26.86
+ Input: SOS throw tom out .
+Output: jetez tom dehors . EOS
+Target: jetez tom dehors . EOS
+
+Epoch: 18, Iteration: 0, elapsed: 189.83, remaining: 4366.07
+ Input: SOS tom was the only one who was hurt .
+Output: tom fut le seul a avoir ete blesse . EOS
+Target: tom fut le seul a avoir ete blesse . EOS
+
+Epoch: 18, Iteration: 10, elapsed: 194.03, remaining: 229.31
+ Input: SOS never forget that .
+Output: n oubliez jamais cela . EOS
+Target: n oubliez jamais cela . EOS
+
+Epoch: 18, Iteration: 20, elapsed: 198.28, remaining: 28.33
+ Input: SOS i d like to ask you some questions now .
+Output: j aimerais maintenant te poser quelques questions . EOS
+Target: j aimerais maintenant te poser quelques questions . EOS
+
+Epoch: 19, Iteration: 0, elapsed: 200.11, remaining: 4602.56
+ Input: SOS she forgot to feed her dog .
+Output: elle a oublie de nourrir son chien . EOS
+Target: elle a oublie de nourrir son chien . EOS
+
+Epoch: 19, Iteration: 10, elapsed: 204.35, remaining: 241.51
+ Input: SOS i feel safe here .
+Output: je me sens ici en securite . EOS
+Target: je me sens ici en securite . EOS
+
+Epoch: 19, Iteration: 20, elapsed: 208.55, remaining: 29.79
+ Input: SOS i stayed there until he had left .
+Output: je viens d avoir un appel de l hopital . EOS
+Target: j y suis reste jusqu a ce qu il soit parti . EOS
+
+Epoch: 20, Iteration: 0, elapsed: 210.42, remaining: 4839.68
+ Input: SOS he whispered something to her .
+Output: il a fortement quelque chose . EOS
+Target: il lui a chuchote quelque chose . EOS
+
+Epoch: 20, Iteration: 10, elapsed: 214.59, remaining: 253.61
+ Input: SOS none of us plan on being there .
+Output: aucune de nous ne prevoit de s y trouver . EOS
+Target: aucune de nous ne prevoit de s y trouver . EOS
+
+Epoch: 20, Iteration: 20, elapsed: 218.68, remaining: 31.24
+ Input: SOS he did the opposite .
+Output: il a fait le contraire . EOS
+Target: il a fait le contraire . EOS
+
+Epoch: 21, Iteration: 0, elapsed: 220.45, remaining: 5070.31
+ Input: SOS can you stay for a few days ?
+Output: pouvez vous rester quelques jours ? EOS
+Target: pouvez vous rester quelques jours ? EOS
+
+Epoch: 21, Iteration: 10, elapsed: 224.64, remaining: 265.48
+ Input: SOS many mistakes could ve been avoided through simple .
+Output: de nombreuses erreurs auraient ete de simples . EOS
+Target: de nombreuses erreurs auraient pu etre par de simples . EOS
+
+Epoch: 21, Iteration: 20, elapsed: 228.68, remaining: 32.67
+ Input: SOS tom ordered a bottle of champagne .
+Output: tom a commande une bouteille de champagne . EOS
+Target: tom a commande une bouteille de champagne . EOS
+
+Epoch: 22, Iteration: 0, elapsed: 230.51, remaining: 5301.72
+ Input: SOS all the seats are occupied .
+Output: tous les fauteuils sont occupes . EOS
+Target: tous les fauteuils sont occupes . EOS
+
+Epoch: 22, Iteration: 10, elapsed: 234.64, remaining: 277.30
+ Input: SOS after that he went home .
+Output: il s est comporte comme chez lui . EOS
+Target: sur ce il alla chez lui . EOS
+
+Epoch: 22, Iteration: 20, elapsed: 238.72, remaining: 34.10
+ Input: SOS i think you might need some help .
+Output: je pense que vous pourriez avoir besoin d aide . EOS
+Target: je pense que vous pourriez avoir besoin d aide . EOS
+
+Epoch: 23, Iteration: 0, elapsed: 240.47, remaining: 5530.86
+ Input: SOS i flushed the toilet .
+Output: je l ai tire la chasse d eau . EOS
+Target: j ai tire la chasse d eau . EOS
+
+Epoch: 23, Iteration: 10, elapsed: 244.57, remaining: 289.04
+ Input: SOS don t stand next to the window .
+Output: ne reste pas pres de la fenetre . EOS
+Target: ne reste pas pres de la fenetre . EOS
+
+Epoch: 23, Iteration: 20, elapsed: 248.82, remaining: 35.55
+ Input: SOS where did you grow up ?
+Output: ou avez vous grandi ? EOS
+Target: ou avez vous grandi ? EOS
+
+Epoch: 24, Iteration: 0, elapsed: 250.61, remaining: 5764.04
+ Input: SOS i have a mission for you .
+Output: j ai une mission pour vous . EOS
+Target: j ai une mission pour vous . EOS
+
+Epoch: 24, Iteration: 10, elapsed: 254.80, remaining: 301.12
+ Input: SOS what happened to my suitcase ?
+Output: qu est il arrive a ma valise ? EOS
+Target: qu est il arrive a ma valise ? EOS
+
+Epoch: 24, Iteration: 20, elapsed: 259.04, remaining: 37.01
+ Input: SOS you have a lot of nerve .
+Output: vous avez beaucoup de courage . EOS
+Target: vous avez beaucoup de courage . EOS
+
+Epoch: 25, Iteration: 0, elapsed: 260.86, remaining: 5999.85
+ Input: SOS tom said he would try .
+Output: tom a dit qu il . EOS
+Target: tom a dit qu il . EOS
+
+Epoch: 25, Iteration: 10, elapsed: 265.13, remaining: 313.34
+ Input: SOS you ve told me this story before .
+Output: vous m avez deja raconte cette histoire . EOS
+Target: vous m avez deja raconte cette histoire . EOS
+
+Epoch: 25, Iteration: 20, elapsed: 269.50, remaining: 38.50
+ Input: SOS there was a girl in my class last year .
+Output: il y avait un petit ami dans le mois . EOS
+Target: il y avait une dans ma classe l annee derniere . EOS
+
+Epoch: 26, Iteration: 0, elapsed: 271.41, remaining: 6242.52
+ Input: SOS the scientist is famous both at home and abroad .
+Output: ce scientifique est connu autant chez lui qu a l etranger . EOS
+Target: ce scientifique est connu autant chez lui qu a l etranger . EOS
+
+Epoch: 26, Iteration: 10, elapsed: 276.12, remaining: 326.32
+ Input: SOS i don t hate you .
+Output: je ne vous hais pas . EOS
+Target: je ne vous hais pas . EOS
+
+Epoch: 26, Iteration: 20, elapsed: 280.30, remaining: 40.04
+ Input: SOS he stood up slowly .
+Output: il se leva lentement . EOS
+Target: il se leva lentement . EOS
+
+Epoch: 27, Iteration: 0, elapsed: 282.17, remaining: 6489.87
+ Input: SOS he clung to the hope that he would see her again someday .
+Output: il s a l espoir de la revoir un jour . EOS
+Target: il s a l espoir de la revoir un jour . EOS
+
+Epoch: 27, Iteration: 10, elapsed: 286.54, remaining: 338.64
+ Input: SOS will you sell your house to him ?
+Output: lui tu ta maison ? EOS
+Target: lui tu ta maison ? EOS
+
+Epoch: 27, Iteration: 20, elapsed: 290.70, remaining: 41.53
+ Input: SOS she pointed at him .
+Output: elle le . EOS
+Target: elle le . EOS
+
+Epoch: 28, Iteration: 0, elapsed: 292.64, remaining: 6730.73
+ Input: SOS he can t stop laughing .
+Output: il n arrive pas a arreter de rire . EOS
+Target: il n arrive pas a arreter de rire . EOS
+
+Epoch: 28, Iteration: 10, elapsed: 296.99, remaining: 350.99
+ Input: SOS tom seems .
+Output: tom semble determine . EOS
+Target: tom semble inconscient . EOS
+
+Epoch: 28, Iteration: 20, elapsed: 301.24, remaining: 43.03
+ Input: SOS do you feel like having a drink ?
+Output: as tu envie de prendre un verre ? EOS
+Target: as tu envie de prendre un verre ? EOS
+
+Epoch: 29, Iteration: 0, elapsed: 303.14, remaining: 6972.17
+ Input: SOS i didn t know tom was going to do it .
+Output: je ne savais pas que tom allait le faire . EOS
+Target: je ne savais pas que tom allait le faire . EOS
+
+Epoch: 29, Iteration: 10, elapsed: 307.41, remaining: 363.30
+ Input: SOS they make toys at this factory .
+Output: ils des jouets dans cette usine . EOS
+Target: ils des jouets dans cette usine . EOS
+
+Epoch: 29, Iteration: 20, elapsed: 311.88, remaining: 44.55
+ Input: SOS i think we ve got enough money to buy everything we need .
+Output: je pense que nous avons assez d argent pour acheter tout ce dont nous avons besoin . EOS
+Target: je pense que nous avons assez d argent pour acheter tout ce dont nous avons besoin . EOS
+
+Epoch: 30, Iteration: 0, elapsed: 313.91, remaining: 7219.99
+ Input: SOS i m sorry that i haven t been able to be here for you like i should have been .
+Output: je suis desole que vous ayez ete dans l incapacite d etre la pour vous comme j aurais du l etre . EOS
+Target: je suis desole d avoir ete dans l incapacite d etre la pour vous comme j aurais du l etre . EOS
+
+Epoch: 30, Iteration: 10, elapsed: 318.44, remaining: 376.34
+ Input: SOS i m your sister .
+Output: je suis ta soeur . EOS
+Target: je suis ta soeur . EOS
+
+Epoch: 30, Iteration: 20, elapsed: 322.86, remaining: 46.12
+ Input: SOS i will go along with you as far as the station .
+Output: je vais t accompagner jusqu a la gare . EOS
+Target: je vais t accompagner jusqu a la gare . EOS
+
+Epoch: 31, Iteration: 0, elapsed: 324.80, remaining: 7470.34
+ Input: SOS do you accept credit cards ?
+Output: acceptez vous les cartes de ? EOS
+Target: acceptez vous les cartes de ? EOS
+
+Epoch: 31, Iteration: 10, elapsed: 329.16, remaining: 389.01
+ Input: SOS what are you trying to hide from me ?
+Output: qu est ce que tu essayes de me cacher ? EOS
+Target: qu essayes tu de me cacher ? EOS
+
+Epoch: 31, Iteration: 20, elapsed: 333.52, remaining: 47.65
+ Input: SOS my kids don t usually lie to me .
+Output: d habitude mes enfants ne me mentent pas . EOS
+Target: d habitude mes enfants ne me mentent pas . EOS
+
+Epoch: 32, Iteration: 0, elapsed: 335.55, remaining: 7717.59
+ Input: SOS you re very sick .
+Output: vous etes tres malade . EOS
+Target: vous etes tres malade . EOS
+
+Epoch: 32, Iteration: 10, elapsed: 339.97, remaining: 401.79
+ Input: SOS i m about the same age as you are .
+Output: j ai environ le meme age que vous . EOS
+Target: j ai environ le meme age que vous . EOS
+
+Epoch: 32, Iteration: 20, elapsed: 344.38, remaining: 49.20
+ Input: SOS when i woke up it was still dark outside .
+Output: quand je me suis reveille il faisait encore noir dehors . EOS
+Target: quand je me suis reveille il faisait encore noir dehors . EOS
+
+Epoch: 33, Iteration: 0, elapsed: 346.31, remaining: 7965.22
+ Input: SOS tom apologized again .
+Output: tom s est a nouveau excuse . EOS
+Target: tom s est a nouveau excuse . EOS
+
+Epoch: 33, Iteration: 10, elapsed: 350.59, remaining: 414.34
+ Input: SOS i had something else in mind .
+Output: j avais autre chose en tete . EOS
+Target: j avais autre chose en tete . EOS
+
+Epoch: 33, Iteration: 20, elapsed: 355.14, remaining: 50.73
+ Input: SOS i m observant .
+Output: je suis . EOS
+Target: je suis . EOS
+
+Epoch: 34, Iteration: 0, elapsed: 356.90, remaining: 8208.62
+ Input: SOS the title of the document needs to be .
+Output: le titre de ce document doit etre centre . EOS
+Target: le titre de ce document doit etre centre . EOS
+
+Epoch: 34, Iteration: 10, elapsed: 361.24, remaining: 426.91
+ Input: SOS i don t know how i know .
+Output: j ignore d ou je le tiens . EOS
+Target: j ignore d ou je le tiens . EOS
+
+Epoch: 34, Iteration: 20, elapsed: 365.54, remaining: 52.22
+ Input: SOS i ve changed my mind again .
+Output: j ai encore change d avis . EOS
+Target: j ai encore change d avis . EOS
+
+Epoch: 35, Iteration: 0, elapsed: 367.40, remaining: 8450.10
+ Input: SOS please think about the problem .
+Output: veuillez reflechir a la question . EOS
+Target: veuillez reflechir a la question . EOS
+
+Epoch: 35, Iteration: 10, elapsed: 371.73, remaining: 439.32
+ Input: SOS i will have to be away for some time .
+Output: je vais devoir m quelque temps . EOS
+Target: je vais devoir m quelque temps . EOS
+
+Epoch: 35, Iteration: 20, elapsed: 375.94, remaining: 53.71
+ Input: SOS i ll go home .
+Output: j irai chez moi . EOS
+Target: j irai chez moi . EOS
+
+Epoch: 36, Iteration: 0, elapsed: 377.82, remaining: 8689.95
+ Input: SOS have you ever dyed your hair ?
+Output: ne vous etes vous jamais teint les cheveux ? EOS
+Target: ne vous etes vous jamais teint les cheveux ? EOS
+
+Epoch: 36, Iteration: 10, elapsed: 382.25, remaining: 451.75
+ Input: SOS i didn t hear anything .
+Output: je n ai rien entendu du tout . EOS
+Target: je n ai rien entendu du tout . EOS
+
+Epoch: 36, Iteration: 20, elapsed: 386.69, remaining: 55.24
+ Input: SOS she borrowed the book from him .
+Output: elle lui a emprunte le livre . EOS
+Target: elle lui a emprunte le livre . EOS
+
+Epoch: 37, Iteration: 0, elapsed: 388.51, remaining: 8935.79
+ Input: SOS i have nothing to do with the crime .
+Output: je n ai rien a voir avec ce crime . EOS
+Target: je n ai rien a voir avec ce crime . EOS
+
+Epoch: 37, Iteration: 10, elapsed: 392.79, remaining: 464.21
+ Input: SOS how you ve grown !
+Output: comme tu as grandi ! EOS
+Target: comme tu as grandi ! EOS
+
+Epoch: 37, Iteration: 20, elapsed: 396.95, remaining: 56.71
+ Input: SOS my cousin is getting married tomorrow .
+Output: ma cousine se marie demain . EOS
+Target: ma cousine se marie demain . EOS
+
+Epoch: 38, Iteration: 0, elapsed: 398.74, remaining: 9170.95
+ Input: SOS i think you look hot .
+Output: je pense que vous avez l air excitante . EOS
+Target: je pense que vous avez l air excitante . EOS
+
+Epoch: 38, Iteration: 10, elapsed: 403.09, remaining: 476.38
+ Input: SOS what happened to my suitcase ?
+Output: qu est il arrive a ma valise ? EOS
+Target: qu est il arrive a ma valise ? EOS
+
+Epoch: 38, Iteration: 20, elapsed: 407.27, remaining: 58.18
+ Input: SOS i often go to the movies .
+Output: je vais souvent au cinema . EOS
+Target: je vais souvent au cinema . EOS
+
+Epoch: 39, Iteration: 0, elapsed: 409.02, remaining: 9407.35
+ Input: SOS they re suffering from .
+Output: ils du . EOS
+Target: ils du . EOS
+
+Epoch: 39, Iteration: 10, elapsed: 413.25, remaining: 488.39
+ Input: SOS i can t concentrate because of the noise .
+Output: je ne peux pas me concentrer a cause du bruit . EOS
+Target: je ne peux pas me concentrer a cause du bruit . EOS
+
+Epoch: 39, Iteration: 20, elapsed: 417.52, remaining: 59.65
+ Input: SOS you should call your parents more often .
+Output: tu devrais appeler tes parents plus souvent . EOS
+Target: tu devrais appeler tes parents plus souvent . EOS
+
+Epoch: 40, Iteration: 0, elapsed: 419.39, remaining: 9645.98
+ Input: SOS the atomic number for iron is .
+Output: le numero atomique du fer est le . EOS
+Target: le numero atomique du fer est le . EOS
+
+Epoch: 40, Iteration: 10, elapsed: 423.77, remaining: 500.82
+ Input: SOS she left the baby crying .
+Output: elle a laisse crier le bebe . EOS
+Target: elle a laisse crier le bebe . EOS
+
+Epoch: 40, Iteration: 20, elapsed: 427.93, remaining: 61.13
+ Input: SOS the local boys got into a fight with a group from a town .
+Output: les garcons du coin sont entres en dispute avec un groupe d une ville voisine . EOS
+Target: les garcons du coin sont entres en dispute avec un groupe d une ville voisine . EOS
+
+Epoch: 41, Iteration: 0, elapsed: 429.75, remaining: 9884.18
+ Input: SOS all major credit cards are accepted .
+Output: toutes les principales cartes de credit sont . EOS
+Target: toutes les principales cartes de credit sont . EOS
+
+Epoch: 41, Iteration: 10, elapsed: 433.93, remaining: 512.82
+ Input: SOS i think you re a liar .
+Output: je pense que vous etes une menteuse . EOS
+Target: je pense que vous etes une menteuse . EOS
+
+Epoch: 41, Iteration: 20, elapsed: 438.03, remaining: 62.58
+ Input: SOS tom needed more .
+Output: tom avait besoin de plus . EOS
+Target: tom avait besoin de plus . EOS
+
+Epoch: 42, Iteration: 0, elapsed: 439.85, remaining: 10116.64
+ Input: SOS tom shouldn t have borrowed mary s car .
+Output: tom n aurait pas du emprunter la voiture de marie . EOS
+Target: tom n aurait pas du emprunter la voiture de marie . EOS
+
+Epoch: 42, Iteration: 10, elapsed: 444.07, remaining: 524.81
+ Input: SOS it s getting dark . you d better go home .
+Output: il commence a faire nuit . tu ferais mieux de rentrer chez toi . EOS
+Target: il commence a faire nuit . tu ferais mieux de rentrer chez toi . EOS
+
+Epoch: 42, Iteration: 20, elapsed: 448.56, remaining: 64.08
+ Input: SOS i am dying to see her again .
+Output: je creve d envie de la revoir . EOS
+Target: je creve d envie de la revoir . EOS
+
+Epoch: 43, Iteration: 0, elapsed: 450.36, remaining: 10358.26
+ Input: SOS i had something else in mind .
+Output: j avais autre chose en tete . EOS
+Target: j avais autre chose en tete . EOS
+
+Epoch: 43, Iteration: 10, elapsed: 454.66, remaining: 537.33
+ Input: SOS do you want the job or not ?
+Output: veux tu le travail ou non ? EOS
+Target: veux tu le travail ou non ? EOS
+
+Epoch: 43, Iteration: 20, elapsed: 458.85, remaining: 65.55
+ Input: SOS a year has twelve months .
+Output: une annee compte douze mois . EOS
+Target: une annee compte douze mois . EOS
+
+Epoch: 44, Iteration: 0, elapsed: 460.65, remaining: 10595.00
+ Input: SOS i refuse to help .
+Output: je refuse d aider . EOS
+Target: je refuse d aider . EOS
+
+Epoch: 44, Iteration: 10, elapsed: 464.98, remaining: 549.52
+ Input: SOS if you re not happy quit .
+Output: si tu n es pas satisfait abandonne ! EOS
+Target: si tu n es pas satisfait abandonne ! EOS
+
+Epoch: 44, Iteration: 20, elapsed: 469.12, remaining: 67.02
+ Input: SOS they re right behind me .
+Output: elles sont juste derriere moi . EOS
+Target: elles sont juste derriere moi . EOS
+
+Epoch: 45, Iteration: 0, elapsed: 471.00, remaining: 10832.99
+ Input: SOS i have nothing to do with the crime .
+Output: je n ai rien a voir avec ce crime . EOS
+Target: je n ai rien a voir avec ce crime . EOS
+
+Epoch: 45, Iteration: 10, elapsed: 475.25, remaining: 561.66
+ Input: SOS i didn t know tom was going to boston with mary .
+Output: je ne savais pas que tom allait a boston avec mary . EOS
+Target: je ne savais pas que tom allait a boston avec mary . EOS
+
+Epoch: 45, Iteration: 20, elapsed: 479.54, remaining: 68.51
+ Input: SOS we can t all be perfect .
+Output: nous ne pouvons pas tous etre parfaits . EOS
+Target: nous ne pouvons pas tous etre parfaits . EOS
+
+Epoch: 46, Iteration: 0, elapsed: 481.48, remaining: 11073.96
+ Input: SOS global changes may have been responsible for the of the dinosaurs .
+Output: un changement climatique pourrait avoir ete responsable de l des dinosaures . EOS
+Target: un changement climatique pourrait avoir ete responsable de l des dinosaures . EOS
+
+Epoch: 46, Iteration: 10, elapsed: 485.70, remaining: 574.01
+ Input: SOS my parents won t let me have a dog .
+Output: mes parents ne veulent pas que j aie un chien . EOS
+Target: mes parents ne veulent pas que j aie un chien . EOS
+
+Epoch: 46, Iteration: 20, elapsed: 489.91, remaining: 69.99
+ Input: SOS we both fell asleep .
+Output: nous tous deux . EOS
+Target: nous nous tous deux . EOS
+
+Epoch: 47, Iteration: 0, elapsed: 491.64, remaining: 11307.66
+ Input: SOS i am near the station .
+Output: je me trouve pres de la gare . EOS
+Target: je me trouve pres de la gare . EOS
+
+Epoch: 47, Iteration: 10, elapsed: 495.83, remaining: 585.99
+ Input: SOS i don t need a haircut .
+Output: je n ai pas besoin de me faire couper les cheveux . EOS
+Target: je n ai pas besoin de me faire couper les cheveux . EOS
+
+Epoch: 47, Iteration: 20, elapsed: 500.12, remaining: 71.45
+ Input: SOS it s an important step .
+Output: c est un pas important . EOS
+Target: c est un pas important . EOS
+
+Epoch: 48, Iteration: 0, elapsed: 501.96, remaining: 11545.02
+ Input: SOS i don t even think about it anymore .
+Output: je n y pense meme plus . EOS
+Target: je n y pense meme plus . EOS
+
+Epoch: 48, Iteration: 10, elapsed: 506.15, remaining: 598.18
+ Input: SOS i ll take the most expensive ones .
+Output: je vais prendre les plus cheres . EOS
+Target: je vais prendre les plus cheres . EOS
+
+Epoch: 48, Iteration: 20, elapsed: 510.37, remaining: 72.91
+ Input: SOS does this look good on me ?
+Output: ceci me sied il ? EOS
+Target: ceci me sied il ? EOS
+
+Epoch: 49, Iteration: 0, elapsed: 512.25, remaining: 11781.73
+ Input: SOS i ve always loved doing that .
+Output: j ai toujours aime faire ca . EOS
+Target: j ai toujours aime faire ca . EOS
+
+Epoch: 49, Iteration: 10, elapsed: 516.44, remaining: 610.34
+ Input: SOS i m not going to hold your hand .
+Output: je ne vais pas vous tenir la main . EOS
+Target: je ne vais pas vous tenir la main . EOS
+
+Epoch: 49, Iteration: 20, elapsed: 520.74, remaining: 74.39
+ Input: SOS want a drink ?
+Output: veux tu un verre ? EOS
+Target: veux tu un verre ? EOS
+

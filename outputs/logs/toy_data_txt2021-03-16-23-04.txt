@@ -1,0 +1,360 @@
+Epoch: 0, Iteration: 0, loss: 8.3449, elapsed: 2.01
+Output: civilization cockroach spook cookies comforted surgical prettiest brainwashed gummy composed indian progress sidewalk lad visually divine aunt ! harassment lisa obstacles phrases constructively harajuku bandaged share limit loopholes calculate equally shutters commitment spite bottled innate neutral typo fantasy puffy arisen beneficial any patient kakogawa baker bracelet heap cap exporting
+Target: there will be an energy crisis in the near future . EOS
+
+Epoch: 0, Iteration: 100, loss: 7.4521, elapsed: 34.60
+Output: . EOS
+Target: he made her cry . EOS
+
+Epoch: 0, Iteration: 200, loss: 4.6287, elapsed: 69.04
+Output: you you you you you you you you you you you you you you you you you you you ? EOS
+Target: did you talk to your wife ? EOS
+
+Epoch: 0, Iteration: 300, loss: 3.9206, elapsed: 102.45
+Output: tom is not know . EOS
+Target: this box will serve as a table . EOS
+
+Epoch: 0, Iteration: 400, loss: 3.4781, elapsed: 135.32
+Output: the house to the house the house the house to the house . EOS
+Target: we 'll have to shovel the snow off the roof . EOS
+
+Epoch: 0, Iteration: 500, loss: 3.2149, elapsed: 168.18
+Output: you can not want to do not know it . EOS
+Target: it seemed like you were not interested . EOS
+
+Epoch: 0, Iteration: 600, loss: 3.0191, elapsed: 202.28
+Output: she 's going . EOS
+Target: she 's fashionable . EOS
+
+Epoch: 0, Iteration: 700, loss: 2.8647, elapsed: 235.38
+Output: are you going to your favorite ? EOS
+Target: why are you afraid of me ? EOS
+
+Epoch: 0, Iteration: 800, loss: 2.7406, elapsed: 268.81
+Output: you should 've been busy . EOS
+Target: you will need an armed escort . EOS
+
+Epoch: 1, Iteration: 0, loss: 2.6649, elapsed: 294.02
+Output: tom was on his room . EOS
+Target: my father slept through the movie . EOS
+
+Epoch: 1, Iteration: 100, loss: 2.5236, elapsed: 327.32
+Output: do not do the truth . EOS
+Target: do not worry about the cost . EOS
+
+Epoch: 1, Iteration: 200, loss: 2.4494, elapsed: 361.21
+Output: we are very good . EOS
+Target: we do very good business . EOS
+
+Epoch: 1, Iteration: 300, loss: 2.3628, elapsed: 394.87
+Output: he was not so much . EOS
+Target: he was not feeling well . EOS
+
+Epoch: 1, Iteration: 400, loss: 2.3061, elapsed: 428.69
+Output: what a lot of the world , do you are not you ? EOS
+Target: the style is nice , but do you have it in a different color ? EOS
+
+Epoch: 1, Iteration: 500, loss: 2.2383, elapsed: 462.37
+Output: i wish i had , i did not know i want to see you . EOS
+Target: the more i know him , the more i like him . EOS
+
+Epoch: 1, Iteration: 600, loss: 2.1795, elapsed: 496.33
+Output: i do not know if i 'll see if i 'll see you say i 'll get here . EOS
+Target: i do not know if you 'll be here when i return . EOS
+
+Epoch: 1, Iteration: 700, loss: 2.1517, elapsed: 530.19
+Output: she was going to go to school about her . EOS
+Target: she advised him on how to stay healthy . EOS
+
+Epoch: 1, Iteration: 800, loss: 2.1016, elapsed: 564.04
+Output: i 've made this place for this car . EOS
+Target: i 've been working on this for months . EOS
+
+Epoch: 2, Iteration: 0, loss: 1.9771, elapsed: 589.83
+Output: i want to do the end of the end to take the end . EOS
+Target: i want to take advantage of the opportunity to speak to the governor . EOS
+
+Epoch: 2, Iteration: 100, loss: 1.9452, elapsed: 623.73
+Output: everyone wants to be invited . EOS
+Target: nobody wants to be hated . EOS
+
+Epoch: 2, Iteration: 200, loss: 1.9270, elapsed: 657.82
+Output: i can not find this word . EOS
+Target: i can not disclose that information yet . EOS
+
+Epoch: 2, Iteration: 300, loss: 1.9229, elapsed: 691.95
+Output: if they can not be doing this before . EOS
+Target: we can not just cut people 's salaries without giving them some warning . EOS
+
+Epoch: 2, Iteration: 400, loss: 1.9024, elapsed: 726.05
+Output: tom had a time as me . EOS
+Target: mary works part time as a nurse . EOS
+
+Epoch: 2, Iteration: 500, loss: 1.8584, elapsed: 760.18
+Output: most people are doing this . EOS
+Target: most people understand this . EOS
+
+Epoch: 2, Iteration: 600, loss: 1.8266, elapsed: 794.63
+Output: i 've never seen my mother . EOS
+Target: i 've never heard my mother sing . EOS
+
+Epoch: 2, Iteration: 700, loss: 1.7985, elapsed: 829.25
+Output: did not you teach anyone your feelings ? EOS
+Target: did not your parents teach you manners ? EOS
+
+Epoch: 2, Iteration: 800, loss: 1.7570, elapsed: 865.49
+Output: he 's his hand in the big room . EOS
+Target: the boy has an apple in his pocket . EOS
+
+Epoch: 3, Iteration: 0, loss: 1.5836, elapsed: 893.94
+Output: that would be easy . EOS
+Target: be careful with that thing . EOS
+
+Epoch: 3, Iteration: 100, loss: 1.5817, elapsed: 1133.98
+Output: it 's made fun . EOS
+Target: it 's beautifully made . EOS
+
+Epoch: 3, Iteration: 200, loss: 1.6025, elapsed: 1169.07
+Output: i study french for every day . EOS
+Target: i study french for three hours every day . EOS
+
+Epoch: 3, Iteration: 300, loss: 1.5873, elapsed: 1205.95
+Output: when i feel like i go , i feel like the movies . EOS
+Target: the more i sleep , the less i feel like working . EOS
+
+Epoch: 3, Iteration: 400, loss: 1.5679, elapsed: 1240.06
+Output: the children are cold . EOS
+Target: the children are cold . EOS
+
+Epoch: 3, Iteration: 500, loss: 1.5450, elapsed: 1274.10
+Output: she is a popular among child . EOS
+Target: she is a self educated woman . EOS
+
+Epoch: 3, Iteration: 600, loss: 1.5393, elapsed: 1308.24
+Output: i was not sure about what i meant to do last night . EOS
+Target: she was always trying to provoke me into saying something i would regret later . EOS
+
+Epoch: 3, Iteration: 700, loss: 1.5185, elapsed: 1342.38
+Output: a fight shot . EOS
+Target: a helicopter flew overhead . EOS
+
+Epoch: 3, Iteration: 800, loss: 1.5127, elapsed: 1376.71
+Output: i think tom is dangerous . EOS
+Target: i think tom is illiterate . EOS
+
+Epoch: 4, Iteration: 0, loss: 1.3895, elapsed: 1402.68
+Output: i 'm doing something i need . EOS
+Target: i love what i 'm doing here . EOS
+
+Epoch: 4, Iteration: 100, loss: 1.3625, elapsed: 1437.24
+Output: the sun is sold by noon . EOS
+Target: gasoline is sold by the liter . EOS
+
+Epoch: 4, Iteration: 200, loss: 1.3701, elapsed: 1471.74
+Output: you 'll find your book before the light . EOS
+Target: you 'll find the letter under these papers . EOS
+
+Epoch: 4, Iteration: 300, loss: 1.3728, elapsed: 1506.31
+Output: i 'm very much longer . EOS
+Target: i 'm having a bad day . EOS
+
+Epoch: 4, Iteration: 400, loss: 1.3776, elapsed: 1541.01
+Output: that sounds very interesting . EOS
+Target: that sounds very interesting . EOS
+
+Epoch: 4, Iteration: 500, loss: 1.3801, elapsed: 1575.88
+Output: this is the only one i 've ever eaten in my way . EOS
+Target: this is the first time that i 've eaten in an italian pizzeria . EOS
+
+Epoch: 4, Iteration: 600, loss: 1.3693, elapsed: 1610.79
+Output: i do not know what a lot of years ago . EOS
+Target: i do not believe a word of what people have been saying about her . EOS
+
+Epoch: 4, Iteration: 700, loss: 1.3598, elapsed: 1645.57
+Output: i just want you to help . EOS
+Target: i just want to help you relax . EOS
+
+Epoch: 4, Iteration: 800, loss: 1.3548, elapsed: 1680.44
+Output: tom could not have done the right moment . EOS
+Target: tom certainly could not have succeeded without your help . EOS
+
+Epoch: 5, Iteration: 0, loss: 1.1829, elapsed: 1707.11
+Output: i said that tom did not find mary to find her from her . EOS
+Target: i had no idea that tom was going to leave me his estate . EOS
+
+Epoch: 5, Iteration: 100, loss: 1.2157, elapsed: 1742.24
+Output: i do not write here . EOS
+Target: i do not belong here . EOS
+
+Epoch: 5, Iteration: 200, loss: 1.2422, elapsed: 1777.51
+Output: this hat is too heavy for me . EOS
+Target: this coat is too short on me . EOS
+
+Epoch: 5, Iteration: 300, loss: 1.2348, elapsed: 1812.71
+Output: i 've decided to work . EOS
+Target: i really have to finish my homework . EOS
+
+Epoch: 5, Iteration: 400, loss: 1.2728, elapsed: 1847.82
+Output: the soldier was out of the come . EOS
+Target: the whistle of the steam train woke us at daybreak . EOS
+
+Epoch: 5, Iteration: 500, loss: 1.2488, elapsed: 1882.96
+Output: it 's better to be late . EOS
+Target: it 's better to be crazy than to be boring . EOS
+
+Epoch: 5, Iteration: 600, loss: 1.2454, elapsed: 1918.25
+Output: this is my father 's most part . EOS
+Target: this child 's mother is an announcer . EOS
+
+Epoch: 5, Iteration: 700, loss: 1.2594, elapsed: 1953.69
+Output: i 'll be in a free time on , i go . EOS
+Target: in a month , i 'll be on vacation . EOS
+
+Epoch: 5, Iteration: 800, loss: 1.2441, elapsed: 1988.98
+Output: my heart was forced with death . EOS
+Target: her heart was throbbing with excitement . EOS
+
+Epoch: 6, Iteration: 0, loss: 1.1730, elapsed: 2015.95
+Output: here me . EOS
+Target: cook for me . EOS
+
+Epoch: 6, Iteration: 100, loss: 1.1439, elapsed: 2051.55
+Output: how awful ! EOS
+Target: how awful ! EOS
+
+Epoch: 6, Iteration: 200, loss: 1.1392, elapsed: 2101.10
+Output: he does not know any better . EOS
+Target: he does not know any better . EOS
+
+Epoch: 6, Iteration: 300, loss: 1.1509, elapsed: 2138.17
+Output: tom better now . EOS
+Target: tom feels better now . EOS
+
+Epoch: 6, Iteration: 400, loss: 1.1669, elapsed: 2174.22
+Output: do winter look enough . EOS
+Target: everybody likes ice cream . EOS
+
+Epoch: 6, Iteration: 500, loss: 1.1650, elapsed: 2214.12
+Output: he is extremely fond of ideas . EOS
+Target: he is full of new ideas . EOS
+
+Epoch: 6, Iteration: 600, loss: 1.1526, elapsed: 2254.68
+Output: if i do not like this , do not we have any idea , do ? EOS
+Target: mommy , if i do not like the food , do i have to eat it ? EOS
+
+Epoch: 6, Iteration: 700, loss: 1.1482, elapsed: 2294.95
+Output: tom says that he 's talking . EOS
+Target: tom 's warned me about that . EOS
+
+Epoch: 6, Iteration: 800, loss: 1.1493, elapsed: 2332.44
+Output: let me buy you a picture . EOS
+Target: let me paint you a picture . EOS
+
+Epoch: 7, Iteration: 0, loss: 1.0447, elapsed: 2361.13
+Output: what kind of money do you really owe me to tom ? EOS
+Target: what do you think caused him to lose his job ? EOS
+
+Epoch: 7, Iteration: 100, loss: 1.0302, elapsed: 2398.80
+Output: i 'd like to know why we did this . EOS
+Target: i 'd like to know the reason why . EOS
+
+Epoch: 7, Iteration: 200, loss: 1.0587, elapsed: 2437.23
+Output: tom got back to work . EOS
+Target: tom just got back to boston today . EOS
+
+Epoch: 7, Iteration: 300, loss: 1.0694, elapsed: 2475.02
+Output: the new students entered the classroom . EOS
+Target: the armed forces occupied the entire territory . EOS
+
+Epoch: 7, Iteration: 400, loss: 1.0836, elapsed: 2512.00
+Output: it 's getting the weather today . EOS
+Target: the weather 's nice today . EOS
+
+Epoch: 7, Iteration: 500, loss: 1.0819, elapsed: 2548.86
+Output: i 'll try it . EOS
+Target: i 'll manage it . EOS
+
+Epoch: 7, Iteration: 600, loss: 1.0816, elapsed: 2585.64
+Output: life is beautiful . EOS
+Target: life is beautiful . EOS
+
+Epoch: 7, Iteration: 700, loss: 1.1036, elapsed: 2622.95
+Output: why is everyone looking at me ? EOS
+Target: why is everyone looking at me ? EOS
+
+Epoch: 7, Iteration: 800, loss: 1.1012, elapsed: 2660.15
+Output: what have you done with my ? EOS
+Target: what have you done with my luggage ? EOS
+
+Epoch: 8, Iteration: 0, loss: 0.9880, elapsed: 2691.45
+Output: he has been drinking and never choose me . EOS
+Target: he has been drinking steadily since his divorce . EOS
+
+Epoch: 8, Iteration: 100, loss: 0.9814, elapsed: 2729.65
+Output: she waited for him to come home . EOS
+Target: she waited for him to come home . EOS
+
+Epoch: 8, Iteration: 200, loss: 0.9967, elapsed: 2767.37
+Output: i get the work done by . EOS
+Target: i get depressed by the slightest things . EOS
+
+Epoch: 8, Iteration: 300, loss: 1.0047, elapsed: 2805.17
+Output: do you want some ? EOS
+Target: do you want some candy ? EOS
+
+Epoch: 8, Iteration: 400, loss: 1.0163, elapsed: 2844.06
+Output: the train arrived in london . EOS
+Target: the train arrived in london . EOS
+
+Epoch: 8, Iteration: 500, loss: 1.0135, elapsed: 2882.89
+Output: where do you think i 've gotten from the new boyfriend ? EOS
+Target: do you know where i might find small cowboy boots ? EOS
+
+Epoch: 8, Iteration: 600, loss: 1.0211, elapsed: 2921.54
+Output: i have not eaten anything today . EOS
+Target: i have not eaten anything yet today . EOS
+
+Epoch: 8, Iteration: 700, loss: 1.0406, elapsed: 2959.87
+Output: we enjoyed the party at length . EOS
+Target: we enjoyed ourselves at the party . EOS
+
+Epoch: 8, Iteration: 800, loss: 1.0386, elapsed: 2999.03
+Output: i watch very little television . EOS
+Target: i watch very little television . EOS
+
+Epoch: 9, Iteration: 0, loss: 1.0017, elapsed: 3027.76
+Output: tom is not really my type . EOS
+Target: tom is not really my type . EOS
+
+Epoch: 9, Iteration: 100, loss: 0.9247, elapsed: 3066.50
+Output: we must not be late . EOS
+Target: we must not be late . EOS
+
+Epoch: 9, Iteration: 200, loss: 0.9110, elapsed: 3104.86
+Output: are you sure about that ? EOS
+Target: are you sure about that ? EOS
+
+Epoch: 9, Iteration: 300, loss: 0.9521, elapsed: 3143.10
+Output: my father often copy the dishes . EOS
+Target: my father often washes the dishes . EOS
+
+Epoch: 9, Iteration: 400, loss: 0.9706, elapsed: 3181.54
+Output: he was a brave soldier . EOS
+Target: he was a brave soldier . EOS
+
+Epoch: 9, Iteration: 500, loss: 0.9762, elapsed: 3219.81
+Output: the wind please walk in the morning . EOS
+Target: the leaves blew away in the wind . EOS
+
+Epoch: 9, Iteration: 600, loss: 0.9727, elapsed: 3258.23
+Output: i am very hungry . EOS
+Target: i am very hungry . EOS
+
+Epoch: 9, Iteration: 700, loss: 0.9796, elapsed: 3296.96
+Output: please come on time . EOS
+Target: please come on time . EOS
+
+Epoch: 9, Iteration: 800, loss: 0.9774, elapsed: 3335.68
+Output: tom is looking for everything to lose . EOS
+Target: tom is an inspiration to us all . EOS
+

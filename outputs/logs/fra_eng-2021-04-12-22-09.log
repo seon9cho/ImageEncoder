@@ -1,0 +1,750 @@
+Epoch: 0, Iteration: 0, loss: 7.5475, elapsed: 2.12, remaining: 3074.03
+ Input: vous appreciez tout le monde .
+Output: difficulty anybody bury work hands commission stock prime robbed expenses painted she intention occur fair now absorbed be legal load resigned train unavoidable piano sometimes bicycles glance plants ruined pen plant obsessed oath apartment up doesn driving female coffee attract collection bomb profile ski snows fruit onto date fireman
+Target: you like everyone . EOS
+
+Epoch: 0, Iteration: 100, loss: 6.5780, elapsed: 28.66, remaining: 382.74
+ Input: soyez prudente a proximite du bord de la falaise !
+Output: . EOS
+Target: be careful near the edge of the cliff . EOS
+
+Epoch: 0, Iteration: 200, loss: 4.2173, elapsed: 54.05, remaining: 335.87
+ Input: je fais tout mon possible .
+Output: i m you . EOS
+Target: i m doing everything i can . EOS
+
+Epoch: 0, Iteration: 300, loss: 3.6021, elapsed: 80.23, remaining: 306.26
+ Input: je suis un peu epuise par la randonnee .
+Output: i m not a . EOS
+Target: i m a bit exhausted from the hike . EOS
+
+Epoch: 0, Iteration: 400, loss: 3.2616, elapsed: 105.43, remaining: 275.81
+ Input: elle est rapide en tout .
+Output: she is a good . EOS
+Target: she is quick at everything . EOS
+
+Epoch: 0, Iteration: 500, loss: 3.1006, elapsed: 130.57, remaining: 247.34
+ Input: soyez objectif .
+Output: he is very . EOS
+Target: be objective . EOS
+
+Epoch: 0, Iteration: 600, loss: 2.9760, elapsed: 155.99, remaining: 220.35
+ Input: pourriez vous faire un cadeau ?
+Output: do you want to do that ? EOS
+Target: could you gift wrap it ? EOS
+
+Epoch: 0, Iteration: 700, loss: 2.8813, elapsed: 181.00, remaining: 193.39
+ Input: ne soyez pas .
+Output: don t be careful . EOS
+Target: don t be alarmed . EOS
+
+Epoch: 0, Iteration: 800, loss: 2.8085, elapsed: 206.32, remaining: 167.17
+ Input: je te rendrai visite un de ces jours .
+Output: i have a little bit of you . EOS
+Target: i ll pay you a visit sometime . EOS
+
+Epoch: 0, Iteration: 900, loss: 2.7364, elapsed: 232.15, remaining: 141.46
+ Input: ils n ont pas de remise .
+Output: they re not very clever . EOS
+Target: they don t have a . EOS
+
+Epoch: 0, Iteration: 1000, loss: 2.6741, elapsed: 258.03, remaining: 115.74
+ Input: le fait que je suis ici prouve que je suis innocent .
+Output: i want to be more than i m going to do . EOS
+Target: the fact that i m here proves that i m innocent . EOS
+
+Epoch: 0, Iteration: 1100, loss: 2.6001, elapsed: 284.95, remaining: 90.33
+ Input: j ai besoin de faire ca .
+Output: i m glad i m going to be . EOS
+Target: i need to do that . EOS
+
+Epoch: 0, Iteration: 1200, loss: 2.5553, elapsed: 311.13, remaining: 64.51
+ Input: j ai pense que tom pourrait etre mecontent .
+Output: i know that tom is a good . EOS
+Target: i thought tom might be unhappy . EOS
+
+Epoch: 0, Iteration: 1300, loss: 2.5254, elapsed: 336.81, remaining: 38.57
+ Input: je ne regrette rien .
+Output: i don t know what to do . EOS
+Target: i don t have any regrets . EOS
+
+Epoch: 0, Iteration: 1400, loss: 2.4688, elapsed: 362.36, remaining: 12.67
+ Input: son livre est celebre non seulement en angleterre mais aussi au japon .
+Output: his house is not a long . EOS
+Target: her book is famous not only in england but also in japan . EOS
+
+Epoch: 1, Iteration: 0, loss: 2.3577, elapsed: 375.57, remaining: 544201.52
+ Input: nous sommes en retard sur l emploi du temps .
+Output: we have to be in the same . EOS
+Target: we re behind schedule . EOS
+
+Epoch: 1, Iteration: 100, loss: 2.3958, elapsed: 401.28, remaining: 5359.71
+ Input: j ai souvent joue au tennis alors que j etais encore jeune .
+Output: i was able to go to school yesterday . EOS
+Target: i often played tennis when i was young . EOS
+
+Epoch: 1, Iteration: 200, loss: 2.3463, elapsed: 426.65, remaining: 2651.18
+ Input: je n aime pas les bars . c est cher bruyant et ca pue le tabac et la .
+Output: i don t like the most of the most of the most of the most of the most of the most of the most beautiful people who s open . EOS
+Target: i don t like snack bars . they re expensive noisy and full of the smell of and fried food . EOS
+
+Epoch: 1, Iteration: 300, loss: 2.3211, elapsed: 452.18, remaining: 1726.09
+ Input: j aimerais croire que c est vrai .
+Output: i think it s time to be a secret . EOS
+Target: i d like to believe that s true . EOS
+
+Epoch: 1, Iteration: 400, loss: 2.3055, elapsed: 480.80, remaining: 1257.76
+ Input: les enfants detestent souvent les epinards .
+Output: the children all day . EOS
+Target: children often hate spinach . EOS
+
+Epoch: 1, Iteration: 500, loss: 2.2741, elapsed: 506.07, remaining: 958.60
+ Input: je dois etudier le francais .
+Output: i need to study french . EOS
+Target: i have to study french . EOS
+
+Epoch: 1, Iteration: 600, loss: 2.2529, elapsed: 531.66, remaining: 751.05
+ Input: tom n a pas de televiseur chez lui .
+Output: tom doesn t know where the car . EOS
+Target: tom doesn t have a tv at home . EOS
+
+Epoch: 1, Iteration: 700, loss: 2.2252, elapsed: 557.67, remaining: 595.86
+ Input: ca me donne mal a la tete .
+Output: this is my idea . EOS
+Target: this is giving me a headache . EOS
+
+Epoch: 1, Iteration: 800, loss: 2.1635, elapsed: 583.28, remaining: 472.59
+ Input: je dispose de nombreux amis .
+Output: i have a lot of friends . EOS
+Target: i have a lot of friends . EOS
+
+Epoch: 1, Iteration: 900, loss: 2.1455, elapsed: 608.86, remaining: 370.99
+ Input: vous aurez besoin d un pont .
+Output: we need a new camera . EOS
+Target: you ll need a temporary bridge . EOS
+
+Epoch: 1, Iteration: 1000, loss: 2.1018, elapsed: 634.42, remaining: 284.57
+ Input: tom a demande a mary si elle voulait un cafe .
+Output: tom asked me to give a phone . EOS
+Target: tom asked mary if she d like a cup of coffee . EOS
+
+Epoch: 1, Iteration: 1100, loss: 2.0914, elapsed: 660.05, remaining: 209.23
+ Input: je suis desolee de vous appeler au travail .
+Output: i m sorry for your help . EOS
+Target: i m sorry i m calling you at work . EOS
+
+Epoch: 1, Iteration: 1200, loss: 2.0543, elapsed: 685.52, remaining: 142.13
+ Input: je ne m implique pas .
+Output: i m not tired . EOS
+Target: i m not getting involved . EOS
+
+Epoch: 1, Iteration: 1300, loss: 2.0100, elapsed: 710.88, remaining: 81.41
+ Input: le printemps est arrive .
+Output: the moon is . EOS
+Target: spring has come . EOS
+
+Epoch: 1, Iteration: 1400, loss: 1.9992, elapsed: 737.15, remaining: 25.78
+ Input: ma maison est ta maison .
+Output: my house is my home . EOS
+Target: my home is your home . EOS
+
+Epoch: 2, Iteration: 0, loss: 1.7785, elapsed: 750.18, remaining: 1087009.82
+ Input: vous pouvez vous asseoir si vous le desirez .
+Output: you can do it when you re going to you . EOS
+Target: you can sit down if you want . EOS
+
+Epoch: 2, Iteration: 100, loss: 1.8804, elapsed: 778.42, remaining: 10396.88
+ Input: je me rejouis d etre celle qui te le dit .
+Output: i m glad to tell you what happened . EOS
+Target: i m glad to be the one who tells you . EOS
+
+Epoch: 2, Iteration: 200, loss: 1.8673, elapsed: 805.99, remaining: 5008.34
+ Input: du rapport il apparait que de nombreux adolescents sont de l alcool .
+Output: there are many people in the world . EOS
+Target: the report revealed that many teenagers are . EOS
+
+Epoch: 2, Iteration: 300, loss: 1.8588, elapsed: 832.76, remaining: 3178.89
+ Input: je sais qu il est irrealiste de s attendre a se que tom le fasse .
+Output: i know tom will be there . EOS
+Target: i know that it s unrealistic to expect tom to do that . EOS
+
+Epoch: 2, Iteration: 400, loss: 1.8277, elapsed: 858.64, remaining: 2246.16
+ Input: tu m as menti n est ce pas ?
+Output: you were afraid of me weren t you ? EOS
+Target: you lied to me didn t you ? EOS
+
+Epoch: 2, Iteration: 500, loss: 1.8286, elapsed: 884.96, remaining: 1676.29
+ Input: les gens mentent souvent a propos de ce qu ils font de leur week end pour que leurs amis ne pas combien leur vie est ennuyeuse .
+Output: people don t know their parents are often to spend most of their children s their children s their parents for their children s their children s their children s their children s their children s their children s their children s their children s their children s their
+Target: people often lie about what they did on the weekend so their friends won t realize how boring they really are . EOS
+
+Epoch: 2, Iteration: 600, loss: 1.8119, elapsed: 912.04, remaining: 1288.39
+ Input: que pensez vous alors qu il advienne ?
+Output: what do you think it s time to be ? EOS
+Target: what do you think happens then ? EOS
+
+Epoch: 2, Iteration: 700, loss: 1.7853, elapsed: 939.10, remaining: 1003.40
+ Input: les mots me .
+Output: my teeth . EOS
+Target: words failed me . EOS
+
+Epoch: 2, Iteration: 800, loss: 1.7751, elapsed: 968.60, remaining: 784.80
+ Input: je parce que j ai sommeil .
+Output: i m going to sleep . EOS
+Target: i am because i feel sleepy . EOS
+
+Epoch: 2, Iteration: 900, loss: 1.7524, elapsed: 995.88, remaining: 606.81
+ Input: je ne sais pas pour toi mais moi je suis .
+Output: i know i m not married . EOS
+Target: i don t know about you but i m starving . EOS
+
+Epoch: 2, Iteration: 1000, loss: 1.7262, elapsed: 1021.65, remaining: 458.26
+ Input: je suppose que c est ton pere .
+Output: i know that your idea . EOS
+Target: i m assuming this is your father . EOS
+
+Epoch: 2, Iteration: 1100, loss: 1.7284, elapsed: 1049.06, remaining: 332.54
+ Input: le riz pousse sous les chauds .
+Output: the sun is in the . EOS
+Target: rice grows in warm . EOS
+
+Epoch: 2, Iteration: 1200, loss: 1.7141, elapsed: 1076.33, remaining: 223.15
+ Input: le ciel etait gris .
+Output: the war was . EOS
+Target: the sky was gray . EOS
+
+Epoch: 2, Iteration: 1300, loss: 1.7084, elapsed: 1102.74, remaining: 126.29
+ Input: j adore lire au lit .
+Output: i like to read the piano . EOS
+Target: i love reading in bed . EOS
+
+Epoch: 2, Iteration: 1400, loss: 1.6984, elapsed: 1129.65, remaining: 39.51
+ Input: tom ne vit plus avec sa femme .
+Output: tom doesn t speak to mary s son . EOS
+Target: tom doesn t live with his wife anymore . EOS
+
+Epoch: 3, Iteration: 0, loss: 1.5301, elapsed: 1143.22, remaining: 1656524.27
+ Input: je suis certain que vous ne me pas .
+Output: i m not sure i ve got you to leave . EOS
+Target: i m sure you won t disappoint me . EOS
+
+Epoch: 3, Iteration: 100, loss: 1.5771, elapsed: 1168.63, remaining: 15608.76
+ Input: vous n aurez pas besoin de cela .
+Output: you don t need to do this . EOS
+Target: you won t be needing that . EOS
+
+Epoch: 3, Iteration: 200, loss: 1.5569, elapsed: 1194.20, remaining: 7420.69
+ Input: nous n avons pas encore appris a le faire .
+Output: we haven t yet met him . EOS
+Target: we haven t learned how to do that yet . EOS
+
+Epoch: 3, Iteration: 300, loss: 1.5805, elapsed: 1220.07, remaining: 4657.33
+ Input: vous n avez pas l air dans votre assiette .
+Output: you don t look very satisfied . EOS
+Target: you look a little green . EOS
+
+Epoch: 3, Iteration: 400, loss: 1.5787, elapsed: 1245.58, remaining: 3258.38
+ Input: essaie de nouveau .
+Output: try again . EOS
+Target: try it once again . EOS
+
+Epoch: 3, Iteration: 500, loss: 1.5667, elapsed: 1270.61, remaining: 2406.80
+ Input: je vais vous donner une seconde chance .
+Output: i m going to give you a chance . EOS
+Target: i ll give you a second chance . EOS
+
+Epoch: 3, Iteration: 600, loss: 1.5675, elapsed: 1296.45, remaining: 1831.43
+ Input: j etais preoccupee .
+Output: i was busy . EOS
+Target: i was concerned . EOS
+
+Epoch: 3, Iteration: 700, loss: 1.5483, elapsed: 1321.70, remaining: 1412.20
+ Input: t es marrant .
+Output: you re funny . EOS
+Target: you re funny . EOS
+
+Epoch: 3, Iteration: 800, loss: 1.5438, elapsed: 1346.84, remaining: 1091.26
+ Input: tom a non coupable .
+Output: tom seems tired . EOS
+Target: tom has pleaded not guilty . EOS
+
+Epoch: 3, Iteration: 900, loss: 1.5456, elapsed: 1372.16, remaining: 836.09
+ Input: tu laves les pommes de terre .
+Output: you re out of the . EOS
+Target: you wash the potatoes . EOS
+
+Epoch: 3, Iteration: 1000, loss: 1.5303, elapsed: 1397.77, remaining: 626.97
+ Input: ou est la pharmacie la plus proche ?
+Output: where s the nearest train station ? EOS
+Target: where s the closest pharmacy ? EOS
+
+Epoch: 3, Iteration: 1100, loss: 1.5257, elapsed: 1423.50, remaining: 451.23
+ Input: ce n est pas a moi d en decider .
+Output: that s not my first time . EOS
+Target: that s not for me to decide . EOS
+
+Epoch: 3, Iteration: 1200, loss: 1.5259, elapsed: 1449.48, remaining: 300.52
+ Input: j ai deja ecrit tout ce qui a besoin de l etre .
+Output: i have to do everything that today . EOS
+Target: i ve already written everything that needs to be written . EOS
+
+Epoch: 3, Iteration: 1300, loss: 1.5156, elapsed: 1475.40, remaining: 168.97
+ Input: nous sommes en foret .
+Output: we re in the forest . EOS
+Target: we re in the forest . EOS
+
+Epoch: 3, Iteration: 1400, loss: 1.4836, elapsed: 1500.79, remaining: 52.49
+ Input: quel est le ?
+Output: what s the matter ? EOS
+Target: what s the final count ? EOS
+
+Epoch: 4, Iteration: 0, loss: 1.2820, elapsed: 1513.43, remaining: 2192954.07
+ Input: n aie pas peur de faire des erreurs .
+Output: don t make mistakes . EOS
+Target: don t be afraid to make a mistake . EOS
+
+Epoch: 4, Iteration: 100, loss: 1.3945, elapsed: 1539.20, remaining: 20558.26
+ Input: mes parents avaient deja mange quand je suis rentre a la maison .
+Output: i ve already gone home before my parents . EOS
+Target: my parents had already eaten by the time i got home . EOS
+
+Epoch: 4, Iteration: 200, loss: 1.4043, elapsed: 1565.46, remaining: 9727.63
+ Input: cette nouvelle est trop belle pour etre vraie .
+Output: this kind of thing is too good to be . EOS
+Target: the news is too good to be true . EOS
+
+Epoch: 4, Iteration: 300, loss: 1.3987, elapsed: 1592.44, remaining: 6078.79
+ Input: penses tu que tom soit au courant ?
+Output: do you think tom will win ? EOS
+Target: do you think tom knows ? EOS
+
+Epoch: 4, Iteration: 400, loss: 1.4150, elapsed: 1619.46, remaining: 4236.44
+ Input: en route pour tokyo j ai fait une a osaka .
+Output: i was thinking about to tokyo in a hospital . EOS
+Target: i stopped off at osaka on my way to tokyo . EOS
+
+Epoch: 4, Iteration: 500, loss: 1.4000, elapsed: 1645.80, remaining: 3117.50
+ Input: le a autour d une .
+Output: a of the in a crowd . EOS
+Target: the around a . EOS
+
+Epoch: 4, Iteration: 600, loss: 1.4216, elapsed: 1671.00, remaining: 2360.54
+ Input: je n ai rien .
+Output: i didn t do anything . EOS
+Target: i got nothing . EOS
+
+Epoch: 4, Iteration: 700, loss: 1.4004, elapsed: 1696.00, remaining: 1812.13
+ Input: il parcourut rapidement mon .
+Output: he took my bed . EOS
+Target: he quickly my . EOS
+
+Epoch: 4, Iteration: 800, loss: 1.3839, elapsed: 1721.42, remaining: 1394.75
+ Input: il a une mauvaise vue .
+Output: he has a bad look . EOS
+Target: he has poor eyesight . EOS
+
+Epoch: 4, Iteration: 900, loss: 1.3805, elapsed: 1747.84, remaining: 1065.00
+ Input: je pense que nous devrions suivre tom .
+Output: i think we should follow tom . EOS
+Target: i think we should follow tom . EOS
+
+Epoch: 4, Iteration: 1000, loss: 1.3899, elapsed: 1775.75, remaining: 796.51
+ Input: il sera aise de trouver quelqu un pour louer cette maison .
+Output: it s really hard to find out who can be in the park . EOS
+Target: it ll be easy to find someone to rent this house . EOS
+
+Epoch: 4, Iteration: 1100, loss: 1.3930, elapsed: 1801.79, remaining: 571.14
+ Input: vous etes la professeur .
+Output: you re the teacher . EOS
+Target: you re the teacher . EOS
+
+Epoch: 4, Iteration: 1200, loss: 1.3747, elapsed: 1827.28, remaining: 378.85
+ Input: je ne suis pas un .
+Output: i m not a . EOS
+Target: i am not a . EOS
+
+Epoch: 4, Iteration: 1300, loss: 1.3788, elapsed: 1853.54, remaining: 212.28
+ Input: je me suis marre .
+Output: i m tired of my . EOS
+Target: i had some fun . EOS
+
+Epoch: 4, Iteration: 1400, loss: 1.3901, elapsed: 1880.12, remaining: 65.76
+ Input: je veux en savoir plus sur vous tom .
+Output: i want to know what you re going to be like . EOS
+Target: i want to know more about you tom . EOS
+
+Epoch: 5, Iteration: 0, loss: 1.3351, elapsed: 1893.08, remaining: 2743070.79
+ Input: je ne reviendrai jamais .
+Output: i ll never come back . EOS
+Target: i ll never come back . EOS
+
+Epoch: 5, Iteration: 100, loss: 1.2608, elapsed: 1918.50, remaining: 25624.31
+ Input: je suis desole . je ne suis pas d ici .
+Output: i m sorry i m not here . EOS
+Target: i am sorry . i am not from here . EOS
+
+Epoch: 5, Iteration: 200, loss: 1.2826, elapsed: 1943.96, remaining: 12079.66
+ Input: nous etions assez .
+Output: we were pretty . EOS
+Target: we were pretty noisy . EOS
+
+Epoch: 5, Iteration: 300, loss: 1.2923, elapsed: 1969.57, remaining: 7518.39
+ Input: la difference entre un mot juste et un mot presque juste est comme la difference entre la foudre et le foudre .
+Output: the truth is a word of the word and a word is the truth . EOS
+Target: the difference between the right word and almost the right word is the difference between lightning and the lightning bug . EOS
+
+Epoch: 5, Iteration: 400, loss: 1.2844, elapsed: 1994.94, remaining: 5218.68
+ Input: as tu un ?
+Output: do you have a cellphone ? EOS
+Target: do you have a cellphone ? EOS
+
+Epoch: 5, Iteration: 500, loss: 1.3001, elapsed: 2020.28, remaining: 3826.83
+ Input: quelque chose s est passe ici mais je ne sais pas quoi .
+Output: i don t think it s what s so strange here . EOS
+Target: something happened here but i don t know what . EOS
+
+Epoch: 5, Iteration: 600, loss: 1.2924, elapsed: 2045.58, remaining: 2889.69
+ Input: ils semblent tous deux suspects .
+Output: they both look dead . EOS
+Target: both of them seem suspicious . EOS
+
+Epoch: 5, Iteration: 700, loss: 1.2831, elapsed: 2070.97, remaining: 2212.77
+ Input: c est precisement ce dont vous aviez besoin .
+Output: that s what you needed . EOS
+Target: that s just what you needed . EOS
+
+Epoch: 5, Iteration: 800, loss: 1.2849, elapsed: 2096.42, remaining: 1698.60
+ Input: c etait le livre le plus vendu la semaine derniere .
+Output: this book was the last week . EOS
+Target: this was the best selling book last week . EOS
+
+Epoch: 5, Iteration: 900, loss: 1.2839, elapsed: 2122.02, remaining: 1293.00
+ Input: puis je avoir un plan des lignes de bus ?
+Output: can i take a nap on the bus ? EOS
+Target: may i have a bus map ? EOS
+
+Epoch: 5, Iteration: 1000, loss: 1.2798, elapsed: 2147.77, remaining: 963.38
+ Input: je ne veux pas acheter ce genre de canape .
+Output: i don t want to buy that dog . EOS
+Target: i don t want to buy this kind of sofa . EOS
+
+Epoch: 5, Iteration: 1100, loss: 1.2935, elapsed: 2173.27, remaining: 688.89
+ Input: je lui ai ecrit pour une autre raison .
+Output: i m talking about it a while . EOS
+Target: i wrote to him for quite another reason . EOS
+
+Epoch: 5, Iteration: 1200, loss: 1.2947, elapsed: 2198.81, remaining: 455.87
+ Input: les prix seront au terme de la competition .
+Output: the price of the situation . EOS
+Target: will be at the end of the contest . EOS
+
+Epoch: 5, Iteration: 1300, loss: 1.2952, elapsed: 2224.13, remaining: 254.72
+ Input: as tu envie de vomir ?
+Output: do you want to stop ? EOS
+Target: do you feel like you are going to throw up ? EOS
+
+Epoch: 5, Iteration: 1400, loss: 1.2971, elapsed: 2249.63, remaining: 78.68
+ Input: nous avons besoin de vous parler .
+Output: we need to talk to you . EOS
+Target: we need to speak to you . EOS
+
+Epoch: 6, Iteration: 0, loss: 1.2705, elapsed: 2262.41, remaining: 3278235.37
+ Input: ne prenez pas ca de travers !
+Output: don t take that risk . EOS
+Target: don t take this the wrong way . EOS
+
+Epoch: 6, Iteration: 100, loss: 1.1770, elapsed: 2288.11, remaining: 30560.97
+ Input: le chien du voisin est toujours en train d aboyer .
+Output: the dog is always barking . EOS
+Target: the neighbor s dog is always barking . EOS
+
+Epoch: 6, Iteration: 200, loss: 1.1956, elapsed: 2313.70, remaining: 14377.19
+ Input: j ai entendu que tom avait embrasse mary .
+Output: i heard tom kissed mary . EOS
+Target: i heard that tom kissed mary . EOS
+
+Epoch: 6, Iteration: 300, loss: 1.1820, elapsed: 2339.16, remaining: 8929.20
+ Input: va chez toi maintenant .
+Output: go home now . EOS
+Target: go home now . EOS
+
+Epoch: 6, Iteration: 400, loss: 1.2066, elapsed: 2364.71, remaining: 6185.98
+ Input: j espere juste que c est suffisant .
+Output: i hope that s just a misunderstanding . EOS
+Target: i just hope this is enough . EOS
+
+Epoch: 6, Iteration: 500, loss: 1.2071, elapsed: 2390.02, remaining: 4527.21
+ Input: il n y a aucune alternative .
+Output: there are no . EOS
+Target: there is no alternative . EOS
+
+Epoch: 6, Iteration: 600, loss: 1.2161, elapsed: 2415.54, remaining: 3412.31
+ Input: je suis desole a propos de hier soir .
+Output: i m sorry about last night . EOS
+Target: i m sorry about last night . EOS
+
+Epoch: 6, Iteration: 700, loss: 1.2114, elapsed: 2440.73, remaining: 2607.85
+ Input: on devrait traiter ses enseignants avec respect .
+Output: we should cut down with his friends . EOS
+Target: one s teachers should be treated with respect . EOS
+
+Epoch: 6, Iteration: 800, loss: 1.2076, elapsed: 2465.87, remaining: 1997.94
+ Input: contre qui es tu en colere ?
+Output: who are you angry with ? EOS
+Target: who are you angry at ? EOS
+
+Epoch: 6, Iteration: 900, loss: 1.2129, elapsed: 2491.54, remaining: 1518.15
+ Input: la plupart des gens sont tres par quelque chose .
+Output: most people are very good at this . EOS
+Target: most people are very about something . EOS
+
+Epoch: 6, Iteration: 1000, loss: 1.2095, elapsed: 2517.47, remaining: 1129.21
+ Input: puis je avoir quelque chose a manger ?
+Output: can i eat something ? EOS
+Target: can i get something to eat ? EOS
+
+Epoch: 6, Iteration: 1100, loss: 1.2033, elapsed: 2545.27, remaining: 806.81
+ Input: c est un gentil garcon .
+Output: he s a nice boy . EOS
+Target: he is a kind boy . EOS
+
+Epoch: 6, Iteration: 1200, loss: 1.2035, elapsed: 2571.48, remaining: 533.14
+ Input: ai je dit quelque chose d incorrect ?
+Output: did i say something wrong ? EOS
+Target: did i say something wrong ? EOS
+
+Epoch: 6, Iteration: 1300, loss: 1.2094, elapsed: 2597.12, remaining: 297.44
+ Input: elle me fit un sourire timide .
+Output: she accused me of being a liar . EOS
+Target: she gave me a shy smile . EOS
+
+Epoch: 6, Iteration: 1400, loss: 1.2072, elapsed: 2624.26, remaining: 91.78
+ Input: quand est l anniversaire de tom ?
+Output: when is tom back ? EOS
+Target: when is tom s birthday ? EOS
+
+Epoch: 7, Iteration: 0, loss: 1.0781, elapsed: 2638.11, remaining: 3822623.97
+ Input: je voulais juste voir ce qui se passait .
+Output: i just wanted to see what would happen . EOS
+Target: i simply wanted to see what was going on . EOS
+
+Epoch: 7, Iteration: 100, loss: 1.1057, elapsed: 2665.98, remaining: 35607.94
+ Input: voulez vous venir chez moi ?
+Output: do you want to come to my house ? EOS
+Target: would you like to come over to my place ? EOS
+
+Epoch: 7, Iteration: 200, loss: 1.1172, elapsed: 2693.88, remaining: 16739.60
+ Input: qui sont elles ?
+Output: who are they ? EOS
+Target: who are they ? EOS
+
+Epoch: 7, Iteration: 300, loss: 1.1247, elapsed: 2721.30, remaining: 10387.96
+ Input: d a peu pres combien d argent avez vous besoin ?
+Output: how much money do you need ? EOS
+Target: about how much money do you need ? EOS
+
+Epoch: 7, Iteration: 400, loss: 1.1341, elapsed: 2749.98, remaining: 7193.85
+ Input: tom est ne avant son frere jumeau .
+Output: tom has been living with his mother . EOS
+Target: tom was born before his twin brother . EOS
+
+Epoch: 7, Iteration: 500, loss: 1.1250, elapsed: 2779.92, remaining: 5265.75
+ Input: il n y a rien de mauvais a cela .
+Output: there s nothing wrong with it . EOS
+Target: there is nothing wrong with this . EOS
+
+Epoch: 7, Iteration: 600, loss: 1.1458, elapsed: 2809.75, remaining: 3969.18
+ Input: il a profite du beau temps pour un peu .
+Output: he has a good time to make . EOS
+Target: he took advantage of the good weather to do some gardening . EOS
+
+Epoch: 7, Iteration: 700, loss: 1.1299, elapsed: 2837.46, remaining: 3031.75
+ Input: ma mere a place un grand vase sur l etagere .
+Output: my mother put a large vase on the shelf . EOS
+Target: my mother put a large vase on the shelf . EOS
+
+Epoch: 7, Iteration: 800, loss: 1.1440, elapsed: 2864.62, remaining: 2321.02
+ Input: je croyais que tu etais retraite .
+Output: i thought you were broke . EOS
+Target: i thought that you were retired . EOS
+
+Epoch: 7, Iteration: 900, loss: 1.1442, elapsed: 2892.00, remaining: 1762.16
+ Input: a quelle frequence le voyez vous ?
+Output: how often do you see it ? EOS
+Target: how often do you see him ? EOS
+
+Epoch: 7, Iteration: 1000, loss: 1.1457, elapsed: 2917.67, remaining: 1308.72
+ Input: il me l a montre .
+Output: he gave me the watch . EOS
+Target: he showed it to me . EOS
+
+Epoch: 7, Iteration: 1100, loss: 1.1368, elapsed: 2943.46, remaining: 933.03
+ Input: tom a eu besoin d aide .
+Output: tom needed help . EOS
+Target: tom needed help . EOS
+
+Epoch: 7, Iteration: 1200, loss: 1.1469, elapsed: 2968.91, remaining: 615.54
+ Input: je deteste etre seul le jour de la saint valentin .
+Output: i hate being alone on tv right now . EOS
+Target: i hate being alone on valentine s day . EOS
+
+Epoch: 7, Iteration: 1300, loss: 1.1436, elapsed: 2994.41, remaining: 342.94
+ Input: j y suis reste jusqu a ce qu il soit parti .
+Output: i m not sure that he ll go back before . EOS
+Target: i stayed there until he had left . EOS
+
+Epoch: 7, Iteration: 1400, loss: 1.1557, elapsed: 3019.81, remaining: 105.62
+ Input: cette fois je suis tres optimiste .
+Output: i m very excited about this time . EOS
+Target: this time i m very optimistic . EOS
+
+Epoch: 8, Iteration: 0, loss: 1.0767, elapsed: 3032.67, remaining: 4394344.55
+ Input: je me demandais quand vous alliez me dire que vous m aimiez .
+Output: i wonder if you remember me to tell me . EOS
+Target: i was wondering when you were going to tell me you loved me . EOS
+
+Epoch: 8, Iteration: 100, loss: 1.0422, elapsed: 3058.11, remaining: 40845.45
+ Input: c etait .
+Output: it was . EOS
+Target: it was . EOS
+
+Epoch: 8, Iteration: 200, loss: 1.0565, elapsed: 3083.55, remaining: 19160.94
+ Input: la maison au bord du lac m appartient .
+Output: the house in the park is mine . EOS
+Target: the house by the lake is mine . EOS
+
+Epoch: 8, Iteration: 300, loss: 1.0677, elapsed: 3109.09, remaining: 11868.26
+ Input: lequel penses tu qu elle a choisi ?
+Output: what do you think of her ? EOS
+Target: which do you suppose she chose ? EOS
+
+Epoch: 8, Iteration: 400, loss: 1.0847, elapsed: 3136.19, remaining: 8204.16
+ Input: derriere le haut batiment se trouve une librairie .
+Output: the building is on the street . EOS
+Target: behind the tall building there is a bookstore . EOS
+
+Epoch: 8, Iteration: 500, loss: 1.0860, elapsed: 3163.98, remaining: 5993.24
+ Input: elles sont .
+Output: they re ugly . EOS
+Target: they re handcuffed . EOS
+
+Epoch: 8, Iteration: 600, loss: 1.0781, elapsed: 3192.41, remaining: 4509.74
+ Input: c est pourquoi je suis celibataire .
+Output: i m the boy yet . EOS
+Target: that s why i m a . EOS
+
+Epoch: 8, Iteration: 700, loss: 1.0949, elapsed: 3218.59, remaining: 3438.97
+ Input: si votre enfant boit du poison emmenez le d urgence a l hopital .
+Output: if you take a nap your car outside the road will take your finger . EOS
+Target: if your child drinks poison rush him to the hospital . EOS
+
+Epoch: 8, Iteration: 800, loss: 1.0947, elapsed: 3244.84, remaining: 2629.09
+ Input: as tu un chien ?
+Output: do you have a dog ? EOS
+Target: do you have a dog ? EOS
+
+Epoch: 8, Iteration: 900, loss: 1.0770, elapsed: 3271.30, remaining: 1993.28
+ Input: tom ne m a pas dit que mary etait sa petite amie .
+Output: tom didn t tell mary that my girlfriend was a real friend . EOS
+Target: tom didn t tell me mary was his girlfriend . EOS
+
+Epoch: 8, Iteration: 1000, loss: 1.0976, elapsed: 3298.53, remaining: 1479.56
+ Input: il est possible que vous ne le trouviez pas .
+Output: it s possible that you can t have the past . EOS
+Target: you might not find it . EOS
+
+Epoch: 8, Iteration: 1100, loss: 1.0856, elapsed: 3325.94, remaining: 1054.27
+ Input: il tomba par hasard sur cette vieille piece dans un magasin d antiquites .
+Output: he found a diary in his house in the newspaper . EOS
+Target: he came across this old coin in an shop . EOS
+
+Epoch: 8, Iteration: 1200, loss: 1.0973, elapsed: 3353.24, remaining: 695.22
+ Input: je suis devenu malade .
+Output: i ve been sick . EOS
+Target: i got sick . EOS
+
+Epoch: 8, Iteration: 1300, loss: 1.0929, elapsed: 3380.76, remaining: 387.19
+ Input: je suis fier de travailler avec vous .
+Output: i m proud of your work . EOS
+Target: i am proud to work with you . EOS
+
+Epoch: 8, Iteration: 1400, loss: 1.0757, elapsed: 3408.13, remaining: 119.20
+ Input: je ne fais pas de sur l oreiller .
+Output: i don t take a nap . EOS
+Target: i don t kiss and tell . EOS
+
+Epoch: 9, Iteration: 0, loss: 0.9717, elapsed: 3421.86, remaining: 4958279.73
+ Input: il n y a personne .
+Output: there s no one . EOS
+Target: there s nobody there . EOS
+
+Epoch: 9, Iteration: 100, loss: 0.9984, elapsed: 3448.92, remaining: 46065.27
+ Input: ceci aussi est important .
+Output: this is as important as you . EOS
+Target: this is also important . EOS
+
+Epoch: 9, Iteration: 200, loss: 1.0224, elapsed: 3476.24, remaining: 21601.08
+ Input: le concert est fini .
+Output: the concert is over . EOS
+Target: the concert is over . EOS
+
+Epoch: 9, Iteration: 300, loss: 1.0147, elapsed: 3503.76, remaining: 13374.81
+ Input: il y a du lait dans le frigo .
+Output: there s milk in the fridge . EOS
+Target: there is milk in the refrigerator . EOS
+
+Epoch: 9, Iteration: 400, loss: 1.0258, elapsed: 3531.18, remaining: 9237.43
+ Input: combien d amis as tu sur facebook ?
+Output: how many friends do you have on your ? EOS
+Target: how many friends do you have on facebook ? EOS
+
+Epoch: 9, Iteration: 500, loss: 1.0314, elapsed: 3558.89, remaining: 6741.30
+ Input: maman pouvez vous me lire une histoire au lit ?
+Output: can you read me a book while eating ? EOS
+Target: mom could you read me a bedtime story ? EOS
+
+Epoch: 9, Iteration: 600, loss: 1.0293, elapsed: 3586.39, remaining: 5066.30
+ Input: eh bien alors nous avons toujours un probleme .
+Output: we ve always wanted to do a better solution . EOS
+Target: well then we still have a problem . EOS
+
+Epoch: 9, Iteration: 700, loss: 1.0337, elapsed: 3613.68, remaining: 3861.12
+ Input: je n ai rien d autre .
+Output: i don t have anything else . EOS
+Target: i don t have anything else . EOS
+
+Epoch: 9, Iteration: 800, loss: 1.0390, elapsed: 3641.04, remaining: 2950.11
+ Input: j ai ete au japon pendant deux mois .
+Output: i ve been in europe for three years . EOS
+Target: i have been in japan for two months . EOS
+
+Epoch: 9, Iteration: 900, loss: 1.0381, elapsed: 3668.04, remaining: 2235.02
+ Input: je veux un volontaire pour m aider .
+Output: i want to help me . EOS
+Target: i want a volunteer to help me . EOS
+
+Epoch: 9, Iteration: 1000, loss: 1.0525, elapsed: 3695.68, remaining: 1657.70
+ Input: vous etes tellement idiot !
+Output: you re such a fool . EOS
+Target: you are so stupid . EOS
+
+Epoch: 9, Iteration: 1100, loss: 1.0441, elapsed: 3723.20, remaining: 1180.20
+ Input: nous sommes contentes de vous voir .
+Output: we re happy to see you . EOS
+Target: we re glad to see you . EOS
+
+Epoch: 9, Iteration: 1200, loss: 1.0435, elapsed: 3750.77, remaining: 777.64
+ Input: c est sage de ta part de me demander conseil .
+Output: i m sure you ll have to ask for your help . EOS
+Target: it is wise of you to ask me for advice . EOS
+
+Epoch: 9, Iteration: 1300, loss: 1.0552, elapsed: 3778.15, remaining: 432.70
+ Input: venez avec moi maintenant .
+Output: come with me now . EOS
+Target: come with me now . EOS
+
+Epoch: 9, Iteration: 1400, loss: 1.0533, elapsed: 3805.79, remaining: 133.11
+ Input: il aime beaucoup ce jeu video .
+Output: he likes this video very well . EOS
+Target: he likes that video game very much . EOS
+
