@@ -1,0 +1,360 @@
+Epoch: 0, loss: 0.1122
+ Input: SOS je vais faire ce que le patron me dit .
+Output: i assumed you lots and talk . EOS
+Target: i ll do what the boss tells me . EOS
+
+Epoch: 0, loss: 0.1122
+ Input: SOS je ne connais personne a boston .
+Output: i can save you somewhere else . EOS
+Target: i don t know anybody in boston . EOS
+
+Epoch: 0, loss: 0.1122
+ Input: SOS je pensais que vous etiez la responsable .
+Output: i can save you somewhere . EOS
+Target: i thought you were in charge . EOS
+
+Epoch: 0, loss: 0.1122
+ Input: SOS comment avez vous fait ?
+Output: i assumed you on his matter . EOS
+Target: how d you do it ? EOS
+
+Epoch: 0, loss: 0.1122
+ Input: SOS tom ne reussira pas .
+Output: i can save you somewhere else . EOS
+Target: tom won t be successful . EOS
+
+Epoch: 0, loss: 0.1122
+ Input: SOS nous sommes prepares au pire .
+Output: i can see it s taking people to rest . EOS
+Target: we re prepared for the worst . EOS
+
+Epoch: 1, loss: 0.1059
+ Input: SOS applique ce que tu .
+Output: i appreciate nothing next you . EOS
+Target: practice what you . EOS
+
+Epoch: 1, loss: 0.1059
+ Input: SOS il y a une possibilite que nous n ayons pas a fermer l usine .
+Output: i do hope on the matter . EOS
+Target: there is a possibility that we won t have to shut down the factory . EOS
+
+Epoch: 1, loss: 0.1059
+ Input: SOS resteras tu a la maison ce soir ?
+Output: i wonder what you have to quit . EOS
+Target: will you stay at home tonight ? EOS
+
+Epoch: 1, loss: 0.1059
+ Input: SOS je pensais que tu serais reconnaissante .
+Output: i appreciate nothing next you . EOS
+Target: i thought you d be grateful . EOS
+
+Epoch: 1, loss: 0.1059
+ Input: SOS je ne vous avais jamais vus ainsi auparavant .
+Output: i wonder what you have to win . EOS
+Target: i d never seen you like that before . EOS
+
+Epoch: 1, loss: 0.1059
+ Input: SOS personne ne peut me battre .
+Output: i wonder what you have to every . EOS
+Target: nobody can beat me . EOS
+
+Epoch: 2, loss: 0.0904
+ Input: SOS tom a melange les cartes .
+Output: i advise you something urgent . EOS
+Target: tom the cards . EOS
+
+Epoch: 2, loss: 0.0904
+ Input: SOS je ne sais pas s il fera beau demain mais s il fait beau nous irons pique niquer .
+Output: i wonder if you plan on monday . EOS
+Target: i don t know if it will be fine tomorrow but if it is fine we ll go on a picnic . EOS
+
+Epoch: 2, loss: 0.0904
+ Input: SOS je pense que nous avons assez d argent pour acheter tout ce dont nous avons besoin .
+Output: i wonder if you plan on monday . EOS
+Target: i think we ve got enough money to buy everything we need . EOS
+
+Epoch: 2, loss: 0.0904
+ Input: SOS nous avons toutes ete effrayees .
+Output: i wonder if you plan on monday . EOS
+Target: we all got scared . EOS
+
+Epoch: 2, loss: 0.0904
+ Input: SOS il faisait assez sombre lorsque j mon domicile .
+Output: i wonder what you have to win . EOS
+Target: it was quite dark when i got home . EOS
+
+Epoch: 2, loss: 0.0904
+ Input: SOS etes vous occupee demain apres midi ?
+Output: i wonder if you plan has to wear that . EOS
+Target: are you busy tomorrow afternoon ? EOS
+
+Epoch: 3, loss: 0.0764
+ Input: SOS quel age as tu ? seize ans .
+Output: i know it till two are chance . EOS
+Target: how old are you ? i m years old . EOS
+
+Epoch: 3, loss: 0.0764
+ Input: SOS celles ci sont .
+Output: i wonder if you learned to read . EOS
+Target: these are fresh . EOS
+
+Epoch: 3, loss: 0.0764
+ Input: SOS il n avait pas mange de la journee et etait affame .
+Output: i wonder if you learned to work . EOS
+Target: he hadn t eaten all day long and was very hungry . EOS
+
+Epoch: 3, loss: 0.0764
+ Input: SOS les travailleurs une chaine humaine .
+Output: i hate it for the first impression . EOS
+Target: the formed a human . EOS
+
+Epoch: 3, loss: 0.0764
+ Input: SOS cet est de nombreuses belles photos .
+Output: i hope to contact history on you . EOS
+Target: this is with a lot of beautiful . EOS
+
+Epoch: 3, loss: 0.0764
+ Input: SOS il s a l espoir de la revoir un jour .
+Output: i wonder if you learned to work . EOS
+Target: he clung to the hope that he would see her again someday . EOS
+
+Epoch: 4, loss: 0.0737
+ Input: SOS l enfant dort .
+Output: i assumed you now somewhere else . EOS
+Target: the baby s sleeping . EOS
+
+Epoch: 4, loss: 0.0737
+ Input: SOS tom est un meilleur menteur que vous .
+Output: i assumed you now somewhere him . EOS
+Target: tom is a much better liar than you . EOS
+
+Epoch: 4, loss: 0.0737
+ Input: SOS je sais faire du velo .
+Output: i wonder if you learned to work . EOS
+Target: i can ride a bicycle . EOS
+
+Epoch: 4, loss: 0.0737
+ Input: SOS le chat fit le gros dos et s .
+Output: i assumed you now somewhere him . EOS
+Target: the cat its back and stretched itself . EOS
+
+Epoch: 4, loss: 0.0737
+ Input: SOS je regarde tres peu la television .
+Output: i wonder if you plan on monday . EOS
+Target: i watch very little television . EOS
+
+Epoch: 4, loss: 0.0737
+ Input: SOS etes vous toujours heureux ?
+Output: i wonder if you plan has to translate . EOS
+Target: are you still happy ? EOS
+
+Epoch: 5, loss: 0.0720
+ Input: SOS je savais qu il y avait une possibilite .
+Output: i think we can depend upon her here . EOS
+Target: i knew there was a possibility . EOS
+
+Epoch: 5, loss: 0.0720
+ Input: SOS passe moi le sucre s il te plait .
+Output: i am leaving life if you wanted . EOS
+Target: please pass me the sugar . EOS
+
+Epoch: 5, loss: 0.0720
+ Input: SOS tom et mary s assirent l un a cote de l autre a la table dans la salle de conference .
+Output: i assumed you now somewhere else . EOS
+Target: tom and mary sat next to each other at the table in the conference room . EOS
+
+Epoch: 5, loss: 0.0720
+ Input: SOS vous continuez sans moi .
+Output: i assumed you now somewhere else . EOS
+Target: you go on without me . EOS
+
+Epoch: 5, loss: 0.0720
+ Input: SOS plusieurs politiciens une forte pression sur le comite .
+Output: i suggest you decide now fairly happy . EOS
+Target: several politicians strong pressure on the committee . EOS
+
+Epoch: 5, loss: 0.0720
+ Input: SOS le docteur examina plus de patients ce jour la .
+Output: i suggest you decide now fairly happy . EOS
+Target: the doctor examined over fifty patients that day . EOS
+
+Epoch: 6, loss: 0.0709
+ Input: SOS je n ai pas aime le film .
+Output: i wonder if you plan on very . EOS
+Target: i didn t enjoy the movie . EOS
+
+Epoch: 6, loss: 0.0709
+ Input: SOS nous le faisons tout le temps .
+Output: i assumed two questions of you expect . EOS
+Target: we do that all the time . EOS
+
+Epoch: 6, loss: 0.0709
+ Input: SOS ne te soucie pas du passe .
+Output: i wonder if you plan on monday . EOS
+Target: don t worry about the past . EOS
+
+Epoch: 6, loss: 0.0709
+ Input: SOS les autres ont besoin d etre prevenus .
+Output: i assumed you now threatened . EOS
+Target: the others need to be warned . EOS
+
+Epoch: 6, loss: 0.0709
+ Input: SOS allons faire de la cet apres midi .
+Output: i wonder if you plan on very . EOS
+Target: let s go this afternoon . EOS
+
+Epoch: 6, loss: 0.0709
+ Input: SOS tom est un invite .
+Output: i wonder if you have to read this guitar . EOS
+Target: tom is a guest . EOS
+
+Epoch: 7, loss: 0.0692
+ Input: SOS l eau est indispensable a la vie .
+Output: i wonder if you plan on very listening . EOS
+Target: water is to life . EOS
+
+Epoch: 7, loss: 0.0692
+ Input: SOS je veux aller avec toi ce soir .
+Output: i wonder if you learned to work . EOS
+Target: i want to go with you tonight . EOS
+
+Epoch: 7, loss: 0.0692
+ Input: SOS tom essaye de casser le .
+Output: i am leaving every way for yourself . EOS
+Target: tom is trying to break the lock . EOS
+
+Epoch: 7, loss: 0.0692
+ Input: SOS desole si je vous ai fait peur .
+Output: i wonder if you plan on mondays . EOS
+Target: i m sorry if i scared you . EOS
+
+Epoch: 7, loss: 0.0692
+ Input: SOS si tu changes ta coiffure tu pourrais paraitre dix ans plus jeune .
+Output: i wonder if you plan on very diet . EOS
+Target: if you change your hairstyle you could look ten years younger . EOS
+
+Epoch: 7, loss: 0.0692
+ Input: SOS ils adorent le cafe .
+Output: i hate it for the first animals . EOS
+Target: they love coffee . EOS
+
+Epoch: 8, loss: 0.0687
+ Input: SOS savez vous qui a peint ceci ?
+Output: i wonder what you ought to smoke . EOS
+Target: do you know who painted this ? EOS
+
+Epoch: 8, loss: 0.0687
+ Input: SOS donne moi une semaine .
+Output: i wonder whether you planning on question . EOS
+Target: give me a week . EOS
+
+Epoch: 8, loss: 0.0687
+ Input: SOS personne ne veut me parler .
+Output: i assumed next cops . EOS
+Target: no one will speak with me . EOS
+
+Epoch: 8, loss: 0.0687
+ Input: SOS je ne crois pas qu on puisse faire confiance a tom .
+Output: i wonder what you grow on october . EOS
+Target: i think tom is . EOS
+
+Epoch: 8, loss: 0.0687
+ Input: SOS c est rigolo d apprendre des mots d dans des langues etrangeres .
+Output: i wonder what you ought to smoke . EOS
+Target: it s fun to learn words in foreign languages . EOS
+
+Epoch: 8, loss: 0.0687
+ Input: SOS je pense que vous avez besoin de vacances .
+Output: i wonder whether you planning on question . EOS
+Target: i think you need a vacation . EOS
+
+Epoch: 9, loss: 0.0681
+ Input: SOS je n aurais pas du essayer de faire cela toute seule .
+Output: i wonder what you have grown . EOS
+Target: i shouldn t have tried doing that by myself . EOS
+
+Epoch: 9, loss: 0.0681
+ Input: SOS tom nettoya la table .
+Output: i wonder if you plan on very carefully . EOS
+Target: tom wiped the table clean . EOS
+
+Epoch: 9, loss: 0.0681
+ Input: SOS vous rappelez vous ce que tom portait hier ?
+Output: i wonder if you plan on mondays . EOS
+Target: do you remember what tom was wearing yesterday ? EOS
+
+Epoch: 9, loss: 0.0681
+ Input: SOS est ce qu il vient vraiment ?
+Output: i wonder what you ought to smoke . EOS
+Target: is he really coming ? EOS
+
+Epoch: 9, loss: 0.0681
+ Input: SOS j ai oublie ce que je voulais dire .
+Output: i wonder if you plan on very . EOS
+Target: i forgot what i was going to say . EOS
+
+Epoch: 9, loss: 0.0681
+ Input: SOS je pensais que tu dirais ca .
+Output: i wonder what you grow on effort . EOS
+Target: i thought you would say that . EOS
+
+Epoch: 10, loss: 0.0673
+ Input: SOS tom a pris l appat .
+Output: i like leaving for every possible problem . EOS
+Target: tom took the . EOS
+
+Epoch: 10, loss: 0.0673
+ Input: SOS le film n est pas encore commence .
+Output: i wonder if you plan on very listening . EOS
+Target: the movie hasn t started yet . EOS
+
+Epoch: 10, loss: 0.0673
+ Input: SOS je ne te comprends tout simplement pas .
+Output: i wonder if you plan on monday . EOS
+Target: i just don t understand you . EOS
+
+Epoch: 10, loss: 0.0673
+ Input: SOS faites un sur le canape !
+Output: i chose him by tomorrow . EOS
+Target: take a little nap on the couch . EOS
+
+Epoch: 10, loss: 0.0673
+ Input: SOS il a l air d avoir ete malade .
+Output: i wonder if you plan on monday . EOS
+Target: he seems to have been ill . EOS
+
+Epoch: 10, loss: 0.0673
+ Input: SOS je t ai vu regarder .
+Output: i wonder what you grow on her . EOS
+Target: i saw you looking . EOS
+
+Epoch: 11, loss: 0.0662
+ Input: SOS est ce que la verite importe ?
+Output: i wonder what you ought to smoke . EOS
+Target: does truth matter ? EOS
+
+Epoch: 11, loss: 0.0662
+ Input: SOS savez vous ce que cela signifie ?
+Output: i wonder what you intend for books . EOS
+Target: do you know what that means ? EOS
+
+Epoch: 11, loss: 0.0662
+ Input: SOS elle connait de nombreux .
+Output: i wonder if you plan on very . EOS
+Target: she knows many . EOS
+
+Epoch: 11, loss: 0.0662
+ Input: SOS je regarde toujours le bulletin meteo avant de sortir le matin .
+Output: i wonder what you have to quit . EOS
+Target: i always watch the weather report before going out in the morning . EOS
+
+Epoch: 11, loss: 0.0662
+ Input: SOS je vous souhaite a toutes bonne chance .
+Output: i wonder what you grow on effort . EOS
+Target: i wish you all good luck . EOS
+
+Epoch: 11, loss: 0.0662
+ Input: SOS j ai ete arnaque .
+Output: i wonder what you ought to smoke . EOS
+Target: i got . EOS
+

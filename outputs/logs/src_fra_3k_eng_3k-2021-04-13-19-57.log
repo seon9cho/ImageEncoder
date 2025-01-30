@@ -1,0 +1,160 @@
+Epoch: 0, Iteration: 0, loss: 7.1401, elapsed: 1.62, remaining: 37.32
+ Input: SOS elle est folle .
+Output: elle est folle . EOS
+Target: SOS elle est folle .
+
+Epoch: 0, Iteration: 10, loss: 6.5499, elapsed: 5.84, remaining: 6.90
+ Input: SOS je ne suis pas en service aujourd hui .
+Output: je ne suis pas en train d aujourd hui . EOS
+Target: SOS je ne suis pas en service aujourd hui .
+
+Epoch: 0, Iteration: 20, loss: 4.8407, elapsed: 10.09, remaining: 1.44
+ Input: SOS quel est le meilleur remede contre la ?
+Output: quel est le plus difficile de la le mieux que c est le prix ? EOS
+Target: SOS quel est le meilleur remede contre la ?
+
+Epoch: 1, Iteration: 0, loss: 3.7816, elapsed: 12.47, remaining: 286.77
+ Input: SOS thomas ouvrit la boite avec attention .
+Output: je me demande ce que les enfants sont a la maison afin d ecouter . EOS
+Target: SOS thomas ouvrit la boite avec attention .
+
+Epoch: 1, Iteration: 10, loss: 3.3937, elapsed: 17.49, remaining: 20.67
+ Input: SOS pourquoi portes tu ca ?
+Output: pourquoi ne me te te te te te te te te te te te te te te te te te te te te te te te te te te te te te te te te te te te te te te te te te te te te te te
+Target: SOS pourquoi portes tu ca ?
+
+Epoch: 1, Iteration: 20, loss: 3.0004, elapsed: 22.58, remaining: 3.23
+ Input: SOS tu es tres occupee .
+Output: je me suis vraiment vraiment vraiment vraiment tres tres tres tres tres tres tres tres tres tres tres tres tres tres tres tres tres tres tres tres tres tres tres tres tres tres tres tres tres tres tres tres tres tres tres tres tres tres tres tres tres tres
+Target: SOS tu es tres occupee .
+
+Epoch: 2, Iteration: 0, loss: 2.6204, elapsed: 25.43, remaining: 584.87
+ Input: SOS tu devrais etre en mesure de marcher dans quelques jours .
+Output: j aurais aurais aime aime aime aime aime aime aime aime aime aime aime aime aime aime aime aime aime aime aime aime aime aime aime aime aime aime aime aime aime aime aime aime aime aime aime aime aime aime aime aime aime aime aime aime aime aime
+Target: SOS tu devrais etre en mesure de marcher dans quelques jours .
+
+Epoch: 2, Iteration: 10, loss: 2.5777, elapsed: 30.76, remaining: 36.35
+ Input: SOS as tu fait les devoirs d hier ?
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS as tu fait les devoirs d hier ?
+
+Epoch: 2, Iteration: 20, loss: 2.4347, elapsed: 35.91, remaining: 5.13
+ Input: SOS j etais .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS j etais .
+
+Epoch: 3, Iteration: 0, loss: 2.0038, elapsed: 38.60, remaining: 887.85
+ Input: SOS je me qu il viendrait .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS je me qu il viendrait .
+
+Epoch: 3, Iteration: 10, loss: 1.9632, elapsed: 43.99, remaining: 51.99
+ Input: SOS c est une personne differente quand il est saoul donc je n aime pas boire avec lui .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS c est une personne differente quand il est saoul donc je n aime pas boire avec lui .
+
+Epoch: 3, Iteration: 20, loss: 1.9798, elapsed: 49.23, remaining: 7.03
+ Input: SOS il n y a aucun message .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS il n y a aucun message .
+
+Epoch: 4, Iteration: 0, loss: 1.4710, elapsed: 52.08, remaining: 1197.92
+ Input: SOS tom a t il les yeux verts ?
+Output: pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi pourquoi
+Target: SOS tom a t il les yeux verts ?
+
+Epoch: 4, Iteration: 10, loss: 1.4629, elapsed: 57.43, remaining: 67.87
+ Input: SOS je suis membre de l equipe de baseball .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS je suis membre de l equipe de baseball .
+
+Epoch: 4, Iteration: 20, loss: 1.5186, elapsed: 62.56, remaining: 8.94
+ Input: SOS il a fait don d une importante somme d argent a la croix rouge .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS il a fait don d une importante somme d argent a la croix rouge .
+
+Epoch: 5, Iteration: 0, loss: 1.0653, elapsed: 65.38, remaining: 1503.84
+ Input: SOS tu dois etre tres fiere de ton fils .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS tu dois etre tres fiere de ton fils .
+
+Epoch: 5, Iteration: 10, loss: 1.0675, elapsed: 70.68, remaining: 83.53
+ Input: SOS chaque fois que je me couche sur mon lit et lis un livre je m .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS chaque fois que je me couche sur mon lit et lis un livre je m .
+
+Epoch: 5, Iteration: 20, loss: 1.1745, elapsed: 75.95, remaining: 10.85
+ Input: SOS ou aimerais tu aller ?
+Output: que que que que que que que que que que que que que que que que que que que que que que que que que que que que que que que que que que que que que que que que que que que que que que que que que
+Target: SOS ou aimerais tu aller ?
+
+Epoch: 6, Iteration: 0, loss: 0.7607, elapsed: 78.65, remaining: 1809.03
+ Input: SOS nous sommes prepares au pire .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS nous sommes prepares au pire .
+
+Epoch: 6, Iteration: 10, loss: 0.8669, elapsed: 83.91, remaining: 99.17
+ Input: SOS etes vous sure que nous ne nous sommes jamais rencontres auparavant ?
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS etes vous sure que nous ne nous sommes jamais rencontres auparavant ?
+
+Epoch: 6, Iteration: 20, loss: 0.9706, elapsed: 89.32, remaining: 12.76
+ Input: SOS je suis sur de pouvoir le faire .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS je suis sur de pouvoir le faire .
+
+Epoch: 7, Iteration: 0, loss: 0.7270, elapsed: 92.10, remaining: 2118.38
+ Input: SOS cessez de vous conduire en bebe !
+Output: cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez cessez
+Target: SOS cessez de vous conduire en bebe !
+
+Epoch: 7, Iteration: 10, loss: 0.7417, elapsed: 97.28, remaining: 114.97
+ Input: SOS je me rends compte que je ne suis peut etre pas l homme le plus du monde mais j espere quand meme que vous de sortir avec moi .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS je me rends compte que je ne suis peut etre pas l homme le plus du monde mais j espere quand meme que vous de sortir avec moi .
+
+Epoch: 7, Iteration: 20, loss: 0.8188, elapsed: 102.71, remaining: 14.67
+ Input: SOS vous devriez vous acheter un nouveau couteau .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS vous devriez vous acheter un nouveau couteau .
+
+Epoch: 8, Iteration: 0, loss: 0.5769, elapsed: 105.52, remaining: 2427.07
+ Input: SOS tom s est a nouveau excuse .
+Output: tom tom tom tom tom tom tom tom tom tom tom tom tom tom tom tom tom tom tom tom tom tom tom tom tom tom tom tom tom tom tom tom tom tom tom tom tom tom tom tom tom tom tom tom tom tom tom tom tom
+Target: SOS tom s est a nouveau excuse .
+
+Epoch: 8, Iteration: 10, loss: 0.6781, elapsed: 110.90, remaining: 131.06
+ Input: SOS je ne peux pas l .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS je ne peux pas l .
+
+Epoch: 8, Iteration: 20, loss: 0.7545, elapsed: 116.02, remaining: 16.57
+ Input: SOS ses yeux sa peur .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS ses yeux sa peur .
+
+Epoch: 9, Iteration: 0, loss: 0.5618, elapsed: 118.79, remaining: 2732.22
+ Input: SOS il ne se trouve pas en ville .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS il ne se trouve pas en ville .
+
+Epoch: 9, Iteration: 10, loss: 0.6691, elapsed: 124.06, remaining: 146.62
+ Input: SOS a singapour la est une facon de punir un criminel .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS a singapour la est une facon de punir un criminel .
+
+Epoch: 9, Iteration: 20, loss: 0.7370, elapsed: 129.20, remaining: 18.46
+ Input: SOS tom a ete diplome en .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS tom a ete diplome en .
+
+Epoch: 10, Iteration: 0, loss: 0.5593, elapsed: 132.17, remaining: 3039.98
+ Input: SOS j estime ce qu il a fait pour moi .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS j estime ce qu il a fait pour moi .
+
+Epoch: 10, Iteration: 10, loss: 0.6484, elapsed: 137.31, remaining: 162.28
+ Input: SOS les prix vont encore augmenter .
+Output: SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS SOS
+Target: SOS les prix vont encore augmenter .
+

@@ -1,0 +1,45 @@
+Epoch: 0, Iteration: 0, loss: 7.4277, elapsed: 2.14, remaining: 1871.32
+ Input: SOS that offer sounds too good to be true . what 's the catch ?
+Output: whereabouts most ending engaged faults issue spoil breaking log skate below valid girls hitting quite hook begins away men wait firm act skirt minutes absurd fan habit topic astrology trip ruin teased rent numbers put third glass kanji parts copy attempt gun gorgeous introduce teacher overseas interpreter envy players
+Target: that offer sounds too good to be true . what 's the catch ? EOS
+
+Epoch: 0, Iteration: 100, loss: 6.3720, elapsed: 32.22, remaining: 247.24
+ Input: SOS he is precious to us .
+Output: i . EOS
+Target: he is precious to us . EOS
+
+Epoch: 0, Iteration: 200, loss: 4.1617, elapsed: 60.32, remaining: 202.57
+ Input: SOS why did you like it ?
+Output: you ? EOS
+Target: why did you like it ? EOS
+
+Epoch: 0, Iteration: 300, loss: 3.5358, elapsed: 91.08, remaining: 173.99
+ Input: SOS tom and mary live in a quiet residential neighborhood .
+Output: tom is a lot . EOS
+Target: tom and mary live in a quiet residential neighborhood . EOS
+
+Epoch: 0, Iteration: 400, loss: 3.1273, elapsed: 118.05, remaining: 139.83
+ Input: SOS my apartment is near .
+Output: this is very good . EOS
+Target: my apartment is near . EOS
+
+Epoch: 0, Iteration: 500, loss: 2.8931, elapsed: 145.35, remaining: 108.79
+ Input: SOS i had no idea you could speak french .
+Output: i 'll be here you 're going . EOS
+Target: i had no idea you could speak french . EOS
+
+Epoch: 0, Iteration: 600, loss: 2.7208, elapsed: 173.26, remaining: 79.28
+ Input: SOS you had better ask the doctor for advice .
+Output: you should go the same thing . EOS
+Target: you had better ask the doctor for advice . EOS
+
+Epoch: 0, Iteration: 700, loss: 2.5779, elapsed: 200.75, remaining: 50.12
+ Input: SOS so how mad are you ?
+Output: how are you doing ? EOS
+Target: so how mad are you ? EOS
+
+Epoch: 0, Iteration: 800, loss: 2.4865, elapsed: 230.68, remaining: 21.60
+ Input: SOS tom has decided to have the surgery that his doctor recommended .
+Output: tom is not a lot to the book . EOS
+Target: tom has decided to have the surgery that his doctor recommended . EOS
+

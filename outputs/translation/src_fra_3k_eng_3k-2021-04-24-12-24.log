@@ -1,0 +1,60 @@
+Epoch: 0, loss: 0.0529
+ Input: SOS portes tu une arme ?
+Output: tom thinks i am on the couch . EOS
+Target: do you carry a weapon ? EOS
+
+Epoch: 0, loss: 0.0529
+ Input: SOS vous ne ressemblez pas a un medecin .
+Output: tom s office whenever . EOS
+Target: you don t look like a doctor . EOS
+
+Epoch: 0, loss: 0.0529
+ Input: SOS peux tu m aider a faire la vaisselle ?
+Output: tom thinks i am on the longer . EOS
+Target: can you help me with the washing up ? EOS
+
+Epoch: 0, loss: 0.0529
+ Input: SOS vous venez de faire une grosse erreur .
+Output: tom hates this list to mary . EOS
+Target: you just made a big mistake . EOS
+
+Epoch: 0, loss: 0.0529
+ Input: SOS nous avons eu cet hiver davantage de neige que d ordinaire .
+Output: tom hates driving test . EOS
+Target: we ve had more snow this winter than usual . EOS
+
+Epoch: 0, loss: 0.0529
+ Input: SOS je ne pouvais m empecher de sourire .
+Output: tom hates this responsibility . EOS
+Target: i couldn t help but smile . EOS
+
+Epoch: 1, loss: 0.0511
+ Input: SOS je suis terriblement desole .
+Output: i rarely is having lunch ? EOS
+Target: i m terribly sorry . EOS
+
+Epoch: 1, loss: 0.0511
+ Input: SOS on ne sait pas quand il est venu a londres .
+Output: is that i got drink short ? EOS
+Target: it is not known when he came up to london . EOS
+
+Epoch: 1, loss: 0.0511
+ Input: SOS il n arrive pas a arreter de rire .
+Output: hey i have fun ? EOS
+Target: he can t stop laughing . EOS
+
+Epoch: 1, loss: 0.0511
+ Input: SOS je n arrive pas a croire que nous y avons finalement reussi .
+Output: tom hates driving do that . EOS
+Target: i can t believe we finally made it . EOS
+
+Epoch: 1, loss: 0.0511
+ Input: SOS je veux que vous y .
+Output: hey of my friends . EOS
+Target: i want you to think about this . EOS
+
+Epoch: 1, loss: 0.0511
+ Input: SOS l as tu mis quelque part ?
+Output: hey tom s every time . EOS
+Target: did you put it somewhere ? EOS
+

@@ -1,0 +1,10 @@
+Epoch: 0, Iteration: 0, loss: 7.4700, elapsed: 2.20, remaining: 1926.46
+ Input: SOS we miss you a lot .
+Output: nuts deserted reality intriguing us pieces than speech necessary dove magazine teens tom figures target lots charged quick checks sentence peanuts partners forest pink questioning tradition begun visiting since treat chose motivated why continue knees prefers own chemical upside material civil became information expressed mile relaxed factory catching accidentally
+Target: we miss you a lot . EOS
+
+Epoch: 0, Iteration: 100, loss: 6.4785, elapsed: 31.80, remaining: 244.02
+ Input: SOS she was lying .
+Output: . EOS
+Target: she was lying . EOS
+

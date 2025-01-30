@@ -1,0 +1,1160 @@
+ Input: SOS they live on the floor below .
+Output: vous avez l air excitante ? EOS
+Target: elles vivent a l etage en dessous . EOS
+
+ Input: SOS the police lowered their weapons .
+Output: vous devez ma retraite ? EOS
+Target: la police baissa ses armes . EOS
+
+ Input: SOS no two are exactly alike .
+Output: elles sont vos ? EOS
+Target: il n y a pas deux de neige qui soient exactement . EOS
+
+ Input: SOS keep the dog out .
+Output: ca a ete gentil ? EOS
+Target: laisse le chien dehors . EOS
+
+ Input: SOS why would you ask that ?
+Output: cela s est il vous plait . EOS
+Target: pourquoi vous cela ? EOS
+
+ Input: SOS did you get a christmas present from tom this year ?
+Output: c est du poison . EOS
+Target: as tu recu un cadeau de noel de tom cette annee ? EOS
+
+ Input: SOS i m nervous when speaking in another language .
+Output: sa ! jouer ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?
+Target: je suis nerveuse lorsque je parle une autre langue . EOS
+
+ Input: SOS i really have to go .
+Output: etes vous en train de cooperer ? EOS
+Target: il me faut vraiment y aller . EOS
+
+ Input: SOS if you don t know the answers guess .
+Output: vous etes ma retraite il . EOS
+Target: si tu ne connais pas les reponses devine . EOS
+
+ Input: SOS it looks like tom was able to get what he wanted .
+Output: est ce inhabituel ? EOS
+Target: on dirait que tom a ete capable d obtenir ce qu il voulait . EOS
+
+ Input: SOS is college worth it ?
+Output: vous etes . EOS
+Target: l universite vaut elle le coup ? EOS
+
+ Input: SOS tom went to australia .
+Output: tu es un . EOS
+Target: tom est parti pour l australie . EOS
+
+ Input: SOS don t be disgusting .
+Output: es tu entree en train de le matin ? EOS
+Target: ne soyez pas . EOS
+
+ Input: SOS pay attention to what tom says .
+Output: les d acier sont . EOS
+Target: pretez attention a ce que dit tom . EOS
+
+ Input: SOS why don t you take a look at this data ?
+Output: attendez ? EOS
+Target: et si vous un oeil a ces donnees ? EOS
+
+ Input: SOS i don t care anymore .
+Output: vous etes impulsif ? EOS
+Target: je ne m en soucie plus . EOS
+
+ Input: SOS the ice is too thin to skate on .
+Output: est ce que nous sommes fatigues ? EOS
+Target: la glace est trop fine pour y pouvoir patiner . EOS
+
+ Input: SOS which is cheaper ?
+Output: pas . EOS
+Target: lequel est le moins cher ? EOS
+
+ Input: SOS you ll like this .
+Output: l amour est . EOS
+Target: ca te plaira . EOS
+
+ Input: SOS i came with my friends .
+Output: c est du probleme ? EOS
+Target: je suis venue avec mes amis . EOS
+
+ Input: SOS does that make you feel better ?
+Output: tu as de retour ? EOS
+Target: est ce que cela vous fait vous sentir mieux ? EOS
+
+ Input: SOS i don t know what they want .
+Output: cela depend de la facon dont vous va . EOS
+Target: je ne sais pas ce qu elles veulent . EOS
+
+ Input: SOS they re surprised .
+Output: c est urgent ? EOS
+Target: elles sont surprises . EOS
+
+ Input: SOS i sleep during the day and work at night .
+Output: les concours d orthographe sont stupides ? EOS
+Target: je dors le jour et je travaille la nuit . EOS
+
+ Input: SOS don t even think about driving while tom .
+Output: vous ennuyez la ? EOS
+Target: n imagine meme pas conduire en etat d tom . EOS
+
+ Input: SOS she turned her face away so he wouldn t see her tears .
+Output: suis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Target: elle detourna son visage afin qu il ne voie pas ses larmes . EOS
+
+ Input: SOS how do i get to the beach ?
+Output: soyez ici . EOS
+Target: comment puis je me rendre a la plage ? EOS
+
+ Input: SOS may i speak to you a minute ?
+Output: elle est affreusement mauvaise . EOS
+Target: puis je m entretenir avec vous une minute ? EOS
+
+ Input: SOS there are a lot of under the couch .
+Output: tu es sauve . EOS
+Target: il y a de nombreux sous le canape . EOS
+
+ Input: SOS your dress is for the occasion .
+Output: c est un examen ultime ? EOS
+Target: ta robe ne convient pas a la . EOS
+
+ Input: SOS that s all i want .
+Output: est ce que ca a derriere moi ? EOS
+Target: c est tout ce que je veux . EOS
+
+ Input: SOS tom sat between us .
+Output: ca a ete gentil ? EOS
+Target: tom s est assis entre nous . EOS
+
+ Input: SOS i would die for you .
+Output: il me faut celle ci ? EOS
+Target: je pour toi . EOS
+
+ Input: SOS we didn t know the whole story at that time .
+Output: je pensais pas . EOS
+Target: a ce moment la nous ne connaissions pas toute l histoire . EOS
+
+ Input: SOS why aren t you listening ?
+Output: tu es sauve ? EOS
+Target: pourquoi n ecoutez vous pas ? EOS
+
+ Input: SOS the two brothers died .
+Output: est ce qui a ete pris de vertiges . EOS
+Target: les deux freres sont morts . EOS
+
+ Input: SOS he s gone into hiding .
+Output: c est inattendu ? EOS
+Target: il se . EOS
+
+ Input: SOS how big you are !
+Output: vous etes . EOS
+Target: comme tu es grand ! EOS
+
+ Input: SOS we shall continue our efforts to .
+Output: est ce que ca te plait ? EOS
+Target: nous nos efforts pour la . EOS
+
+ Input: SOS it seems to me that you are honest .
+Output: c est agreable . EOS
+Target: il me semble que tu es honnete . EOS
+
+ Input: SOS my throat s a little dry .
+Output: ils etaient saouls tous les fauteuils . EOS
+Target: j ai la gorge un peu seche . EOS
+
+ Input: SOS i did everything i could to stop tom .
+Output: c est le diner . EOS
+Target: j ai fait tout ce que j ai pu pour arreter tom . EOS
+
+ Input: SOS is this your wallet ?
+Output: soyez ici ? EOS
+Target: est ce votre portefeuille ? EOS
+
+ Input: SOS don t say such things .
+Output: ca a l air bien . EOS
+Target: ne dites pas de telles choses ! EOS
+
+ Input: SOS we had dinner by .
+Output: pourquoi portes tu as de la chance ? EOS
+Target: nous avons dine aux . EOS
+
+ Input: SOS i hate long flights .
+Output: nous sommes . EOS
+Target: j ai les longs vols en horreur . EOS
+
+ Input: SOS i hope you two are happy .
+Output: vous etes ma retraite il a raison ? EOS
+Target: j espere que vous etes heureux tous les deux . EOS
+
+ Input: SOS i hate myself .
+Output: c etait mes problemes ? EOS
+Target: je me deteste . EOS
+
+ Input: SOS i don t want to go alone .
+Output: vous n etes pas autorises ? EOS
+Target: je ne veux pas y aller seul . EOS
+
+ Input: SOS i got tired of waiting .
+Output: c est inutile de travailler . EOS
+Target: j en ai eu assez d attendre . EOS
+
+ Input: SOS they should be fine .
+Output: vous etes ma retraite en voie de . EOS
+Target: ca devrait aller pour eux . EOS
+
+ Input: SOS he stayed at a hotel for a couple of days .
+Output: es tu interesse par moi ? EOS
+Target: il a a l hotel pour quelques jours . EOS
+
+ Input: SOS i can t believe you out .
+Output: c est bon de vous . EOS
+Target: je n arrive pas a croire que vous ayez eu les . EOS
+
+ Input: SOS a rack of makes a great meal .
+Output: est ce inhabituel ? EOS
+Target: un travers d constitue un repas de choix . EOS
+
+ Input: SOS her garden is a work of art .
+Output: pas est ce qui a ete pris ? EOS
+Target: son jardin est une oeuvre d art . EOS
+
+ Input: SOS here is your change .
+Output: vous etes . EOS
+Target: voici votre monnaie . EOS
+
+ Input: SOS it s been three years since we got married .
+Output: la verite est faible ? EOS
+Target: ca fait trois ans que nous nous sommes maries . EOS
+
+ Input: SOS the were all but frozen when they were found .
+Output: il est alle skier . EOS
+Target: les etaient pratiquement quand on les a trouves . EOS
+
+ Input: SOS she has lunch at home .
+Output: vous etes impulsif . EOS
+Target: elle dejeune chez elle . EOS
+
+ Input: SOS i watched this movie last night and i really liked it .
+Output: je suis enceinte . EOS
+Target: j ai regarde ce film hier soir et je l ai vraiment apprecie . EOS
+
+ Input: SOS i persuaded him that he was wrong .
+Output: elles sont tombees ? EOS
+Target: je le qu il avait tort . EOS
+
+ Input: SOS there is a difference between your opinion and mine .
+Output: celles la sont elles ? EOS
+Target: il y a une difference entre ton opinion et la mienne . EOS
+
+ Input: SOS did you just insult me ?
+Output: pas est ce ? EOS
+Target: viens tu de m ? EOS
+
+ Input: SOS so do you really want to do this ?
+Output: vous etes . EOS
+Target: alors veux tu vraiment faire cela ? EOS
+
+ Input: SOS i d rather stay home than go fishing .
+Output: est ce inhabituel ? EOS
+Target: je prefererais rester a la maison que d aller pecher . EOS
+
+ Input: SOS is this seat vacant ?
+Output: etes dechire . EOS
+Target: cette chaise est elle libre ? EOS
+
+ Input: SOS the job is almost finished .
+Output: un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un
+Target: le boulot est presque termine . EOS
+
+ Input: SOS does anyone else use your account ?
+Output: je me ? EOS
+Target: quiconque d autre utilise t il votre compte ? EOS
+
+ Input: SOS you weren t even there yesterday .
+Output: c est du pain . EOS
+Target: tu n etais meme pas la hier . EOS
+
+ Input: SOS you can t just not do your job .
+Output: c etait mes problemes ? EOS
+Target: vous ne pouvez simplement pas ne pas faire votre boulot . EOS
+
+ Input: SOS someone stole all my money .
+Output: vous etes . EOS
+Target: quelqu un me tout mon argent . EOS
+
+ Input: SOS how to meet future energy demand is a big question we must consider .
+Output: c est le coeur . EOS
+Target: comment faire face a la demande d energie est une question a laquelle il nous faut reflechir . EOS
+
+ Input: SOS i used to dream about being able to breathe .
+Output: est ce qui a ete pris ? EOS
+Target: avant je de pouvoir respirer sous l eau . EOS
+
+ Input: SOS he studied hard in order to get into college .
+Output: ou est ce ? EOS
+Target: il a beaucoup etudie afin de pouvoir entrer a l universite . EOS
+
+ Input: SOS i have rights .
+Output: vous etes . EOS
+Target: j ai des droits . EOS
+
+ Input: SOS tom is getting worried .
+Output: c est possible de te parler ? EOS
+Target: tom s inquiete . EOS
+
+ Input: SOS come up here .
+Output: vous etes ma retraite il en a peu ? EOS
+Target: approche . EOS
+
+ Input: SOS we all for the people killed in the accident .
+Output: etes celui ci ? EOS
+Target: nous avons tous pleure les gens decedes dans l accident . EOS
+
+ Input: SOS before it gets out in the i d like to to all my that i m pregnant .
+Output: nous sommes ses fils . EOS
+Target: avant que cela n dans les j aimerais annoncer a tous mes que je suis enceinte . EOS
+
+ Input: SOS i ll walk you to the gate .
+Output: c est le examen . EOS
+Target: je vais vous accompagner au portail . EOS
+
+ Input: SOS how would you feel if your wife left you ?
+Output: je suis . EOS
+Target: comment te tu si ta femme te ? EOS
+
+ Input: SOS actually i m not quite sure .
+Output: etes vous en mesure de le suivre ? EOS
+Target: en verite je n en suis pas tout a fait sure . EOS
+
+ Input: SOS i have a table .
+Output: je suis . EOS
+Target: j ai une table . EOS
+
+ Input: SOS she was deceived by a friend .
+Output: tu as l air terrible ? EOS
+Target: elle a ete trompee par un ami . EOS
+
+ Input: SOS let s just say no .
+Output: je suis . EOS
+Target: disons simplement non ! EOS
+
+ Input: SOS please tell me how much you paid for that .
+Output: tu es trompe de la perte ? EOS
+Target: s il te plait dis moi combien tu as paye pour ca . EOS
+
+ Input: SOS tom understood exactly what mary meant .
+Output: nous avons ete diplome ? EOS
+Target: tom a compris exactement ce que marie voulait dire . EOS
+
+ Input: SOS that was a joke .
+Output: . tous tokyo la . parle . la . frere leurs . parle . parle . parle . parle . parle . parle . parle . parle . parle . parle . parle . parle . parle . parle . parle . parle . parle . parle . parle
+Target: il s agissait d une blague . EOS
+
+ Input: SOS i had such high hopes for you .
+Output: il etait dans aux . EOS
+Target: je croyais tellement en toi . EOS
+
+ Input: SOS i found the question very easy .
+Output: vous etes impulsif . EOS
+Target: j ai trouve la question tres facile . EOS
+
+ Input: SOS the answer is pretty simple .
+Output: suis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Target: la reponse est plutot simple . EOS
+
+ Input: SOS that s hilarious .
+Output: vous etes impulsif ? EOS
+Target: c est hilarant . EOS
+
+ Input: SOS was there a note ?
+Output: nous sommes . EOS
+Target: y avait il un mot ? EOS
+
+ Input: SOS how much does it cost ?
+Output: vous n etes pas force de mentir . EOS
+Target: combien ca coute ? EOS
+
+ Input: SOS i often catch colds in the winter .
+Output: la verite est faible ? EOS
+Target: j attrape souvent des en hiver . EOS
+
+ Input: SOS this is my new .
+Output: ou etes vous en possession de . EOS
+Target: c est mon nouveau . EOS
+
+ Input: SOS i ll apologize .
+Output: qu est ce qui a ete votre sujet ? EOS
+Target: je presenterai mes excuses . EOS
+
+ Input: SOS in these two or three years he acquired a large amount of wealth .
+Output: vous etes ma retraite il ? EOS
+Target: lors de ces deux ou trois annees il une grande quantite de . EOS
+
+ Input: SOS she always fed her children before she fed her dog .
+Output: c etait . EOS
+Target: elle a toujours nourri ses enfants avant de nourrir son chien . EOS
+
+ Input: SOS it s really humid isn t it ?
+Output: elles etaient mortes . EOS
+Target: c est vraiment humide non ? EOS
+
+ Input: SOS you look happy .
+Output: a les yeux verts . EOS
+Target: tu as l air heureuse . EOS
+
+ Input: SOS of course our common humanity is only the beginning of our task .
+Output: vous etes celui qui m a sauve ? EOS
+Target: bien sur reconnaitre notre humanite est seulement le commencement de notre tache . EOS
+
+ Input: SOS i m sorry if i frightened you .
+Output: celles la sont . EOS
+Target: je suis desole si je vous ai effrayee . EOS
+
+ Input: SOS it s really awesome .
+Output: elles sont medecins ? EOS
+Target: c est vraiment super . EOS
+
+ Input: SOS i ll fix a drink .
+Output: il a fortement plu ? EOS
+Target: je vais preparer un verre . EOS
+
+ Input: SOS i know you re not coming to my party but i wish you were .
+Output: vous etes impulsif ? EOS
+Target: je sais que vous ne venez pas a ma fete mais j aimerais que vous y veniez . EOS
+
+ Input: SOS did tom speak french ?
+Output: tu es sauve ? EOS
+Target: tom parlait il francais ? EOS
+
+ Input: SOS nobody likes tom .
+Output: etes celui qui m a sauve ? EOS
+Target: personne n aime tom . EOS
+
+ Input: SOS i have a lot of time .
+Output: vous attendrai ici . EOS
+Target: j ai beaucoup de temps . EOS
+
+ Input: SOS tom stared .
+Output: vous etes plus ne se soit pas ? EOS
+Target: tom regardait attentivement . EOS
+
+ Input: SOS i m sorry but you re not allowed to enter .
+Output: vous etes un reveur ? EOS
+Target: je suis desole mais vous n etes pas autorise a entrer . EOS
+
+ Input: SOS we re saved .
+Output: vous etes merveilleuse . EOS
+Target: nous sommes . EOS
+
+ Input: SOS you can go to the station by bus .
+Output: c est du probleme ? EOS
+Target: tu peux aller a la gare par le bus . EOS
+
+ Input: SOS tom didn t go after all .
+Output: il est alle . EOS
+Target: tom n y est pas alle apres tout . EOS
+
+ Input: SOS i m on strike .
+Output: ce sont mes ordres ? EOS
+Target: je suis en greve . EOS
+
+ Input: SOS i look forward to hearing your thoughts on this matter .
+Output: a ete diplome . EOS
+Target: j attends avec impatience d entendre votre opinion sur ce sujet . EOS
+
+ Input: SOS i rang the bell .
+Output: vous etes les . EOS
+Target: je fis sonner la cloche . EOS
+
+ Input: SOS why don t you meet me out front in a few minutes ?
+Output: fais toi passer pour moi . EOS
+Target: et si vous me devant a l exterieur dans quelques minutes ? EOS
+
+ Input: SOS i used to do that as a kid .
+Output: sommes . EOS
+Target: enfant je faisais ca . EOS
+
+ Input: SOS i bought a new computer last month .
+Output: a ete alors qu on mange ? EOS
+Target: j ai achete un nouvel ordinateur le mois dernier . EOS
+
+ Input: SOS be careful or you ll the .
+Output: c est pour les yeux ! EOS
+Target: faites gaffe ou vous allez la boite de vitesse ! EOS
+
+ Input: SOS he doesn t have any proof .
+Output: ou est ce qui a ete diplome ? EOS
+Target: il ne dispose pas de la moindre preuve . EOS
+
+ Input: SOS all his hopes when he lost his only son in the war .
+Output: c est du poison . EOS
+Target: tous ses espoirs sont partis en fumee quand il a perdu son fils pendant la guerre . EOS
+
+ Input: SOS i don t really have a gun .
+Output: tiens toi ? EOS
+Target: je ne dispose pas vraiment d une arme . EOS
+
+ Input: SOS may i ask what you re working on ?
+Output: vous etes celui qui m a sauve . EOS
+Target: puis je demander sur quoi vous travaillez ? EOS
+
+ Input: SOS who s crying ?
+Output: nous sommes en train de perdre mon adresse . EOS
+Target: qui pleure ? EOS
+
+ Input: SOS you can t know that for sure .
+Output: etes vous en mesure de le voir . EOS
+Target: tu ne peux pas en etre certaine . EOS
+
+ Input: SOS i didn t know that woman at all .
+Output: c est toi . EOS
+Target: je ne connaissais absolument pas cette femme . EOS
+
+ Input: SOS i couldn t make him understand my english .
+Output: vous etes . EOS
+Target: je ne pas a lui faire comprendre mon anglais . EOS
+
+ Input: SOS he s getting used to the situation .
+Output: vous etes en train de cooperer ? EOS
+Target: il s habitue a la situation . EOS
+
+ Input: SOS everybody needs food don t they ?
+Output: tu es idiote ? EOS
+Target: tout le monde a besoin de nourriture pas vrai ? EOS
+
+ Input: SOS now that you are eighteen you can get a driver s license .
+Output: t es tu as les yeux verts ? EOS
+Target: maintenant que vous etes majeur vous pouvez obtenir votre permis de conduire . EOS
+
+ Input: SOS what exactly did you do ?
+Output: rien de cela n est desormais ? EOS
+Target: qu as tu fait exactement ? EOS
+
+ Input: SOS the cat ruined my sofa .
+Output: quelle heure est ce que ca va bien ? EOS
+Target: le chat a detruit mon canape . EOS
+
+ Input: SOS we woke up very early in order to see the sunrise .
+Output: vous etes . EOS
+Target: nous nous tot pour voir le lever du soleil . EOS
+
+ Input: SOS this engine works well .
+Output: c est du probleme . EOS
+Target: ce moteur fonctionne bien . EOS
+
+ Input: SOS about how much money do you have ?
+Output: vous etes maintenant . EOS
+Target: combien avez vous d argent environ ? EOS
+
+ Input: SOS that s a wonderful idea .
+Output: ca a l air excitant . EOS
+Target: c est une idee merveilleuse . EOS
+
+ Input: SOS i told you not to call me on weekends .
+Output: un avez espere allume la pourquoi un la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la la
+Target: je vous ai dit de ne pas m appeler pendant les week ends . EOS
+
+ Input: SOS my whole body hurts .
+Output: c est urgent . EOS
+Target: tout mon corps me fait mal . EOS
+
+ Input: SOS the baby cried all night .
+Output: ca a ete gentil . EOS
+Target: le bebe pleura toute la nuit . EOS
+
+ Input: SOS we don t even know if it s true .
+Output: c est pour toi ? EOS
+Target: nous ne savons meme pas si c est vrai . EOS
+
+ Input: SOS to tell the truth i completely forgot .
+Output: c est le destin . EOS
+Target: a dire vrai j ai completement oublie . EOS
+
+ Input: SOS i had hardly checked in at the hotel when he called me .
+Output: c est inutile d essayer . EOS
+Target: je m etais a peine inscrit dans le registre de l hotel qu il m a appele au telephone . EOS
+
+ Input: SOS you re one of my best friends .
+Output: etes vous venus en bateau ? EOS
+Target: vous etes un de mes meilleurs amis . EOS
+
+ Input: SOS he was wounded in the shoulder .
+Output: ca te plait . EOS
+Target: il etait blesse a l epaule . EOS
+
+ Input: SOS tom spends all his time on the computer .
+Output: tu es . EOS
+Target: tom passe tout son temps sur l ordinateur . EOS
+
+ Input: SOS he likes and history .
+Output: vous ennuyez vous . EOS
+Target: il aime bien la et l histoire . EOS
+
+ Input: SOS i hope he will get better .
+Output: ce sont des balivernes . EOS
+Target: j espere qu il va se . EOS
+
+ Input: SOS it s against my religion .
+Output: le noir vous va bien . EOS
+Target: c est contre ma religion . EOS
+
+ Input: SOS tom doesn t want to be late .
+Output: tu es responsable de n importe ou . EOS
+Target: tom ne veut pas etre en retard . EOS
+
+ Input: SOS it s never too late to learn .
+Output: c est suffisant ? EOS
+Target: personne n est trop vieux pour apprendre . EOS
+
+ Input: SOS i know that i m .
+Output: la verite . EOS
+Target: je sais que je suis . EOS
+
+ Input: SOS did you empty the dishwasher ?
+Output: fermez la verite ? EOS
+Target: est ce que tu as vide le lave vaisselle ? EOS
+
+ Input: SOS i wonder if you have something to write with .
+Output: vous etes un reveur ? EOS
+Target: je me demande si vous avez quelque chose pour ecrire . EOS
+
+ Input: SOS tom is interested in .
+Output: vous etes ma retraite en . EOS
+Target: tom s interesse a l . EOS
+
+ Input: SOS how long will you stay in tokyo ?
+Output: est ce inhabituel ? EOS
+Target: combien de temps resteras tu a tokyo ? EOS
+
+ Input: SOS this form must be filled out in .
+Output: nous etions tombees de la fete ? EOS
+Target: ce formulaire doit etre complete en trois . EOS
+
+ Input: SOS you must respect your elders .
+Output: qu est ce que tu as ma retraite ? EOS
+Target: vous devez respecter vos . EOS
+
+ Input: SOS is your still working ?
+Output: ce sont des balivernes . EOS
+Target: ton refrigerateur fonctionne t il encore ? EOS
+
+ Input: SOS what do you think about it ?
+Output: c est le examen de la . EOS
+Target: qu en penses tu ? EOS
+
+ Input: SOS i m not going to say it twice .
+Output: ne mange pas de fruits . EOS
+Target: je ne vais pas le dire deux fois . EOS
+
+ Input: SOS i d love to dance with you .
+Output: ils une sa pour ses une sa pour une sa pour une sa pour une sa pour une sa pour une sa pour une sa pour une sa pour une sa pour sa pour sa pour une sa pour une sa pour sa pour sa pour sa pour sa
+Target: j aimerais tant danser avec toi . EOS
+
+ Input: SOS i need that information as soon as possible .
+Output: vous etes maintenant ? EOS
+Target: j ai besoin de cette information des que possible . EOS
+
+ Input: SOS she shot him .
+Output: vous etes . EOS
+Target: elle lui tira dessus . EOS
+
+ Input: SOS should i speak french ?
+Output: vous etes impulsif . EOS
+Target: dois je parler le francais ? EOS
+
+ Input: SOS i see what you mean .
+Output: ca s est bien ? EOS
+Target: je vois ce que vous voulez dire . EOS
+
+ Input: SOS we ve just arrived .
+Output: il a les yeux verts ? EOS
+Target: nous venons d arriver . EOS
+
+ Input: SOS she denied having met him even though we saw them talking to each other .
+Output: . tous tokyo la . parle . frere leurs . l . l . l . l . l . l . l . l . l . l . l . l . l . l . l . l . l . l . l . l
+Target: elle nia l avoir rencontre bien que nous les eumes vus se parler l un a l autre . EOS
+
+ Input: SOS is there a discount for children ?
+Output: elles sont en train de cooperer . EOS
+Target: y a t il une pour les enfants ? EOS
+
+ Input: SOS i am divorced .
+Output: un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un un
+Target: je suis . EOS
+
+ Input: SOS look behind you .
+Output: vous etes maintenant . EOS
+Target: regarde derriere toi . EOS
+
+ Input: SOS the reason is very simple .
+Output: vous n avez pas droit a un baiser ? EOS
+Target: la raison en est tres simple . EOS
+
+ Input: SOS i bought a pair of shoes .
+Output: ca a un gout affreux ? EOS
+Target: j ai achete une paire de chaussures . EOS
+
+ Input: SOS do i curse too much ?
+Output: ils ont tous les deux faim ? EOS
+Target: est ce que je jure trop ? EOS
+
+ Input: SOS i would rather stay at home than go out in the rain .
+Output: vous etes . EOS
+Target: je prefererais rester a la maison plutot que de sortir sous la pluie . EOS
+
+ Input: SOS it was not until i had a baby myself that i knew what mother s love is .
+Output: . tous parle . la . adore la . la . la . la . la . la . la . la . la . la . suis a la . ma les . la . la . la . la . la . ma frere . ma .
+Target: ce n etait que quand j ai moi meme eu un bebe que j ai su ce que l amour . EOS
+
+ Input: SOS tom speaks french very fluently .
+Output: c est le examen . EOS
+Target: tom parle francais avec beaucoup d . EOS
+
+ Input: SOS his clothes are out of fashion .
+Output: c est un sacre orage ? EOS
+Target: ses vetements sont . EOS
+
+ Input: SOS he recovered little by little .
+Output: c est le examen . EOS
+Target: il s est remis petit a petit . EOS
+
+ Input: SOS i fell into the pool .
+Output: c est un a parole . EOS
+Target: je suis tombee dans la piscine . EOS
+
+ Input: SOS there were hundreds of taxis at the airport all for customers .
+Output: vous etes alle seul ? EOS
+Target: il y avait des centaines de taxis a l aeroport tous en chasse apres des clients . EOS
+
+ Input: SOS i know your son .
+Output: je suis . EOS
+Target: je connais ton fils . EOS
+
+ Input: SOS you re so beautiful in that dress .
+Output: vous etes . EOS
+Target: tu es si belle dans cette robe ! EOS
+
+ Input: SOS i feel lonely .
+Output: nous sommes . EOS
+Target: je me sens seule . EOS
+
+ Input: SOS don t forget to call me up tomorrow .
+Output: ce sont mes ordres . EOS
+Target: n oubliez pas de m appeler demain . EOS
+
+ Input: SOS you can make your dream come true by working hard .
+Output: c est . EOS
+Target: vous pouvez faire prendre corps a votre reve en travaillant dur . EOS
+
+ Input: SOS the wind gradually died down .
+Output: ce sont des balivernes . EOS
+Target: le vent s est calme . EOS
+
+ Input: SOS i m normal .
+Output: c etait terrible . EOS
+Target: je suis normale . EOS
+
+ Input: SOS they re all tourists .
+Output: tu es sauve ? EOS
+Target: ce sont tous des touristes . EOS
+
+ Input: SOS she led a life .
+Output: vous etes . EOS
+Target: elle mene une vie solitaire . EOS
+
+ Input: SOS my father was a teacher .
+Output: c est bon de vous . EOS
+Target: mon pere etait enseignant . EOS
+
+ Input: SOS don t waste your time trying to convince tom .
+Output: ou ai je de nombreux ? EOS
+Target: ne perds pas ton temps a essayer de convaincre tom . EOS
+
+ Input: SOS if you don t bother the bees they re unlikely to sting you .
+Output: est votre danse ? EOS
+Target: si tu n pas les abeilles il est peu probable qu elles te . EOS
+
+ Input: SOS i even work on sundays .
+Output: . tous tokyo la . la . la . frere leurs . ma parle . ma pour la . ma pour parle . ma pour parle . ma pour la . ma pour la . ma pour parle . ma pour la . ma pour la . ma pour
+Target: je travaille meme le dimanche . EOS
+
+ Input: SOS i need an interpreter .
+Output: pourquoi vous y . EOS
+Target: j ai besoin d un interprete . EOS
+
+ Input: SOS he has been on a diet for two months .
+Output: vous etes . EOS
+Target: il suit un regime depuis mois . EOS
+
+ Input: SOS is it really that simple ?
+Output: votre histoire est difficile ? EOS
+Target: est ce vraiment si simple ? EOS
+
+ Input: SOS given her interest in children i am sure teaching is the right career for her .
+Output: pourquoi portes tu ca ? EOS
+Target: compte tenu de son interet pour les enfants je suis certain que l est la carriere pour elle . EOS
+
+ Input: SOS i want to learn karate .
+Output: c est un sacre orage ? EOS
+Target: je veux apprendre le karate . EOS
+
+ Input: SOS they play basketball .
+Output: est ce inhabituel . EOS
+Target: elles jouent au basket . EOS
+
+ Input: SOS the rumor was without .
+Output: c est tout a vous . EOS
+Target: la rumeur etait sans . EOS
+
+ Input: SOS are you expecting someone ?
+Output: c est absurde . EOS
+Target: attendez vous quelqu un ? EOS
+
+ Input: SOS we re safe in here aren t we ?
+Output: c est un examen ultime ? EOS
+Target: nous sommes en securite ici n est ce pas ? EOS
+
+ Input: SOS tell me where to put these books .
+Output: s est il vous plait ? EOS
+Target: dis moi ou mettre ces livres ! EOS
+
+ Input: SOS i met her an hour ago .
+Output: vous etes maintenant ? EOS
+Target: je l ai rencontree il y a une heure . EOS
+
+ Input: SOS my dog is dreaming of a cat .
+Output: c est arrive a se rappeler ? EOS
+Target: mon chien reve d un chat . EOS
+
+ Input: SOS aren t you going to invite tom to the party ?
+Output: vous etes celui qui m a sauve . EOS
+Target: ne vas tu pas inviter tom a la fete ? EOS
+
+ Input: SOS a rope was thrown into the water .
+Output: t es tu blesse ? EOS
+Target: une corde fut a l eau . EOS
+
+ Input: SOS he was very fun .
+Output: vous n etes pas autorises . EOS
+Target: il etait fort amusant . EOS
+
+ Input: SOS could you please tell me where the nearest church is ?
+Output: il me faut celle qui . EOS
+Target: pourriez vous me dire ou se trouve l eglise la plus proche ? EOS
+
+ Input: SOS tom is boring isn t he ?
+Output: ca me rappelle t il ? EOS
+Target: tom est ennuyeux n est ce pas ? EOS
+
+ Input: SOS he needs to follow my advice .
+Output: vous etes maintenant ? EOS
+Target: il doit suivre mes conseils . EOS
+
+ Input: SOS this stuff tastes awful .
+Output: je me sens seule . EOS
+Target: ca a mauvais gout . EOS
+
+ Input: SOS i won t pass .
+Output: ce sont des balivernes . EOS
+Target: je ne passerai pas . EOS
+
+ Input: SOS we d better think of something .
+Output: a les yeux verts ? EOS
+Target: nous ferions mieux de songer a quelque chose . EOS
+
+ Input: SOS i don t always obey the rules .
+Output: ou ai tu attendu ? EOS
+Target: je ne respecte pas toujours les regles . EOS
+
+ Input: SOS tom didn t have anything to say .
+Output: c est possible . EOS
+Target: tom n avait rien a dire . EOS
+
+ Input: SOS tom is going to be very pleased .
+Output: . tous tokyo la . la . la . la . la . la . parle . la . la . la . la . la . la . la . la . la . la . la . la . la . la . la . la .
+Target: tom va etre tres content . EOS
+
+ Input: SOS tom is dating someone .
+Output: c est de tout . EOS
+Target: tom sort avec quelqu un . EOS
+
+ Input: SOS never was your strong suit .
+Output: vous etes ma . EOS
+Target: la n a jamais ete votre fort . EOS
+
+ Input: SOS come as you are .
+Output: qu est ce qui vous inspire le . EOS
+Target: viens comme tu es . EOS
+
+ Input: SOS they had a choice .
+Output: vous voulez les secrets ? EOS
+Target: ils avaient le choix . EOS
+
+ Input: SOS i knew you d have a good time .
+Output: son s fais ne le ne l de la ne l de la ne l de le la ne l de le la ne l de le la ne l de la ne l de le la ne l de le la ne l de le la ne l
+Target: je savais que vous un bon moment . EOS
+
+ Input: SOS i like all of them .
+Output: il me faut celle ci ? EOS
+Target: je les aime tous . EOS
+
+ Input: SOS she told her children to put away their toys .
+Output: c est excitant . EOS
+Target: elle dit a ses enfants de ranger leurs jouets . EOS
+
+ Input: SOS tom is still unemployed .
+Output: les concours de orthographe sont stupides . EOS
+Target: thomas est toujours sans emploi . EOS
+
+ Input: SOS as soon as i get to london i ll drop you a line .
+Output: qui est ce garcon ? EOS
+Target: aussitot que j arrive a londres je te laisserai un mot . EOS
+
+ Input: SOS what do you want to tell us ?
+Output: as tu deux ordinateurs ? EOS
+Target: que veux tu nous dire ? EOS
+
+ Input: SOS he convinced me of his innocence .
+Output: vous mon ami ? EOS
+Target: il m a convaincu de son innocence . EOS
+
+ Input: SOS there are not enough chairs for us to sit on .
+Output: soyez ici ? EOS
+Target: il n y a pas assez de chaises pour qu on puisse s asseoir . EOS
+
+ Input: SOS that s what happens of the time .
+Output: vous etes . EOS
+Target: c est ce qui arrive du temps . EOS
+
+ Input: SOS do you want me to leave ?
+Output: je suis . EOS
+Target: voulez vous que je parte ? EOS
+
+ Input: SOS i blame you for this tom .
+Output: tu as l air tres occupee ? EOS
+Target: je te blame pour ceci tom . EOS
+
+ Input: SOS many of the prisoners were .
+Output: l histoire est . EOS
+Target: nombre de prisonniers furent . EOS
+
+ Input: SOS the box was open and empty .
+Output: vous etes maintenant ? EOS
+Target: la boite etait ouverte et vide . EOS
+
+ Input: SOS who caught this fish ?
+Output: ce sont mes ordres . EOS
+Target: qui a peche ce poisson ? EOS
+
+ Input: SOS does this have to be done now ?
+Output: un un un un avez un un un un un un un un un un un un un un un un un un un un un un un avez avez la c avez avez avez la un c lui un c peux . lui . ne c lui vais
+Target: est ce qu il faut le faire maintenant ? EOS
+
+ Input: SOS i ve read the first page .
+Output: je vous ai vu ces derniers temps . EOS
+Target: j ai lu la premiere page . EOS
+
+ Input: SOS she is always hard at work .
+Output: c est de la voile . EOS
+Target: elle est toujours au travail . EOS
+
+ Input: SOS i will finish it by tomorrow afternoon .
+Output: nous sommes . EOS
+Target: je le avant demain apres midi . EOS
+
+ Input: SOS i think you should go .
+Output: je suis . EOS
+Target: je pense que vous devriez y aller . EOS
+
+ Input: SOS i had no idea .
+Output: la production ? EOS
+Target: je n avais aucune idee . EOS
+
+ Input: SOS they re not happy .
+Output: vous etes les . EOS
+Target: ils ne sont pas satisfaits . EOS
+
+ Input: SOS i know it s not true .
+Output: vous etes impulsif ? EOS
+Target: je sais que ce n est pas vrai . EOS
+
+ Input: SOS i m not going to show you this .
+Output: vous etes diplome cette femme ? EOS
+Target: je ne vais pas vous montrer ceci . EOS
+
+ Input: SOS there s nothing worse than that .
+Output: les concours d orthographe sont stupides . EOS
+Target: il n y a rien de pire . EOS
+
+ Input: SOS i ll be back in time for my mother s birthday .
+Output: etes vous en train de cooperer ? EOS
+Target: je serai de retour a temps pour l anniversaire de ma mere . EOS
+
+ Input: SOS i know you considered me a close friend .
+Output: ca a l air excitant . EOS
+Target: je sais que tu me tenais pour un ami intime . EOS
+
+ Input: SOS tom has decided to stay .
+Output: t es tu les yeux verts ? EOS
+Target: tom a decide de rester . EOS
+
+ Input: SOS tom asked us several questions .
+Output: vous etes maintenant . EOS
+Target: tom nous posa plusieurs questions . EOS
+
+ Input: SOS when i m with you i m happy .
+Output: tu es un . EOS
+Target: lorsque je suis avec vous je suis heureux . EOS
+
+ Input: SOS you don t have to answer .
+Output: tu es idiote ? EOS
+Target: tu n es pas force de repondre . EOS
+
+ Input: SOS both of them started laughing .
+Output: etes vous en train de perdre mon absence ? EOS
+Target: tous deux se mirent a rire . EOS
+
+ Input: SOS there s a lot of traffic today .
+Output: n est ce pas potable . EOS
+Target: il y a beaucoup de circulation aujourd hui . EOS
+
+ Input: SOS he is being very careful .
+Output: ca te plait ? EOS
+Target: il est tres prudent . EOS
+
+ Input: SOS tom broke his right leg and was taken to hospital a few weeks before christmas .
+Output: ils sont sympa ? EOS
+Target: tom s est casse la jambe droite et a ete conduit a l hopital quelques semaines avant noel . EOS
+
+ Input: SOS would you like to go with me ?
+Output: c est le examen ? EOS
+Target: aimerais tu y aller avec moi ? EOS
+
+ Input: SOS i m tom s sister .
+Output: nous sommes . EOS
+Target: je suis la soeur de tom . EOS
+
+ Input: SOS i thought we were going to die .
+Output: qu est ce qui a ete vole ? EOS
+Target: j ai pense que nous allions mourir . EOS
+
+ Input: SOS you re not fired .
+Output: je suis en train de cooperer . EOS
+Target: tu n es pas vire . EOS
+
+ Input: SOS the knife is not sharp .
+Output: vous etes les yeux verts ? EOS
+Target: le couteau n est pas aiguise . EOS
+
+ Input: SOS i can t believe you let this happen .
+Output: ils sont des jouets dans cette usine . EOS
+Target: je n arrive pas a croire que vous ayez permis que cela se produise . EOS
+
+ Input: SOS you were behaving as if nothing had happened .
+Output: c est tout . EOS
+Target: vous vous comme si de rien n etait . EOS
+
+ Input: SOS you must learn to adapt .
+Output: vous etes impulsif . EOS
+Target: vous devez apprendre a vous adapter . EOS
+
+ Input: SOS you leave me no choice .
+Output: est ce inhabituel . EOS
+Target: tu ne me laisses aucun choix . EOS
+
+ Input: SOS i really am sorry .
+Output: c est l examen ultime ? EOS
+Target: je suis vraiment desole . EOS
+
+ Input: SOS crime doesn t pay .
+Output: ce sont des a harvard ? EOS
+Target: le crime ne paye pas . EOS
+
+ Input: SOS you re not often wrong .
+Output: vous etes maintenant ? EOS
+Target: tu n as pas souvent tort . EOS
+
+ Input: SOS i have nothing to lose .
+Output: c est de vous faire du pain ? EOS
+Target: je n ai rien a perdre . EOS
+
+ Input: SOS i don t drink or smoke .
+Output: c est absurde . EOS
+Target: je ne bois ni ne fume . EOS
+
+ Input: SOS you have a lot of nerve !
+Output: un la lui un le lui lui lui lui lui lui lui lui lui lui lui lui lui lui lui lui lui lui lui lui lui lui lui lui lui lui lui lui lui lui lui lui lui lui lui lui lui lui lui lui lui lui lui lui
+Target: vous en avez du courage ! EOS
+
+ Input: SOS you need to move on .
+Output: c est inattendu ? EOS
+Target: il vous faut passer a autre chose . EOS
+
+ Input: SOS i m pretty sure i didn t say that .
+Output: ou est ce que vous avez ete . EOS
+Target: je suis plutot sur que je n ai pas dit ca . EOS
+
+ Input: SOS i knew it would be painful .
+Output: c est possible . EOS
+Target: je savais que ce serait douloureux . EOS
+
+ Input: SOS tom is .
+Output: etes vous prete a faire la fete ? EOS
+Target: tom est . EOS
+
+ Input: SOS why do you take that medicine ?
+Output: vous etes impulsif . EOS
+Target: pourquoi prends tu ce medicament ? EOS
+
+ Input: SOS i think i did well .
+Output: nous sommes . EOS
+Target: je pense m en etre bien sorti . EOS
+
+ Input: SOS what did they want ?
+Output: pourquoi portes tu de la perte ? EOS
+Target: que voulaient elles ? EOS
+
+ Input: SOS we took turns in washing the car .
+Output: pourquoi le bus est il en retard . EOS
+Target: nous la voiture a tour de role . EOS
+
+ Input: SOS why don t you sit down ?
+Output: tu es alle skier ? EOS
+Target: pourquoi ne vous asseyez vous pas ? EOS
+
+ Input: SOS i am taking a couple of days off .
+Output: les concours de credit sont . EOS
+Target: je pars en vacances pour quelques jours . EOS
+
+ Input: SOS tom was wearing a ridiculous hat .
+Output: c est a vous meme . EOS
+Target: tom portait un chapeau ridicule . EOS
+
+ Input: SOS she advised him to stop working so much .
+Output: vous etes impulsif ? EOS
+Target: elle lui conseilla d arreter de travailler autant . EOS
+
+ Input: SOS maybe we should talk .
+Output: t es tu as besoin de le matin ? EOS
+Target: peut etre devrions nous parler . EOS
+
+ Input: SOS be nice to her .
+Output: tu es sauve ? EOS
+Target: sois gentil avec elle ! EOS
+
+ Input: SOS can you touch your toes ?
+Output: elles sont medecins ? EOS
+Target: tu peux toucher tes orteils ? EOS
+
+ Input: SOS you are under no obligation to that information .
+Output: c est le destin ? EOS
+Target: vous n etes dans l obligation de cette information . EOS
+
+ Input: SOS i got busy .
+Output: ca a ete gentil ? EOS
+Target: je suis devenu occupee . EOS
+
+ Input: SOS i don t know what i m going to do with you .
+Output: vous n etes pas . EOS
+Target: je ne sais ce que je vais faire avec toi . EOS
+

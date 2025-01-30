@@ -1,0 +1,1080 @@
+Epoch: 0, loss: 0.1318
+ Input: SOS vous disiez la verite n est ce pas ?
+Output: tom led mary this medicine . EOS
+Target: you were telling the truth weren t you ? EOS
+
+Epoch: 0, loss: 0.1318
+ Input: SOS n oublie pas de te passer le fil .
+Output: who invented responsibility this thing . EOS
+Target: don t forget to . EOS
+
+Epoch: 0, loss: 0.1318
+ Input: SOS a l aide d une lampe torche le policier fit signe a la voiture de s arreter .
+Output: i m breaking his parents is you . EOS
+Target: using a flashlight the policeman the car to stop . EOS
+
+Epoch: 0, loss: 0.1318
+ Input: SOS vous n avez pas l air ravi de me voir .
+Output: that s past i recognized in life . EOS
+Target: you don t look pleased to see me . EOS
+
+Epoch: 0, loss: 0.1318
+ Input: SOS je veux etre tres clair a ce propos .
+Output: tom led mary this medicine about . EOS
+Target: i want to be very clear about that . EOS
+
+Epoch: 0, loss: 0.1318
+ Input: SOS s il te plait ne me laisse pas tout seul ici .
+Output: tom thinks that mary will return . EOS
+Target: please don t leave me here by myself . EOS
+
+Epoch: 1, loss: 0.1271
+ Input: SOS peut etre est ce le destin .
+Output: who invented it too . EOS
+Target: maybe it s destiny . EOS
+
+Epoch: 1, loss: 0.1271
+ Input: SOS je n aime pas ta suggestion .
+Output: tom owns is already business . EOS
+Target: i don t like your suggestion . EOS
+
+Epoch: 1, loss: 0.1271
+ Input: SOS je suis tres reconnaissant de ce que vous avez fait .
+Output: my weapon is quickly . EOS
+Target: i m very grateful for what you ve done . EOS
+
+Epoch: 1, loss: 0.1271
+ Input: SOS je n aime pas le printemps .
+Output: my opinion i wanted are hungry . EOS
+Target: i do not like spring . EOS
+
+Epoch: 1, loss: 0.1271
+ Input: SOS tom m a donne plusieurs livres .
+Output: what happened to yours . EOS
+Target: tom gave me several books . EOS
+
+Epoch: 1, loss: 0.1271
+ Input: SOS personne ne sait que tom est ici .
+Output: tom died . jackson to help . EOS
+Target: no one knows tom is here . EOS
+
+Epoch: 2, loss: 0.1235
+ Input: SOS vous venez de faire une grosse erreur .
+Output: who makes mistakes this . EOS
+Target: you just made a big mistake . EOS
+
+Epoch: 2, loss: 0.1235
+ Input: SOS est ce la ce que vous pensez que je veuille entendre ?
+Output: are i got fined ? EOS
+Target: is that what you think i want to hear ? EOS
+
+Epoch: 2, loss: 0.1235
+ Input: SOS quand est ce que tu reviens a boston ?
+Output: is my sunglasses somewhere going ? EOS
+Target: when are you coming back to boston ? EOS
+
+Epoch: 2, loss: 0.1235
+ Input: SOS je reside avec mon oncle pour le moment mais plus tard j dans un petit appartement .
+Output: my sunglasses is going . EOS
+Target: i am staying with my uncle for the time being but later i will move to a small apartment . EOS
+
+Epoch: 2, loss: 0.1235
+ Input: SOS je ne suis pas en mesure de l arreter .
+Output: who invented the television . EOS
+Target: i m not in a position to stop it . EOS
+
+Epoch: 2, loss: 0.1235
+ Input: SOS je voudrais quitter cette ville et ne jamais revenir .
+Output: that company try is . EOS
+Target: i d like to leave this town and never come back . EOS
+
+Epoch: 3, loss: 0.1190
+ Input: SOS tom se .
+Output: who owns doing it . EOS
+Target: tom fell silent . EOS
+
+Epoch: 3, loss: 0.1190
+ Input: SOS je pensais que j etais en train de rever .
+Output: who i grow quickly ! EOS
+Target: i thought i was dreaming . EOS
+
+Epoch: 3, loss: 0.1190
+ Input: SOS votre reve pourrait devenir realite n importe quand .
+Output: my brother deserves there . EOS
+Target: your dream may come true at any moment . EOS
+
+Epoch: 3, loss: 0.1190
+ Input: SOS je ne veux simplement pas etre laisse tout seul .
+Output: hey what would interest you . EOS
+Target: i just don t want to be left alone . EOS
+
+Epoch: 3, loss: 0.1190
+ Input: SOS je n ai qu un seul defaut .
+Output: what gives a shot . EOS
+Target: i have only one . EOS
+
+Epoch: 3, loss: 0.1190
+ Input: SOS vous vous y .
+Output: that s past i kiss . EOS
+Target: you get used to it . EOS
+
+Epoch: 4, loss: 0.1135
+ Input: SOS je t appellerai avant de partir .
+Output: what happened sister . EOS
+Target: i ll call you before i leave . EOS
+
+Epoch: 4, loss: 0.1135
+ Input: SOS j ai juste quelques questions de plus .
+Output: they . fuji my come . EOS
+Target: i have just a few more questions . EOS
+
+Epoch: 4, loss: 0.1135
+ Input: SOS je ne suis pas sure de comprendre .
+Output: cows supply me of all . EOS
+Target: i m not sure i understand . EOS
+
+Epoch: 4, loss: 0.1135
+ Input: SOS j espere que nous sommes toutes seules .
+Output: what happened i grow . EOS
+Target: i trust we re all alone . EOS
+
+Epoch: 4, loss: 0.1135
+ Input: SOS presque toujours nous nous parlons l une a l autre en francais .
+Output: my headache s wife . EOS
+Target: we almost always speak to each other in french . EOS
+
+Epoch: 4, loss: 0.1135
+ Input: SOS tout sera parfait .
+Output: that store is necessary . EOS
+Target: everything will be perfect . EOS
+
+Epoch: 5, loss: 0.1045
+ Input: SOS pensez y encore .
+Output: who takes it here ? EOS
+Target: think again . EOS
+
+Epoch: 5, loss: 0.1045
+ Input: SOS c est un enorme mensonge .
+Output: what gives the truth now . EOS
+Target: that s a big fat lie . EOS
+
+Epoch: 5, loss: 0.1045
+ Input: SOS je ne pense pas qu il ait quelque chose a voir avec ca .
+Output: i dislike his umbrella about . EOS
+Target: i don t think he has anything to do with the matter . EOS
+
+Epoch: 5, loss: 0.1045
+ Input: SOS est ce que tu t apprecies ?
+Output: tom lives anywhere . EOS
+Target: did you enjoy yourself ? EOS
+
+Epoch: 5, loss: 0.1045
+ Input: SOS je t assure que je te trouverai un travail .
+Output: the truth is going on . EOS
+Target: i guarantee i ll get you a job . EOS
+
+Epoch: 5, loss: 0.1045
+ Input: SOS je ne sais pas s il nous rendra visite dimanche prochain .
+Output: hey tom on my mind . EOS
+Target: i don t know if he will visit us next sunday . EOS
+
+Epoch: 6, loss: 0.0959
+ Input: SOS vous semblez contraries .
+Output: that store is necessary . EOS
+Target: you seem upset . EOS
+
+Epoch: 6, loss: 0.0959
+ Input: SOS les doigts .
+Output: what gives the boat . EOS
+Target: let s cross our fingers . EOS
+
+Epoch: 6, loss: 0.0959
+ Input: SOS n oubliez pas votre solaire !
+Output: what gives my son ? EOS
+Target: don t forget your sunscreen . EOS
+
+Epoch: 6, loss: 0.0959
+ Input: SOS il son chien .
+Output: what gives the sea do i grow . EOS
+Target: he for his dog . EOS
+
+Epoch: 6, loss: 0.0959
+ Input: SOS tom parait jaloux .
+Output: cows supply her in french . EOS
+Target: tom seems jealous . EOS
+
+Epoch: 6, loss: 0.0959
+ Input: SOS j ai suivi vos instructions .
+Output: remember where is a got . EOS
+Target: i followed your instructions . EOS
+
+Epoch: 7, loss: 0.0890
+ Input: SOS nous parlons de nos amis .
+Output: school begins so i me . EOS
+Target: we are talking about our friends . EOS
+
+Epoch: 7, loss: 0.0890
+ Input: SOS quelle excellente idee !
+Output: the clock is you . EOS
+Target: what an excellent idea ! EOS
+
+Epoch: 7, loss: 0.0890
+ Input: SOS cela vous il de venir avec moi ?
+Output: my sunglasses s right . EOS
+Target: would you mind coming with me ? EOS
+
+Epoch: 7, loss: 0.0890
+ Input: SOS tom oublia .
+Output: everyone except my breath . EOS
+Target: tom forgot . EOS
+
+Epoch: 7, loss: 0.0890
+ Input: SOS quelque chose est il arrive a tom ?
+Output: that store learn i country . EOS
+Target: has something happened to tom ? EOS
+
+Epoch: 7, loss: 0.0890
+ Input: SOS j espere que nous sommes toutes seules .
+Output: mother is got fired . EOS
+Target: i trust we re all alone . EOS
+
+Epoch: 8, loss: 0.0840
+ Input: SOS je sais comment traiter une dame .
+Output: consider every problem to point . EOS
+Target: i know how to treat a lady . EOS
+
+Epoch: 8, loss: 0.0840
+ Input: SOS ne me regarde pas avec des yeux si tristes .
+Output: what happened he wants blue ? EOS
+Target: don t look at me with such sad eyes . EOS
+
+Epoch: 8, loss: 0.0840
+ Input: SOS vous me faites marrer .
+Output: that child did you run . EOS
+Target: you re amusing . EOS
+
+Epoch: 8, loss: 0.0840
+ Input: SOS quelle sorte de pere pensez vous que vous serez ?
+Output: what tom lives says . EOS
+Target: what sort of father do you think you ll be ? EOS
+
+Epoch: 8, loss: 0.0840
+ Input: SOS a quelle heure est ce que tu t es leve aujourd hui ?
+Output: are everyone calling yesterday ? EOS
+Target: when did you wake up today ? EOS
+
+Epoch: 8, loss: 0.0840
+ Input: SOS qui sommes nous ?
+Output: i demand that you kiss . EOS
+Target: who are we ? EOS
+
+Epoch: 9, loss: 0.0801
+ Input: SOS c est un ecrivain plein d imagination .
+Output: what we expect in the non alcoholic ? EOS
+Target: he is a very writer . EOS
+
+Epoch: 9, loss: 0.0801
+ Input: SOS il a l air d avoir ete malade .
+Output: that company will keep going . EOS
+Target: he seems to have been ill . EOS
+
+Epoch: 9, loss: 0.0801
+ Input: SOS tu as fais ceci .
+Output: what happened to black . EOS
+Target: you did this . EOS
+
+Epoch: 9, loss: 0.0801
+ Input: SOS elle va devenir une excellente pianiste .
+Output: women thirteen to understand why . EOS
+Target: she will grow up to be a very good pianist . EOS
+
+Epoch: 9, loss: 0.0801
+ Input: SOS je ne suis pas medecin mais professeur .
+Output: mary likes where we word . EOS
+Target: i am not a doctor but a teacher . EOS
+
+Epoch: 9, loss: 0.0801
+ Input: SOS je ne veux pas devenir comme mon pere .
+Output: the clock is they please . EOS
+Target: i don t want to be like my father . EOS
+
+Epoch: 10, loss: 0.0761
+ Input: SOS je pense que tom m a menti .
+Output: care what happened can . EOS
+Target: i think that tom lied to me . EOS
+
+Epoch: 10, loss: 0.0761
+ Input: SOS j ai beaucoup d amour pour vous .
+Output: . EOS
+Target: i have a lot of love for you . EOS
+
+Epoch: 10, loss: 0.0761
+ Input: SOS les garcons du coin sont entres en dispute avec un groupe d une ville voisine .
+Output: mother tongue . i want . EOS
+Target: the local boys got into a fight with a group from a town . EOS
+
+Epoch: 10, loss: 0.0761
+ Input: SOS ce garcon nie avoir vole le velo .
+Output: mother tongue blame . EOS
+Target: that boy stealing the bicycle . EOS
+
+Epoch: 10, loss: 0.0761
+ Input: SOS j adore les blagues sur les animaux .
+Output: consider the radio to do something . EOS
+Target: i love jokes about animals . EOS
+
+Epoch: 10, loss: 0.0761
+ Input: SOS je ne le dirai a personne .
+Output: mother tongue to understand . EOS
+Target: i won t tell anyone . EOS
+
+Epoch: 11, loss: 0.0729
+ Input: SOS je me rejouis d etre celle qui vous le dit .
+Output: . fuji is my lunch . EOS
+Target: i m glad to be the one who tells you . EOS
+
+Epoch: 11, loss: 0.0729
+ Input: SOS laisse moi te donner un apercu .
+Output: that cost of wine so soon . EOS
+Target: let me give you a . EOS
+
+Epoch: 11, loss: 0.0729
+ Input: SOS j avais autre chose en tete .
+Output: my dad is free . EOS
+Target: i had something else in mind . EOS
+
+Epoch: 11, loss: 0.0729
+ Input: SOS est ce que quelqu un peut me dire comment faire ca ?
+Output: that cost of wine possible . EOS
+Target: can anybody tell me how to do this ? EOS
+
+Epoch: 11, loss: 0.0729
+ Input: SOS mon pere a finalement .
+Output: the guy until she gave this . EOS
+Target: my father finally . EOS
+
+Epoch: 11, loss: 0.0729
+ Input: SOS pourquoi est ce que vous faites ca aujourd hui ?
+Output: what happened i drink is . EOS
+Target: why are you doing that today ? EOS
+
+Epoch: 12, loss: 0.0702
+ Input: SOS tu as l air en bonne sante .
+Output: thank the truth . EOS
+Target: you look fine . EOS
+
+Epoch: 12, loss: 0.0702
+ Input: SOS je me suis presque noye en essayant de sauver un garcon .
+Output: remember seeing us on . EOS
+Target: i came near being drowned trying to rescue a boy . EOS
+
+Epoch: 12, loss: 0.0702
+ Input: SOS si seulement j avais eu quelques annees de plus ils m auraient laisse rentrer dans le bar .
+Output: hi explained . EOS
+Target: if only i d been a couple of years older they would ve let me into the bar . EOS
+
+Epoch: 12, loss: 0.0702
+ Input: SOS comment l as tu rencontre ?
+Output: the moon this shop detail . EOS
+Target: how did you meet him ? EOS
+
+Epoch: 12, loss: 0.0702
+ Input: SOS vos dents .
+Output: success are calling . EOS
+Target: brush your teeth . EOS
+
+Epoch: 12, loss: 0.0702
+ Input: SOS oublions ce qu il s est passe la nuit derniere .
+Output: hi fighting to purpose . EOS
+Target: let s forget about what happened last night . EOS
+
+Epoch: 13, loss: 0.0684
+ Input: SOS ils ne meritent pas mon argent .
+Output: i value their gift . EOS
+Target: they don t deserve my money . EOS
+
+Epoch: 13, loss: 0.0684
+ Input: SOS il sait aussi parler russe .
+Output: what happened . EOS
+Target: he can speak russian as well . EOS
+
+Epoch: 13, loss: 0.0684
+ Input: SOS ils semblent surpris .
+Output: what i poured . EOS
+Target: they seem surprised . EOS
+
+Epoch: 13, loss: 0.0684
+ Input: SOS je connais ton nom .
+Output: i m complaining about her ! EOS
+Target: i know your name . EOS
+
+Epoch: 13, loss: 0.0684
+ Input: SOS est ce que la tempete a cause des degats ?
+Output: what gives light . EOS
+Target: did the storm cause any damage ? EOS
+
+Epoch: 13, loss: 0.0684
+ Input: SOS mange ce qui te plait .
+Output: keep going himself . EOS
+Target: eat whatever you like . EOS
+
+Epoch: 14, loss: 0.0665
+ Input: SOS tom portait un de pere noel a la fete de noel .
+Output: the just listened on my lawyer . EOS
+Target: tom was wearing a santa hat at the christmas party . EOS
+
+Epoch: 14, loss: 0.0665
+ Input: SOS j aimerais discuter avec le de ce projet .
+Output: the children sense for . EOS
+Target: i d like to talk to the of this project . EOS
+
+Epoch: 14, loss: 0.0665
+ Input: SOS je sais que tom n est pas canadien .
+Output: consider the deal here . EOS
+Target: i know tom isn t a canadian . EOS
+
+Epoch: 14, loss: 0.0665
+ Input: SOS je n ai jamais remarque .
+Output: the food deserves on this matter . EOS
+Target: i never noticed . EOS
+
+Epoch: 14, loss: 0.0665
+ Input: SOS avez vous un petit ami ?
+Output: children sense to where . EOS
+Target: do you have a boyfriend ? EOS
+
+Epoch: 14, loss: 0.0665
+ Input: SOS sais tu utiliser un ordinateur ?
+Output: the children sense to dance . EOS
+Target: do you know how to use a computer ? EOS
+
+Epoch: 15, loss: 0.0651
+ Input: SOS je les apprecie tous .
+Output: they apologize . EOS
+Target: i like all of them . EOS
+
+Epoch: 15, loss: 0.0651
+ Input: SOS cette plante est .
+Output: hey him to boston . EOS
+Target: this plant is good to eat . EOS
+
+Epoch: 15, loss: 0.0651
+ Input: SOS je ne suis meme pas fatiguee .
+Output: care about his promise . EOS
+Target: i m not even tired . EOS
+
+Epoch: 15, loss: 0.0651
+ Input: SOS je suis en train d ecouter de la musique .
+Output: success are amazing . EOS
+Target: i m listening to music . EOS
+
+Epoch: 15, loss: 0.0651
+ Input: SOS je pense que nous devrions arreter de faire ca .
+Output: what happened . EOS
+Target: i think that we should stop doing that . EOS
+
+Epoch: 15, loss: 0.0651
+ Input: SOS t es tu blesse ?
+Output: hey tom to time . EOS
+Target: are you hurt ? EOS
+
+Epoch: 16, loss: 0.0635
+ Input: SOS applique ce que tu .
+Output: charge my favorite minute . EOS
+Target: practice what you . EOS
+
+Epoch: 16, loss: 0.0635
+ Input: SOS j ai une douleur .
+Output: my heart to think shopping . EOS
+Target: i have a terrible pain . EOS
+
+Epoch: 16, loss: 0.0635
+ Input: SOS tom oublia .
+Output: follow his problems . EOS
+Target: tom forgot . EOS
+
+Epoch: 16, loss: 0.0635
+ Input: SOS je ne suis pas en service aujourd hui .
+Output: thanks to the picture . EOS
+Target: i am off today . EOS
+
+Epoch: 16, loss: 0.0635
+ Input: SOS quand j etais jeune j essayais de lire autant de livres que je pouvais .
+Output: my means set foot . EOS
+Target: when i was young i tried to read as many books as i could . EOS
+
+Epoch: 16, loss: 0.0635
+ Input: SOS pensez vous que je sois mignonne ?
+Output: my motorcycle continued for all of you ? EOS
+Target: do you think i m pretty ? EOS
+
+Epoch: 17, loss: 0.0620
+ Input: SOS je ne parviens pas vraiment a m en souvenir .
+Output: what shall the bill die ? EOS
+Target: i can t really remember . EOS
+
+Epoch: 17, loss: 0.0620
+ Input: SOS cet est de nombreuses belles photos .
+Output: that store left yours . EOS
+Target: this is with a lot of beautiful . EOS
+
+Epoch: 17, loss: 0.0620
+ Input: SOS j en sais tres peu sur lui .
+Output: what gives the boat am i expected ? EOS
+Target: i know very little about him . EOS
+
+Epoch: 17, loss: 0.0620
+ Input: SOS je pense que tu merites ca .
+Output: ring everything i meant is away . EOS
+Target: i think you deserve this . EOS
+
+Epoch: 17, loss: 0.0620
+ Input: SOS tu as besoin d aide pour le faire je pense .
+Output: remember where tom looks down . EOS
+Target: you need help doing that i think . EOS
+
+Epoch: 17, loss: 0.0620
+ Input: SOS j adore les blagues sur les animaux .
+Output: . she joined that now . EOS
+Target: i love jokes about animals . EOS
+
+Epoch: 18, loss: 0.0607
+ Input: SOS je n ai pas mange de fruits de mer depuis la derniere maree noire .
+Output: birds blame her . EOS
+Target: i have not eaten any seafood since the recent oil . EOS
+
+Epoch: 18, loss: 0.0607
+ Input: SOS qu aimeriez vous pour votre petit dejeuner ?
+Output: what exactly read . EOS
+Target: what would you like for breakfast ? EOS
+
+Epoch: 18, loss: 0.0607
+ Input: SOS c est une personne differente quand il est saoul donc je n aime pas boire avec lui .
+Output: buy them about it . EOS
+Target: he s a different person when he s drunk so i don t like to drink with him . EOS
+
+Epoch: 18, loss: 0.0607
+ Input: SOS voila comment poser sa candidature .
+Output: what exactly puts . EOS
+Target: that is how you apply for a job . EOS
+
+Epoch: 18, loss: 0.0607
+ Input: SOS qu as tu entendu ?
+Output: what caused her family should . EOS
+Target: what have you heard ? EOS
+
+Epoch: 18, loss: 0.0607
+ Input: SOS elle se maria a un .
+Output: what foods say for . EOS
+Target: she married a sailor . EOS
+
+Epoch: 19, loss: 0.0598
+ Input: SOS je reside avec mon oncle pour le moment mais plus tard j dans un petit appartement .
+Output: i m sure my telling is . EOS
+Target: i am staying with my uncle for the time being but later i will move to a small apartment . EOS
+
+Epoch: 19, loss: 0.0598
+ Input: SOS j essaie de faire plaisir a tout le monde .
+Output: hey tom on my way . EOS
+Target: i try to please everyone . EOS
+
+Epoch: 19, loss: 0.0598
+ Input: SOS desole mais je dois me depecher je n ai pas le temps de rentrer dans les details .
+Output: i watched every possible . EOS
+Target: sorry but i have to hurry . i have no time to explain this in detail . EOS
+
+Epoch: 19, loss: 0.0598
+ Input: SOS je pense qu il est improbable que je sois en mesure de reussir mon examen de conduite .
+Output: i avoid losing of the job . EOS
+Target: i think it s unlikely that i ll be able to pass my driving test . EOS
+
+Epoch: 19, loss: 0.0598
+ Input: SOS je n avais nul endroit ou aller .
+Output: i forgot any money . EOS
+Target: i had no place to go . EOS
+
+Epoch: 19, loss: 0.0598
+ Input: SOS je n ai pas la moindre idee de ce que vous voulez dire .
+Output: . i m calling every . EOS
+Target: i haven t the idea what you mean . EOS
+
+Epoch: 20, loss: 0.0586
+ Input: SOS on est le matin .
+Output: that store cost do . EOS
+Target: it s morning . EOS
+
+Epoch: 20, loss: 0.0586
+ Input: SOS il me faut aller chez moi .
+Output: hey say hello on . EOS
+Target: i ve got to get home . EOS
+
+Epoch: 20, loss: 0.0586
+ Input: SOS quelle bonne surprise !
+Output: ring in my reason ? EOS
+Target: what a happy surprise ! EOS
+
+Epoch: 20, loss: 0.0586
+ Input: SOS je veux savoir ce qui est si amusant .
+Output: mary loves that store . EOS
+Target: i want to know what s so funny . EOS
+
+Epoch: 20, loss: 0.0586
+ Input: SOS etes vous partis a l etranger pour le plaisir ou pour le travail ?
+Output: . one likes that often . EOS
+Target: did you go abroad for pleasure or on business ? EOS
+
+Epoch: 20, loss: 0.0586
+ Input: SOS qu a t elle ?
+Output: . jackson a towel ? EOS
+Target: what does she have ? EOS
+
+Epoch: 21, loss: 0.0580
+ Input: SOS nous ne sommes pas .
+Output: tom likes where he use . EOS
+Target: we re not related . EOS
+
+Epoch: 21, loss: 0.0580
+ Input: SOS de quoi parliez vous tous les deux ? de rien .
+Output: i enjoyed myself at her . EOS
+Target: what were you two talking about ? nothing . EOS
+
+Epoch: 21, loss: 0.0580
+ Input: SOS elle est maigre comme un manche a balai .
+Output: this store belongs to her . EOS
+Target: she is as thin as a broom stick . EOS
+
+Epoch: 21, loss: 0.0580
+ Input: SOS comment puis je te faire comprendre ?
+Output: i dislike his question . EOS
+Target: how can i make you understand ? EOS
+
+Epoch: 21, loss: 0.0580
+ Input: SOS il y avait une bonne entre eux .
+Output: she studies gave you time . EOS
+Target: they had good chemistry . EOS
+
+Epoch: 21, loss: 0.0580
+ Input: SOS que s est il passe apres cela ?
+Output: i depend on her tom . EOS
+Target: what happens after that ? EOS
+
+Epoch: 22, loss: 0.0572
+ Input: SOS ce fut une bonne idee .
+Output: i like the five dollars . EOS
+Target: it was a good idea . EOS
+
+Epoch: 22, loss: 0.0572
+ Input: SOS il est fort en colere .
+Output: are you every student . EOS
+Target: he is very angry . EOS
+
+Epoch: 22, loss: 0.0572
+ Input: SOS pourriez vous baisser la musique s il vous plait ?
+Output: many americans get to it . EOS
+Target: could you turn down the music please ? EOS
+
+Epoch: 22, loss: 0.0572
+ Input: SOS je veux les acheter toutes .
+Output: hey them know an . EOS
+Target: i want to buy them all . EOS
+
+Epoch: 22, loss: 0.0572
+ Input: SOS ne soyez pas si dure avec vous meme .
+Output: who keep it friends . EOS
+Target: don t be so hard on yourself . EOS
+
+Epoch: 22, loss: 0.0572
+ Input: SOS le lac est gele .
+Output: the child s now . EOS
+Target: the lake is frozen . EOS
+
+Epoch: 23, loss: 0.0571
+ Input: SOS vous ne pouvez pas laisser un bebe tout seul .
+Output: pick flowers . EOS
+Target: you can t leave a baby alone . EOS
+
+Epoch: 23, loss: 0.0571
+ Input: SOS je suis arrivee saine et sauve ce matin .
+Output: bring them right . EOS
+Target: i arrived safe and sound this morning . EOS
+
+Epoch: 23, loss: 0.0571
+ Input: SOS attache la corde a l arbre .
+Output: listen carefully . EOS
+Target: fasten the rope to the tree . EOS
+
+Epoch: 23, loss: 0.0571
+ Input: SOS j ai tourne ces images .
+Output: pack her toys . EOS
+Target: i shot this . EOS
+
+Epoch: 23, loss: 0.0571
+ Input: SOS nous sommes tombes d accord .
+Output: the food agreed does . EOS
+Target: we agreed . EOS
+
+Epoch: 23, loss: 0.0571
+ Input: SOS quelle meilleure veine un type peut il avoir ?
+Output: listen carefully are his . EOS
+Target: how lucky can one guy be ? EOS
+
+Epoch: 24, loss: 0.0560
+ Input: SOS je ne te fais pas confiance .
+Output: she assumed full to it . EOS
+Target: i don t trust you . EOS
+
+Epoch: 24, loss: 0.0560
+ Input: SOS nous sommes de bons amis maintenant mais il fut un temps ou nous ne nous pas .
+Output: ignore tom looks . EOS
+Target: we are good friends now but there was a time when we didn t like each other . EOS
+
+Epoch: 24, loss: 0.0560
+ Input: SOS j ai trop de choses dans la tete ces jours ci .
+Output: success depends over . EOS
+Target: i have too many things on my mind these days . EOS
+
+Epoch: 24, loss: 0.0560
+ Input: SOS ce n est pas pour toi .
+Output: who makes mistakes on . EOS
+Target: this is not for you . EOS
+
+Epoch: 24, loss: 0.0560
+ Input: SOS elles l ont juge coupable .
+Output: care to buy him medicine . EOS
+Target: they found him guilty . EOS
+
+Epoch: 24, loss: 0.0560
+ Input: SOS des que j en ai l occasion je viendrai rendre visite .
+Output: who takes you i m not smoke . EOS
+Target: as soon as i can get the chance i ll come for a visit . EOS
+
+Epoch: 25, loss: 0.0548
+ Input: SOS l amour n existe pas .
+Output: everyone walked on i ! EOS
+Target: love doesn t exist . EOS
+
+Epoch: 25, loss: 0.0548
+ Input: SOS donnez la moi .
+Output: everyone talks about this ? EOS
+Target: give it to me ! EOS
+
+Epoch: 25, loss: 0.0548
+ Input: SOS j adore jouer chopin .
+Output: what drives i study ? EOS
+Target: i love playing chopin . EOS
+
+Epoch: 25, loss: 0.0548
+ Input: SOS nous avons tous fait ca .
+Output: hey everyone on the ! EOS
+Target: we ve all done that . EOS
+
+Epoch: 25, loss: 0.0548
+ Input: SOS j adore ma nouvelle classe .
+Output: what happens i dislike doing ? EOS
+Target: i love my new class . EOS
+
+Epoch: 25, loss: 0.0548
+ Input: SOS j espere que tu passeras un joyeux noel .
+Output: everyone got on my or . EOS
+Target: i hope you have a merry christmas . EOS
+
+Epoch: 26, loss: 0.0543
+ Input: SOS l ocean etait calme .
+Output: brush his to you . EOS
+Target: the ocean was calm . EOS
+
+Epoch: 26, loss: 0.0543
+ Input: SOS elles ont dit que tu etais vire .
+Output: the speech i graduated . EOS
+Target: they said you were fired . EOS
+
+Epoch: 26, loss: 0.0543
+ Input: SOS ce n est pas surprenant que tom mal il boit jusqu a douze tasses de cafe par jour .
+Output: remember i a safe . EOS
+Target: it s no wonder tom s sleeping poorly he drinks up to twelve cups of coffee a day . EOS
+
+Epoch: 26, loss: 0.0543
+ Input: SOS notre instituteur souvent son nom sur la liste .
+Output: ignore war . EOS
+Target: our teacher often his name on the list . EOS
+
+Epoch: 26, loss: 0.0543
+ Input: SOS qu a t elle ?
+Output: congratulations her i dislike . EOS
+Target: what does she have ? EOS
+
+Epoch: 26, loss: 0.0543
+ Input: SOS c est un pommier .
+Output: i dislike his idea . EOS
+Target: this is an apple tree . EOS
+
+Epoch: 27, loss: 0.0536
+ Input: SOS c etait vraiment amusant .
+Output: what gives my . EOS
+Target: that s real funny . EOS
+
+Epoch: 27, loss: 0.0536
+ Input: SOS cette semaine j ai plante des pommes de terre .
+Output: do my guide . EOS
+Target: i planted some potatoes this week . EOS
+
+Epoch: 27, loss: 0.0536
+ Input: SOS je compte sur toi pour amener la boisson .
+Output: congratulations ! EOS
+Target: i ll be counting on you to bring the drinks . EOS
+
+Epoch: 27, loss: 0.0536
+ Input: SOS aucun systeme n est parfait .
+Output: who organized . EOS
+Target: no system is perfect . EOS
+
+Epoch: 27, loss: 0.0536
+ Input: SOS c est ce que nous pensions tous .
+Output: consider your . EOS
+Target: that s what we all thought . EOS
+
+Epoch: 27, loss: 0.0536
+ Input: SOS thomas ouvrit la boite avec attention .
+Output: my authority . EOS
+Target: tom carefully opened the box . EOS
+
+Epoch: 28, loss: 0.0536
+ Input: SOS ils ont eu un debat sur le mariage .
+Output: the food goal . EOS
+Target: they had a debate on same sex marriage . EOS
+
+Epoch: 28, loss: 0.0536
+ Input: SOS j avais parfaitement raison .
+Output: hey what to do speak . EOS
+Target: i was absolutely right . EOS
+
+Epoch: 28, loss: 0.0536
+ Input: SOS de quoi veux tu parler ?
+Output: what exactly as i have to handle . EOS
+Target: what do you want to talk about ? EOS
+
+Epoch: 28, loss: 0.0536
+ Input: SOS nous sommes tombes d accord .
+Output: the truth blew now . EOS
+Target: we agreed . EOS
+
+Epoch: 28, loss: 0.0536
+ Input: SOS je ne sais pas si ceci est vrai .
+Output: that child requires out of to say . EOS
+Target: i don t know if this is true . EOS
+
+Epoch: 28, loss: 0.0536
+ Input: SOS vous ne pouvez pas me blesser d avantage .
+Output: the truth lasted like . EOS
+Target: you can t hurt me anymore . EOS
+
+Epoch: 29, loss: 0.0537
+ Input: SOS aucune de nous ne prevoit de s y trouver .
+Output: the concert tickets terrible . EOS
+Target: none of us plan on being there . EOS
+
+Epoch: 29, loss: 0.0537
+ Input: SOS tom le refrigerateur .
+Output: the concert i became busy . EOS
+Target: tom opened the fridge . EOS
+
+Epoch: 29, loss: 0.0537
+ Input: SOS demande lui quand part le prochain vol !
+Output: remember seeing on some . EOS
+Target: ask him when the next plane leaves . EOS
+
+Epoch: 29, loss: 0.0537
+ Input: SOS nous sommes enfin seules .
+Output: the concert tickets terrible . EOS
+Target: the two of us are finally alone . EOS
+
+Epoch: 29, loss: 0.0537
+ Input: SOS quel age as tu ? seize ans .
+Output: the clock i grow better . EOS
+Target: how old are you ? i m years old . EOS
+
+Epoch: 29, loss: 0.0537
+ Input: SOS elle m a soudainement embrassee .
+Output: trust where he got . EOS
+Target: she suddenly kissed me . EOS
+
+Epoch: 30, loss: 0.0532
+ Input: SOS il y a un message urgent pour vous .
+Output: do this one enjoy . EOS
+Target: there is an urgent message for you . EOS
+
+Epoch: 30, loss: 0.0532
+ Input: SOS ca a l air excitant .
+Output: do this telephone number . EOS
+Target: that sounds exciting . EOS
+
+Epoch: 30, loss: 0.0532
+ Input: SOS il porte une de ses chaussettes a l envers .
+Output: i risked writing . EOS
+Target: he had one of his socks on inside out . EOS
+
+Epoch: 30, loss: 0.0532
+ Input: SOS le roi s est .
+Output: now i question wrong . EOS
+Target: the king got . EOS
+
+Epoch: 30, loss: 0.0532
+ Input: SOS je sais que tom sera .
+Output: what street do tom out of . EOS
+Target: i know tom will be supportive . EOS
+
+Epoch: 30, loss: 0.0532
+ Input: SOS y a t il une raison quelconque pour ne pas y aller ?
+Output: what i use in advance . EOS
+Target: is there any reason not to go ? EOS
+
+Epoch: 31, loss: 0.0523
+ Input: SOS ne vous pas tant !
+Output: he watched them written . EOS
+Target: don t get too excited . EOS
+
+Epoch: 31, loss: 0.0523
+ Input: SOS vous vous amusez bien ?
+Output: i studied hard buying me . EOS
+Target: are you having fun ? EOS
+
+Epoch: 31, loss: 0.0523
+ Input: SOS tom est l homme le plus grand que je connaisse .
+Output: a relationship among anyone . EOS
+Target: tom is the tallest man i know . EOS
+
+Epoch: 31, loss: 0.0523
+ Input: SOS quel age penses tu qu elle ait ?
+Output: our song has fun . EOS
+Target: how old do you think she is ? EOS
+
+Epoch: 31, loss: 0.0523
+ Input: SOS il possede beaucoup de terre .
+Output: the clock happened he lacks you . EOS
+Target: he owns a lot of land . EOS
+
+Epoch: 31, loss: 0.0523
+ Input: SOS elle l a .
+Output: my lady stayed means . EOS
+Target: she tempted him . EOS
+
+Epoch: 32, loss: 0.0532
+ Input: SOS je suis desole d avoir ete dans l incapacite d etre la pour vous comme j aurais du l etre .
+Output: the to save money isn t . EOS
+Target: i m sorry that i haven t been able to be here for you like i should have been . EOS
+
+Epoch: 32, loss: 0.0532
+ Input: SOS tom se sentait trahi .
+Output: money to the . EOS
+Target: tom felt betrayed . EOS
+
+Epoch: 32, loss: 0.0532
+ Input: SOS cours vite .
+Output: money to the . EOS
+Target: he runs fast . EOS
+
+Epoch: 32, loss: 0.0532
+ Input: SOS laisse moi prendre ton manteau .
+Output: try the head for . EOS
+Target: let me take your coat . EOS
+
+Epoch: 32, loss: 0.0532
+ Input: SOS j ignore comment te rendre heureuse .
+Output: money to the country . EOS
+Target: i don t know how to make you happy . EOS
+
+Epoch: 32, loss: 0.0532
+ Input: SOS harvard est une bonne universite .
+Output: luck is upstairs . EOS
+Target: harvard is a good university . EOS
+
+Epoch: 33, loss: 0.0525
+ Input: SOS ne mange pas entre les repas .
+Output: my sister got off . EOS
+Target: don t eat between meals . EOS
+
+Epoch: 33, loss: 0.0525
+ Input: SOS je dois te quitter .
+Output: the committee recommended she say . EOS
+Target: i have to leave you . EOS
+
+Epoch: 33, loss: 0.0525
+ Input: SOS nous en avons besoin de trois de plus .
+Output: the teacher recommended any . EOS
+Target: we need three more of these . EOS
+
+Epoch: 33, loss: 0.0525
+ Input: SOS nous sommes prepares au pire .
+Output: whatever comes to her . EOS
+Target: we re prepared for the worst . EOS
+
+Epoch: 33, loss: 0.0525
+ Input: SOS c est ce que je voulais .
+Output: the truth i lost is somewhere . EOS
+Target: that s what i wanted . EOS
+
+Epoch: 33, loss: 0.0525
+ Input: SOS j aime votre cravate .
+Output: the clock was working . EOS
+Target: i like that tie of yours . EOS
+
+Epoch: 34, loss: 0.0525
+ Input: SOS je ne sais rien de leur plan .
+Output: care about becoming problems ? EOS
+Target: i don t know anything about their plan . EOS
+
+Epoch: 34, loss: 0.0525
+ Input: SOS fais nous un peu de place !
+Output: feed them by telephone number about . EOS
+Target: give us a little space . EOS
+
+Epoch: 34, loss: 0.0525
+ Input: SOS quand je me suis reveille il faisait encore noir dehors .
+Output: draw car later on . EOS
+Target: when i woke up it was still dark outside . EOS
+
+Epoch: 34, loss: 0.0525
+ Input: SOS on le connait tous bien .
+Output: care about this ourselves . EOS
+Target: all of us know him well . EOS
+
+Epoch: 34, loss: 0.0525
+ Input: SOS tom n est pas ton frere .
+Output: mother sells fun . EOS
+Target: tom isn t your brother . EOS
+
+Epoch: 34, loss: 0.0525
+ Input: SOS un livre est pose sur le bureau .
+Output: enjoy them . EOS
+Target: a book is lying on the desk . EOS
+
+Epoch: 35, loss: 0.0521
+ Input: SOS nous avons toutes saute dans l eau au meme moment .
+Output: . jackson today . EOS
+Target: we all jumped into the water at the same time . EOS
+
+Epoch: 35, loss: 0.0521
+ Input: SOS j en ai vraiment marre de cette chaleur .
+Output: do his best fishing . EOS
+Target: i m really fed up with this heat . EOS
+
+Epoch: 35, loss: 0.0521
+ Input: SOS il est moins impatient que son pere .
+Output: eat with tourists . EOS
+Target: he is less impatient than his father . EOS
+
+Epoch: 35, loss: 0.0521
+ Input: SOS fais tout ce qu il faut pour que le travail soit acheve !
+Output: they scolded his help . EOS
+Target: do whatever it takes to get the job done . EOS
+
+Epoch: 35, loss: 0.0521
+ Input: SOS soyez honnete .
+Output: hey everyone . EOS
+Target: be honest . EOS
+
+Epoch: 35, loss: 0.0521
+ Input: SOS tom a melange les cartes .
+Output: . jackson today . EOS
+Target: tom the cards . EOS
+

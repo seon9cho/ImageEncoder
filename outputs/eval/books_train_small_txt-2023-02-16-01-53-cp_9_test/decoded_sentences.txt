@@ -1,0 +1,1600 @@
+Sentence number 0
+Input sentence: 
+get the bags from the car , rogers . EOS
+
+Greedy decode output: 
+get the car from the bags , tablet . EOS
+
+Beam search outputs: 
+get the car from the bags , tablet . EOS
+get the car from the bags , sling . EOS
+get the car from the bags , dunk . EOS
+get the car from the dresser , ya . EOS
+get the car from the dresser , ya well . EOS
+
+
+
+Sentence number 1
+Input sentence: 
+he based that on the number of times a cell could divide . EOS
+
+Greedy decode output: 
+he on that page the years of answering a force would sell youth . EOS
+
+Beam search outputs: 
+he regained that number on the force of a student who lay . EOS
+he regained that number on the force of a student can be painted . EOS
+he regained that number on the force of a student ca nt grow . EOS
+he regained that number on the force of a student can be stained . EOS
+he regained that number on the force of a few people can be drill . EOS
+
+
+
+Sentence number 2
+Input sentence: 
+well , maybe this once . EOS
+
+Greedy decode output: 
+well , maybe this once . EOS
+
+Beam search outputs: 
+well , maybe this once . EOS
+well , maybe this time . EOS
+well , maybe once this . EOS
+well , maybe this time once . EOS
+well , maybe this afternoon . EOS
+
+
+
+Sentence number 3
+Input sentence: 
+i m just a newcomer in town with an interest in poetry . EOS
+
+Greedy decode output: 
+i m just in a town with an illegal trouble degree . EOS
+
+Beam search outputs: 
+i m just in a business relationship with an elephant backyard . EOS
+i m just in a business relationship with an elephant shore . EOS
+i m just in a business relationship with an oak reader . EOS
+i m just in a business relationship with an elephant in backyard . EOS
+i m just in a business relationship with an elephant in port . EOS
+
+
+
+Sentence number 4
+Input sentence: 
+she tucked him back into his pants and snuggled up against his chest . EOS
+
+Greedy decode output: 
+she tucked him back into his pants and snuggled up against his chest . EOS
+
+Beam search outputs: 
+she tucked him back into his pants and snuggled up against his chest . EOS
+she tucked him back into his shirt and snuggled up against his knees . EOS
+she tucked him back into his pants and snuggled back up against his chest . EOS
+she tucked him back into his pants and snuggled up against his arms . EOS
+she tucked him back into his tight pants and snuggled up against his feet . EOS
+
+
+
+Sentence number 5
+Input sentence: 
+ill just wait awhile . EOS
+
+Greedy decode output: 
+ill just wait awhile . EOS
+
+Beam search outputs: 
+ill just wait awhile . EOS
+just ill wait awhile . EOS
+ill wait just awhile . EOS
+wait ill just awhile . EOS
+ill just do nervous carefully . EOS
+
+
+
+Sentence number 6
+Input sentence: 
+see that you do not , she muttered to him . EOS
+
+Greedy decode output: 
+see that you do not , she muttered to him . EOS
+
+Beam search outputs: 
+see that you do not , she muttered to him . EOS
+see that you not do , she muttered to him . EOS
+do that see you not , she muttered to him . EOS
+do that you see not , she muttered to him . EOS
+see that you do not , she growled to him . EOS
+
+
+
+Sentence number 7
+Input sentence: 
+oh , there are some things i can work with them on . EOS
+
+Greedy decode output: 
+oh , there are some things i can work with them on . EOS
+
+Beam search outputs: 
+oh , there are some things i can work with them on . EOS
+oh , there are some things i can work on with them . EOS
+oh , there are some things i can work with on them . EOS
+oh , there are some way i can work with people on me . EOS
+oh , there are some way i can work with people on . EOS
+
+
+
+Sentence number 8
+Input sentence: 
+good god , me neither . EOS
+
+Greedy decode output: 
+good god , me neither . EOS
+
+Beam search outputs: 
+good god , me neither . EOS
+good god , neither me . EOS
+god good , me neither . EOS
+god good , neither me . EOS
+good god , me no neither . EOS
+
+
+
+Sentence number 9
+Input sentence: 
+were the chickens still inside ? EOS
+
+Greedy decode output: 
+were the instruments still inside ? EOS
+
+Beam search outputs: 
+were the instruments still inside ? EOS
+were the barracks still inside ? EOS
+were the instruments still together ? EOS
+were the instruments still here ? EOS
+were the instruments still here in ? EOS
+
+
+
+Sentence number 10
+Input sentence: 
+did you tell him no ? EOS
+
+Greedy decode output: 
+did you tell him no ? EOS
+
+Beam search outputs: 
+did you tell him no ? EOS
+you did tell him no ? EOS
+do you had him tell no ? EOS
+did you told him no tell ? EOS
+did you tell him no more ? EOS
+
+
+
+Sentence number 11
+Input sentence: 
+she would nt have a reason not to be . EOS
+
+Greedy decode output: 
+she would nt have a reason not to be . EOS
+
+Beam search outputs: 
+she would nt have a reason not to be . EOS
+she would nt have not a reason to be . EOS
+she would nt not have a reason to be . EOS
+she would nt have a reason to not be . EOS
+she would nt have been a reason not to . EOS
+
+
+
+Sentence number 12
+Input sentence: 
+then , with a swipe of her fist , she knocked him out cold . EOS
+
+Greedy decode output: 
+then , with a fist of her hair , she knocked him through hard . EOS
+
+Beam search outputs: 
+then , with a twist of her hair , she knocked him backwards through me . EOS
+then , with a twist of her hair , she knocked him awake . EOS
+then , with a twist of her hair , she knocked him awake into heart . EOS
+then , with a twist of her hair , she knocked him backwards through world . EOS
+then , with a twist of her hair , she knocked him backwards through mine . EOS
+
+
+
+Sentence number 13
+Input sentence: 
+what can i get you tonight , beautiful ? EOS
+
+Greedy decode output: 
+what can i get you beautiful tonight , ? EOS
+
+Beam search outputs: 
+what can i get you beautiful tonight , ? EOS
+what can i get you tonight , beautiful ? EOS
+what can i get you alive , good tonight ? EOS
+what can i get you here , beautiful tonight ? EOS
+what can i get you special , night yours ? EOS
+
+
+
+Sentence number 14
+Input sentence: 
+then she continued as calmly as she could . EOS
+
+Greedy decode output: 
+then she continued as calmly as she could . EOS
+
+Beam search outputs: 
+then she continued as calmly as she could . EOS
+then she continued calmly as as she could . EOS
+then she continued calmly as she could as . EOS
+then she continued calmly as she could . EOS
+then she waited as calmly as she still wanted . EOS
+
+
+
+Sentence number 15
+Input sentence: 
+and how did you acquire this information ? EOS
+
+Greedy decode output: 
+and how did you leaving this knowledge clearly ? EOS
+
+Beam search outputs: 
+and how did you translate this information ? EOS
+and how did you define this information ? EOS
+and how did you define this information . EOS
+and how did you translate this information . EOS
+and how did you friend get this destroyed ? EOS
+
+
+
+Sentence number 16
+Input sentence: 
+i do nt believe we ve met , he said . EOS
+
+Greedy decode output: 
+i do nt believe we ve met , he said . EOS
+
+Beam search outputs: 
+i do nt believe we ve met , he said . EOS
+i do nt believe they ve met , i said . EOS
+i do nt believe we ve met , he says . EOS
+i do nt believe we ve touched , he said . EOS
+i do nt believe we ve met , said he . EOS
+
+
+
+Sentence number 17
+Input sentence: 
+his eyes bulge like grapes . EOS
+
+Greedy decode output: 
+his eyes twinkle like well . EOS
+
+Beam search outputs: 
+his eyes soften like snakes . EOS
+his eyes soften like spiders . EOS
+his eyes soften like petals . EOS
+his eyes soften like rug . EOS
+his eyes soften like ink . EOS
+
+
+
+Sentence number 18
+Input sentence: 
+i m through . EOS
+
+Greedy decode output: 
+i m through . EOS
+
+Beam search outputs: 
+i m through . EOS
+i re through . EOS
+i is through . EOS
+i s through . EOS
+i m through . . EOS
+
+
+
+Sentence number 19
+Input sentence: 
+sure , i replied softly . EOS
+
+Greedy decode output: 
+sure , i replied softly . EOS
+
+Beam search outputs: 
+sure , i replied softly . EOS
+sure , i softly replied . EOS
+sure , i murmured softly . EOS
+sure , i replied quietly . EOS
+sure , i replied gently . EOS
+
+
+
+Sentence number 20
+Input sentence: 
+you re sorry ? EOS
+
+Greedy decode output: 
+you re sorry ? EOS
+
+Beam search outputs: 
+you re sorry ? EOS
+you m sorry ? EOS
+you s sorry ? EOS
+you re hard ? EOS
+you re time ? EOS
+
+
+
+Sentence number 21
+Input sentence: 
+miles blinked and they were sure that he had completely forgotten about the pig . EOS
+
+Greedy decode output: 
+they looked completely lost and stunned that was about billy but my house . EOS
+
+Beam search outputs: 
+they looked completely lost and stunned that was about billy but my house . EOS
+they looked completely lost and stunned about that billy was but it had the house . EOS
+they looked completely lost and stunned about that billy was the house but it had . EOS
+they looked completely lost and stunned about that billy was but it had the room . EOS
+they looked completely lost and stunned about that billy was the house but it . EOS
+
+
+
+Sentence number 22
+Input sentence: 
+mister wolf asked bluntly . EOS
+
+Greedy decode output: 
+wolf asked mister gale . EOS
+
+Beam search outputs: 
+mister wolf asked huskily . EOS
+mister wolf asked enthusiastically . EOS
+mister wolf asked nonchalantly . EOS
+mister wolf asked mischievously . EOS
+killer asked cheerfully quietly . EOS
+
+
+
+Sentence number 23
+Input sentence: 
+the only game . EOS
+
+Greedy decode output: 
+the only game . EOS
+
+Beam search outputs: 
+the only game . EOS
+the game only . EOS
+only the game . EOS
+the only lunch . EOS
+the only round . EOS
+
+
+
+Sentence number 24
+Input sentence: 
+her head throbbed harder . EOS
+
+Greedy decode output: 
+her head throbbed harder . EOS
+
+Beam search outputs: 
+her head throbbed harder . EOS
+her head leapt harder . EOS
+her head ceased harder . EOS
+her head gazed harder . EOS
+my head throbbed harder herself . EOS
+
+
+
+Sentence number 25
+Input sentence: 
+they say she fell from the upstairs window . EOS
+
+Greedy decode output: 
+they say she fell from the window upstairs . EOS
+
+Beam search outputs: 
+they say she fell from the window upstairs . EOS
+they say she fell from the upstairs window . EOS
+they say she fell from the room window upstairs . EOS
+they say she fell from the stairs room . EOS
+they say she fell from the bathroom upstairs . EOS
+
+
+
+Sentence number 26
+Input sentence: 
+his smile did nt falter . EOS
+
+Greedy decode output: 
+his smile did nt waver . EOS
+
+Beam search outputs: 
+his smile did nt waver . EOS
+his smile did nt comply . EOS
+his smile did nt translate . EOS
+his smile did nt suppress . EOS
+his smile did nt plead . EOS
+
+
+
+Sentence number 27
+Input sentence: 
+all the great ones looked in from the outside . EOS
+
+Greedy decode output: 
+all the great ones in the village began from gone . EOS
+
+Beam search outputs: 
+all the great ones looked in from the outside . EOS
+all the great ones looked into in the outside . EOS
+all the great ones looked into in the darkness . EOS
+all the great ones looked into in the near . EOS
+all the great ones in the village began from gone . EOS
+
+
+
+Sentence number 28
+Input sentence: 
+i believe it for you . EOS
+
+Greedy decode output: 
+i believe it for you . EOS
+
+Beam search outputs: 
+i believe it for you . EOS
+i believe for it you . EOS
+it i believe for you . EOS
+i believe it you for . EOS
+i believe it for you . . EOS
+
+
+
+Sentence number 29
+Input sentence: 
+i pull back , landing a blow that sends blood to the mat . EOS
+
+Greedy decode output: 
+i pull back , yanking a blow that runs to the sea cat . EOS
+
+Beam search outputs: 
+i pull back , yanking a blow that runs to the sea cat . EOS
+i pull back , yanking a blow that runs to the black cage . EOS
+i pull back , yanking a blow that comes to the black cage . EOS
+i pull back , ripping a blow that comes to the sea cat . EOS
+i pull back , yanking a blow that runs to the sea cage . EOS
+
+
+
+Sentence number 30
+Input sentence: 
+you are the father of self destruction and soon you give birth to your own . EOS
+
+Greedy decode output: 
+you are the best lord of you and finding someone further protected by your mate . EOS
+
+Beam search outputs: 
+you are the best lord of children and i find myself committed aid . EOS
+you are the best lord of children and i find myself committed protection . EOS
+you are the best lord of children and i find you committed some power . EOS
+you are the best lord of protecting you and now risk your own children to escape . EOS
+you are the best lord of protecting you and now risk your own children to burn . EOS
+
+
+
+Sentence number 31
+Input sentence: 
+the closest she had was her herd of cats . EOS
+
+Greedy decode output: 
+the closest she had was her cats of her barracks . EOS
+
+Beam search outputs: 
+the crowd she had was closest of her education . EOS
+the crowd she had was closest of her rice . EOS
+the crowd she had was closest of her contacts . EOS
+the crowd she had was closest of her cereal her . EOS
+the crowd she had was closest of her cow her . EOS
+
+
+
+Sentence number 32
+Input sentence: 
+come back to bed , babe . EOS
+
+Greedy decode output: 
+come back to bed , babe . EOS
+
+Beam search outputs: 
+come back to bed , babe . EOS
+come back to bed , pill . EOS
+come back to bed , pie . EOS
+come back to bed , soap . EOS
+come back to bed , sweetheart . EOS
+
+
+
+Sentence number 33
+Input sentence: 
+i shoved them into the toilet until it was stuffed . EOS
+
+Greedy decode output: 
+i shoved them into the plastic until it was stuffed seats . EOS
+
+Beam search outputs: 
+i shoved them into the toilet until it was stuffed . EOS
+i shoved them into the plastic until it was stuffed seats . EOS
+i shoved them into the sink until it was arranged . EOS
+i shoved them into the wrap until it was toilet . EOS
+i shoved them into the plastic wrap until it was reported . EOS
+
+
+
+Sentence number 34
+Input sentence: 
+his dipped down . EOS
+
+Greedy decode output: 
+his dipped down . EOS
+
+Beam search outputs: 
+his dipped down . EOS
+his dripping down . EOS
+his down dipped . EOS
+his bounced down . EOS
+his bent down echoed . EOS
+
+
+
+Sentence number 35
+Input sentence: 
+his eyelids descended a little , stare looking dead . EOS
+
+Greedy decode output: 
+his eyelids rounded a little , obviously searching coming . EOS
+
+Beam search outputs: 
+his breathing creaked a little , leaving students wide . EOS
+his eyelids rounded a little , obviously searching coming . EOS
+his eyelids rounded a little , obviously searching rising . EOS
+his breathing creaked a little , neither pacing have slipped . EOS
+his eyelids rounded a little , obviously searching coming easy . EOS
+
+
+
+Sentence number 36
+Input sentence: 
+i ll go get the other drinks , i said smiling as i turned back toward the kitchen . EOS
+
+Greedy decode output: 
+i ll go get the other plate , i said as i walked back toward the tea meeting . EOS
+
+Beam search outputs: 
+i ll go get the other evening , i said as i leaned back toward the waitress . EOS
+i ll go get the other drinks , i said as i walked back toward the kitchen smiling . EOS
+i ll go get the other drinks , i said as i turned back toward the smiling kitchen . EOS
+i ll go get the other drinks , i said as i walked back toward the kitchen . EOS
+i ll go get the other drinks , i said as i walked back toward the kitchen table . EOS
+
+
+
+Sentence number 37
+Input sentence: 
+if i am to train you , you re going to have to trust me . EOS
+
+Greedy decode output: 
+if you are to train , i m going to have to trust me i . EOS
+
+Beam search outputs: 
+if i am to train you , you re going to have to trust me . EOS
+if you are to train , i m going to have to trust me i . EOS
+if you are to train , i m going to have to trust me . EOS
+if you are to train , i m going to trust me i have to . EOS
+if you are to train , i m going to have to trust me i was . EOS
+
+
+
+Sentence number 38
+Input sentence: 
+jazz s door was closed . EOS
+
+Greedy decode output: 
+jazz s door was closed . EOS
+
+Beam search outputs: 
+jazz s door was closed . EOS
+jazz s door was empty . EOS
+jazz s door was close . EOS
+gemma s door was broad . EOS
+gemma s window was it all over . EOS
+
+
+
+Sentence number 39
+Input sentence: 
+he cheated on me with other women while we were married . EOS
+
+Greedy decode output: 
+he dated on me after other kids we went with harm . EOS
+
+Beam search outputs: 
+he cheated on me with other women while we were married . EOS
+he cheated on me other women with while we were married . EOS
+he dated on me after other kids we went with harm . EOS
+he related on me with other kids while we were silly women . EOS
+he related on me with other kids while we were silly . EOS
+
+
+
+Sentence number 40
+Input sentence: 
+he stayed completely still for the next moment . EOS
+
+Greedy decode output: 
+he stayed completely still for the next moment . EOS
+
+Beam search outputs: 
+he stayed completely still for the next moment . EOS
+he stayed completely for still the next moment . EOS
+he stayed completely still for the moment next . EOS
+he stayed completely alone for still the next . EOS
+he stayed completely still for the next time . EOS
+
+
+
+Sentence number 41
+Input sentence: 
+they are young boys , aged eight years and seven . EOS
+
+Greedy decode output: 
+they are seven years old , young , and aged boys . EOS
+
+Beam search outputs: 
+they are seven years young , eight boys , and aged . EOS
+they are seven years old , young , lawn and eight . EOS
+they are seven years old , young , and aged boys . EOS
+they are seven years older , five people and moms wide . EOS
+they are seven years young , eight boys , and traveling . EOS
+
+
+
+Sentence number 42
+Input sentence: 
+he needed to touch her . EOS
+
+Greedy decode output: 
+he needed to touch her . EOS
+
+Beam search outputs: 
+he needed to touch her . EOS
+he need to touch her . EOS
+he began to need her touch . EOS
+he needed to touch her to . EOS
+he needed to comfort her touch . EOS
+
+
+
+Sentence number 43
+Input sentence: 
+god , i wish i could just ride away from all of this shit . EOS
+
+Greedy decode output: 
+god , i wish i could just ride away from all of this shit . EOS
+
+Beam search outputs: 
+god , i wish i could just ride away from all of this shit . EOS
+god , i wish i could just wash away from all of this kid . EOS
+god , i wish i could just ride all away from this shit of . EOS
+god , i wish i could just wash away from all of this girls . EOS
+god , i wish i could just wash away from all of this game . EOS
+
+
+
+Sentence number 44
+Input sentence: 
+i think we spent an hour in that section alone . EOS
+
+Greedy decode output: 
+i think we spent an hour in that section alone . EOS
+
+Beam search outputs: 
+i think we spent an hour in that section alone . EOS
+i think we spent an hour alone in that section . EOS
+i think we spent an hour in that section together . EOS
+i think we spent an hour in that woods section . EOS
+i think we spent an hour together in that section . EOS
+
+
+
+Sentence number 45
+Input sentence: 
+frankly , i m not interested in hearing any explanations . EOS
+
+Greedy decode output: 
+frankly , i m not interested in hearing any seriousness . EOS
+
+Beam search outputs: 
+frankly , i m not interested in hearing any seriousness . EOS
+frankly , i m not interested in hearing any explanations . EOS
+frankly , i m not interested in hearing any standards . EOS
+frankly , i m not interested in hearing any salvation . EOS
+frankly , i m not interested in hearing any sentences . EOS
+
+
+
+Sentence number 46
+Input sentence: 
+a flock of yellow and blue birds flew and he ducked as they swarmed over his head . EOS
+
+Greedy decode output: 
+a cloud of green and blue windows gleamed as he approached and regained himself in the studio . EOS
+
+Beam search outputs: 
+a cloud of green and blue windows flickered as he neared and carried himself out into the pub . EOS
+a cloud of green and blue windows flickered as he neared and carried himself out of the pub . EOS
+a cloud of green and blue windows flickered as he neared and carried himself out in the pub . EOS
+a cloud of green and blue windows flickered as he neared and carried himself out of the dorm . EOS
+a cloud of green and blue windows flickered as he neared and carried himself out of the studio . EOS
+
+
+
+Sentence number 47
+Input sentence: 
+i sat next to her , glass in hand , sipped , and took it all in . EOS
+
+Greedy decode output: 
+i stood next to her , play in hand , and then set , wiping it ill . EOS
+
+Beam search outputs: 
+i sat next to her , sipped in hand , and took it glass , all . EOS
+i sat next to her , sipped in hand , and took it , glass in all . EOS
+i sat next to her , sipped in hand , and took it glass , all in . EOS
+i sat next to her , sipped in hand , and took it , glass all . EOS
+i sat next to her , sipped in hand , and took it , glass all in . EOS
+
+
+
+Sentence number 48
+Input sentence: 
+how are the two even connected ? EOS
+
+Greedy decode output: 
+how are the two even connected ? EOS
+
+Beam search outputs: 
+how are the two even connected ? EOS
+how am the two even connected ? EOS
+how are the contact with two people ? EOS
+how are the contact with two dead ? EOS
+how are the contact with two blue ? EOS
+
+
+
+Sentence number 49
+Input sentence: 
+i understood it before but not in the same way . EOS
+
+Greedy decode output: 
+i understood it before but not in the same way . EOS
+
+Beam search outputs: 
+i understood it before but not in the same way . EOS
+i understood it as if or not by the same way . EOS
+i understood it as if or not by the whole way . EOS
+i understood it as if or not under the same way . EOS
+i understood it because from in the same way as anything . EOS
+
+
+
+Sentence number 50
+Input sentence: 
+below those already uncovered , she could now read a few more words . EOS
+
+Greedy decode output: 
+once those few moments left , she could actually catch them from under some amazing . EOS
+
+Beam search outputs: 
+those few moments now , she could barely see each taking them off a picture . EOS
+those few moments now , she could barely see each taking them off a pattern . EOS
+those few moments now , she could barely see each taking them off a plant . EOS
+those few moments now , she could barely see each taking them off a twin . EOS
+those few moments now , she could barely see each taking me off a plant . EOS
+
+
+
+Sentence number 51
+Input sentence: 
+they re just my type . EOS
+
+Greedy decode output: 
+they re just my type . EOS
+
+Beam search outputs: 
+they re just my type . EOS
+they m just my type . EOS
+they s just my type . EOS
+they re just my friend . EOS
+they re just my pictures . EOS
+
+
+
+Sentence number 52
+Input sentence: 
+this burger is better than i remember . EOS
+
+Greedy decode output: 
+this nap is because i remember sister . EOS
+
+Beam search outputs: 
+this errand is better than i remember . EOS
+this rebel is better than i guess . EOS
+this nap is because i remember sister . EOS
+this errand is better than i slept . EOS
+this rebel is better than i mention . EOS
+
+
+
+Sentence number 53
+Input sentence: 
+you better get a file on this broad . EOS
+
+Greedy decode output: 
+you better get a broad file on this . EOS
+
+Beam search outputs: 
+you better get a broad file on this . EOS
+you better get a broad on this file . EOS
+you get a better broad on this file . EOS
+you better get a neat on this guard . EOS
+you better get a expert on this wall . EOS
+
+
+
+Sentence number 54
+Input sentence: 
+i looked to my left where the voice had come from . EOS
+
+Greedy decode output: 
+i looked to my left where the voice had come from . EOS
+
+Beam search outputs: 
+i looked to my left where the voice had come from . EOS
+i looked to where my voice had left the come from . EOS
+i looked to my left voice where the had come from . EOS
+i looked to where my voice had left the gone from . EOS
+i looked to where my left voice had the come from . EOS
+
+
+
+Sentence number 55
+Input sentence: 
+this is their welcoming gig for smith . EOS
+
+Greedy decode output: 
+this is their ruthless bat for go avoided . EOS
+
+Beam search outputs: 
+this is their ruthless spook for serving . EOS
+this is their ruthless bat for explaining . EOS
+this is their critical for teddy pause . EOS
+this is their ruthless bat for go avoided . EOS
+this is their ruthless drill for heather . EOS
+
+
+
+Sentence number 56
+Input sentence: 
+and that he got . EOS
+
+Greedy decode output: 
+and that he got . EOS
+
+Beam search outputs: 
+and that he got . EOS
+that and he got . EOS
+and he got that . EOS
+and that got he . EOS
+and that he get . EOS
+
+
+
+Sentence number 57
+Input sentence: 
+it was why i had made the deal with the shaman . EOS
+
+Greedy decode output: 
+it was why i had made the deal with the faerie . EOS
+
+Beam search outputs: 
+it was why i had made the deal with the faerie . EOS
+it was why i had made the deal with the seer . EOS
+it was why i had made the deal with the plague . EOS
+it was why i had made the deal with the granddaughter . EOS
+it was why i had made the deal with the legion . EOS
+
+
+
+Sentence number 58
+Input sentence: 
+lost in thought about landscape painting , i did nt see the man next to me until he spoke . EOS
+
+Greedy decode output: 
+in fact what i noticed about those glasses , had to be gently curled up in the sun to my life . EOS
+
+Beam search outputs: 
+in fact what he saw over my glasses , trying to bear might have entered all the hours . EOS
+in fact what he saw over my glasses , trying to bear might have entered all the times like . EOS
+in fact what he saw over my glasses , trying to bear might have entered all the sky . EOS
+in fact what he saw over my glasses , trying to bear might have entered all the times . EOS
+in fact what he saw over my glasses , trying to bear might have entered all the sky like . EOS
+
+
+
+Sentence number 59
+Input sentence: 
+yes , i believe she had all the brilliance of our polish ancestors in her veins . EOS
+
+Greedy decode output: 
+yes , i believe she had all the types of magic in the legion s hands . EOS
+
+Beam search outputs: 
+yes , i believe she had all the types of magic in the legion onto them . EOS
+yes , i believe she had all the types of magic in the legion s hands . EOS
+yes , i believe she had all the types of magic in the legion onto them both . EOS
+yes , i believe she had all the types of magic in the legion s eyes . EOS
+yes , i believe she had all the types of magic in the legion onto them a frenzy . EOS
+
+
+
+Sentence number 60
+Input sentence: 
+i i do nt understand . EOS
+
+Greedy decode output: 
+i i do nt understand . EOS
+
+Beam search outputs: 
+i i do nt understand . EOS
+i i understand i do nt . EOS
+i i i do nt understand . EOS
+i understand i do nt . EOS
+i i understand do nt . EOS
+
+
+
+Sentence number 61
+Input sentence: 
+you were pretty awesome today . EOS
+
+Greedy decode output: 
+you were pretty awesome today . EOS
+
+Beam search outputs: 
+you were pretty awesome today . EOS
+you were awesome pretty today . EOS
+you were pretty awesome here . EOS
+you are pretty awesome today . EOS
+you are pretty awesome had today . EOS
+
+
+
+Sentence number 62
+Input sentence: 
+i just wish i could go with you . EOS
+
+Greedy decode output: 
+i just wish i could go with you . EOS
+
+Beam search outputs: 
+i just wish i could go with you . EOS
+i just wish i could live with you . EOS
+i just wish i could with you go . EOS
+i just wish i could come with you . EOS
+i just wish i could take you with . EOS
+
+
+
+Sentence number 63
+Input sentence: 
+i think i think i want to get my real estate license . EOS
+
+Greedy decode output: 
+i think i think i want to get my real license shopping . EOS
+
+Beam search outputs: 
+i think i think i want to get my real estate license . EOS
+i think i think i want to get my real license shopping . EOS
+i think i think i want to get my real license estate . EOS
+i think i think i want to get my real shopping license . EOS
+i think i think i want to get my research real estate number . EOS
+
+
+
+Sentence number 64
+Input sentence: 
+they disappeared up the drive . EOS
+
+Greedy decode output: 
+they disappeared up the drive . EOS
+
+Beam search outputs: 
+they disappeared up the drive . EOS
+they disappeared up the road . EOS
+they disappeared up the hallway . EOS
+they disappeared up the hospital . EOS
+they disappeared up the walk . EOS
+
+
+
+Sentence number 65
+Input sentence: 
+to the left and right of their path , they passed one curving row after the other of . EOS
+
+Greedy decode output: 
+to the left and one of their right , they passed by the main path of transport directly . EOS
+
+Beam search outputs: 
+to the left and most of their right , they passed by one side until an oak aim . EOS
+to the left and most of their right , they passed until one of the main stairway extended . EOS
+to the left and most of their right , they passed by one side until an extended drive . EOS
+to the left and most of their right , they passed by one side until an oak interview . EOS
+to the left and most of their right , they passed until one of the main stairway joined . EOS
+
+
+
+Sentence number 66
+Input sentence: 
+little v , did you hear what this worn out boot warmer said ? EOS
+
+Greedy decode output: 
+little fish , did you let out this particular gravel noise above us ? EOS
+
+Beam search outputs: 
+little fish , did you let out anything that happened the central style ? EOS
+little fish , did you let out anything that happened the outer wood ? EOS
+little fish , did you let out anything that happened beneath the modern treatment ? EOS
+little fish , did you let out anything that happened the modern wood ? EOS
+little fish , did you let out anything that happened the modern tunnel ? EOS
+
+
+
+Sentence number 67
+Input sentence: 
+three men crowded in the passageway outside , holding aloft torches , their backs to her . EOS
+
+Greedy decode output: 
+three men locked in the backyard , pausing near their open skirts to clear her eyes . EOS
+
+Beam search outputs: 
+three men lying in the backyard , stepping outside to lift their identical circles . EOS
+three men lying in the backyard , stepping outside to avoid their curly lashes . EOS
+three men lying in the backyard , stepping outside to avoid their curly lashes closed . EOS
+three men locked in the backyard , pausing outside their backs to face them . EOS
+three men locked in the backyard , pausing outside their backs to face them in fluid . EOS
+
+
+
+Sentence number 68
+Input sentence: 
+so they save me so that i can perish out here . EOS
+
+Greedy decode output: 
+so they save me so that i can hang out here forever . EOS
+
+Beam search outputs: 
+so they save me so that i can teleport out here . EOS
+so they carry me so that i can stop happy on hunting . EOS
+so they save me so that i can hang out together . EOS
+so they carry me so that i can stop happy out here . EOS
+so they carry me so that i can stop happy out of here . EOS
+
+
+
+Sentence number 69
+Input sentence: 
+at first , i do nt notice that mack is stripping off his shirt . EOS
+
+Greedy decode output: 
+at first , i do nt notice that mack is drying off his shirt . EOS
+
+Beam search outputs: 
+at first , i do nt notice that vane is pulling off his brother . EOS
+at first , i do nt notice that vane is pushing off his brother . EOS
+at first , i do nt notice that vane is already grabbing his eyes . EOS
+at first , i do nt notice that vane is already grabbing on his eyes . EOS
+at first , i do nt notice that robin is cut off his shoulders . EOS
+
+
+
+Sentence number 70
+Input sentence: 
+this turning of the tables is hardly original . EOS
+
+Greedy decode output: 
+this number of the invisible cars is even quite difficult . EOS
+
+Beam search outputs: 
+this number of the invisible is even busy below . EOS
+this flight of the military is even full time . EOS
+this number of the invisible is even busy upon . EOS
+this number of the invisible is even busy upon them . EOS
+this flight of the military is even starting upon clear . EOS
+
+
+
+Sentence number 71
+Input sentence: 
+she was so damn cold . EOS
+
+Greedy decode output: 
+she was so damn cold . EOS
+
+Beam search outputs: 
+she was so damn cold . EOS
+she was so cold damn . EOS
+she was so damn black . EOS
+she was cold so damn . EOS
+she was damn so cold . EOS
+
+
+
+Sentence number 72
+Input sentence: 
+handed me the cap nice clothes , he smiled showing a whole lot of attractive teeth . EOS
+
+Greedy decode output: 
+giving me the perfect half eaten dinner , he said , a nice laugh and pushed his folder . EOS
+
+Beam search outputs: 
+giving me the perfect blue kid , he took a brief glimpse of coffee come home . EOS
+giving me the perfect blue kid , he took a quick glimpse of black school sauce . EOS
+giving me the perfect blue kid , he took a quick glimpse of black school cookies . EOS
+giving me the perfect blue kid , he took a quick glimpse of pretty old movie . EOS
+giving me the perfect blue kid , he took a brief glimpse of coffee come home work . EOS
+
+
+
+Sentence number 73
+Input sentence: 
+i wanted to hear his voice so badly , though , that i started trembling . EOS
+
+Greedy decode output: 
+i wanted to hear his voice , so badly that i thought before burning . EOS
+
+Beam search outputs: 
+i wanted to hear his voice , so badly that i started trembling though . EOS
+i wanted to hear his voice , so badly that though i started trembling . EOS
+i wanted to hear his voice , so badly that though i felt trembling . EOS
+i wanted to hear his voice , so badly that i thought before burning . EOS
+i wanted to hear his words , so hoarse that i felt this room yet again . EOS
+
+
+
+Sentence number 74
+Input sentence: 
+i m going to have to kick things up a notch push myself out of my comfort zone . EOS
+
+Greedy decode output: 
+i m going to have to push myself up a safe information out of my own minded attention . EOS
+
+Beam search outputs: 
+i m going to have to force myself up to bring out a lot of these automatic delay . EOS
+i m going to have to force myself up to bring out a lot of these automatic delay everything . EOS
+i m going to have to force myself up to bring out a lot of these automatic switch . EOS
+i m going to have to force myself up to bring out a lot of these automatic switch my way . EOS
+i m going to have to force myself up to bring out a lot of these automatic delay my way . EOS
+
+
+
+Sentence number 75
+Input sentence: 
+you said they d use the evidence to simply execute . EOS
+
+Greedy decode output: 
+you said they d use the evidence to simply translate . EOS
+
+Beam search outputs: 
+you said they d use the evidence to simply translate . EOS
+you said they d use the evidence to simply convey . EOS
+you said they d use the evidence to simply suppress . EOS
+you said they d use the evidence to simply tempt . EOS
+you said they d use the evidence to simply inside . EOS
+
+
+
+Sentence number 76
+Input sentence: 
+though the room was crowded , only a few of the seats were taken . EOS
+
+Greedy decode output: 
+though the room was crowded , only a few of the seats were taken . EOS
+
+Beam search outputs: 
+though the room was crowded , only a few of the seats were taken . EOS
+though the room was crowded , only a few of the seats had gone . EOS
+though the room was crowded , only a few of the seats had taken . EOS
+though the room was crowded , only a few of the seats would be attacked . EOS
+though the room was crowded , only a few of the seats had been taken . EOS
+
+
+
+Sentence number 77
+Input sentence: 
+what signs ? EOS
+
+Greedy decode output: 
+what signs ? EOS
+
+Beam search outputs: 
+what signs ? EOS
+what difference ? EOS
+nothing what signs ? EOS
+what frustrated ? EOS
+what lights ? EOS
+
+
+
+Sentence number 78
+Input sentence: 
+she laughed more than he d expected . EOS
+
+Greedy decode output: 
+she laughed more than he d expected . EOS
+
+Beam search outputs: 
+she laughed more than he d expected . EOS
+she laughed more like he d expected . EOS
+she laughed more than he could be . EOS
+she laughed more than he could ve expected . EOS
+she laughed more than he had must say . EOS
+
+
+
+Sentence number 79
+Input sentence: 
+you said there was no plague no more . EOS
+
+Greedy decode output: 
+you said there was no more plague no . EOS
+
+Beam search outputs: 
+you said there was no more plague no . EOS
+you said there was no plague no more . EOS
+you said there was no plague more no . EOS
+you said there was no no more plague . EOS
+you said there was no murder no more troy . EOS
+
+
+
+Sentence number 80
+Input sentence: 
+he would never say , and my father could never learn either . EOS
+
+Greedy decode output: 
+he would never say , and my father could never learn either . EOS
+
+Beam search outputs: 
+he would never say , and my father could never learn either . EOS
+he would never say my father , and never could learn , either . EOS
+he would never say , and my father never could learn either . EOS
+he would never say , and my father could never expect enough . EOS
+he would never say , and my father could not learn either . EOS
+
+
+
+Sentence number 81
+Input sentence: 
+so what s your mother going to do ? EOS
+
+Greedy decode output: 
+so what s your mother going to do ? EOS
+
+Beam search outputs: 
+so what s your mother going to do ? EOS
+so what s your mother want to do ? EOS
+so what your mother s going to do ? EOS
+so what s your mother wants to do ? EOS
+so what s your mother want to get ? EOS
+
+
+
+Sentence number 82
+Input sentence: 
+we re both well aware that no dating will be taking place . EOS
+
+Greedy decode output: 
+we re both well aware that no place will be dating taking . EOS
+
+Beam search outputs: 
+we re both well aware that no dating will be taking place . EOS
+we re both well aware that no place will be dating taking . EOS
+we re both well aware that no place will be saved by work . EOS
+we re both well aware that no family will be taking risk . EOS
+we re both well aware that no family will be bringing change . EOS
+
+
+
+Sentence number 83
+Input sentence: 
+the steps were already lined by people waiting for the cops to emerge from the building . EOS
+
+Greedy decode output: 
+the police were already waiting by these people scattered at the entrance to behind me . EOS
+
+Beam search outputs: 
+the kids were already waiting by four voices at the entrance to gathering behind the papers . EOS
+the kids were already waiting by four voices at the entrance to gathering behind them . EOS
+the kids were already waiting by four voices at the entrance to gathering the papers behind me . EOS
+the kids were already waiting by four voices at the entrance to gathering behind me . EOS
+the kids were already waiting by four voices at the entrance to gathering the papers behind us . EOS
+
+
+
+Sentence number 84
+Input sentence: 
+i do the same , and let him take a third . EOS
+
+Greedy decode output: 
+i do the same , and let him take a third . EOS
+
+Beam search outputs: 
+i do the same , and let him take a third . EOS
+i do the same , let him and take a third . EOS
+i do the same , and let him get a third . EOS
+i do take the same , and let him a third . EOS
+i do the same , and let him get a third one . EOS
+
+
+
+Sentence number 85
+Input sentence: 
+all i wanted was to bathe in her harmony . EOS
+
+Greedy decode output: 
+all i wanted was to tempt in her accord . EOS
+
+Beam search outputs: 
+all i wanted was to roam in her lungs . EOS
+all i wanted was to bathe in her womb . EOS
+all i wanted was to roam in her way . EOS
+all i wanted was to roam in her wake . EOS
+all i wanted was to suppress in her wake . EOS
+
+
+
+Sentence number 86
+Input sentence: 
+a kiss that still made the roots of her hair tingle . EOS
+
+Greedy decode output: 
+a kiss that still made the fabric of her scalp shiver . EOS
+
+Beam search outputs: 
+a kiss that still made the softness of her hair quiver . EOS
+a kiss that still made the softness of her flesh curl . EOS
+a kiss that still made the softness of her hair shaft . EOS
+a kiss that still made the softness of her hair healed . EOS
+a kiss that still made the softness of her hair vulnerable . EOS
+
+
+
+Sentence number 87
+Input sentence: 
+it s time to start testing the waters . EOS
+
+Greedy decode output: 
+it s time to start testing the waters . EOS
+
+Beam search outputs: 
+it s time to start testing the waters . EOS
+it s time to start laced the contents . EOS
+it s time to start testing the mist . EOS
+it s time to start testing the centuries . EOS
+it s time to start laced the waters . EOS
+
+
+
+Sentence number 88
+Input sentence: 
+they bought tickets with codes on them , and sat down at different computers , two occupied seats apart . EOS
+
+Greedy decode output: 
+they played with people , carrying down and offered him on floor to meet a bunch of worlds joint stores . EOS
+
+Beam search outputs: 
+they played along with people , and enough to carry on a picnic table from special joint officers around me . EOS
+they played along with people , and enough to carry on a picnic table from me like special joint officers . EOS
+they played along with people , and enough to carry on a picnic table from special joint officers for me . EOS
+they played along with people , and enough to carry on a picnic table from me for special joint officers . EOS
+they played along with people , and enough to carry on a picnic table from special joint officers around me ago . EOS
+
+
+
+Sentence number 89
+Input sentence: 
+the girl emerged without bothering to look around . EOS
+
+Greedy decode output: 
+the girl without bothering glanced around to enter eyes . EOS
+
+Beam search outputs: 
+the girl without bothering emerged to look around . EOS
+the girl without bothering glanced around to enter eyes . EOS
+the girl without bothering glanced around to face emerged . EOS
+the girl without bothering glanced around to eyes emerged . EOS
+the girl without bothering glanced around to enter . EOS
+
+
+
+Sentence number 90
+Input sentence: 
+he peeled the surgical tape off piece by piece . EOS
+
+Greedy decode output: 
+he peeled the piece tape off by filing . EOS
+
+Beam search outputs: 
+he peeled the piece tape off by filing . EOS
+he peeled the half stuffed tape off on pocket . EOS
+he peeled the half stuffed tape off on box . EOS
+he peeled the half stuffed tape off on hand . EOS
+he peeled the half stuffed tape off on hand pocket . EOS
+
+
+
+Sentence number 91
+Input sentence: 
+their bodies were tossed into the hole in the burial mound . EOS
+
+Greedy decode output: 
+their bodies were tossed into the hole in the eastern rim . EOS
+
+Beam search outputs: 
+their bodies were tossed into the hole in the eastern rim . EOS
+their bodies were tossed into the hole in the eastern shelf . EOS
+their bodies were tossed into the hole in the eastern heap . EOS
+their bodies were tossed into the hole in the dingy needles . EOS
+their bodies were tossed into the hole in the eastern needles . EOS
+
+
+
+Sentence number 92
+Input sentence: 
+a generous portion , he thought . EOS
+
+Greedy decode output: 
+a generous flavor , he thought . EOS
+
+Beam search outputs: 
+a generous flavor , he thought . EOS
+a generous plug , he thought . EOS
+a generous wig , he thought . EOS
+a generous fellow , he sighed slowly . EOS
+a generous fellow , he sighed . EOS
+
+
+
+Sentence number 93
+Input sentence: 
+the boys , also emerging from the apartment , added their horrified gasps . EOS
+
+Greedy decode output: 
+the boys , also gone , answering the smoke from his own hysterical hands . EOS
+
+Beam search outputs: 
+the boys , also gone from the kitchen , answering their fierce names . EOS
+the boys , also gone , answering the smoke from his own hysterical hands . EOS
+the boys , also gone , answering the smoke from his own hysterical orders . EOS
+the boys , also gone , answering the smoke from his own hysterical friends . EOS
+the boys , also gone , answering the smoke from his own embarrassed twin . EOS
+
+
+
+Sentence number 94
+Input sentence: 
+he knew the spell i wanted to use . EOS
+
+Greedy decode output: 
+he knew the spell i wanted to use . EOS
+
+Beam search outputs: 
+he knew the spell i wanted to use . EOS
+he knew i wanted the spell to use . EOS
+he wanted the spell i knew to use . EOS
+he wanted the spell i knew to read . EOS
+i knew the spell he wanted to use . EOS
+
+
+
+Sentence number 95
+Input sentence: 
+cute , charlotte , very cute . EOS
+
+Greedy decode output: 
+charlotte , cute , very cute . EOS
+
+Beam search outputs: 
+charlotte , cute , very cute . EOS
+cute , charlotte , very cute . EOS
+charlotte , very cute , cute . EOS
+charlotte , cute , its very cute . EOS
+its cute , charlotte , very cute . EOS
+
+
+
+Sentence number 96
+Input sentence: 
+i hear you gave him drugs to make it . EOS
+
+Greedy decode output: 
+i heard you drugs giving it to him is into . EOS
+
+Beam search outputs: 
+i hear you gave him drugs to make it . EOS
+i made you hear him drugs to say it was . EOS
+i made you hear him drugs to murmured it . EOS
+i made you hear him drugs to believe it was . EOS
+i made you hear him drugs to say it were . EOS
+
+
+
+Sentence number 97
+Input sentence: 
+almost nobody caves alone . EOS
+
+Greedy decode output: 
+almost nobody lives outside . EOS
+
+Beam search outputs: 
+almost nobody lives outside . EOS
+almost nobody alone caves . EOS
+almost nobody lives alone . EOS
+almost nobody remains alone . EOS
+almost nobody lives outside strangers . EOS
+
+
+
+Sentence number 98
+Input sentence: 
+pain tore down the back of his skull like a hot knife . EOS
+
+Greedy decode output: 
+pain tore down the back of his skull like a hot knife . EOS
+
+Beam search outputs: 
+pain tore down the back of his skull like a hot knife . EOS
+pain tore down the back of his neck like a whole star . EOS
+pain tore back down the flesh of his skull like a hot . EOS
+pain tore back down the flesh of his nose like a soap . EOS
+pain tore down the back of his neck like a whole soap . EOS
+
+
+
+Sentence number 99
+Input sentence: 
+but it was only a , not meant for people like him . EOS
+
+Greedy decode output: 
+but it was not only a , like people meant for him . EOS
+
+Beam search outputs: 
+but it was not only a , like people meant for him . EOS
+but it was not only a , meant for people like him . EOS
+but it was not only a people , like for him , meant . EOS
+but it was not only a , for people like him meant . EOS
+but it was not only a people , for him , like meant . EOS
+
+
+

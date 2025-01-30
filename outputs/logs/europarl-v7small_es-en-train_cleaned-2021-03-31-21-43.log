@@ -1,0 +1,500 @@
+Epoch: 0, Iteration: 0, loss: 7.6551, elapsed: 10.84, remaining: 10023.74
+ Input: en nuestra opinión , la responsabilidad UNK sólo está justificada cuando se trata de una grave negligencia .
+Output: put returning affecting torture forthcoming eve saving el purchase ranging most equivalent hand promotion prohibited office rest industrial built chapters delivery wishes engineering caused driver providers unconditional inevitably characteristics despite top entail moderate persuade acp authorised intended fragmented armenia making century concentrates alert unequal hit come consulting biological provision
+Target: UNK liability is in our view only justified where there is gross negligence . EOS
+
+Epoch: 0, Iteration: 100, loss: 6.6314, elapsed: 44.50, remaining: 363.48
+ Input: ningún estado miembro que se tome en serio la política exterior y de seguridad común debe establecer relaciones bilaterales con rusia de una forma que pueda UNK los intereses legítimos de los estados miembros .
+Output: the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the the
+Target: no member state that takes the common foreign and security policy seriously should build its bilateral relations with russia in such way that would damage the just interests of the member states . EOS
+
+Epoch: 0, Iteration: 200, loss: 4.8516, elapsed: 76.94, remaining: 277.51
+ Input: ¿ qué hicimos ?
+Output: i would be UNK . EOS
+Target: what have we done wrong ? EOS
+
+Epoch: 0, Iteration: 300, loss: 4.3838, elapsed: 109.45, remaining: 227.27
+ Input: puedo confirmar que el consejo recibió hace poco una propuesta de la comisión acerca de un conjunto de medidas en el sector de la carne de bovino sobre la que se ha consultado al parlamento europeo .
+Output: the european union is the european union . EOS
+Target: i can confirm that the council recently received a commission proposal for a set of measures in the beef sector on which the european parliament has been consulted . EOS
+
+Epoch: 0, Iteration: 400, loss: 4.1533, elapsed: 142.72, remaining: 186.85
+ Input: si la población es mayor que el límite superior , los UNK se UNK de forma que la población pueda aumentar un <num>% durante el año siguiente .
+Output: the commission is the UNK of the UNK , the UNK , the UNK , the UNK , the UNK , the UNK , the UNK , the UNK , the UNK , the UNK , the UNK , the UNK , the UNK , the UNK , the
+Target: if the stock is larger than the lower limit , the UNK will be set in such a way that the stock can increase by <num>% in the following year . EOS
+
+Epoch: 0, Iteration: 500, loss: 4.0246, elapsed: 175.29, remaining: 148.70
+ Input: por último , UNK a abordar un asunto sobre el que aún no se ha hablado .
+Output: the commission is not be UNK . EOS
+Target: finally , i should like to turn to an issue that has not yet been touched upon . EOS
+
+Epoch: 0, Iteration: 600, loss: 3.9012, elapsed: 207.89, remaining: 112.42
+ Input: también me gustaría subrayar el aspecto de la preadhesión .
+Output: i would like to thank the rapporteur . EOS
+Target: i would also like to stress the aspect of the pre - accession . EOS
+
+Epoch: 0, Iteration: 700, loss: 3.8150, elapsed: 241.37, remaining: 77.47
+ Input: por último , quisiera señalar que desde el punto de vista de la competencia lo ideal sería que todos los modos de transporte UNK un trato UNK .
+Output: i am pleased that the UNK of the UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK , which is a UNK UNK
+Target: finally , i would point out that the UNK situation from the competition viewpoint is when there is a level playing field for all transport modes . EOS
+
+Epoch: 0, Iteration: 800, loss: 3.7691, elapsed: 275.50, remaining: 42.99
+ Input: a los UNK , la independencia les UNK décadas y la muerte de decenas de miles de UNK por la libertad .
+Output: we are UNK and UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK
+Target: it took the UNK decades and the deaths of tens of thousands of freedom UNK to achieve independence . EOS
+
+Epoch: 0, Iteration: 900, loss: 3.6878, elapsed: 308.47, remaining: 8.56
+ Input: la destrucción es un concepto fundamental .
+Output: the UNK is the UNK . EOS
+Target: destruction is also the key . EOS
+
+Epoch: 1, Iteration: 0, loss: 3.7052, elapsed: 317.27, remaining: 293470.82
+ Input: se trata de conseguir un precedente , crear una doctrina y crear una jurisprudencia .
+Output: it is a UNK , and we are UNK . EOS
+Target: we are attempting to establish a precedent , set up a basic principle and a body of law . EOS
+
+Epoch: 1, Iteration: 100, loss: 3.6019, elapsed: 351.08, remaining: 2867.74
+ Input: señor presidente , señorías , el informe del sr . UNK contiene excelentes propuestas a las que nos UNK , reserva hecha de la creación de un organismo cuya utilidad comprendemos menos que el ponente .
+Output: mr president , ladies and gentlemen , i would like to congratulate the rapporteur , mr UNK , mr UNK , mr UNK , mr UNK , on behalf of the rapporteur , and i would like to thank the rapporteur for the rapporteur for the rapporteur for the
+Target: mr president , ladies and gentlemen , mr UNK ' s report contains some excellent proposals which we endorse - with the exception of the call to set up a european blood safety supervisory body , of whose UNK we are less convinced than the rapporteur . EOS
+
+Epoch: 1, Iteration: 200, loss: 3.5777, elapsed: 384.16, remaining: 1385.65
+ Input: en segundo lugar , los procedimientos relativos a este servicio deben ser UNK .
+Output: it is a question of the UNK of europe , but it is a good thing . EOS
+Target: secondly , the procedures relating to this service must be examined . EOS
+
+Epoch: 1, Iteration: 300, loss: 3.5558, elapsed: 417.18, remaining: 866.23
+ Input: acojo con satisfacción la demanda de simplificación , ya que esta es un requisito previo para una mejor comprensión y utilización de los fondos europeos por parte de funcionarios locales .
+Output: we have to ensure that the UNK of the UNK , and the UNK of the UNK , which is a very important for the UNK of the UNK . EOS
+Target: i welcome the demand for simplification , because this is a precondition for a better understanding and use of european funds by local officials . EOS
+
+Epoch: 1, Iteration: 400, loss: 3.5420, elapsed: 450.96, remaining: 590.40
+ Input: la situación era muy distinta en el momento inicial , ya que se UNK de una situación diferente en cada estado miembro .
+Output: it is not a UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the
+Target: the situation was very different initially , since we were working on the basis of differing situations in each of the member states . EOS
+
+Epoch: 1, Iteration: 500, loss: 3.4983, elapsed: 485.94, remaining: 412.22
+ Input: era una época en que etiopía era el centro de la atención mundial por diversas razones .
+Output: the second point is a very important point of the UNK , and the UNK of the UNK . EOS
+Target: it was a time when ethiopia was the centre of world attention for a variety of reasons . EOS
+
+Epoch: 1, Iteration: 600, loss: 3.4776, elapsed: 520.96, remaining: 281.72
+ Input: los UNK internacionales que UNK en la cumbre internacional sobre la pobreza en copenhague constituyen en el fondo UNK entre el sur y el norte .
+Output: the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the
+Target: in essence the international commitments that we made at the poverty summit in copenhagen , are commitments between north and south . EOS
+
+Epoch: 1, Iteration: 700, loss: 3.4518, elapsed: 552.55, remaining: 177.35
+ Input: tenemos ahora , por primera vez , la oportunidad de hacer UNK UNK la estrategia de empleo con las medidas del fondo social , con el fin de reducir el desempleo y ?
+Output: the first is that the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of
+Target: we now have for the first time the opportunity to UNK UNK employment strategy and social fund measures in order to reduce unemployment and ? EOS
+
+Epoch: 1, Iteration: 800, loss: 3.4473, elapsed: 584.12, remaining: 91.15
+ Input: lo que importa en este caso es garantizar que los organismos de investigación sean independientes .
+Output: the question of the UNK is that the most important thing is the most important thing that the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK
+Target: what matters , in this case , is to ensure that the UNK bodies are independent . EOS
+
+Epoch: 1, Iteration: 900, loss: 3.4302, elapsed: 617.20, remaining: 17.13
+ Input: una importante demanda de la comisión es que se hagan los sistemas más favorables al empleo , es decir , que se UNK el factor trabajo y se UNK nuevas fuentes de financiación .
+Output: the commission has to make a more ambitious targets for the member states to ensure that the UNK and the UNK of the european union ' s financial resources . EOS
+Target: one important call from the committee is that systems should be made more employment - friendly , in other words some of the burden should be UNK away from the labour factor , and new sources of funding should be found . EOS
+
+Epoch: 2, Iteration: 0, loss: 3.3190, elapsed: 626.19, remaining: 579223.24
+ Input: este asunto trata además de la confianza y la fe de los ciudadanos en que la calidad de los alimentos es la correcta .
+Output: it is also important that we are also talking about the quality of health and quality . EOS
+Target: it is also about citizens ' confidence and belief that food quality is everything it should be . EOS
+
+Epoch: 2, Iteration: 100, loss: 3.3425, elapsed: 659.69, remaining: 5388.58
+ Input: así , pues , creo que por razones de UNK , señor presidente , más vale que esa entrada en vigor se produzca en UNK con el tratado de amsterdam .
+Output: mr president , if we are to be able to be able to be able to be able to be able to be able to be able to be able to be able to be able to be able to be able to be able to be able to
+Target: so for reasons of UNK , mr president , i think the best course is to bring the changes into force at the same time as the treaty of amsterdam . EOS
+
+Epoch: 2, Iteration: 200, loss: 3.3490, elapsed: 693.71, remaining: 2502.20
+ Input: el viaje de la sra . UNK a oriente medio se UNK con un balance que no es tan negativo como algunas personas bien UNK han querido manifestar .
+Output: i have not just heard a UNK of the UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK
+Target: mrs UNK ' s visit to the middle east did not have such a negative outcome as some UNK UNK would have us believe . EOS
+
+Epoch: 2, Iteration: 300, loss: 3.3584, elapsed: 727.21, remaining: 1509.99
+ Input: la unión europea no puede seguir hablando de todo y no diciendo nada .
+Output: we have not yet the european union and the european union . EOS
+Target: the european union cannot carry on talking about everything and saying nothing . EOS
+
+Epoch: 2, Iteration: 400, loss: 3.3348, elapsed: 760.83, remaining: 996.10
+ Input: está en marcha un proyecto piloto iniciado por el parlamento europeo para ver qué más se puede hacer .
+Output: this is a good thing that the european parliament has been able to reach a common position . EOS
+Target: a pilot project initiated by the european parliament is under way to see what else can be done . EOS
+
+Epoch: 2, Iteration: 500, loss: 3.3216, elapsed: 795.09, remaining: 674.48
+ Input: no veo las propuestas que tenemos , aparte de recurrir a las naciones unidas , pero las naciones unidas no son más grandes que los estados miembros que las componen .
+Output: i am not only in favour of the UNK of the UNK of the UNK , but also the UNK of the UNK , but also the UNK of the european union , but also the UNK of the united states . EOS
+Target: i cannot see what we are proposing other than recourse to the united nations , but the united nations is no greater than its component member states . EOS
+
+Epoch: 2, Iteration: 600, loss: 3.3145, elapsed: 828.81, remaining: 448.19
+ Input: tenemos que UNK también cierta atención a este tema .
+Output: i would like to thank you for this very much . EOS
+Target: we need to given some attention to this too . EOS
+
+Epoch: 2, Iteration: 700, loss: 3.3147, elapsed: 860.97, remaining: 276.35
+ Input: señor presidente , UNK quisiera darle las gracias al señor comisario por sus buenos deseos y a los más de quince UNK en este debate .
+Output: mr president , i would like to thank mr UNK for his excellent work and for his excellent work . EOS
+Target: mr president , first of all i should like to thank the commissioner for his good wishes and the fifteen or more speakers in this debate . EOS
+
+Epoch: 2, Iteration: 800, loss: 3.2896, elapsed: 893.39, remaining: 139.42
+ Input: el problema no es UNK cuando no nos afecta directa y profundamente .
+Output: it is not the problem of the problem of the problem that is not the problem of the problem , and it is not the problem . EOS
+Target: this is not UNK if we are not deeply and directly involved . EOS
+
+Epoch: 2, Iteration: 900, loss: 3.2815, elapsed: 926.32, remaining: 25.70
+ Input: algunos de entre ustedes lo saben y tengo miedo .
+Output: i have UNK and UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK
+Target: some of you here will know that already . well , i am afraid . EOS
+
+Epoch: 3, Iteration: 0, loss: 3.1261, elapsed: 935.49, remaining: 865326.14
+ Input: señor presidente , acabo de regresar de un viaje al estado UNK de UNK , donde he sido testigo UNK de los UNK efectos que ha producido un UNK , especialmente en la UNK de puerto UNK .
+Output: mr president , i would like to express my UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK
+Target: mr president , i have just returned from a UNK to the UNK state of UNK , where i was an UNK to the devastating effects of a UNK , particularly in UNK UNK . EOS
+
+Epoch: 3, Iteration: 100, loss: 3.1963, elapsed: 969.30, remaining: 7917.58
+ Input: las recientes catástrofes humanitarias en haití y pakistán han demostrado una vez más la necesidad de mejorar la capacidad de la ue ante las catástrofes en términos de eficacia , coordinación y visibilidad .
+Output: the european union has to be UNK and the UNK of the UNK and the UNK of the UNK and the UNK of the UNK and the UNK of the UNK and the UNK of the UNK and the UNK of the UNK and the UNK of the UNK
+Target: the recent humanitarian disasters in haiti and pakistan demonstrated once again the need to improve the eu ' s disaster response capability in terms of effectiveness , coordination and visibility . EOS
+
+Epoch: 3, Iteration: 200, loss: 3.2111, elapsed: 1002.35, remaining: 3615.45
+ Input: ( pl ) señora presidenta , la unión europea no se ha olvidado de haití .
+Output: ( de ) mr president , i have not just one of the european union . EOS
+Target: ( pl ) madam president , the european union has not forgotten haiti . EOS
+
+Epoch: 3, Iteration: 300, loss: 3.2009, elapsed: 1037.59, remaining: 2154.46
+ Input: sería algo innecesariamente complicado empezar ahora que vamos a estar fuera de campaña electoral y en el último año de la comisión actual .
+Output: i hope that the commission will be able to UNK the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of
+Target: this would be an UNK complex thing to start at a time when we will be out on election campaigns and the present commission will be in its last year . EOS
+
+Epoch: 3, Iteration: 400, loss: 3.2006, elapsed: 1072.50, remaining: 1404.14
+ Input: de hecho , hemos intentado - no sé si hasta el punto que esperaba el sr . UNK , dadas sus UNK palabras - UNK , poner en orden y UNK mayor rapidez , para convertir en más transparente la tramitación de los procedimientos de infracción .
+Output: i would like to ask you to ask you to ask you to ask you to ask you to ask you to ask you to ask you to ask you to ask you to ask you to ask you to ask you to ask you to ask you to
+Target: we have in fact attempted - perhaps not to the extent desired by mr UNK , given his kind words - to bring order to this area , accelerate matters and lend greater transparency to the practices followed under the infringement procedure . EOS
+
+Epoch: 3, Iteration: 500, loss: 3.2097, elapsed: 1107.77, remaining: 939.72
+ Input: me parece que esto es importante .
+Output: that is why i think that . EOS
+Target: i believe that is important . EOS
+
+Epoch: 3, Iteration: 600, loss: 3.2028, elapsed: 1143.13, remaining: 618.16
+ Input: ambos UNK necesitan líderes políticos que respeten lo que se les pide .
+Output: we must be able to do so that we can UNK the right to do so . EOS
+Target: both sides need political leaders which respects what is asked . EOS
+
+Epoch: 3, Iteration: 700, loss: 3.1989, elapsed: 1176.25, remaining: 377.54
+ Input: más en general , esta directiva carece de ambición .
+Output: this is why we are voting in favour of the directive . EOS
+Target: in wider terms , this directive is not ambitious enough . EOS
+
+Epoch: 3, Iteration: 800, loss: 3.1905, elapsed: 1208.71, remaining: 188.62
+ Input: doy las gracias por el momento a los miembros de UNK y a los verdes , y a todos aquéllos que UNK de buen grado nuestras enmiendas .
+Output: i would like to thank the rapporteur and the rapporteur for their work . EOS
+Target: i would like to thank in advance the members of the group of the european radical alliance , the greens , and all the others who will support our amendments UNK . EOS
+
+Epoch: 3, Iteration: 900, loss: 3.2041, elapsed: 1240.76, remaining: 34.43
+ Input: UNK la UNK .
+Output: the UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK
+Target: go to UNK . EOS
+
+Epoch: 4, Iteration: 0, loss: 3.0010, elapsed: 1249.84, remaining: 1156101.60
+ Input: así , ambas UNK quedarán incluidas en la normativa europea y podrán utilizarse en alemania en el futuro .
+Output: the european union must be able to UNK the UNK of the UNK and UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of
+Target: as rapporteur i welcome that proposal . that UNK these two terms in eu law and means that in future they may be used in germany . EOS
+
+Epoch: 4, Iteration: 100, loss: 3.1173, elapsed: 1281.45, remaining: 10467.26
+ Input: desgraciadamente , tanto el consejo como la comisión han UNK ante las presiones de la industria UNK y no han aceptado los requisitos necesarios .
+Output: the commission and the council cannot accept the UNK and UNK of the UNK of the budget . EOS
+Target: unfortunately , the council and the commission UNK to pressure from the oil industry and did not accept these necessary requirements . EOS
+
+Epoch: 4, Iteration: 200, loss: 3.1154, elapsed: 1313.60, remaining: 4738.10
+ Input: por último , quiero felicitar a la sra . gebhardt por su UNK la semana que viene .
+Output: i would like to thank the rapporteur for his excellent report . EOS
+Target: lastly , i should also like to congratulate mrs gebhardt on her UNK next week . EOS
+
+Epoch: 4, Iteration: 300, loss: 3.1235, elapsed: 1346.10, remaining: 2795.06
+ Input: no pretendo UNK un modo de transporte respecto a otro .
+Output: we cannot be UNK . EOS
+Target: i do not mean that i wish to UNK against any particular UNK of transport as compared to another . EOS
+
+Epoch: 4, Iteration: 400, loss: 3.1244, elapsed: 1378.63, remaining: 1804.94
+ Input: votamos a favor , pero sin entusiasmo .
+Output: but not just a UNK . EOS
+Target: we voted in favour , but without enthusiasm . EOS
+
+Epoch: 4, Iteration: 500, loss: 3.1366, elapsed: 1411.44, remaining: 1197.33
+ Input: a pesar de ello , quisiera responder a la pregunta , aunque sólo sea para que conste y porque puede que otros diputados presentes estén interesados en la respuesta de la comisión .
+Output: i would like to ask the commissioner to be able to make it possible to UNK the commission , but it is not a matter of urgency . EOS
+Target: despite that , i would like to answer the question , if only for the record and because other members present might be interested in the commission ' s answer . EOS
+
+Epoch: 4, Iteration: 600, loss: 3.1295, elapsed: 1444.41, remaining: 781.09
+ Input: ( lt ) señor UNK , usted ha hablado de hungría y la solidaridad UNK con este país , lo cual es alentador , pero también me UNK mucho los demás países que ha mencionado : bulgaria , rumanía y en especial lituania .
+Output: mr president , ladies and gentlemen , the european union has already been UNK , but it is very difficult to UNK the UNK of the UNK , and the UNK of the countries . EOS
+Target: ( lt ) mr UNK , you spoke about hungary and the solidarity shown towards hungary , which is encouraging , but i am also very interested in the other countries you mentioned : bulgaria , romania and especially lithuania . EOS
+
+Epoch: 4, Iteration: 700, loss: 3.1406, elapsed: 1477.19, remaining: 474.13
+ Input: efectivamente , un sistema económico no eficiente no es por regla general - y lo han puesto de manifiesto todos los ejemplos en la historia - socialmente adecuado ni UNK adecuado .
+Output: it is not just a question of UNK , but it is not a question of UNK and UNK . EOS
+Target: for as a rule , and every example in history has shown it to be so , an inefficient economic system is neither socially nor environmentally compatible . EOS
+
+Epoch: 4, Iteration: 800, loss: 3.1324, elapsed: 1511.73, remaining: 235.91
+ Input: en definitiva , UNK el progreso de ambos países hacia la unión europea , de forma que dentro de algunos años podamos dar la bienvenida a croacia y a macedonia en nuestro seno .
+Output: we have to see the european union ' s commitment to the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK
+Target: in short , let us try to promote both countries ' progress towards the european union , so that , in a number of years ' time , we are able to welcome both croatia and macedonia into our UNK . EOS
+
+Epoch: 4, Iteration: 900, loss: 3.1411, elapsed: 1546.82, remaining: 42.92
+ Input: la sra . UNK solicita que la votación tenga lugar en el próximo período parcial de sesiones en bruselas .
+Output: i will ask you to ask you to take the floor in question time . EOS
+Target: mrs UNK is requesting that the vote be postponed to the next part - session in brussels . EOS
+
+Epoch: 5, Iteration: 0, loss: 2.9459, elapsed: 1556.24, remaining: 1439525.63
+ Input: se trata de un acto muy importante , muy UNK , de esta institución .
+Output: this is a very important issue , which is a very important issue . EOS
+Target: this is an extremely significant and extremely strong act on the part of this institution . EOS
+
+Epoch: 5, Iteration: 100, loss: 3.0586, elapsed: 1590.89, remaining: 12994.92
+ Input: nos parece que esto es muy claro y muy justo .
+Output: that is a very important issue and that is what we have done . EOS
+Target: we believe that is UNK and UNK fair . EOS
+
+Epoch: 5, Iteration: 200, loss: 3.0676, elapsed: 1625.33, remaining: 5862.51
+ Input: todo debate sobre estas cuestiones debe ser transparente con vistas a incrementar la UNK de los ciudadanos y a obtener su apoyo para lo que pretendemos emprender .
+Output: i would like to thank the rapporteur for his work and for the future of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the
+Target: all discussion of these issues must be transparent , with a view to raising people ' s awareness and securing their support for what we undertake . EOS
+
+Epoch: 5, Iteration: 300, loss: 3.0787, elapsed: 1659.27, remaining: 3445.33
+ Input: señor UNK van UNK , no es el momento de plantear al pleno la cuestión que usted suscita .
+Output: mr UNK , i do not have the floor to be a question of the matter of question . EOS
+Target: mr UNK van UNK , this is not the time to raise that question . EOS
+
+Epoch: 5, Iteration: 400, loss: 3.0893, elapsed: 1693.12, remaining: 2216.68
+ Input: pero tengo una segunda UNK : ¿ es usted consciente de la importancia de la manifestación del sr . posselt ?
+Output: mr president , commissioner , ladies and gentlemen , what is the best way to do . EOS
+Target: however , i also have a second point : are you aware of the significance of mr posselt ' s explanation ? EOS
+
+Epoch: 5, Iteration: 500, loss: 3.0889, elapsed: 1726.36, remaining: 1464.47
+ Input: y por ese motivo tenemos que hablar de ello .
+Output: we have to do so , and we have to do so . EOS
+Target: therefore we have to speak about this . EOS
+
+Epoch: 5, Iteration: 600, loss: 3.1037, elapsed: 1759.07, remaining: 951.24
+ Input: este parlamento ya ha tenido la oportunidad de escuchar las respuestas dadas por el sr . UNK ante él .
+Output: i would like to thank the president of the house for this morning . EOS
+Target: this parliament has had a chance already to hear mr UNK answer questions before it . EOS
+
+Epoch: 5, Iteration: 700, loss: 3.0886, elapsed: 1792.88, remaining: 575.46
+ Input: las pruebas se deben llevar a cabo con la participación de la comisión .
+Output: the commission should also take the necessary steps to improve the situation . EOS
+Target: the tests must be carried out with the commission ' s involvement . EOS
+
+Epoch: 5, Iteration: 800, loss: 3.1177, elapsed: 1826.27, remaining: 285.00
+ Input: actualmente hay <num> soldados irlandeses entre las fuerzas de la UNK UNK en kosovo .
+Output: the united nations has been UNK by the UNK of <num> . EOS
+Target: at present , there are <num> irish troops among the UNK force UNK in kosovo . EOS
+
+Epoch: 5, Iteration: 900, loss: 3.1001, elapsed: 1859.70, remaining: 51.60
+ Input: yo creo que , en resumen , este debate ha mostrado que hay un UNK de esta cámara a favor de la transparencia .
+Output: i would like to thank the house for this debate , which is why i am very pleased to vote on this report . EOS
+Target: in short , i believe that this debate has demonstrated that this house is UNK for transparency . EOS
+
+Epoch: 6, Iteration: 0, loss: 3.0278, elapsed: 1869.01, remaining: 1728830.47
+ Input: y , ayer , el nombramiento de un UNK - primer ministro UNK , UNK UNK , demuestra que UNK no es simplemente , como se ha dicho , un jefe de la UNK , sino un hombre con autoridad que no es UNK de la UNK .
+Output: mr president , the UNK of the UNK , has been UNK , but it is not a UNK , but it is a UNK , and UNK , but it is not a UNK , but it is a UNK , but it is a UNK , but
+Target: also , the appointment yesterday of a reforming deputy prime minister , alexander UNK , is clear evidence that UNK is not simply , as has been said , a head of the UNK , but a man of authority who is not a hostage of the UNK . EOS
+
+Epoch: 6, Iteration: 100, loss: 3.0304, elapsed: 1902.94, remaining: 15543.79
+ Input: ¿ qué está haciendo la comisión para instar a los estados miembros a que apliquen estrategias de limitación de daños , que son el único medio para reducir la transmisión por vía UNK entre quienes son incapaces , no pueden o no quieren abandonar las drogas ?
+Output: is it not possible to UNK the commission to UNK the member states to UNK the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the
+Target: what , then , is the commission doing to urge member states to implement damage limitation strategies which are the only way in which UNK transmission can be reduced among those who are unable , cannot or do not want to give up drugs ? EOS
+
+Epoch: 6, Iteration: 200, loss: 3.0379, elapsed: 1936.82, remaining: 6986.05
+ Input: si adoptamos las medidas preventivas necesarias , podremos incrementar la producción de biocarburantes sin poner en peligro el medio ambiente ni las reservas alimentarias que se necesitan a escala mundial .
+Output: the problem of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the
+Target: if we take the necessary precautionary measures , we can achieve growth in UNK production without UNK the environment or the food stocks required globally . EOS
+
+Epoch: 6, Iteration: 300, loss: 3.0452, elapsed: 1970.51, remaining: 4091.59
+ Input: esta idea constituye un elemento central de las negociaciones sobre el plan de acción de bali .
+Output: the first step in the treaty of lisbon is a new approach . EOS
+Target: this idea is at the core of the bali action plan negotiations . EOS
+
+Epoch: 6, Iteration: 400, loss: 3.0601, elapsed: 2003.79, remaining: 2623.42
+ Input: pero , ¡ a quién se pretende engañar !
+Output: but it is true , however , that is not the case . EOS
+Target: but who are they UNK UNK at UNK EOS
+
+Epoch: 6, Iteration: 500, loss: 3.0548, elapsed: 2036.71, remaining: 1727.75
+ Input: como ven , todavía queda mucho por hacer en este terreno .
+Output: this is a UNK of the UNK of the UNK . EOS
+Target: as you can see , there is still a lot to do in this area . EOS
+
+Epoch: 6, Iteration: 600, loss: 3.0664, elapsed: 2069.15, remaining: 1118.92
+ Input: las mujeres han supuesto un UNK de aire UNK para la mano de obra .
+Output: the UNK of women in the UNK of UNK . EOS
+Target: women have been a wonderful addition to the workforce . EOS
+
+Epoch: 6, Iteration: 700, loss: 3.0548, elapsed: 2101.56, remaining: 674.54
+ Input: los esfuerzos que este cámara realice para poder hacer la primera lectura en junio son UNK .
+Output: i hope that the council will be able to take this opportunity . EOS
+Target: the efforts of this house to be ready for a first reading by june are central . EOS
+
+Epoch: 6, Iteration: 800, loss: 3.0642, elapsed: 2134.30, remaining: 333.07
+ Input: otro punto importante es que para la revisión de la lista de productos que pueden ser tratados , que por otra parte deberá presentarse antes del <num> . <num> . <num> , se aplicará igualmente el fundamento jurídico del artículo <num> a .
+Output: if the directive is not acceptable , the <num> , it is a question of the <num> member states to <num> . EOS
+Target: that was naturally very UNK . another important point is that changes to the list of foods and ingredients - which , for its part , has to be on the table by <num> december <num> - are always governed by the provisions of article UNK of the treaty . EOS
+
+Epoch: 6, Iteration: 900, loss: 3.0741, elapsed: 2168.40, remaining: 60.17
+ Input: las posibilidades de excepciones están UNK y sometidas a condiciones obligatorias .
+Output: the UNK of the UNK and UNK are UNK . EOS
+Target: the possibilities for derogation are restricted and subject to mandatory conditions . EOS
+
+Epoch: 7, Iteration: 0, loss: 2.9002, elapsed: 2178.18, remaining: 2014816.05
+ Input: durante la crisis , las autoridades UNK han cometido graves violaciones de los derechos humanos .
+Output: the situation in the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the
+Target: during the crisis the UNK authorities committed serious violations of human rights . EOS
+
+Epoch: 7, Iteration: 100, loss: 3.0084, elapsed: 2211.78, remaining: 18066.50
+ Input: deben tener fe , no están solos .
+Output: we do not want to see that . EOS
+Target: they must have faith , they are not alone . EOS
+
+Epoch: 7, Iteration: 200, loss: 3.0110, elapsed: 2245.48, remaining: 8099.38
+ Input: puesto que la lucha contra el terrorismo está estrechamente relacionada con las actividades llevadas a cabo sobre el terreno , está claro que los estados unidos , los países aliados y la otan no pueden UNK .
+Output: the eu is not UNK to the international community , and the international community has to be able to UNK the international community ' s international agreements with the international community . EOS
+Target: since the fight against terrorism is closely connected to activities carried out on the ground , it is clear that the united states , UNK countries and nato cannot withdraw . EOS
+
+Epoch: 7, Iteration: 300, loss: 3.0184, elapsed: 2279.37, remaining: 4732.92
+ Input: señorías , vamos a escuchar cincuenta explicaciones de voto .
+Output: thank you , mr UNK , for the floor . EOS
+Target: colleagues , we have fifty explanations of vote . EOS
+
+Epoch: 7, Iteration: 400, loss: 3.0444, elapsed: 2313.76, remaining: 3029.24
+ Input: tenemos que recordar que cualquier programa puede transferir su gestión a la UNK en cualquier momento de su existencia , por lo que la política no se ve en modo alguno UNK por el hecho de que los estados miembros no hayan realizado todavía los ajustes necesarios .
+Output: we cannot , however , be aware of the fact that the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK
+Target: we have to remember , however , that any programme can transfer its management to the UNK at any time of its existence , so no potential damage to the policy arises from the fact that the member states have not yet implemented the UNK adjustments . EOS
+
+Epoch: 7, Iteration: 500, loss: 3.0321, elapsed: 2347.59, remaining: 1991.47
+ Input: esto tiene que ser lo que oriente la estrategia europea en la lucha contra la inmigración ilegal .
+Output: the political situation in the middle east is a key element in the european union . EOS
+Target: this principle should underpin any european strategy to combat illegal immigration . EOS
+
+Epoch: 7, Iteration: 600, loss: 3.0209, elapsed: 2381.28, remaining: 1287.71
+ Input: la situación actual es completamente inadmisible para los consumidores ; UNK riesgos y UNK peligros para la protección del medio ambiente .
+Output: the question of the consumer is the best way to ensure that the consumer is UNK and the consumer . EOS
+Target: the present situation is completely unacceptable for consumers , potentially UNK and UNK dangerous for environmental protection . EOS
+
+Epoch: 7, Iteration: 700, loss: 3.0190, elapsed: 2415.41, remaining: 775.28
+ Input: nosotros consideramos que todo estado debe proteger y favorecer dichos derechos , así como contribuir activamente a UNK toda forma de discriminación por razones de UNK , sexo , opiniones políticas , creencias religiosas , etcétera .
+Output: we must also be able to UNK the right to UNK of the rights of the citizens , but also in the UNK of the UNK , to the UNK , to the UNK , to the UNK , to the UNK , to the UNK , to the
+Target: we believe that all nations must protect and promote these rights and actively contribute to abolishing any form of discrimination on grounds of race , gender , political opinion , religious beliefs and so on . EOS
+
+Epoch: 7, Iteration: 800, loss: 3.0402, elapsed: 2449.08, remaining: 382.19
+ Input: no obstante , a más largo plazo , no hay que olvidar la necesidad de promover la democracia , el estado de derecho y los derechos humanos en la región , ni la necesidad de continuar las reformas internas en uzbekistán .
+Output: the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the
+Target: in the longer term , however , we cannot neglect the need to promote democracy , the rule of law and human rights in the region , as well as to push ahead with internal reforms in uzbekistan . EOS
+
+Epoch: 7, Iteration: 900, loss: 3.0490, elapsed: 2482.47, remaining: 68.88
+ Input: queda cerrado el debate .
+Output: the debate is closed . EOS
+Target: the debate is closed . EOS
+
+Epoch: 8, Iteration: 0, loss: 2.8877, elapsed: 2491.94, remaining: 2305043.28
+ Input: tal y como ha señalado amnistía internacional , es frecuente que las mujeres víctimas de la trata de seres humanos sean UNK por UNK o se vean privadas del acceso a la justicia .
+Output: the problem of the UNK and the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the
+Target: as amnesty international points out , often women who are victims of trafficking are arrested for prostitution , or are not guaranteed full access to justice . EOS
+
+Epoch: 8, Iteration: 100, loss: 2.9712, elapsed: 2526.65, remaining: 20638.51
+ Input: esta legislación pondrá de relieve los peligros del tabaco y UNK UNK de vidas .
+Output: the UNK of the UNK is UNK and UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of
+Target: this legislation will UNK out the dangers of smoking and save thousands of lives . EOS
+
+Epoch: 8, Iteration: 200, loss: 2.9750, elapsed: 2561.20, remaining: 9238.17
+ Input: ahora sabemos que hay estados miembros que ven la controversia actual sobre la reducción de la flexibilidad como un UNK para la gran batalla , que tendrá como resultado un recorte UNK del presupuesto de la ue .
+Output: the commission has already taken a decision on the one hand , which is a problem with the member states . EOS
+Target: we know now that there are member states that see the current dispute about reduced flexibility as preparation for the big battle , resulting in a drastic UNK of the eu budget . EOS
+
+Epoch: 8, Iteration: 300, loss: 2.9803, elapsed: 2596.30, remaining: 5390.99
+ Input: quiero decir que me siento más de esos que , seguramente por UNK , como buen español , no UNK sus sentimientos .
+Output: i am not sure that i am sure that , in my view , that i am sure that the UNK of the UNK of the UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK
+Target: i am more one of those who , no doubt out of UNK , like a good UNK , do not UNK their feelings . EOS
+
+Epoch: 8, Iteration: 400, loss: 2.9770, elapsed: 2630.94, remaining: 3444.50
+ Input: en efecto , al parlamento sólo se le UNK sobre un libro blanco .
+Output: it is a good idea to have a parliament . EOS
+Target: in fact , parliament was only consulted on the white paper . EOS
+
+Epoch: 8, Iteration: 500, loss: 2.9841, elapsed: 2663.32, remaining: 2259.30
+ Input: esto permite conservar y desarrollar los derechos sociales conforme a las preferencias UNK de cada estado miembro .
+Output: the eu must be able to UNK and UNK the rights of workers . EOS
+Target: this allows the preservation and further development of social rights , in accordance with the collective preferences of each individual member state . EOS
+
+Epoch: 8, Iteration: 600, loss: 2.9995, elapsed: 2695.94, remaining: 1457.87
+ Input: no es fácil tener un sistema jurídico que asuma la responsabilidad global del resto de los sistemas jurídicos ( de momento , de <num> estados , en el futuro , de los de <num> ) y cuyos fundamentos son tan diferentes .
+Output: the second point is that the UNK of the <num> member states have not been UNK , but the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the
+Target: it is not easy to have a legal system that has overall responsibility for the other legal systems - of <num> states at the moment , of <num> states in the future - which are fundamentally different . EOS
+
+Epoch: 8, Iteration: 700, loss: 3.0086, elapsed: 2729.44, remaining: 876.07
+ Input: en el caso de turquía , que todavía no cumple los criterios de adhesión , la comisión UNK posteriormente una estrategia de preadhesión UNK con recursos económicos UNK para el nuevo año .
+Output: the eu ' s budget is not only a UNK of the budget , but the eu ' s budget for the <num> budget . EOS
+Target: then for turkey , which does not yet meet the accession criteria , the commission will propose an enhanced pre - accession strategy with extra financial resources in the new year . EOS
+
+Epoch: 8, Iteration: 800, loss: 3.0057, elapsed: 2763.71, remaining: 431.29
+ Input: también se fomenta el llamado UNK de coordinación UNK para las políticas nacionales , que no es más que un mecanismo para imponer la política de la ue sin UNK intervención de sus instituciones .
+Output: we must not forget that the european union should be able to take action to ensure that the european union is not UNK to the UNK of the political parties . EOS
+Target: the so - called ' open coordination method ' for national policies is also promoted , which is nothing more than a mechanism for imposing eu policy without the apparent involvement of its institutions . EOS
+
+Epoch: 8, Iteration: 900, loss: 3.0045, elapsed: 2797.39, remaining: 77.62
+ Input: la solidaridad europea tampoco tendría que ser UNK .
+Output: we do not want a european UNK european UNK . EOS
+Target: at the same time , european solidarity should be equally non - UNK . EOS
+
+Epoch: 9, Iteration: 0, loss: 2.8764, elapsed: 2806.30, remaining: 2595824.06
+ Input: por otra parte , suscribo totalmente la propuesta de acción común del consejo .
+Output: i am pleased that the council has adopted the proposal for a regulation . EOS
+Target: however , i fully endorse the proposal for a joint action from the council . EOS
+
+Epoch: 9, Iteration: 100, loss: 2.9445, elapsed: 2839.92, remaining: 23197.35
+ Input: el consejo social y la presidencia sueca , casi diría la presidencia socialista sueca , no se han dado cuenta de que existe algo como la codecisión , parece que todo lo quieren decidir ellos mismos .
+Output: we have been able to UNK the council of europe , and i have been very pleased that the council has not yet been able to UNK with the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of
+Target: the social council and the swedish presidency , the swedish socialist presidency i would almost say , are not aware that there is also such a thing as codecision , they what to keep control of everything themselves . EOS
+
+Epoch: 9, Iteration: 200, loss: 2.9543, elapsed: 2873.58, remaining: 10364.90
+ Input: se trata de la supresión de las subvenciones en favor de actividades perjudiciales para el medio ambiente , en particular del carbón .
+Output: the report is also a UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of
+Target: it concerns the removal of environmentally harmful subsidies , especially on coal . EOS
+
+Epoch: 9, Iteration: 300, loss: 2.9678, elapsed: 2906.96, remaining: 6036.05
+ Input: hay poco de que UNK por algunas razones que ya se han señalado , pero que quiero repetir .
+Output: i would like to say that we have been UNK , but we have to say that we have been UNK . EOS
+Target: there is little to celebrate for various reasons which have already been given , but which i should like to repeat . EOS
+
+Epoch: 9, Iteration: 400, loss: 2.9735, elapsed: 2940.09, remaining: 3849.25
+ Input: ( ro ) felicito a la ponente , señora UNK .
+Output: i would like to congratulate the rapporteur on his report . EOS
+Target: ( ro ) i congratulate the rapporteur ms . UNK . EOS
+
+Epoch: 9, Iteration: 500, loss: 2.9642, elapsed: 2973.28, remaining: 2522.24
+ Input: no debería ser UNK .
+Output: we cannot be UNK . EOS
+Target: it should not be UNK . EOS
+
+Epoch: 9, Iteration: 600, loss: 2.9647, elapsed: 3009.15, remaining: 1627.24
+ Input: para nosotros es muy importante UNK de un largo y detallado UNK el ámbito de la ayuda a los pueblos , las ciudades y las zonas urbanas , puesto que allí es donde reside el <num>% de la población europea .
+Output: the UNK of the UNK is a very important area , and it is important that the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of the UNK of
+Target: very important to us – after a long , detailed debate – is the field of support for towns , cities and urban areas , as it is there that <num>% of the european population lives . EOS
+
+Epoch: 9, Iteration: 700, loss: 2.9679, elapsed: 3044.47, remaining: 977.18
+ Input: UNK en el programa de bienestar .
+Output: the programme is therefore UNK . EOS
+Target: look at the welfare agenda . EOS
+
+Epoch: 9, Iteration: 800, loss: 2.9768, elapsed: 3079.82, remaining: 480.62
+ Input: el efecto UNK es probablemente que UNK directamente para destruir nuestras aguas .
+Output: we are all aware that the UNK of the UNK is UNK . EOS
+Target: the net effect , it seems , is that we pay directly for the UNK of our water . EOS
+
+Epoch: 9, Iteration: 900, loss: 2.9752, elapsed: 3115.48, remaining: 86.45
+ Input: sin embargo , la comisión no tiene ninguna intención de adaptar las decisiones tomadas en la cumbre de <num> a los problemas reales que ahora están UNK .
+Output: the commission has not yet been able to UNK the negotiations on the basis of the negotiations , but it is not yet to be UNK the negotiations . EOS
+Target: the commission , however , has no wish to adjust the decisions taken at the <num> summit to the real problems now emerging . EOS
+

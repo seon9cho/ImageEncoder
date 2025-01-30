@@ -1,0 +1,17 @@
+# MacOS element
+**/.DS_Store
+
+# Python
+**/__pycache__
+**/.ipynb_checkpoints
+
+# Large data
+NPY/*
+text_corpora/raw/*
+text_corpora/other/*
+text_corpora/prepared/eng/books*
+
+# Outputs
+outputs/images/*
+outputs/maps/*
+outputs/models/*

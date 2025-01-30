@@ -1,0 +1,450 @@
+Epoch: 0, Iteration: 0, loss: 6.6933, elapsed: 1.86, remaining: 1629.25
+Input: he asked for a pay raise .
+Output: makes diet eye job hurts crowd windows pleasant picnic totally handle obviously remind rice holding usual signed right guys deeply crazy left years permission friendship sandwich anything can immediately midnight listen cancer ate burst bit airplane failure express why not absent crying . unusual economy square ship broken explain
+Target: he asked for a pay raise . EOS
+
+Epoch: 0, Iteration: 100, loss: 5.9173, elapsed: 25.23, remaining: 193.60
+Input: tom eats the same food every day .
+Output: . EOS
+Target: tom eats the same food every day . EOS
+
+Epoch: 0, Iteration: 200, loss: 3.9499, elapsed: 48.35, remaining: 162.38
+Input: i 'll have to talk to tom about it .
+Output: i 'm not know i 'm not know i 'm not know i 'm not know . EOS
+Target: i 'll have to talk to tom about it . EOS
+
+Epoch: 0, Iteration: 300, loss: 3.3703, elapsed: 71.28, remaining: 136.17
+Input: the facts are not clear .
+Output: the UNK . EOS
+Target: the facts are not clear . EOS
+
+Epoch: 0, Iteration: 400, loss: 3.0125, elapsed: 94.18, remaining: 111.56
+Input: why does it make you angry ?
+Output: do you want to do that ? EOS
+Target: why does it make you angry ? EOS
+
+Epoch: 0, Iteration: 500, loss: 2.8279, elapsed: 117.77, remaining: 88.15
+Input: i have little interest in history .
+Output: i have no one . EOS
+Target: i have little interest in history . EOS
+
+Epoch: 0, Iteration: 600, loss: 2.6705, elapsed: 141.58, remaining: 64.78
+Input: it was a UNK .
+Output: we have a UNK to the UNK . EOS
+Target: it was a UNK . EOS
+
+Epoch: 0, Iteration: 700, loss: 2.5396, elapsed: 164.41, remaining: 41.04
+Input: she is bad at sports .
+Output: they were my life . EOS
+Target: she is bad at sports . EOS
+
+Epoch: 0, Iteration: 800, loss: 2.4277, elapsed: 188.48, remaining: 17.65
+Input: no one seems to care .
+Output: the station will not be here . EOS
+Target: no one seems to care . EOS
+
+Epoch: 1, Iteration: 0, loss: 2.2738, elapsed: 206.50, remaining: 180690.95
+Input: i 'm a good for nothing UNK .
+Output: i 'm a UNK . EOS
+Target: i 'm a good for nothing UNK . EOS
+
+Epoch: 1, Iteration: 100, loss: 2.2211, elapsed: 230.07, remaining: 1765.37
+Input: i just wish we could leave this horrible place .
+Output: i 'll tell you a lot . EOS
+Target: i just wish we could leave this horrible place . EOS
+
+Epoch: 1, Iteration: 200, loss: 2.1564, elapsed: 253.66, remaining: 851.85
+Input: i know other people like tom .
+Output: i 've been UNK it . EOS
+Target: i know other people like tom . EOS
+
+Epoch: 1, Iteration: 300, loss: 2.1040, elapsed: 277.51, remaining: 530.13
+Input: good results are expected .
+Output: these are UNK . EOS
+Target: good results are expected . EOS
+
+Epoch: 1, Iteration: 400, loss: 2.0312, elapsed: 301.12, remaining: 356.69
+Input: whose is it ?
+Output: is it ? EOS
+Target: whose is it ? EOS
+
+Epoch: 1, Iteration: 500, loss: 1.9929, elapsed: 325.91, remaining: 243.95
+Input: do not leave your glasses on the table .
+Output: do not your UNK on the work ? EOS
+Target: do not leave your glasses on the table . EOS
+
+Epoch: 1, Iteration: 600, loss: 1.9311, elapsed: 353.12, remaining: 161.58
+Input: he has been busy .
+Output: he has been sick . EOS
+Target: he has been busy . EOS
+
+Epoch: 1, Iteration: 700, loss: 1.8934, elapsed: 377.11, remaining: 94.14
+Input: i avoid going there late at night .
+Output: i go in boston with you . EOS
+Target: i avoid going there late at night . EOS
+
+Epoch: 1, Iteration: 800, loss: 1.8548, elapsed: 400.41, remaining: 37.49
+Input: you do not seem convinced .
+Output: you do not need to help . EOS
+Target: you do not seem convinced . EOS
+
+Epoch: 2, Iteration: 0, loss: 1.7075, elapsed: 418.16, remaining: 365885.86
+Input: they did not listen .
+Output: do not see . EOS
+Target: they did not listen . EOS
+
+Epoch: 2, Iteration: 100, loss: 1.7569, elapsed: 441.99, remaining: 3391.48
+Input: do not UNK it up !
+Output: do not it UNK , too ? EOS
+Target: do not UNK it up ! EOS
+
+Epoch: 2, Iteration: 200, loss: 1.7273, elapsed: 465.70, remaining: 1563.92
+Input: i guess you never learned how to do this .
+Output: i will not give you to this so much . EOS
+Target: i guess you never learned how to do this . EOS
+
+Epoch: 2, Iteration: 300, loss: 1.6973, elapsed: 489.64, remaining: 935.36
+Input: i have something very important to tell you .
+Output: i really have you told you to tell you who told you who told you about your party . EOS
+Target: i have something very important to tell you . EOS
+
+Epoch: 2, Iteration: 400, loss: 1.6833, elapsed: 512.99, remaining: 607.65
+Input: i come here as often as i can .
+Output: i can not come if i come any time . EOS
+Target: i come here as often as i can . EOS
+
+Epoch: 2, Iteration: 500, loss: 1.6233, elapsed: 536.55, remaining: 401.61
+Input: they 're asleep .
+Output: they 're right . EOS
+Target: they 're asleep . EOS
+
+Epoch: 2, Iteration: 600, loss: 1.5767, elapsed: 561.37, remaining: 256.87
+Input: what UNK the pain ?
+Output: what the UNK ? EOS
+Target: what UNK the pain ? EOS
+
+Epoch: 2, Iteration: 700, loss: 1.5407, elapsed: 585.93, remaining: 146.27
+Input: it is time to feed the sheep .
+Output: it is time to the station . EOS
+Target: it is time to feed the sheep . EOS
+
+Epoch: 2, Iteration: 800, loss: 1.5157, elapsed: 610.95, remaining: 57.21
+Input: tom came half an hour late .
+Output: tom came here at a long time . EOS
+Target: tom came half an hour late . EOS
+
+Epoch: 3, Iteration: 0, loss: 1.4998, elapsed: 629.52, remaining: 550826.76
+Input: he has not come yet . something may have happened to him .
+Output: he will not come back to bed early when my party . EOS
+Target: he has not come yet . something may have happened to him . EOS
+
+Epoch: 3, Iteration: 100, loss: 1.4055, elapsed: 653.62, remaining: 5015.40
+Input: tom puts UNK in his hair .
+Output: tom UNK his friends in boston . EOS
+Target: tom puts UNK in his hair . EOS
+
+Epoch: 3, Iteration: 200, loss: 1.3883, elapsed: 678.05, remaining: 2277.04
+Input: i think this tastes good .
+Output: i think this think . EOS
+Target: i think this tastes good . EOS
+
+Epoch: 3, Iteration: 300, loss: 1.3701, elapsed: 702.44, remaining: 1341.87
+Input: are you for or against the plan ?
+Output: are you looking for the world ? EOS
+Target: are you for or against the plan ? EOS
+
+Epoch: 3, Iteration: 400, loss: 1.3654, elapsed: 727.19, remaining: 861.38
+Input: where are we going tomorrow ?
+Output: where are we going ? EOS
+Target: where are we going tomorrow ? EOS
+
+Epoch: 3, Iteration: 500, loss: 1.3512, elapsed: 752.10, remaining: 562.95
+Input: i 've been feeling this way all day .
+Output: i 've been all day . EOS
+Target: i 've been feeling this way all day . EOS
+
+Epoch: 3, Iteration: 600, loss: 1.3196, elapsed: 776.38, remaining: 355.25
+Input: they think it 's a UNK .
+Output: they think it 's a UNK . EOS
+Target: they think it 's a UNK . EOS
+
+Epoch: 3, Iteration: 700, loss: 1.3231, elapsed: 800.64, remaining: 199.87
+Input: can you make me a UNK ?
+Output: can you make me a UNK ? EOS
+Target: can you make me a UNK ? EOS
+
+Epoch: 3, Iteration: 800, loss: 1.3054, elapsed: 825.29, remaining: 77.27
+Input: i make the rules .
+Output: i will make the rules . EOS
+Target: i make the rules . EOS
+
+Epoch: 4, Iteration: 0, loss: 1.2130, elapsed: 843.75, remaining: 738284.45
+Input: i 'm sure tom told you i was coming .
+Output: i 'm glad tom told you mary 's . EOS
+Target: i 'm sure tom told you i was coming . EOS
+
+Epoch: 4, Iteration: 100, loss: 1.2161, elapsed: 868.62, remaining: 6665.15
+Input: he was hard to please .
+Output: he was kind to help . EOS
+Target: he was hard to please . EOS
+
+Epoch: 4, Iteration: 200, loss: 1.2028, elapsed: 893.90, remaining: 3001.91
+Input: did you forget to do your homework ?
+Output: did you do you want to write your homework ? EOS
+Target: did you forget to do your homework ? EOS
+
+Epoch: 4, Iteration: 300, loss: 1.2118, elapsed: 919.28, remaining: 1756.10
+Input: UNK died in one thousand , seven hundred and ninety one .
+Output: UNK died in one thousand , nine hundred and fifty eight hundred and fifty eight . EOS
+Target: UNK died in one thousand , seven hundred and ninety one . EOS
+
+Epoch: 4, Iteration: 400, loss: 1.2008, elapsed: 944.11, remaining: 1118.33
+Input: that 's a beautiful piece of meat .
+Output: that 's a beautiful woman in danger . EOS
+Target: that 's a beautiful piece of meat . EOS
+
+Epoch: 4, Iteration: 500, loss: 1.1895, elapsed: 968.88, remaining: 725.21
+Input: the president ignored the UNK outside his office .
+Output: the UNK the car in the morning . EOS
+Target: the president ignored the UNK outside his office . EOS
+
+Epoch: 4, Iteration: 600, loss: 1.1622, elapsed: 993.25, remaining: 454.48
+Input: tom looks UNK bored .
+Output: tom looks UNK . EOS
+Target: tom looks UNK bored . EOS
+
+Epoch: 4, Iteration: 700, loss: 1.1628, elapsed: 1017.53, remaining: 254.02
+Input: i 'll stay if it rains .
+Output: i 'll stay if it rains . EOS
+Target: i 'll stay if it rains . EOS
+
+Epoch: 4, Iteration: 800, loss: 1.1583, elapsed: 1041.73, remaining: 97.54
+Input: i had no idea you could speak french .
+Output: i had no idea you could speak french . EOS
+Target: i had no idea you could speak french . EOS
+
+Epoch: 5, Iteration: 0, loss: 1.1664, elapsed: 1061.32, remaining: 928659.19
+Input: it 's not what you do , but how you do it that matters .
+Output: it 's something that you do , do not do not do not do it . EOS
+Target: it 's not what you do , but how you do it that matters . EOS
+
+Epoch: 5, Iteration: 100, loss: 1.0890, elapsed: 1086.48, remaining: 8336.86
+Input: you must be UNK .
+Output: you must be UNK . EOS
+Target: you must be UNK . EOS
+
+Epoch: 5, Iteration: 200, loss: 1.0816, elapsed: 1109.99, remaining: 3727.57
+Input: tom played UNK with us .
+Output: tom played UNK with us . EOS
+Target: tom played UNK with us . EOS
+
+Epoch: 5, Iteration: 300, loss: 1.0763, elapsed: 1133.91, remaining: 2166.11
+Input: she UNK his UNK as a UNK .
+Output: she UNK as a UNK . EOS
+Target: she UNK his UNK as a UNK . EOS
+
+Epoch: 5, Iteration: 400, loss: 1.0594, elapsed: 1229.40, remaining: 1456.27
+Input: i laughed at his joke .
+Output: i studied at his speech . EOS
+Target: i laughed at his joke . EOS
+
+Epoch: 5, Iteration: 500, loss: 1.0659, elapsed: 1252.82, remaining: 937.74
+Input: he was a god to his people .
+Output: she was a child to his team . EOS
+Target: he was a god to his people . EOS
+
+Epoch: 5, Iteration: 600, loss: 1.0551, elapsed: 1276.39, remaining: 584.04
+Input: the last train has already gone .
+Output: the train has already gone very few minutes . EOS
+Target: the last train has already gone . EOS
+
+Epoch: 5, Iteration: 700, loss: 1.0694, elapsed: 1299.52, remaining: 324.42
+Input: the plan UNK .
+Output: the plan UNK . EOS
+Target: the plan UNK . EOS
+
+Epoch: 5, Iteration: 800, loss: 1.0526, elapsed: 1322.87, remaining: 123.86
+Input: well , let 's talk UNK .
+Output: let 's UNK , talk . EOS
+Target: well , let 's talk UNK . EOS
+
+Epoch: 6, Iteration: 0, loss: 1.1651, elapsed: 1340.56, remaining: 1172993.69
+Input: tom and mary usually speak to each other in french .
+Output: tom and mary who speaks french in other people who speaks to boston . EOS
+Target: tom and mary usually speak to each other in french . EOS
+
+Epoch: 6, Iteration: 100, loss: 0.9759, elapsed: 1364.13, remaining: 10467.35
+Input: do it yourself by all means .
+Output: do it by all this matter . EOS
+Target: do it yourself by all means . EOS
+
+Epoch: 6, Iteration: 200, loss: 0.9791, elapsed: 1388.65, remaining: 4663.36
+Input: tom did not know that .
+Output: tom did not know that . EOS
+Target: tom did not know that . EOS
+
+Epoch: 6, Iteration: 300, loss: 0.9795, elapsed: 1412.64, remaining: 2698.57
+Input: i think this coat should fit you .
+Output: i think you should borrow this on . EOS
+Target: i think this coat should fit you . EOS
+
+Epoch: 6, Iteration: 400, loss: 0.9784, elapsed: 1436.06, remaining: 1701.07
+Input: tom did not go to the hospital .
+Output: tom did not go to the hospital . EOS
+Target: tom did not go to the hospital . EOS
+
+Epoch: 6, Iteration: 500, loss: 0.9756, elapsed: 1460.60, remaining: 1093.26
+Input: is she a pretty girl ?
+Output: is she a pretty girl ? EOS
+Target: is she a pretty girl ? EOS
+
+Epoch: 6, Iteration: 600, loss: 0.9777, elapsed: 1484.41, remaining: 679.22
+Input: can you please close that window ?
+Output: can you please open that window ? EOS
+Target: can you please close that window ? EOS
+
+Epoch: 6, Iteration: 700, loss: 0.9605, elapsed: 1508.45, remaining: 376.57
+Input: apart from a couple of early UNK , the project is UNK well .
+Output: the UNK of a long time , UNK is far from here . EOS
+Target: apart from a couple of early UNK , the project is UNK well . EOS
+
+Epoch: 6, Iteration: 800, loss: 0.9695, elapsed: 1531.67, remaining: 143.41
+Input: that 's very kind of you .
+Output: that 's very kind of you . EOS
+Target: that 's very kind of you . EOS
+
+Epoch: 7, Iteration: 0, loss: 0.9188, elapsed: 1549.67, remaining: 1355963.62
+Input: UNK is an expensive hobby .
+Output: UNK is an expensive hobby . EOS
+Target: UNK is an expensive hobby . EOS
+
+Epoch: 7, Iteration: 100, loss: 0.8987, elapsed: 1574.17, remaining: 12079.03
+Input: are you absolutely sure that it was tom you saw ?
+Output: is it that tom 's the real you think it ? EOS
+Target: are you absolutely sure that it was tom you saw ? EOS
+
+Epoch: 7, Iteration: 200, loss: 0.9063, elapsed: 1597.68, remaining: 5365.34
+Input: i 'll check in .
+Output: i 'll check in . EOS
+Target: i 'll check in . EOS
+
+Epoch: 7, Iteration: 300, loss: 0.8943, elapsed: 1621.14, remaining: 3096.86
+Input: is today really monday ?
+Output: is there really breakfast ? EOS
+Target: is today really monday ? EOS
+
+Epoch: 7, Iteration: 400, loss: 0.8972, elapsed: 1646.38, remaining: 1950.20
+Input: would you like to take a UNK ?
+Output: would you like to take a UNK ? EOS
+Target: would you like to take a UNK ? EOS
+
+Epoch: 7, Iteration: 500, loss: 0.8920, elapsed: 1670.29, remaining: 1250.22
+Input: do not UNK it in .
+Output: do not UNK it in . EOS
+Target: do not UNK it in . EOS
+
+Epoch: 7, Iteration: 600, loss: 0.8982, elapsed: 1693.37, remaining: 774.83
+Input: do you know where he was born ?
+Output: do you know where he 's in the job ? EOS
+Target: do you know where he was born ? EOS
+
+Epoch: 7, Iteration: 700, loss: 0.9018, elapsed: 1716.66, remaining: 428.55
+Input: would you hold this for me , please ?
+Output: would you mind waiting for me , please ? EOS
+Target: would you hold this for me , please ? EOS
+
+Epoch: 7, Iteration: 800, loss: 0.8971, elapsed: 1739.54, remaining: 162.88
+Input: who else is here ?
+Output: who is here ? EOS
+Target: who else is here ? EOS
+
+Epoch: 8, Iteration: 0, loss: 0.7900, elapsed: 1756.91, remaining: 1537299.28
+Input: i am very tall .
+Output: i am very tall . EOS
+Target: i am very tall . EOS
+
+Epoch: 8, Iteration: 100, loss: 0.8351, elapsed: 1779.84, remaining: 13657.20
+Input: bread is made from UNK , water and UNK .
+Output: UNK , life is running short and milk . EOS
+Target: bread is made from UNK , water and UNK . EOS
+
+Epoch: 8, Iteration: 200, loss: 0.8384, elapsed: 1803.69, remaining: 6057.17
+Input: can i tell them you 'll be visiting ?
+Output: can i 'll tell you 'll be back ? EOS
+Target: can i tell them you 'll be visiting ? EOS
+
+Epoch: 8, Iteration: 300, loss: 0.8391, elapsed: 1828.28, remaining: 3492.55
+Input: he broke the law .
+Output: he broke the law . EOS
+Target: he broke the law . EOS
+
+Epoch: 8, Iteration: 400, loss: 0.8540, elapsed: 1852.17, remaining: 2193.97
+Input: things have UNK .
+Output: things have UNK . EOS
+Target: things have UNK . EOS
+
+Epoch: 8, Iteration: 500, loss: 0.8498, elapsed: 1878.25, remaining: 1405.87
+Input: that did UNK to me .
+Output: that did UNK to me . EOS
+Target: that did UNK to me . EOS
+
+Epoch: 8, Iteration: 600, loss: 0.8361, elapsed: 1901.87, remaining: 870.24
+Input: i did not take many photos .
+Output: i did not take many days . EOS
+Target: i did not take many photos . EOS
+
+Epoch: 8, Iteration: 700, loss: 0.8363, elapsed: 1925.78, remaining: 480.76
+Input: i know now what i have to do .
+Output: i know what i have to do now . EOS
+Target: i know now what i have to do . EOS
+
+Epoch: 8, Iteration: 800, loss: 0.8361, elapsed: 1948.68, remaining: 182.46
+Input: the girl was afraid to jump down from the roof .
+Output: the girl was afraid to look around the road . EOS
+Target: the girl was afraid to jump down from the roof . EOS
+
+Epoch: 9, Iteration: 0, loss: 0.8305, elapsed: 1966.35, remaining: 1720552.73
+Input: i have a good dictionary .
+Output: i have a good dictionary . EOS
+Target: i have a good dictionary . EOS
+
+Epoch: 9, Iteration: 100, loss: 0.7693, elapsed: 1990.32, remaining: 15272.27
+Input: it 's no secret .
+Output: it 's no secret . EOS
+Target: it 's no secret . EOS
+
+Epoch: 9, Iteration: 200, loss: 0.7883, elapsed: 2013.17, remaining: 6760.66
+Input: she talks a lot .
+Output: she talks a lot . EOS
+Target: she talks a lot . EOS
+
+Epoch: 9, Iteration: 300, loss: 0.7829, elapsed: 2036.75, remaining: 3890.80
+Input: do you actually like this ?
+Output: do you actually like this ? EOS
+Target: do you actually like this ? EOS
+
+Epoch: 9, Iteration: 400, loss: 0.7799, elapsed: 2059.72, remaining: 2439.82
+Input: this is not a small problem .
+Output: this is not a small problem . EOS
+Target: this is not a small problem . EOS
+
+Epoch: 9, Iteration: 500, loss: 0.7923, elapsed: 2082.73, remaining: 1558.93
+Input: doctors have discovered some UNK facts .
+Output: some people have UNK problems . EOS
+Target: doctors have discovered some UNK facts . EOS
+
+Epoch: 9, Iteration: 600, loss: 0.7960, elapsed: 2114.54, remaining: 967.55
+Input: how much does it cost ?
+Output: how much does it cost ? EOS
+Target: how much does it cost ? EOS
+
+Epoch: 9, Iteration: 700, loss: 0.7974, elapsed: 2138.26, remaining: 533.80
+Input: i do not want to watch television .
+Output: i do not want to watch television . EOS
+Target: i do not want to watch television . EOS
+
+Epoch: 9, Iteration: 800, loss: 0.7916, elapsed: 2162.77, remaining: 202.51
+Input: do not cry over UNK milk .
+Output: do not UNK smoke wearing the meat . EOS
+Target: do not cry over UNK milk . EOS
+

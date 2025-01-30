@@ -1,0 +1,250 @@
+Epoch: 0, Iteration: 0, loss: 7.3813, elapsed: 3.11, remaining: 2722.32
+ Input: SOS why do not we go together ?
+Output: detective july singapore gun telephoned manager treaty lied radio body sweden amused everything tells limited stood bananas schedule winter surrender bark passengers agrees ambitious trusted lying laughed electric care due ended lid chips account forces apologized smells meat injuries currently obviously due ended lid chips account forces apologized smells
+Target: why do not we go together ? EOS
+
+Epoch: 0, Iteration: 100, loss: 5.5027, elapsed: 29.32, remaining: 225.00
+ Input: SOS what a waste of water !
+Output: you ? EOS
+Target: what a waste of water ! EOS
+
+Epoch: 0, Iteration: 200, loss: 3.6946, elapsed: 54.61, remaining: 183.38
+ Input: SOS remove your hat .
+Output: he was not . EOS
+Target: remove your hat . EOS
+
+Epoch: 0, Iteration: 300, loss: 3.1549, elapsed: 95.32, remaining: 182.09
+ Input: SOS you have to learn how to compromise .
+Output: you want to do to do to do to do to do to do to do to do to do to do to do to do to do to do to do to do to do to do to do to do to do to do to do to
+Target: you have to learn how to compromise . EOS
+
+Epoch: 0, Iteration: 400, loss: 2.8821, elapsed: 121.69, remaining: 144.15
+ Input: SOS how long do you plan on staying here ?
+Output: do you have a lot ? EOS
+Target: how long do you plan on staying here ? EOS
+
+Epoch: 0, Iteration: 500, loss: 2.7454, elapsed: 147.39, remaining: 110.32
+ Input: SOS tom fell asleep with the light on .
+Output: the boy was very good at the morning . EOS
+Target: tom fell asleep with the light on . EOS
+
+Epoch: 0, Iteration: 600, loss: 2.6059, elapsed: 175.35, remaining: 80.23
+ Input: SOS thanks to his advice , i have saved a lot of money .
+Output: i have a lot of time to the job . EOS
+Target: thanks to his advice , i have saved a lot of money . EOS
+
+Epoch: 0, Iteration: 700, loss: 2.5307, elapsed: 202.80, remaining: 50.63
+ Input: SOS i love your sweater .
+Output: i know your . EOS
+Target: i love your sweater . EOS
+
+Epoch: 0, Iteration: 800, loss: 2.4513, elapsed: 229.05, remaining: 21.45
+ Input: SOS they were drinking champagne .
+Output: they were . EOS
+Target: they were drinking champagne . EOS
+
+Epoch: 1, Iteration: 0, loss: 2.2657, elapsed: 246.77, remaining: 215923.35
+ Input: SOS we cut off the rope .
+Output: we 'll the door . EOS
+Target: we cut off the rope . EOS
+
+Epoch: 1, Iteration: 100, loss: 2.3381, elapsed: 272.99, remaining: 2094.75
+ Input: SOS were you excited ?
+Output: were you ? EOS
+Target: were you excited ? EOS
+
+Epoch: 1, Iteration: 200, loss: 2.2974, elapsed: 301.18, remaining: 1011.43
+ Input: SOS i really think we should talk .
+Output: i think we should be here . EOS
+Target: i really think we should talk . EOS
+
+Epoch: 1, Iteration: 300, loss: 2.2380, elapsed: 325.88, remaining: 622.52
+ Input: SOS it took him a long time to take in what she was saying .
+Output: it was an important for it . EOS
+Target: it took him a long time to take in what she was saying . EOS
+
+Epoch: 1, Iteration: 400, loss: 2.1831, elapsed: 351.43, remaining: 416.28
+ Input: SOS a true gentleman never his friends .
+Output: his never gave me a teacher . EOS
+Target: a true gentleman never his friends . EOS
+
+Epoch: 1, Iteration: 500, loss: 2.1245, elapsed: 377.70, remaining: 282.71
+ Input: SOS washington was born in one thousand , seven hundred and thirty two .
+Output: in case , nine hundred and was in the world . EOS
+Target: washington was born in one thousand , seven hundred and thirty two . EOS
+
+Epoch: 1, Iteration: 600, loss: 2.0695, elapsed: 402.22, remaining: 184.05
+ Input: SOS she has a cat and two dogs .
+Output: she has a few people at the world . EOS
+Target: she has a cat and two dogs . EOS
+
+Epoch: 1, Iteration: 700, loss: 2.0190, elapsed: 426.51, remaining: 106.48
+ Input: SOS i 'm not finished with you .
+Output: i 'm not expecting you with . EOS
+Target: i 'm not finished with you . EOS
+
+Epoch: 1, Iteration: 800, loss: 1.9862, elapsed: 453.60, remaining: 42.47
+ Input: SOS i was bored with his old jokes .
+Output: i was sitting with his house . EOS
+Target: i was bored with his old jokes . EOS
+
+Epoch: 2, Iteration: 0, loss: 1.7669, elapsed: 476.08, remaining: 416566.25
+ Input: SOS everybody has their favorite drink .
+Output: his father has no friends . EOS
+Target: everybody has their favorite drink . EOS
+
+Epoch: 2, Iteration: 100, loss: 1.8604, elapsed: 503.39, remaining: 3862.67
+ Input: SOS that job took a lot out of me .
+Output: that 's a lot of a great . EOS
+Target: that job took a lot out of me . EOS
+
+Epoch: 2, Iteration: 200, loss: 1.8380, elapsed: 531.55, remaining: 1785.07
+ Input: SOS that copy differs from the original .
+Output: the train were looking for that . EOS
+Target: that copy differs from the original . EOS
+
+Epoch: 2, Iteration: 300, loss: 1.8381, elapsed: 560.37, remaining: 1070.48
+ Input: SOS what you 're doing is illegal .
+Output: that is what you 're wrong . EOS
+Target: what you 're doing is illegal . EOS
+
+Epoch: 2, Iteration: 400, loss: 1.8023, elapsed: 586.78, remaining: 695.06
+ Input: SOS i will accept the work , provided you help me .
+Output: if you should go and tell me all the truth . EOS
+Target: i will accept the work , provided you help me . EOS
+
+Epoch: 2, Iteration: 500, loss: 1.7815, elapsed: 614.15, remaining: 459.69
+ Input: SOS he himself nothing .
+Output: he said nothing . EOS
+Target: he himself nothing . EOS
+
+Epoch: 2, Iteration: 600, loss: 1.7560, elapsed: 640.46, remaining: 293.06
+ Input: SOS do you want the details now ?
+Output: do you want the time ? EOS
+Target: do you want the details now ? EOS
+
+Epoch: 2, Iteration: 700, loss: 1.7441, elapsed: 665.07, remaining: 166.03
+ Input: SOS everybody seems to be having a good time .
+Output: we have a good time to be done . EOS
+Target: everybody seems to be having a good time . EOS
+
+Epoch: 2, Iteration: 800, loss: 1.6987, elapsed: 689.91, remaining: 64.60
+ Input: SOS you may not learn to speak as well as a native speaker , but you should be able to speak well enough that native speakers will understand what you have to say .
+Output: if you have a good , you have no matter what you have to be the only thing . EOS
+Target: you may not learn to speak as well as a native speaker , but you should be able to speak well enough that native speakers will understand what you have to say . EOS
+
+Epoch: 3, Iteration: 0, loss: 1.6061, elapsed: 708.99, remaining: 620370.16
+ Input: SOS tom pushed me into the pool , so i got out and pushed him in .
+Output: if tom got a car , i saw him in the morning . EOS
+Target: tom pushed me into the pool , so i got out and pushed him in . EOS
+
+Epoch: 3, Iteration: 100, loss: 1.6160, elapsed: 733.81, remaining: 5630.69
+ Input: SOS i 'd rather do this by myself .
+Output: i should do this in mind . EOS
+Target: i 'd rather do this by myself . EOS
+
+Epoch: 3, Iteration: 200, loss: 1.6196, elapsed: 759.63, remaining: 2551.00
+ Input: SOS he has built up an excellent business .
+Output: he has a long time . EOS
+Target: he has built up an excellent business . EOS
+
+Epoch: 3, Iteration: 300, loss: 1.5973, elapsed: 791.76, remaining: 1512.50
+ Input: SOS tom is an idiot .
+Output: tom is an . EOS
+Target: tom is an idiot . EOS
+
+Epoch: 3, Iteration: 400, loss: 1.5804, elapsed: 816.73, remaining: 967.45
+ Input: SOS i always watch the weather report before going out in the morning .
+Output: i will get the next month in the next week . EOS
+Target: i always watch the weather report before going out in the morning . EOS
+
+Epoch: 3, Iteration: 500, loss: 1.5839, elapsed: 839.81, remaining: 628.60
+ Input: SOS our are strong women .
+Output: our team are brothers . EOS
+Target: our are strong women . EOS
+
+Epoch: 3, Iteration: 600, loss: 1.5513, elapsed: 862.85, remaining: 394.82
+ Input: SOS he told me that his father was a teacher .
+Output: he told me a man who he was a teacher . EOS
+Target: he told me that his father was a teacher . EOS
+
+Epoch: 3, Iteration: 700, loss: 1.5467, elapsed: 886.99, remaining: 221.43
+ Input: SOS the house that tom built is really nice .
+Output: this is a good idea that question . EOS
+Target: the house that tom built is really nice . EOS
+
+Epoch: 3, Iteration: 800, loss: 1.5318, elapsed: 911.46, remaining: 85.34
+ Input: SOS put on your pajamas .
+Output: put your room on . EOS
+Target: put on your pajamas . EOS
+
+Epoch: 4, Iteration: 0, loss: 1.6079, elapsed: 929.63, remaining: 813428.15
+ Input: SOS that 's the computer on which he writes his articles .
+Output: he 's the first time in the world . EOS
+Target: that 's the computer on which he writes his articles . EOS
+
+Epoch: 4, Iteration: 100, loss: 1.4413, elapsed: 952.41, remaining: 7308.06
+ Input: SOS i want an player !
+Output: i want an apple ! EOS
+Target: i want an player ! EOS
+
+Epoch: 4, Iteration: 200, loss: 1.4417, elapsed: 974.87, remaining: 3273.83
+ Input: SOS please sit here .
+Output: please sit here . EOS
+Target: please sit here . EOS
+
+Epoch: 4, Iteration: 300, loss: 1.4329, elapsed: 998.50, remaining: 1907.44
+ Input: SOS you do not stand a chance .
+Output: you do not take a while . EOS
+Target: you do not stand a chance . EOS
+
+Epoch: 4, Iteration: 400, loss: 1.4464, elapsed: 1022.18, remaining: 1210.81
+ Input: SOS i found the money .
+Output: i found the money . EOS
+Target: i found the money . EOS
+
+Epoch: 4, Iteration: 500, loss: 1.4417, elapsed: 1044.01, remaining: 781.44
+ Input: SOS we can open the windows .
+Output: we can open the door . EOS
+Target: we can open the windows . EOS
+
+Epoch: 4, Iteration: 600, loss: 1.4373, elapsed: 1066.04, remaining: 487.79
+ Input: SOS it 's all in my report .
+Output: it 's all my in . EOS
+Target: it 's all in my report . EOS
+
+Epoch: 4, Iteration: 700, loss: 1.4071, elapsed: 1087.04, remaining: 271.37
+ Input: SOS he looks like a girl .
+Output: he looks like a girl . EOS
+Target: he looks like a girl . EOS
+
+Epoch: 4, Iteration: 800, loss: 1.4119, elapsed: 1108.36, remaining: 103.78
+ Input: SOS i 'm starting to have fun on my new job .
+Output: i want to be with my life 's work . EOS
+Target: i 'm starting to have fun on my new job . EOS
+
+Epoch: 5, Iteration: 0, loss: 1.4463, elapsed: 1124.30, remaining: 983764.88
+ Input: SOS tom pays his taxes .
+Output: tom his own company . EOS
+Target: tom pays his taxes . EOS
+
+Epoch: 5, Iteration: 100, loss: 1.3417, elapsed: 1145.78, remaining: 8791.87
+ Input: SOS i loved reading when i was a child .
+Output: i lost a watch when i was . EOS
+Target: i loved reading when i was a child . EOS
+
+Epoch: 5, Iteration: 200, loss: 1.3172, elapsed: 1167.04, remaining: 3919.16
+ Input: SOS he likes all animals except horses .
+Output: he likes all kinds of them . EOS
+Target: he likes all animals except horses . EOS
+
+Epoch: 5, Iteration: 300, loss: 1.3291, elapsed: 1189.83, remaining: 2272.93
+ Input: SOS it 's a good deal .
+Output: it 's a good solution . EOS
+Target: it 's a good deal . EOS
+
+Epoch: 5, Iteration: 400, loss: 1.3176, elapsed: 1216.15, remaining: 1440.58
+ Input: SOS do not start doing that .
+Output: do not worry about that . EOS
+Target: do not start doing that . EOS
+

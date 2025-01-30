@@ -1,0 +1,60 @@
+Epoch: 0, loss: 0.0529
+ Input: SOS do you carry a weapon ?
+Output: il essaya aussi tot de cette . EOS
+Target: portes tu une arme ? EOS
+
+Epoch: 0, loss: 0.0529
+ Input: SOS you don t look like a doctor .
+Output: de toute evidence nous etions mon amies . EOS
+Target: vous ne ressemblez pas a un medecin . EOS
+
+Epoch: 0, loss: 0.0529
+ Input: SOS can you help me with the washing up ?
+Output: il est tres ravi d la . EOS
+Target: peux tu m aider a faire la vaisselle ? EOS
+
+Epoch: 0, loss: 0.0529
+ Input: SOS you just made a big mistake .
+Output: il etait pieds immediatement . EOS
+Target: vous venez de faire une grosse erreur . EOS
+
+Epoch: 0, loss: 0.0529
+ Input: SOS we ve had more snow this winter than usual .
+Output: il a adore un risque pas ces . EOS
+Target: nous avons eu cet hiver davantage de neige que d ordinaire . EOS
+
+Epoch: 0, loss: 0.0529
+ Input: SOS i couldn t help but smile .
+Output: il devint pas en desaccord . EOS
+Target: je ne pouvais m empecher de sourire . EOS
+
+Epoch: 1, loss: 0.0511
+ Input: SOS i m terribly sorry .
+Output: votre famille de serieux sans nous . EOS
+Target: je suis terriblement desole . EOS
+
+Epoch: 1, loss: 0.0511
+ Input: SOS it is not known when he came up to london .
+Output: vous etes souvent d elle ? EOS
+Target: on ne sait pas quand il est venu a londres . EOS
+
+Epoch: 1, loss: 0.0511
+ Input: SOS he can t stop laughing .
+Output: il pleut de toute evidence nous . EOS
+Target: il n arrive pas a arreter de rire . EOS
+
+Epoch: 1, loss: 0.0511
+ Input: SOS i can t believe we finally made it .
+Output: il serait chouette de fermer la en classe ? EOS
+Target: je n arrive pas a croire que nous y avons finalement reussi . EOS
+
+Epoch: 1, loss: 0.0511
+ Input: SOS i want you to think about this .
+Output: cela etait il d abord toi ? EOS
+Target: je veux que vous y . EOS
+
+Epoch: 1, loss: 0.0511
+ Input: SOS did you put it somewhere ?
+Output: votre encore d argent contre moi ? EOS
+Target: l as tu mis quelque part ? EOS
+

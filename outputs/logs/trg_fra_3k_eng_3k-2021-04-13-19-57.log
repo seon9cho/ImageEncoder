@@ -1,0 +1,160 @@
+Epoch: 0, Iteration: 0, loss: 7.1401, elapsed: 1.70, remaining: 39.04
+ Input: SOS te discutons .
+Output: te discutons . EOS
+Target: te discutons . EOS
+
+Epoch: 0, Iteration: 10, loss: 6.5499, elapsed: 5.91, remaining: 6.98
+ Input: SOS etre consacrer inconvenient etes .
+Output: etre consacrer inconvenient etes . EOS
+Target: etre consacrer inconvenient etes . EOS
+
+Epoch: 0, Iteration: 20, loss: 4.8407, elapsed: 10.16, remaining: 1.45
+ Input: SOS place discutons tu choques chasseur suivi que
+Output: place discutons tu que EOS
+Target: place discutons tu choques chasseur suivi que EOS
+
+Epoch: 1, Iteration: 0, loss: 3.7816, elapsed: 12.53, remaining: 288.29
+ Input: SOS avantages poursuivre fils tu sujet .
+Output: etre ferais quelque travailler tu camion . EOS
+Target: avantages poursuivre fils tu sujet . EOS
+
+Epoch: 1, Iteration: 10, loss: 3.3937, elapsed: 17.55, remaining: 20.75
+ Input: SOS demain me a journee vous que
+Output: etre ferais quelque travailler a place discutons que EOS
+Target: demain me a journee vous que EOS
+
+Epoch: 1, Iteration: 20, loss: 3.0004, elapsed: 22.65, remaining: 3.24
+ Input: SOS a ne devriez autre .
+Output: a ne propose but oncle exposition que EOS
+Target: a ne devriez autre . EOS
+
+Epoch: 2, Iteration: 0, loss: 2.6204, elapsed: 25.50, remaining: 586.44
+ Input: SOS a son film stupide but amerique davantage si prends occasion .
+Output: etre en destination tu il faisait . EOS
+Target: a son film stupide but amerique davantage si prends occasion . EOS
+
+Epoch: 2, Iteration: 10, loss: 2.5777, elapsed: 30.83, remaining: 36.44
+ Input: SOS chatte a frontiere pantalon discutons web que
+Output: etre en destination notre but quelles interieur tu erreur . EOS
+Target: chatte a frontiere pantalon discutons web que EOS
+
+Epoch: 2, Iteration: 20, loss: 2.4347, elapsed: 35.98, remaining: 5.14
+ Input: SOS etre froid dentiste .
+Output: etre en destination tu moindre ! importe discutons arrivent . EOS
+Target: etre froid dentiste . EOS
+
+Epoch: 3, Iteration: 0, loss: 2.0038, elapsed: 38.67, remaining: 889.32
+ Input: SOS etre conference vous dit difficile pense .
+Output: etre ferais quelque devoirs place etre son dort but tu techniques . EOS
+Target: etre conference vous dit difficile pense . EOS
+
+Epoch: 3, Iteration: 10, loss: 1.9632, elapsed: 44.05, remaining: 52.06
+ Input: SOS dit discutons si durant travers payer dit discutons reviennes donnerai etre t quelque mes but fini interieur fois .
+Output: etre ferais quelque devoirs tu peux tu il pouvez detail etre son dort dix . EOS
+Target: dit discutons si durant travers payer dit discutons reviennes donnerai etre t quelque mes but fini interieur fois . EOS
+
+Epoch: 3, Iteration: 20, loss: 1.9798, elapsed: 49.29, remaining: 7.04
+ Input: SOS dimanche le alle prendrai .
+Output: etre en destination tu ! importe discutons arrivent but mary fait apprecie . EOS
+Target: dimanche le alle prendrai . EOS
+
+Epoch: 4, Iteration: 0, loss: 1.4710, elapsed: 52.15, remaining: 1199.35
+ Input: SOS declare avantages une menace esprit que
+Output: etre en destination tu moindre ! importe nature une metro but disent . EOS
+Target: declare avantages une menace esprit que EOS
+
+Epoch: 4, Iteration: 10, loss: 1.4629, elapsed: 57.49, remaining: 67.94
+ Input: SOS etre six but tu accidentellement magazine .
+Output: etre en destination tu ! importe etre en notre but dort but tu amicaux . EOS
+Target: etre six but tu accidentellement magazine . EOS
+
+Epoch: 4, Iteration: 20, loss: 1.5186, elapsed: 62.62, remaining: 8.95
+ Input: SOS dit deuxieme si epuisee bieres peux camion but tu pareille ouverture .
+Output: etre consacrer destination but dort but tu travaillez suivi tu sachiez . EOS
+Target: dit deuxieme si epuisee bieres peux camion but tu pareille ouverture . EOS
+
+Epoch: 5, Iteration: 0, loss: 1.0653, elapsed: 65.45, remaining: 1505.27
+ Input: SOS a s film devriez voix peux sentis dehors .
+Output: etre en destination tu moindre ! importe difficile film stupide but oncle a que EOS
+Target: a s film devriez voix peux sentis dehors . EOS
+
+Epoch: 5, Iteration: 10, loss: 1.0675, elapsed: 70.75, remaining: 83.61
+ Input: SOS signer etre certaines finit dix laissera parviens detail calmement si erreur etre ecoutes chapeau .
+Output: etre en destination chargee aurais les detail etre une route emballe suivi tu sachiez . EOS
+Target: signer etre certaines finit dix laissera parviens detail calmement si erreur etre ecoutes chapeau . EOS
+
+Epoch: 5, Iteration: 20, loss: 1.1745, elapsed: 76.01, remaining: 10.86
+ Input: SOS plait difficile a mes but dort que
+Output: etre penser quelque dort but tu erreur peux tu choisir . EOS
+Target: plait difficile a mes but dort que EOS
+
+Epoch: 6, Iteration: 0, loss: 0.7607, elapsed: 78.72, remaining: 1810.57
+ Input: SOS nous ne attendais suivi tu propos .
+Output: etre penser quelque une route tu peux tu erreur . EOS
+Target: nous ne attendais suivi tu propos . EOS
+
+Epoch: 6, Iteration: 10, loss: 0.8669, elapsed: 83.99, remaining: 99.26
+ Input: SOS me a appeler nous pres cadeaux ma supplementaire que
+Output: etre en destination notre but mary ! peux boston dix rue les . EOS
+Target: me a appeler nous pres cadeaux ma supplementaire que EOS
+
+Epoch: 6, Iteration: 20, loss: 0.9706, elapsed: 89.38, remaining: 12.77
+ Input: SOS etre en appeler vous etre ferais frontiere vous .
+Output: etre en destination appeler etre correct quelque chargee aurais une metro but a suppose chargee . EOS
+Target: etre en appeler vous etre ferais frontiere vous . EOS
+
+Epoch: 7, Iteration: 0, loss: 0.7270, elapsed: 92.17, remaining: 2119.94
+ Input: SOS organisation montant mes si ramene .
+Output: etre en destination appeler demain son mary choisir chemise controle partons . EOS
+Target: organisation montant mes si ramene . EOS
+
+Epoch: 7, Iteration: 10, loss: 0.7417, elapsed: 97.34, remaining: 115.04
+ Input: SOS etre eteindre etre dollars destination film tu ceci fruit davantage tu aime fort etre bu pratiquement a vitesse voulait notre idees interieur etais .
+Output: etre en destination vieille but humanite a suivi tu americains fort etre froid meme tu americains . EOS
+Target: etre eteindre etre dollars destination film tu ceci fruit davantage tu aime fort etre bu pratiquement a vitesse voulait notre idees interieur etais . EOS
+
+Epoch: 7, Iteration: 20, loss: 0.8188, elapsed: 102.78, remaining: 14.68
+ Input: SOS a son mary soit si ri aucun .
+Output: etre veux quelque une route mariage toujours interieur tu president vous a suppose malheureux . EOS
+Target: a son mary soit si ri aucun . EOS
+
+Epoch: 8, Iteration: 0, loss: 0.5769, elapsed: 105.60, remaining: 2428.77
+ Input: SOS avantages qualifie allonge .
+Output: etre en destination tu ! importe froid notre but film dimanche raison quelque a que EOS
+Target: avantages qualifie allonge . EOS
+
+Epoch: 8, Iteration: 10, loss: 0.6781, elapsed: 110.96, remaining: 131.14
+ Input: SOS etre ferais quelque voulez .
+Output: etre en destination appeler etre une but mary voulez marie . EOS
+Target: etre ferais quelque voulez . EOS
+
+Epoch: 8, Iteration: 20, loss: 0.7545, elapsed: 116.09, remaining: 16.58
+ Input: SOS colere esprit prendre colere senti .
+Output: etre en destination vieille but humanite terrible suivi fatigue typhon . EOS
+Target: colere esprit prendre colere senti . EOS
+
+Epoch: 9, Iteration: 0, loss: 0.5618, elapsed: 118.86, remaining: 2733.70
+ Input: SOS dit discutons idees peux eau .
+Output: etre veux quelque et place nous telecharger davantage tu eloignee . EOS
+Target: dit discutons idees peux eau . EOS
+
+Epoch: 9, Iteration: 10, loss: 0.6691, elapsed: 124.13, remaining: 146.69
+ Input: SOS davantage crea ! medecin but lecon si latin le but fois ouvrir actuellement .
+Output: etre bus si epuisee bieres peux fasses . EOS
+Target: davantage crea ! medecin but lecon si latin le but fois ouvrir actuellement . EOS
+
+Epoch: 9, Iteration: 20, loss: 0.7370, elapsed: 129.27, remaining: 18.47
+ Input: SOS avantages fatigues davantage .
+Output: etre veux quelque fete tu il pouvez . EOS
+Target: avantages fatigues davantage . EOS
+
+Epoch: 10, Iteration: 0, loss: 0.5593, elapsed: 132.24, remaining: 3041.54
+ Input: SOS etre commander place dit chatte suivi etais .
+Output: etre consacrer destination tu ! etre veux quelque chose place a suppose essayer suivi fois que EOS
+Target: etre commander place dit chatte suivi etais . EOS
+
+Epoch: 10, Iteration: 10, loss: 0.6484, elapsed: 137.38, remaining: 162.36
+ Input: SOS aide me etait but dort toujours allonge .
+Output: etre en destination tu moindre ! importe la vendre marie . EOS
+Target: aide me etait but dort toujours allonge . EOS
+
