@@ -144,7 +144,7 @@ Below are some example sentences from the dataset after preprocessing:
 \end{ttenv}
 
 
-\section{Opimizer and Cost Function}
+## Opimizer and Cost Function
 
 Since the majority of the model is the transformer, it was ideal to follow much of the training procedure from the original paper \cite{transformer}. Optimization was done using the Adam \cite{adam} optimizer with $\beta_1 = 0.9$, $\beta_2 = 0.98$, and $\epsilon = 10^{\shortminus 9}$. The learning rate $\eta$ varied over the course of the training according to the formula
 \begin{align*}
@@ -158,8 +158,7 @@ For the cost function, Kullback-Leibler divergence, $D_{\text{KL}}$, is used, wh
 \end{align}
 where $P$ represents the target output probability distribution and $Q$ is the predicted output probability distribution produced by the model. In the context of language model training, the probability space is a discrete space over all vocabulary words, where the desired output distribution, $P$, has a concentrated mass at the index that maps to the correct next token. In practice, this usually means that 100\% of the mass is at the correct token and is zero everywhere else. For this training, label smoothing strategy was used, where the confidence of the correct token is subtracted by a smoothing value. The remaining mass is then spread out evenly across all other tokens. This causes the model to learn to be more unsure about the next token prediction, but helps with regularization during evaluation phase. The smoothing value was set to 0.1.
 
-
-\section{Training}
+## Training
 
 Training was done using a single NVIDIA GeForce RTX 2080 Ti GPU for 20 epochs over the training set. Each training session was done 10 epochs at a time, and after each epoch, validation loss was computed using the validation set, and a checkpoint of the model was saved. Two full training sessions were done before the validation loss started to increase, at which point a saved model with minimum validation loss was chosen to be the final model for testing. The graph from Figure \ref{fig:loss-graph} shows both the train and validation loss over the entire training, where the validation loss achieved a minimum score of $D_{\text{KL}} = 0.5587$. In total, the training took about 26 hours. 
 
@@ -170,7 +169,7 @@ Training was done using a single NVIDIA GeForce RTX 2080 Ti GPU for 20 epochs ov
     \label{fig:loss-graph}
 \end{figure}
 
-\section{Evaluation}
+## Evaluation
 
 Using the final model, testing was done using 10,000 sentences from the test set that had been reserved during model training and selection phase. The model achieved a loss value of $D_{\text{KL}} = 0.5478$ averaged over the test set. To evaluate the model's performance on decoding without the use of the target inputs, two different decoding strategies are used: greedy decoding and beam search decoding.
 
@@ -439,12 +438,11 @@ The last example shows a case where the decoded sentences are semantically simil
 \clearpage
 
 
-
-\chapter{Experiments and Analysis}
+# Experiments and Analysis
 
 Using the trained model, different experiments were conducted to find interesting properties about the latent space and the encoded vectors. Understanding the model's encoding and decoding capabilities can help us understand how the model can be used for further applications and its limitations. Throughout this chapter, let $\mathbf{E}: \mathcal{L} \rightarrow \R^d$ be defined as the encoding half of the entire model, $\mathbf{E} := \Phi \circ \Psi \circ \mathcal{T}_\mathbf{e} \circ E$, and let $\mathbf{D}: \R^d \rightarrow \mathcal{L}$ be defined as the top beam search decoding of the latent vector with $\beta = 5$. With a well trained model, $\mathbf{E}$ and $\mathbf{D}$ are theoretically the inverse functions of each other. Therefore, we first make sure $\mathbf{D}\bigr(\mathbf{E}(\mathbf{s})\bigr) \approx \mathbf{s}$ whenever an example sentence $\mathbf{s} \in \mathcal{L}$ is chosen.
 
-\section{Gaussian Mixture Model Fitting}
+## Gaussian Mixture Model Fitting
 
 One of the underlying assumptions that led to the model design choices is that Gaussian distribution should not be used as the prior distribution of large language data. To test this assumption, a Gaussian Mixture Model was fitted on the set of latent vectors obtained from the test set. A Gaussian mixture model fitted on a distribution of data will attempt to estimate the data distribution with multiple Gaussian components, each $i$\textsuperscript{th} component weighted with some scalar $\alpha_i$ with its own mean $\bm{\mu}_i$ and covariance matrix $\bm{\Sigma}_i$. Specifically, the prior distribution is given by 
 \begin{align*}
@@ -521,7 +519,7 @@ $$
 From the decoded sentence, it can be observed that when a Gaussian mixture model is used, the type of sentences that cluster around each of the components are largely influenced by the first few words of the sentence. However, most of the decoded sentences are nonsensical. This is reflected by the sentence scores, which can be used as a metric to determine how likely a given vector can be decoded as a sensible sentence. This metric is used for further experiments to measure the viability of the decoded sentences.
 
 
-\section{Linear Interpolation}
+## Linear Interpolation
 
 Let $\mathbf{s}_1, \mathbf{s}_2 \in \mathcal{L}$ and let $\mathbf{E}(\mathbf{s}_1) = \mathbf{z}_1$, $\mathbf{E}(\mathbf{s}_2) = \mathbf{z}_2$. One simple experiment that can be done using these two vectors is a linear interpolation 
 $$
@@ -591,11 +589,11 @@ Below is a few combinations that produced interesting results:
 \end{gather*}
 These results show that emotions may lie in a particular subset of the latent space, which may be traversed to produce different emotion for the output sentence.
 
-\section{Vector Operations}
+## Vector Operations
 
  The Word2Vec \cite{word2vec} model showed that it is possible to perform vector operations of encoded words to manipulate the semantics of words. One famous example is \texttt{king} - \texttt{man} + \texttt{woman} = \texttt{queen} which is the expected and desired output. In this section, similar experiments are performed with encoded sentences.
 
-\subsection{Subject Pronoun Manipulation}
+### Subject Pronoun Manipulation
 For the first experiment, the goal is to manipulate the subject pronouns. The following sentences are identical except for their subject pronouns:
 \begin{center}
     {\renewcommand{\arraystretch}{1}
@@ -640,7 +638,7 @@ Similar experiment was conducted but instead adding the difference of sentences 
 \end{align*}
 The subject pronouns changed as desired, but subject-object agreement wasn't achieved, which suggest that the vectors for the subject and the object may be parts of a separate subset of the latent space.
 
-\subsection{Tense Manipulation}
+### Tense Manipulation
 The following experiment shows manipulation of tense for the predicate. The sentences used and the result of the vector operations are shown below.
 \begin{center}
     {\renewcommand{\arraystretch}{1}
@@ -685,7 +683,7 @@ Further experiment was done using the verbs `run' and `ran'. The results weren't
     \mathbf{D} \bigr(\mathbf{z}^5_\text{past} - \mathbf{z}^5_\text{present} + \mathbf{z}^3_\text{present} \bigr) & = \texttt{\footnotesize i were there .}
 \end{align*}
 
-\subsection{Negation}
+### Negation
 This experiment shows negations of sentences using the word `not'.
 \begin{align*}
     \mathbf{s}^3_\text{not} = \texttt{\footnotesize i am not there .} \quad \mathbf{E} \bigr(\mathbf{s}^3_\text{not}\bigr) = \mathbf{z}^3_\text{not}
@@ -700,7 +698,7 @@ This experiment shows negations of sentences using the word `not'.
 \end{align*}
 When there isn't an auxiliary (be, will, can, do, etc.) verb, negation is done by inserting the `do' verb. Although the model wasn't able to achieve that, it still placed `not' in the grammatically correct places.
 
-\subsection{Statements vs. Questions}
+### Statements vs. Questions
 Next, experiments were conducted to see whether statements could be turned into questions and vice-versa.
 \begin{center}
     {\renewcommand{\arraystretch}{1}
@@ -722,7 +720,7 @@ Next, experiments were conducted to see whether statements could be turned into 
     \mathbf{D} \bigr(\mathbf{z}^6_\text{question} - \mathbf{z}^6_\text{statement} + \mathbf{z}^4_\text{question} \bigr) & = \texttt{\footnotesize i am going with you .} 
 \end{align*}
 
-\subsection{Command vs. Request}
+### Command vs. Request
 Finally, experiments were conducted to see whether commands could be turned into requests and vice-versa. 
 \begin{center}
     {\renewcommand{\arraystretch}{1}
