@@ -33,19 +33,26 @@ Another major difference with the existing language models is the decoder half. 
 The main task of the encoder is to take the sequential vectors of the transformer output and contain all the necessary information about these vectors into a single vector representation. The challenge here is that the length of each sentence varies, and many sentences are structured differently linguistically. For example, some sentences start with a subject pronoun, followed by a verb and an object, whereas other sentence may start with an article, then a subject noun. Even more, interrogative sentences start with an auxiliary verb (such as be, can, do, etc.) and is then followed by the subject. With so many possible configurations for every sentence, reducing the transformer output vectors, where each vector represents corresponding input token, into a single vector without the loss of semantic and syntactic information is challenging. 
 
 Given an embedded sentence input $\mathbf{X} \in \mathbb{R}^{\ell_\mathbf{x} \times d}$, let $`\mathcal{T}_\mathbf{e}(\mathbf{X}) = \mathbf{A}`$. Since the output dimension of $`\mathcal{T}_\mathbf{e}`$ is consistent with the input dimension, $\mathbf{A} \in \mathbb{R}^{\ell_\mathbf{x} \times d}$. The approach that is used in order to first eliminate the dimension $\ell_\mathbf{x}$ is to multiply the transpose of $\mathbf{A}$ by itself. For $\mathbf{B} = \mathbf{A}^\mathsf{T} \mathbf{A}$, $\mathbf{B} \in \mathbb{R}^{d \times d}$ is free of the sequence-length dimension $\ell_\mathbf{x}$. Define $\Psi: \mathbb{R}^{\ell_\mathbf{x} \times d} \rightarrow \mathbb{R}^{d \times d}$ as the transpose multiplication function:
-\begin{equation} \label{eq:psi}
+
+```math
+\begin{equation}
     \Psi(\mathbf{A}) := \mathbf{A}^\mathsf{T} \mathbf{A} \quad \text{.}
 \end{equation}
+```
+
 Since the dimension of the model is much larger than the sequence length, $\mathbf{A}$ almost always will be full-rank, and the $d \times d$ matrix $\mathbf{B}$ is a much larger matrix than $\mathbf{A}$. Therefore, $\Psi$ is almost always an injective function, which means that all of the necessary information of $\mathbf{A}$ is preserved in $\mathbf{B}$.
 
 The next step is to compress the matrix $\mathbf{B}$ into a single latent vector $\mathbf{z} \in \mathbb{R}^{d}$ through some function $\Phi: \mathbb{R}^{d\times d} \rightarrow \mathbb{R}^d$ with as little loss of information as possible. First, imagine the goal is not to transform $\mathbf{B}$ into a vector, but rather an image. An image can be thought of as a 3-dimensional tensor of shape $C \times k \times k$, where $C$ is a channel dimension and $k$ is the width and height of a square image. Allow $d$ to be a divisor of $C$ so that each $i$\textsuperscript{th} column of $\mathbf{B}$ multiplies with some $\frac{Ck^2}{d} \times d$ parameter matrix $W_i$, resulting in a vector that is reshaped to be an image of shape $\frac{C}{d} \times k \times k$. These are then stacked on top of each other along the channel dimension, producing a desired image of shape $C \times k \times k$. 
 
 In order for the encoding to be a vector, simply set $k = 1$ and $C = d$. Then, the output image is of shape $d \times 1 \times 1$, which is just a $d$-dimensional vector. Each parameter matrix also reduces to a $d$-dimensional vector $w_i$, and simply dot-products with the $i$\textsuperscript{th} column of $\mathbf{B}$. Let $W = \begin{bmatrix}[0.6] w_1 & \cdots & w_n \end{bmatrix}$ and $\mathbf{B} = \begin{bmatrix}[0.6] \mathbf{b}_1 & \cdots & \mathbf{b}_n \end{bmatrix}$. The process can be summarized as:
-\medskip
-\begin{equation} \label{eq:phi}
-    \Phi(\mathbf{B} \:|\: W) := \text{diagonal}(W^\T \mathbf{B}) = \begin{bmatrix}[0.6] w_1^\T \mathbf{b}_1 \\ w_2^\T \mathbf{b}_2 \\ \vdots \\ w_n^\T \mathbf{b}_n \end{bmatrix} \quad \text{.}
+
+```math
+\begin{equation}
+    \Phi(\mathbf{B} \:|\: W) := \text{diagonal}(W^T \mathbf{B}) = \begin{bmatrix}[0.6] w_1^T \mathbf{b}_1 \\ w_2^T \mathbf{b}_2 \\ \vdots \\ w_n^T \mathbf{b}_n \end{bmatrix} \quad \text{.}
 \end{equation}
-Define $\mathbf{z} := \Phi(\mathbf{B} \:|\: W)$ to be the encoded latent vector for future reference.
+```
+
+Define $`\mathbf{z} := \Phi(\mathbf{B} \:|\: W)`$ to be the encoded latent vector for future reference.
 
 ## Decoder Design
 
