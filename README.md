@@ -42,17 +42,17 @@ Given an embedded sentence input $\mathbf{X} \in \mathbb{R}^{\ell_\mathbf{x} \ti
 
 Since the dimension of the model is much larger than the sequence length, $\mathbf{A}$ almost always will be full-rank, and the $d \times d$ matrix $\mathbf{B}$ is a much larger matrix than $\mathbf{A}$. Therefore, $\Psi$ is almost always an injective function, which means that all of the necessary information of $\mathbf{A}$ is preserved in $\mathbf{B}$.
 
-The next step is to compress the matrix $\mathbf{B}$ into a single latent vector $\mathbf{z} \in \mathbb{R}^{d}$ through some function $\Phi: \mathbb{R}^{d\times d} \rightarrow \mathbb{R}^d$ with as little loss of information as possible. First, imagine the goal is not to transform $\mathbf{B}$ into a vector, but rather an image. An image can be thought of as a 3-dimensional tensor of shape $C \times k \times k$, where $C$ is a channel dimension and $k$ is the width and height of a square image. Allow $d$ to be a divisor of $C$ so that each $i$\textsuperscript{th} column of $\mathbf{B}$ multiplies with some $\frac{Ck^2}{d} \times d$ parameter matrix $W_i$, resulting in a vector that is reshaped to be an image of shape $\frac{C}{d} \times k \times k$. These are then stacked on top of each other along the channel dimension, producing a desired image of shape $C \times k \times k$. 
+The next step is to compress the matrix $\mathbf{B}$ into a single latent vector $\mathbf{z} \in \mathbb{R}^{d}$ through some function $\Phi: \mathbb{R}^{d\times d} \rightarrow \mathbb{R}^d$ with as little loss of information as possible. First, imagine the goal is not to transform $\mathbf{B}$ into a vector, but rather an image. An image can be thought of as a 3-dimensional tensor of shape $C \times k \times k$, where $C$ is a channel dimension and $k$ is the width and height of a square image. Allow $d$ to be a divisor of $C$ so that each $i$<sup>th</sup> column of $\mathbf{B}$ multiplies with some $\frac{Ck^2}{d} \times d$ parameter matrix $W_i$, resulting in a vector that is reshaped to be an image of shape $\frac{C}{d} \times k \times k$. These are then stacked on top of each other along the channel dimension, producing a desired image of shape $C \times k \times k$. 
 
-In order for the encoding to be a vector, simply set $k = 1$ and $C = d$. Then, the output image is of shape $d \times 1 \times 1$, which is just a $d$-dimensional vector. Each parameter matrix also reduces to a $d$-dimensional vector $w_i$, and simply dot-products with the $i$\textsuperscript{th} column of $\mathbf{B}$. Let $W = \begin{bmatrix}[0.6] w_1 & \cdots & w_n \end{bmatrix}$ and $\mathbf{B} = \begin{bmatrix}[0.6] \mathbf{b}_1 & \cdots & \mathbf{b}_n \end{bmatrix}$. The process can be summarized as:
+In order for the encoding to be a vector, simply set $k = 1$ and $C = d$. Then, the output image is of shape $d \times 1 \times 1$, which is just a $d$-dimensional vector. Each parameter matrix also reduces to a $d$-dimensional vector $w_i$, and simply dot-products with the $i$<sup>th</sup> column of $\mathbf{B}$. Let $`W = \begin{bmatrix} w_1 & \cdots & w_n \end{bmatrix}`$ and $`\mathbf{B} = \begin{bmatrix} \mathbf{b}_1 & \cdots & \mathbf{b}_n \end{bmatrix}`$. The process can be summarized as:
 
 ```math
 \begin{equation}
-    \Phi(\mathbf{B} \:|\: W) := \text{diagonal}(W^T \mathbf{B}) = \begin{bmatrix}[0.6] w_1^T \mathbf{b}_1 \\ w_2^T \mathbf{b}_2 \\ \vdots \\ w_n^T \mathbf{b}_n \end{bmatrix} \quad \text{.}
+    \Phi(\mathbf{B} \:|\: W\,) := \text{diagonal}(W^T \mathbf{B}) = \begin{bmatrix} w_1^T \mathbf{b}_1 \\ w_2^T \mathbf{b}_2 \\ \vdots \\ w_n^T \mathbf{b}_n \end{bmatrix} \quad \text{.}
 \end{equation}
 ```
 
-Define $`\mathbf{z} := \Phi(\mathbf{B} \:|\: W)`$ to be the encoded latent vector for future reference.
+Define $`\mathbf{z} := \Phi(\mathbf{B} \:|\: W\,)`$ to be the encoded latent vector for future reference.
 
 ## Decoder Design
 
@@ -62,9 +62,9 @@ The generated image representation space may act as a prior to the Euclidean lat
 
 ## Full Model Pipeline
 
-The details of the entire model design is presented in this section. The model is coded in Python, and the neural network model is built using the PyTorch \cite{pytorch} library. A detailed diagram describing the model architecture is shown in Figure \ref{fig:model-design}.
+The details of the entire model design is presented in this section. The model is coded in Python, and the neural network model is built using the [PyTorch](https://pytorch.org/) library. A detailed diagram describing the model architecture is shown in Figure \ref{fig:model-design}.
 
-The first part of the model is the embedding model $E: |\mathcal{V}| \rightarrow d$ as described in equation \ref{eq:embedding}. The embedding model is built using \texttt{nn.Embedding} module, in which $M_E$ also acts as trainable weights. The model dimension $d$ was set to be 256. The embedded input then passes through transformer encoder $\mathcal{T}_\mathbf{e}$. There are no major changes to the transformer architecture, so refer to equation \ref{eq:transformer-encoder} for how the transformer encoder is designed. The code for building the transformer was obtained from The Annotated transformer \cite{annotated-transformer}. The number of encoder layers $N$ was set to be 6, the number of attention heads for multihead attention $h$ was set to be 8, and the dimension of the feed-forward network was set to be 1024. The output of the transformer encoder progresses through the model exactly as outlined in equations \ref{eq:psi} and \ref{eq:phi} to produce the latent vector $\mathbf{z}$.
+The first part of the model is the embedding model $E: |\mathcal{V}| \rightarrow d$. The embedding model is built using `nn.Embedding` module, in which $M_E$ also acts as trainable weights. The model dimension $d$ was set to be 256. The embedded input then passes through transformer encoder $\mathcal{T}_\mathbf{e}$. There are no major changes to the transformer architecture. The code for building the transformer was obtained from [The Annotated Transformer](https://nlp.seas.harvard.edu/2018/04/03/attention.html). The number of encoder layers $N$ was set to be 6, the number of attention heads for multihead attention $h$ was set to be 8, and the dimension of the feed-forward network was set to be 1024. The output of the transformer encoder progresses through the model exactly as outlined in equations \ref{eq:psi} and \ref{eq:phi} to produce the latent vector $\mathbf{z}$.
 
 \begin{figure}[t]
     \centering
