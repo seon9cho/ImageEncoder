@@ -117,48 +117,43 @@ In this chapter, the specifics of how the model was trained will be presented. F
 ## Dataset
 
 The data used to train the model is from a book dataset, where texts from many different books were collected into a single corpus. The data is prepared by assigning each word or symbol with a token. Unique tokens are gathered from the corpus to create a vocabulary set. Then, each element of the vocabulary is assigned an integer value to create a Python dictionary object. Initially the data consisted of 40 million lines of English sentences with over a million unique vocabulary tokens. In order to reduce the number of tokens, several preprocessing strategies were used. Below is a list of preprocessing that was done to reduce the size of the vocabulary:
-\begin{itemize}
-    \item replace all numbers with a unique number token
-    \item convert all \% and \$ symbols to words `percent' and `dollars'
-    \item add spaces around all non-letter symbols
-    \item remove all remaining non-punctuation symbols
-    \item remove all low frequency tokens (occurs $n$ times or less throughout the dataset)
-    \item normalize all texts by changing all letters to lowercase
-    \item remove all sentences that are too long (over \texttt{max\_len} number of tokens)
-\end{itemize}
+- replace all numbers with a unique number token
+- convert all % and $ symbols to words 'percent' and 'dollars'
+- add spaces around all non-letter symbols
+- remove all remaining non-punctuation symbols
+- remove all low frequency tokens (occurs $n$ times or less throughout the dataset)
+- normalize all texts by changing all letters to lowercase
+- remove all sentences that are too long (over `max_len`} number of tokens)
 
-At first, $n$ was set to 10 and \texttt{max\_len} was set to 50. After processing the data, the size of vocabulary was reduced from over a million to just over 73 thousand. However, training a large model with this size was still unsuccessful, so further processing was done to reduce both the size of the vocabulary and the data. In order to further reduce the size and normalize the data, more dramatic approaches were used: 
-\begin{itemize}
-    \item \texttt{max\_len} was set from 50 to 20.
-    \item Using the \texttt{PyEnchant} library, an English dictionary was used to remove any lines that contained words not in the dictionary. This removed all lines with uncommon proper nouns, and odd spelling of words.
-    \item Only a tenth of the data was kept.
-    \item Vocabulary was further reduced by setting $n$ to 20.
-\end{itemize}
+At first, $n$ was set to 10 and `max_len` was set to 50. After processing the data, the size of vocabulary was reduced from over a million to just over 73 thousand. However, training a large model with this size was still unsuccessful, so further processing was done to reduce both the size of the vocabulary and the data. In order to further reduce the size and normalize the data, more dramatic approaches were used: 
+- max_len was set from 50 to 20.
+- Using the `PyEnchant` library, an English dictionary was used to remove any lines that contained words not in the dictionary. This removed all lines with uncommon proper nouns, and odd spelling of words.
+- Only a tenth of the data was kept.
+- Vocabulary was further reduced by setting $n$ to 20.
+
 In the end, the vocabulary size reduced down to 16,138 and the number of lines to just under 1.3 million.
 
 The processed dataset was then split into training, validation, and testing sets. First, 10 thousand lines were randomly selected to be the testing set. This dataset is reserved for the end of all model trainings in order to evaluate the performance of the final model. The remaining data was split into training and validation set, with 90\% of the data used for training and 10\% of the data for validation. The training dataset is used for the actual training of the model with an optimizer, and the model is evaluated after each epoch with the validation dataset to track the progress of the training. Because neural network models can often overfit to the training data, validation data is used to evaluate the model's ability to generalize to new data as it trains.
 
 Below are some example sentences from the dataset after preprocessing:
 
-\begin{ttenv}
-\noindent
-\small
-    i finally got my shot at some screen time .\\
-    he looked tired and worn , which troubled me more than anger would have .\\
-    i stumbled down to the ground , still making a spectacle of myself .\\
-    in turn they whispered their name , acknowledging their presence .\\
-    i spun around and backed up , unnerved by his angry look .\\
-    she climbed back up the pool steps .\\
-    it had been months since the last visit .\\
-    bored and victorious , what more could a man ask for ?\\
-    she s resting , so i do nt want you to disturb her .\\
-    the demon inside you .\\
-    so he provides a remedy for your rightful passions .\\
-    but , hey , it s a million times better than the institute !\\
-    listening carefully could produce two clues .\\
-    call me when you can , and be safe .\\
-    i ca nt connect at all in this wretched valley .
-\end{ttenv}
+```
+i finally got my shot at some screen time .
+he looked tired and worn , which troubled me more than anger would have .
+i stumbled down to the ground , still making a spectacle of myself .
+in turn they whispered their name , acknowledging their presence .
+i spun around and backed up , unnerved by his angry look .
+she climbed back up the pool steps .
+it had been months since the last visit .
+bored and victorious , what more could a man ask for ?
+she s resting , so i do nt want you to disturb her .
+the demon inside you .
+so he provides a remedy for your rightful passions .
+but , hey , it s a million times better than the institute !
+listening carefully could produce two clues .
+call me when you can , and be safe .
+i ca nt connect at all in this wretched valley .
+```
 
 
 ## Opimizer and Cost Function
