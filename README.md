@@ -186,7 +186,7 @@ Training was done using a single NVIDIA GeForce RTX 2080 Ti GPU for 20 epochs ov
 <table align="center">
   <tbody>
     <tr>
-      <th><img src="graphics/loss_graph.png" width=500></th>
+      <th><img src="graphics/modified/loss_graph.png" width=500></th>
     </tr>
     <tr align="left">
       <th>Figure 2: Graph of train and validation loss. The validation loss is lower <br> because the model is set to evaluation mode, turning off all regularizations <br> such as normalization layers and dropout layers. The spike at epoch 10 <br> signifies a new training session with warm-up steps.</th>
@@ -198,16 +198,17 @@ Training was done using a single NVIDIA GeForce RTX 2080 Ti GPU for 20 epochs ov
 
 Using the final model, testing was done using 10,000 sentences from the test set that had been reserved during model training and selection phase. The model achieved a loss value of $D_{\text{KL}} = 0.5478$ averaged over the test set. To evaluate the model's performance on decoding without the use of the target inputs, two different decoding strategies are used: greedy decoding and beam search decoding.
 
-Greedy decoding is a na\"\i ve method where the token with the highest likelihood is chosen at each generation. More precisely, given the latent vector $\mathbf{z}$, the inputs for the transformer decoder are the filter vectors $\mathbf{F}$ and  $E(\tau_0, ..., \tau_k)$ for the $k$\textsuperscript{th} decoding step. Then, the generator produces the output distribution $p(\tau_{k+1} \:|\: \tau_0, \ldots, \tau_k)$. The greedy decoding method chooses 
-$$
+Greedy decoding is a na&iuml;ve method where the token with the highest likelihood is chosen at each generation. More precisely, given the latent vector $\mathbf{z}$, the inputs for the transformer decoder are the filter vectors $\mathbf{F}$ and  $E(\tau_0, ..., \tau_k)$ for the $k$<sup>th</sup> decoding step. Then, the generator produces the output distribution $p(\tau_{k+1} \:|\: \tau_0, \ldots, \tau_k)$. The greedy decoding method chooses 
+
+```math
 \tau_{k+1} = \text{argmax} \Bigr( p(\tau_{k+1} \:|\: \tau_0, \ldots, \tau_k) \Bigr)
-$$
+```
+
 for the next token $\tau_{k+1}$, which is then appended to the end of the current sequence as the next decoder input. This is repeated recursively until $\tau_{k+1} = \texttt{EOS}$, which signifies that the end of the sentence has been reached.
 
 Beam search is a breadth-first search algorithm that builds a search tree, where, at each level, $\beta$ best states are stored and the rest are pruned. The stored states are then expanded further in the next level and pruned in the same way. In context of language generation, the best states refer to the most probable sequences for each generation. Observe that beam search with $\beta = 1$ is equivalent to greedy decoding. Given a trained model and a latent vector $\mathbf{z}$, the following code snippet shows the details of the beam search algorithm. The code is simplified for readability.
 
-\clearpage
-\begin{lstlisting}[language=Python, style=mystyle]
+```
 def Beam_Search(z, model, beta=5, max_len=20)
     # Obtain the convolutional filters from z
     filters = model.extract_filters(z)
@@ -240,8 +241,7 @@ def Beam_Search(z, model, beta=5, max_len=20)
         if sum(eos for _, _, eos in top_seqs) == beta:
             break
     return top_seqs
-\end{lstlisting}
-\clearpage
+```
 
 Below are some of the sentences from the test set, the image representations of the sentences, and the decoded outputs of the model using greedy decoding and beam search decoding. The beam width $\beta$ for all beam search decoding is set to 5, although not all 5 candidates are shown for all instances. The beam search outputs are ordered from most likely to least. 
 \begin{SCfigure}[3][h!]
