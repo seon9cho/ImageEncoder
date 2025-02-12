@@ -66,6 +66,11 @@ The details of the entire model design is presented in this section. The model i
 
 The first part of the model is the embedding model $E: |\mathcal{V}| \rightarrow d$. The embedding model is built using `nn.Embedding` module, in which $M_E$ also acts as trainable weights. The model dimension $d$ was set to be 256. The embedded input then passes through transformer encoder $\mathcal{T}_\mathbf{e}$. There are no major changes to the transformer architecture. The code for building the transformer was obtained from [The Annotated Transformer](https://nlp.seas.harvard.edu/2018/04/03/attention.html). The number of encoder layers $N$ was set to be 6, the number of attention heads for multihead attention $h$ was set to be 8, and the dimension of the feed-forward network was set to be 1024. The output of the transformer encoder progresses through the model exactly as outlined in equations \ref{eq:psi} and \ref{eq:phi} to produce the latent vector $\mathbf{z}$.
 
+<div align="center">
+
+  <img src="graphics/model_design_diagram.png" width=800>
+</div>
+
 \begin{figure}[t]
     \centering
     \includesvg[width=0.8\textwidth]{graphics/model_design_diagram.svg}
