@@ -68,15 +68,9 @@ The first part of the model is the embedding model $E: |\mathcal{V}| \rightarrow
 
 <div align="center">
 
-  <img src="graphics/model_design_diagram.png" width=800>
+  <img src="graphics/modified/model_design_diagram.png" width=800>
+  Figure 1: Full model diagram
 </div>
-
-\begin{figure}[t]
-    \centering
-    \includesvg[width=0.8\textwidth]{graphics/model_design_diagram.svg}
-    \caption{Full model diagram}
-    \label{fig:model-design}
-\end{figure}
 
 To generate the image encoding from $\mathbf{z}$, it passes through a convolutional upsampling function $`\mathcal{C}_{\text{up}}: \mathbb{R}^d \rightarrow \mathbb{R}^{3 \times d_{\mathcal{I}} \times d_{\mathcal{I}}}`$, where 3 represents the RGB channel of the resulting image, and $d_{\mathcal{I}}$ is the width and height of the square image. First, $\mathbf{z}$ passes through a linear layer of output size $2d$ and is then reshaped to be a $\frac{d}{8} \times 4 \times 4$ tensor. It then passes through an initial convolutional layer with $2d$ output channels, square kernels of size 3, and stride set to be 1. All convolutional layers are built using `nn.Conv2d` module. By padding the edges by 1, this kernel size and stride preserves the shape of the image, resulting in a $2d \times 4 \times 4$ tensor output. Padding is done using `nn.ReflectionPad2d`, which pads the edges using values from the opposite edges. This helps the values at the boundaries to stay consistent with the other values during upsampling. 
 
