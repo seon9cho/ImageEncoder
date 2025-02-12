@@ -36,7 +36,7 @@ Given an embedded sentence input $\mathbf{X} \in \mathbb{R}^{\ell_\mathbf{x} \ti
 
 ```math
 \begin{equation}
-    \Psi(\mathbf{A}) := \mathbf{A}^\mathsf{T} \mathbf{A} \quad \text{.}
+    \Psi(\mathbf{A}) := \mathbf{A}^\mathsf{T} \mathbf{A} \quad \text{.} \qquad\qquad (1)
 \end{equation}
 ```
 
@@ -48,7 +48,7 @@ In order for the encoding to be a vector, simply set $k = 1$ and $C = d$. Then, 
 
 ```math
 \begin{equation}
-    \Phi(\mathbf{B} \:|\: W\,) := \text{diagonal}(W^T \mathbf{B}) = \begin{bmatrix} w_1^T \mathbf{b}_1 \\ w_2^T \mathbf{b}_2 \\ \vdots \\ w_n^T \mathbf{b}_n \end{bmatrix} \quad \text{.}
+    \Phi(\mathbf{B} \:|\: W\,) := \text{diagonal}(W^T \mathbf{B}) = \begin{bmatrix} w_1^T \mathbf{b}_1 \\ w_2^T \mathbf{b}_2 \\ \vdots \\ w_n^T \mathbf{b}_n \end{bmatrix} \quad \text{.} \qquad\qquad (2)
 \end{equation}
 ```
 
@@ -62,15 +62,17 @@ The generated image representation space may act as a prior to the Euclidean lat
 
 ## Full Model Pipeline
 
-The details of the entire model design is presented in this section. The model is coded in Python, and the neural network model is built using the [PyTorch](https://pytorch.org/) library. A detailed diagram describing the model architecture is shown in Figure \ref{fig:model-design}.
+The details of the entire model design is presented in this section. The model is coded in Python, and the neural network model is built using the [PyTorch](https://pytorch.org/) library. A detailed diagram describing the model architecture is shown in Figure 1.
 
-The first part of the model is the embedding model $E: |\mathcal{V}| \rightarrow d$. The embedding model is built using `nn.Embedding` module, in which $M_E$ also acts as trainable weights. The model dimension $d$ was set to be 256. The embedded input then passes through transformer encoder $\mathcal{T}_\mathbf{e}$. There are no major changes to the transformer architecture. The code for building the transformer was obtained from [The Annotated Transformer](https://nlp.seas.harvard.edu/2018/04/03/attention.html). The number of encoder layers $N$ was set to be 6, the number of attention heads for multihead attention $h$ was set to be 8, and the dimension of the feed-forward network was set to be 1024. The output of the transformer encoder progresses through the model exactly as outlined in equations \ref{eq:psi} and \ref{eq:phi} to produce the latent vector $\mathbf{z}$.
+The first part of the model is the embedding model $E: |\mathcal{V}| \rightarrow d$. The embedding model is built using `nn.Embedding` module, in which $M_E$ also acts as trainable weights. The model dimension $d$ was set to be 256. The embedded input then passes through transformer encoder $\mathcal{T}_\mathbf{e}$. There are no major changes to the transformer architecture. The code for building the transformer was obtained from [The Annotated Transformer](https://nlp.seas.harvard.edu/2018/04/03/attention.html). The number of encoder layers $N$ was set to be 6, the number of attention heads for multihead attention $h$ was set to be 8, and the dimension of the feed-forward network was set to be 1024. The output of the transformer encoder progresses through the model exactly as outlined in equations 1 and 2 to produce the latent vector $\mathbf{z}$.
 
 <div align="center">
 
   <img src="graphics/modified/model_design_diagram.png" width=800>
+  
   Figure 1: Full model diagram
 </div>
+<br>
 
 To generate the image encoding from $\mathbf{z}$, it passes through a convolutional upsampling function $`\mathcal{C}_{\text{up}}: \mathbb{R}^d \rightarrow \mathbb{R}^{3 \times d_{\mathcal{I}} \times d_{\mathcal{I}}}`$, where 3 represents the RGB channel of the resulting image, and $d_{\mathcal{I}}$ is the width and height of the square image. First, $\mathbf{z}$ passes through a linear layer of output size $2d$ and is then reshaped to be a $\frac{d}{8} \times 4 \times 4$ tensor. It then passes through an initial convolutional layer with $2d$ output channels, square kernels of size 3, and stride set to be 1. All convolutional layers are built using `nn.Conv2d` module. By padding the edges by 1, this kernel size and stride preserves the shape of the image, resulting in a $2d \times 4 \times 4$ tensor output. Padding is done using `nn.ReflectionPad2d`, which pads the edges using values from the opposite edges. This helps the values at the boundaries to stay consistent with the other values during upsampling. 
 
@@ -86,7 +88,7 @@ The downsampling method to obtain the filter vectors from the image works simila
 
 ```math
 \begin{equation}
-    \mathcal{C}_{\text{down}}(\mathcal{I}) = \mathbf{F} = \begin{bmatrix}[0.6] \mathbf{f}_1 & \mathbf{f}_2 & \cdots & \mathbf{f}_{N_{\mathbf{f}}} \end{bmatrix}^\mathsf{T} \quad \text{.}
+    \mathcal{C}_{\text{down}}(\mathcal{I}) = \mathbf{F} = \begin{bmatrix} \mathbf{f}_1 & \mathbf{f}_2 & \cdots & \mathbf{f}_{N_{\mathbf{f}}} \end{bmatrix}^\mathsf{T} \quad \text{.}
 \end{equation}
 ```
 
@@ -157,28 +159,40 @@ i ca nt connect at all in this wretched valley .
 
 ## Opimizer and Cost Function
 
-Since the majority of the model is the transformer, it was ideal to follow much of the training procedure from the original paper \cite{transformer}. Optimization was done using the Adam \cite{adam} optimizer with $\beta_1 = 0.9$, $\beta_2 = 0.98$, and $\epsilon = 10^{\shortminus 9}$. The learning rate $\eta$ varied over the course of the training according to the formula
+Since the majority of the model is the transformer, it was ideal to follow much of the training procedure from the original paper. Optimization was done using the [Adam](https://arxiv.org/abs/1412.6980) optimizer with $\beta_1 = 0.9$, $\beta_2 = 0.98$, and $\epsilon = 10^{-9}$. The learning rate $\eta$ varied over the course of the training according to the formula
+
+```math
 \begin{align*}
     \eta = d^{-0.5}\text{min}(\texttt{i}^{-0.5}, \texttt{i} \, \omega^{-1.5})
 \end{align*}
-where $d$ is the dimension of the model, \texttt{i} is the current number of iterations of training, and $\omega$ is a hyperparameter for the number of warm-up steps. The learning rate $\eta$ increases linearly until $\texttt{i} = \omega$, from which point $\eta$ decreases gradually proportional to $\texttt{i}^{-0.5}$. $\omega$ was set to 2000.
+```
+
+where $d$ is the dimension of the model, `i` is the current number of iterations of training, and $\omega$ is a hyperparameter for the number of warm-up steps. The learning rate $\eta$ increases linearly until $\texttt{i} = \omega$, from which point $\eta$ decreases gradually proportional to $\texttt{i}^{-0.5}$. $\omega$ was set to 2000.
 
 For the cost function, Kullback-Leibler divergence, $D_{\text{KL}}$, is used, which is defined as:
+
+```math
 \begin{align}
-    D_{\text{KL}}(P||Q) := \sum_{x \in X} P(x) \text{log}(\frac{P(x)}{Q(x)})
+    D_{\text{KL}}(P||Q) := {\Large\sum}_{x \in X} P(x) \text{log}(\frac{P(x)}{Q(x)})
 \end{align}
+```
+
 where $P$ represents the target output probability distribution and $Q$ is the predicted output probability distribution produced by the model. In the context of language model training, the probability space is a discrete space over all vocabulary words, where the desired output distribution, $P$, has a concentrated mass at the index that maps to the correct next token. In practice, this usually means that 100\% of the mass is at the correct token and is zero everywhere else. For this training, label smoothing strategy was used, where the confidence of the correct token is subtracted by a smoothing value. The remaining mass is then spread out evenly across all other tokens. This causes the model to learn to be more unsure about the next token prediction, but helps with regularization during evaluation phase. The smoothing value was set to 0.1.
 
 ## Training
 
-Training was done using a single NVIDIA GeForce RTX 2080 Ti GPU for 20 epochs over the training set. Each training session was done 10 epochs at a time, and after each epoch, validation loss was computed using the validation set, and a checkpoint of the model was saved. Two full training sessions were done before the validation loss started to increase, at which point a saved model with minimum validation loss was chosen to be the final model for testing. The graph from Figure \ref{fig:loss-graph} shows both the train and validation loss over the entire training, where the validation loss achieved a minimum score of $D_{\text{KL}} = 0.5587$. In total, the training took about 26 hours. 
+Training was done using a single NVIDIA GeForce RTX 2080 Ti GPU for 20 epochs over the training set. Each training session was done 10 epochs at a time, and after each epoch, validation loss was computed using the validation set, and a checkpoint of the model was saved. Two full training sessions were done before the validation loss started to increase, at which point a saved model with minimum validation loss was chosen to be the final model for testing. The graph from Figure 2 shows both the train and validation loss over the entire training, where the validation loss achieved a minimum score of $D_{\text{KL}} = 0.5587$. In total, the training took about 26 hours. 
 
-\begin{figure}
-    \centering
-    \includegraphics[width=0.7\textwidth]{graphics/loss_graph.png}
-    \caption{Graph of train and validation loss. The validation loss is lower because the model is set to evaluation mode, turning off all regularizations such as normalization layers and dropout layers. The spike at epoch 10 signifies a new training session with warm-up steps.}
-    \label{fig:loss-graph}
-\end{figure}
+<table align="center">
+  <tbody>
+    <tr>
+      <th><img src="graphics/loss_graph.png" width=500></th>
+    </tr>
+    <tr align="left">
+      <th>Figure 2: Graph of train and validation loss. The validation loss is lower <br> because the model is set to evaluation mode, turning off all regularizations <br> such as normalization layers and dropout layers. The spike at epoch 10 <br> signifies a new training session with warm-up steps.</th>
+    </tr>
+  </tbody>
+</table>
 
 ## Evaluation
 
