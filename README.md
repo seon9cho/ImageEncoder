@@ -248,7 +248,7 @@ Below are some of the sentences from the test set, the image representations of 
 <table align="center">
   <thead>
     <tr>
-      <th>Image</th>
+      <th width=150>Image</th>
       <th>Input sentence</th>
       <th>Greedy decode output</th>
       <th>Beam search output(s)</th>
@@ -283,7 +283,7 @@ The following are a few more interesting examples from the test set. The first t
 <table align="center">
   <thead>
     <tr>
-      <th>Image</th>
+      <th width=150>Image</th>
       <th>Input sentence</th>
       <th>Greedy decode output</th>
       <th>Top beam search output</th>
@@ -310,14 +310,14 @@ The next two examples show all five decoded outputs of the beam search decoding.
 <table align="center">
   <thead>
     <tr>
-      <th>Image</th>
+      <th width=150>Image</th>
       <th>Input sentence</th>
       <th>Beam search outputs</th>
     </tr>
   </thead>
   <tbody align="left">
     <tr>
-      <th><img src="graphics/images/image-19.png" width=150></th>
+      <th><img src="graphics/images/image-19.png"></th>
       <th>sure , i replied softly .</th>
       <th>sure , i replied softly .<br>
         sure , i softly replied .<br>
@@ -326,7 +326,7 @@ The next two examples show all five decoded outputs of the beam search decoding.
         sure , i replied gently .</th>
     </tr>
     <tr>
-      <th><img src="graphics/images/image-64.png" width=150></th>
+      <th><img src="graphics/images/image-64.png"></th>
       <th>they disappeared up the drive .</th>
       <th>they disappeared up the drive .<br>
         they disappeared up the road .<br>
@@ -338,60 +338,49 @@ The next two examples show all five decoded outputs of the beam search decoding.
 </table>
 
 The following example shows a case where the greedy decoding and the top beam search decoding are both not very semantically close to the input sentence, but the less likely candidates from the beam search decoding are.
-\begin{SCfigure}[3][h!]
-    \captionsetup{justification=raggedright, margin=5mm}
-    \includegraphics[width=0.25\textwidth]{graphics/images/image-36.png}
-    \caption*{
-    Input sentence: 
 
-    \texttt{i ll go get the other drinks , i said smiling as i turned back toward the kitchen .}
-    \linebreak
-    
-    Greedy decode output: 
-    
-    \texttt{\footnotesize
-    i ll go get the other plate , i said as i walked back toward the tea meeting . }
-    \linebreak
-    
-    Beam search outputs: 
-    
-    \texttt{\footnotesize
-    i ll go get the other evening , i said as i leaned back toward the waitress .
-    \linebreak
-    i ll go get the other drinks , i said as i walked back toward the kitchen smiling .
-    \linebreak
-    i ll go get the other drinks , i said as i walked back toward the kitchen .
-    }
-    }
-\end{SCfigure}
+<table align="center">
+  <thead>
+    <tr>
+      <th width=150>Image</th>
+      <th>Input sentence</th>
+      <th>Greedy decode output
+      <th>Beam search outputs</th>
+    </tr>
+  </thead>
+  <tbody align="left">
+    <tr>
+      <th><img src="graphics/images/image-36.png" width=150></th>
+      <th>i ll go get the other drinks , i said smiling as i turned back toward the kitchen .</th>
+      <th>i ll go get the other plate , i said as i walked back toward the tea meeting .</th>
+      <th>i ll go get the other evening , i said as i leaned back toward the waitress .<br><br>
+        i ll go get the other drinks , i said as i walked back toward the kitchen smiling .<br><br>
+        i ll go get the other drinks , i said as i walked back toward the kitchen .</th>
+    </tr>
+  </tbody>
+</table>
 
 The last example shows a case where the decoded sentences are semantically similar in interesting ways with the input sentence.
-\begin{SCfigure}[3][h!]
-    \captionsetup{justification=raggedright, margin=5mm}
-    \includegraphics[width=0.25\textwidth]{graphics/images/image-86.png}
-    \caption*{
-    Input sentence: 
 
-    \texttt{\small a kiss that still made the roots of her hair tingle .}
-    \linebreak
-    
-    Greedy decode output: 
-    
-    \texttt{\footnotesize
-    a kiss that still made the fabric of her scalp shiver .}
-    \linebreak
-    
-    Beam search outputs: 
-    
-    \texttt{\footnotesize
-    a kiss that still made the softness of her hair quiver .
-    \linebreak
-    a kiss that still made the softness of her flesh curl .
-    }
-    }
-\end{SCfigure}
-\clearpage
-
+<table align="center">
+  <thead>
+    <tr>
+      <th width=150>Image</th>
+      <th>Input sentence</th>
+      <th>Greedy decode output
+      <th>Beam search outputs</th>
+    </tr>
+  </thead>
+  <tbody align="left">
+    <tr>
+      <th><img src="graphics/images/image-86.png" width=150></th>
+      <th>a kiss that still made the roots of her hair tingle .</th>
+      <th>a kiss that still made the fabric of her scalp shiver .</th>
+      <th>a kiss that still made the softness of her hair quiver .<br><br>
+        a kiss that still made the softness of her flesh curl .</th>
+    </tr>
+  </tbody>
+</table>
 
 # Experiments and Analysis
 
