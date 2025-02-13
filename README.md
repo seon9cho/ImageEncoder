@@ -243,76 +243,38 @@ def Beam_Search(z, model, beta=5, max_len=20)
     return top_seqs
 ```
 
-Below are some of the sentences from the test set, the image representations of the sentences, and the decoded outputs of the model using greedy decoding and beam search decoding. The beam width $\beta$ for all beam search decoding is set to 5, although not all 5 candidates are shown for all instances. The beam search outputs are ordered from most likely to least. 
-\begin{SCfigure}[3][h!]
-    \captionsetup{justification=raggedright, margin=5mm}
-    \includegraphics[width=0.25\textwidth]{graphics/images/image-2.png}
-    \caption*{
-    Input sentence: 
+Below are some of the sentences from the test set, the image representations of the sentences, and the decoded outputs of the model using greedy decoding and beam search decoding. The beam width $\beta$ for all beam search decoding is set to 5, although not all 5 candidates are shown for all instances. The beam search outputs are ordered from most likely to least.
 
-    \texttt{well , maybe this once .}
-    \linebreak
-    
-    Greedy decode output: 
-    
-    \texttt{\footnotesize
-    well , maybe this once .}
-    \linebreak
-    
-    Beam search outputs: 
-    
-    \texttt{\footnotesize
-    well , maybe this once .
-    \linebreak
-    well , maybe this time .
-    \linebreak
-    well , maybe this afternoon .
-    }
-    }
-\end{SCfigure}
-\begin{SCfigure}[3][h!]
-    \captionsetup{justification=raggedright, margin=5mm}
-    \includegraphics[width=0.25\textwidth]{graphics/images/image-7.png}
-    \caption*{
-    Input sentence: 
-
-    \texttt{\small oh , there are some things i can work with them on .}
-    \linebreak
-    
-    Greedy decode output: 
-    
-    \texttt{\footnotesize
-    oh , there are some things i can work with them on .}
-    \linebreak
-    
-    Top beam search output: 
-    
-    \texttt{\footnotesize
-    oh , there are some things i can work with them on .}
-    }
-\end{SCfigure}
-\begin{SCfigure}[3][h!]
-    \captionsetup{justification=raggedright, margin=5mm}
-    \includegraphics[width=0.25\textwidth]{graphics/images/image-1.png}
-    \caption*{
-    Input sentence: 
-
-    \texttt{he based that on the number of times a cell could divide .}
-    \linebreak
-    
-    Greedy decode output: 
-    
-    \texttt{\footnotesize
-    he on that page the years of answering a force would sell youth .}
-    \linebreak
-    
-    Top beam search output: 
-    
-    \texttt{\footnotesize
-    he regained that number on the force of a student who lay .}
-    }
-\end{SCfigure}
-\clearpage
+<table align="center">
+  <thead>
+    <tr>
+      <th>Image</th>
+      <th>Input sentence</th>
+      <th>Greedy decode output</th>
+      <th>Beam search outputs</th>
+    </tr>
+  </thead>
+  <tbody align="left">
+    <tr>
+      <th><img src="graphics/images/image-2.png"></th>
+      <th>well , maybe this once .</th>
+      <th>well , maybe this once .</th>
+      <th>well , maybe this once .<br>well , maybe this time .<br>well , maybe this afternoon .</th>
+    </tr>
+    <tr>
+      <th><img src="graphics/images/image-7.png"></th>
+      <th>oh , there are some things i can work with them on .</th>
+      <th>oh , there are some things i can work with them on .</th>
+      <th>oh , there are some things i can work with them on .</th>
+    </tr>
+    <tr>
+      <th><img src="graphics/images/image-1.png"></th>
+      <th>he based that on the number of times a cell could divide .</th>
+      <th>he on that page the years of answering a force would sell youth .</th>
+      <th>he regained that number on the force of a student who lay .</th>
+    </tr>
+  </tbody>
+</table>
 
 The following are a few more interesting examples from the test set. The first two shown are instances where the beam search clearly outperforms greedy decoding in terms of exact word-for-word matching with the input sentence. 
 \begin{SCfigure}[3][h!]
