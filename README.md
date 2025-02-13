@@ -251,7 +251,7 @@ Below are some of the sentences from the test set, the image representations of 
       <th>Image</th>
       <th>Input sentence</th>
       <th>Greedy decode output</th>
-      <th>Beam search outputs</th>
+      <th>Beam search output(s)</th>
     </tr>
   </thead>
   <tbody align="left">
@@ -259,7 +259,9 @@ Below are some of the sentences from the test set, the image representations of 
       <th><img src="graphics/images/image-2.png"></th>
       <th>well , maybe this once .</th>
       <th>well , maybe this once .</th>
-      <th>well , maybe this once .<br>well , maybe this time .<br>well , maybe this afternoon .</th>
+      <th>well , maybe this once .<br>
+        well , maybe this time .<br>
+        well , maybe this afternoon .</th>
     </tr>
     <tr>
       <th><img src="graphics/images/image-7.png"></th>
@@ -277,97 +279,63 @@ Below are some of the sentences from the test set, the image representations of 
 </table>
 
 The following are a few more interesting examples from the test set. The first two shown are instances where the beam search clearly outperforms greedy decoding in terms of exact word-for-word matching with the input sentence. 
-\begin{SCfigure}[3][h!]
-    \captionsetup{justification=raggedright, margin=5mm}
-    \includegraphics[width=0.25\textwidth]{graphics/images/image-37.png}
-    \caption*{
-    Input sentence: 
 
-    \texttt{if i am to train you , you re going to have to trust me .}
-    \linebreak
-    
-    Greedy decode output: 
-    
-    \texttt{\footnotesize
-    if you are to train , i m going to have to trust me i .}
-    \linebreak
-    
-    Top beam search output: 
-    
-    \texttt{\footnotesize
-    if i am to train you , you re going to have to trust me .}
-    }
-\end{SCfigure}
-\begin{SCfigure}[3][h!]
-    \captionsetup{justification=raggedright, margin=5mm}
-    \includegraphics[width=0.25\textwidth]{graphics/images/image-39.png}
-    \caption*{
-    Input sentence: 
-
-    \texttt{he cheated on me with other women while we were married .}
-    \linebreak
-    
-    Greedy decode output: 
-    
-    \texttt{\footnotesize
-    he dated on me after other kids we went with harm .}
-    \linebreak
-    
-    Top beam search output: 
-    
-    \texttt{\footnotesize
-    he cheated on me with other women while we were married .}
-    }
-\end{SCfigure}
+<table align="center">
+  <thead>
+    <tr>
+      <th>Image</th>
+      <th>Input sentence</th>
+      <th>Greedy decode output</th>
+      <th>Top beam search output</th>
+    </tr>
+  </thead>
+  <tbody align="left">
+    <tr>
+      <th><img src="graphics/images/image-37.png"></th>
+      <th>if i am to train you , you re going to have to trust me .</th>
+      <th>if you are to train , i m going to have to trust me i .</th>
+      <th>if i am to train you , you re going to have to trust me .</th>
+    </tr>
+    <tr>
+      <th><img src="graphics/images/image-39.png"></th>
+      <th>he cheated on me with other women while we were married .</th>
+      <th>he dated on me after other kids we went with harm .</th>
+      <th>he cheated on me with other women while we were married .</th>
+    </tr>
+  </tbody>
+</table>
 
 The next two examples show all five decoded outputs of the beam search decoding. These examples demonstrate that words that are semantically similar have higher likelihoods in the output distribution $p(\tau_{k+1} \:|\: \tau_0, \ldots, \tau_k)$. 
-\begin{SCfigure}[3][h!]
-    \captionsetup{justification=raggedright, margin=5mm}
-    \includegraphics[width=0.25\textwidth]{graphics/images/image-19.png}
-    \caption*{
-    Input sentence: 
-    
-    \texttt{sure , i replied softly .}
-    \linebreak
 
-    Beam search outputs: 
-
-    \texttt{\footnotesize
-    sure , i replied softly . 
-    \linebreak
-    sure , i softly replied .
-    \linebreak
-    sure , i murmured softly .
-    \linebreak
-    sure , i replied quietly .
-    \linebreak
-    sure , i replied gently .}
-    }
-\end{SCfigure}
-\vspace{5mm}
-\begin{SCfigure}[3][h!]
-    \captionsetup{justification=raggedright, margin=5mm}
-    \includegraphics[width=0.25\textwidth]{graphics/images/image-64.png}
-    \caption*{
-    Input sentence: 
-    
-    \texttt{they disappeared up the drive .}
-    \linebreak
-
-    Beam search outputs: 
-
-    \texttt{\footnotesize
-    they disappeared up the drive . 
-    \linebreak
-    they disappeared up the road .
-    \linebreak
-    they disappeared up the hallway .
-    \linebreak
-    they disappeared up the hospital .
-    \linebreak
-    they disappeared up the walk .}
-    }
-\end{SCfigure}
+<table align="center">
+  <thead>
+    <tr>
+      <th>Image</th>
+      <th>Input sentence</th>
+      <th>Beam search outputs</th>
+    </tr>
+  </thead>
+  <tbody align="left">
+    <tr>
+      <th><img src="graphics/images/image-19.png" width=150></th>
+      <th>sure , i replied softly .</th>
+      <th>sure , i replied softly .<br>
+        sure , i softly replied .<br>
+        sure , i murmured softly .<br>
+        sure , i replied quietly .<br>
+        sure , i replied gently .</th>
+    </tr>
+    <tr>
+      <th><img src="graphics/images/image-64.png" width=150></th>
+      <th>they disappeared up the drive .</th>
+      <th>they disappeared up the drive .<br>
+        they disappeared up the road .<br>
+        they disappeared up the hallway .<br>
+        they disappeared up the hospital .<br>
+        they disappeared up the walk .</th>
+    </tr>
+  </tbody>
+</table>
 
 The following example shows a case where the greedy decoding and the top beam search decoding are both not very semantically close to the input sentence, but the less likely candidates from the beam search decoding are.
 \begin{SCfigure}[3][h!]
