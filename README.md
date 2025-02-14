@@ -556,15 +556,30 @@ From the decoded sentence, it can be observed that when a Gaussian mixture model
 ## Linear Interpolation
 
 Let $\mathbf{s}_1, \mathbf{s}_2 \in \mathcal{L}$ and let $\mathbf{E}(\mathbf{s}_1) = \mathbf{z}_1$, $\mathbf{E}(\mathbf{s}_2) = \mathbf{z}_2$. One simple experiment that can be done using these two vectors is a linear interpolation 
-$$
+
+```math
 \mathbf{z}_t = (1-t) \,\mathbf{z}_1 + t \,\mathbf{z}_2 \quad \text{for} \quad 0\leq t \leq 1 \quad \text{.}
-$$
+```
+
 By decoding $\mathbf{z}_t$ for different values of $t$, it can be observed whether $\mathbf{\mathbf{z}_t}$ shows a smooth transition between the sentences $\mathbf{s}_1$ and $\mathbf{s}_2$. The linear interpolation experiment was first conducted with the sentences 
+
+```math
 \begin{align*}
-    \mathbf{s}^1 & = \texttt{\footnotesize he stayed completely still for the next moment .} \\
-    \mathbf{s}^2 & = \texttt{\footnotesize then she continued as calmly as she could .}
+    \mathbf{s}^1 & = \texttt{he stayed completely still for the next moment .} \\
+    \mathbf{s}^2 & = \texttt{then she continued as calmly as she could .}
 \end{align*}
+```
+
 The following shows the images and the decoded sentences of $\mathbf{z}_t$ for varying values of $t$:
+
+<table>
+  <tbody>
+    <tr>
+      <th colspan=5><img src="graphics/interpolation.png"></th>
+    </tr>
+  </tbody>
+</table>
+
 \begin{figure}[h!]
     \centering
     \footnotesize
