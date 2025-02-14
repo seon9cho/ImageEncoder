@@ -388,77 +388,167 @@ Using the trained model, different experiments were conducted to find interestin
 
 ## Gaussian Mixture Model Fitting
 
-One of the underlying assumptions that led to the model design choices is that Gaussian distribution should not be used as the prior distribution of large language data. To test this assumption, a Gaussian Mixture Model was fitted on the set of latent vectors obtained from the test set. A Gaussian mixture model fitted on a distribution of data will attempt to estimate the data distribution with multiple Gaussian components, each $i$\textsuperscript{th} component weighted with some scalar $\alpha_i$ with its own mean $\bm{\mu}_i$ and covariance matrix $\bm{\Sigma}_i$. Specifically, the prior distribution is given by 
+<div align="center">
+
+  <img src="graphics/gaussian_mixture.svg" width=500>
+  
+  Figure 3: Gaussian mixture model can approximate distributions.
+</div>
+
+One of the underlying assumptions that led to the model design choices is that Gaussian distribution should not be used as the prior distribution of large language data. To test this assumption, a Gaussian Mixture Model was fitted on the set of latent vectors obtained from the test set. A Gaussian mixture model fitted on a distribution of data will attempt to estimate the data distribution with multiple Gaussian components, each $i$<sup>th</sup> component weighted with some scalar $\alpha_i$ with its own mean $\mu_i$ and covariance matrix $\Sigma_i$. Specifically, the prior distribution is given by 
+
+```math
 \begin{align*}
-     p(\bm{\theta}) = \sum_{i=1}^{K} \alpha_i \, \mathcal{N} \bigr( \bm{\mu}_i, \bm{\Sigma}_i \bigr) 
+     p(\theta) = {\Large\sum}_{i=1}^{K} \alpha_i \, \mathcal{N} \bigr( \mu_i, \Sigma_i \bigr) 
 \end{align*}
+```
+
 The values of the parameter for each component is updated conditioned on the data $\mathbf{x}$ by using the Expectation-Maximization algorithm and will result in a posterior distribution 
+
+```math
 \begin{align*}
-     p(\bm{\theta} \:|\: \mathbf{x}) = \sum_{i=1}^{K} \tilde{\alpha}_i \, \mathcal{N} \bigr( \tilde{\bm{\mu}}_i, \tilde{\bm{\Sigma}}_i \bigr) 
+     p(\theta \:|\: \mathbf{x}) = {\Large\sum}_{i=1}^{K} \tilde{\alpha}_i \, \mathcal{N} \bigr( \tilde{\mu}_i, \tilde{\Sigma}_i \bigr) 
 \end{align*}
-In Python, this can be done easily with the help of the Scikit-Learn library \cite{scikit-learn}.
+```
+
+In Python, this can be done easily with the help of the [Scikit-Learn](https://scikit-learn.org/stable/) library.
 
 In this experiment, a Gaussian mixture model with 20 components was used to fit the latent vectors. Afterwards, vectors were sampled from each Gaussian and decoded. For each component $i$, the sampling process can be described as 
+
+```math
 \begin{gather*}
-    \mathbf{z}_i \sim \mathcal{N} \bigr( \bm{\mu}_i, \bm{\Sigma}_i \bigr) \\
+    \mathbf{z}_i \sim \mathcal{N} \bigr( \mu_i, \Sigma_i \bigr) \\
     \mathbf{D}(\mathbf{z}_i) \rightarrow \text{decoded sentence}
 \end{gather*}
+```
 
 The following shows some of the sampled vectors from three different Gaussian components decoded into sentences. The scores are the log-likelihood of the sentences defined as 
-$$
+
+```math
 \texttt{score}\bigr(\mathbf{D}(\mathbf{z})\bigr) := \text{log}\bigr(p(\tau_1, \ldots, \tau_\ell)\bigr)
-$$
+```
 
-\begin{figure}[t]
-    \centering
-    \includesvg[width=0.7\textwidth]{graphics/gaussian_mixture.svg}
-    \caption{Gaussian mixture model can approximate a given distribution \cite{gmm-visual}}
-    \label{fig:gmm}
-\end{figure}
+<br>
 
-\begin{ttenv}
-    \noindent
-    \normalsize Component 1 \\
-    \footnotesize
-    Sentence 1.1 score: -14.57 \\
-    Decoded: i do , but i just arrived a small oven from another jet .\vspace{3mm} \\
-    Sentence 1.2 score: -18.10 \\
-    Decoded: i pushed against the air , not sure he could notice sorrow in me of a intercom .\vspace{3mm} \\
-    Sentence 1.3 score: -16.01 \\
-    Decoded: i wrapped my head to kiss her , when things she picked away from his father .\vspace{3mm} \\
-    Sentence 1.4 score: -24.49 \\
-    Decoded: i laughed in front of her lungs so softly i pushed myself forward , and immediately toward his spell .\vspace{3mm} \\
-    Sentence 1.5 score: -12.55 \\
-    Decoded: i grabbing their food for the point so that it creaked back . \\
-
-    \noindent
-    \normalsize Component 5 \\
-    \footnotesize
-    Sentence 5.1 score: -16.63 \\
-    Decoded: what have yourself in there , do nt she come !\vspace{3mm} \\
-    Sentence 5.2 score: -11.71 \\
-    Decoded: was huh there focus to world ?\vspace{3mm} \\
-    Sentence 5.3 score: -12.52 \\
-    Decoded: how could this baby how your parents we re with him ?\vspace{3mm} \\
-    Sentence 5.4 score: -18.36 \\
-    Decoded: are you wondering why to do it down the family time in home ?\vspace{3mm} \\
-    Sentence 5.5 score: -12.81 \\
-    Decoded: you know who was everything , was her ? \\
-
-    \noindent
-    \normalsize Component 18 \\
-    \footnotesize
-    Sentence 18.1 score: -14.47 \\
-    Decoded: the rest might change in any amount of worlds .\vspace{3mm} \\
-    Sentence 18.2 score: -11.44 \\
-    Decoded: the houses shall look complete , both of prison .\vspace{3mm} \\
-    Sentence 18.3 score: -6.44 \\
-    Decoded: men to the field too .\vspace{3mm} \\
-    Sentence 18.4 score: -6.97 \\
-    Decoded: the prince will leave very somewhat surprised .\vspace{3mm} \\
-    Sentence 18.5 score: -8.49 \\
-    Decoded: the last skill disappear .
-\end{ttenv}
+<table align="center">
+  <thead align="center">
+    <tr>
+      <th colspan=3>Component 1</th>
+    </tr>
+    <tr>
+      <th>#</th>
+      <th>Score</th>
+      <th>Decoded</th>
+    </tr>
+  </thead>
+  <tbody align="left">
+    <tr>
+    	<th>1.1</th>
+    	<th>-14.57</th>
+    	<th>i do , but i just arrived a small oven from another jet .</th>
+    </tr>
+    <tr>
+    	<th>1.2</th>
+    	<th>-18.10</th>
+    	<th>i pushed against the air , not sure he could notice sorrow in me of a intercom .</th>
+    </tr>
+    <tr>
+    	<th>1.3</th>
+    	<th>-16.01</th>
+    	<th>i wrapped my head to kiss her , when things she picked away from his father .</th>
+    </tr>
+    <tr>
+    	<th>1.4</th>
+    	<th>-24.49</th>
+    	<th>i laughed in front of her lungs so softly i pushed myself forward , and immediately toward his spell .</th>
+    </tr>
+    <tr>
+    	<th>1.5</th>
+    	<th>-12.55</th>
+    	<th>i grabbing their food for the point so that it creaked back .</th>
+    </tr> 
+    <tr>
+      <th colspan=3></th>
+    </tr>
+  </tbody>
+  <thead align="center">
+    <tr>
+      <th colspan=3>Component 5</th>
+    </tr>
+    <tr>
+      <th>#</th>
+      <th>Score</th>
+      <th>Decoded</th>
+    </tr>
+  </thead>
+  <tbody align="left">
+    <tr>
+      <th>5.1</th>
+      <th>-16.63</th>
+      <th>what have yourself in there , do nt she come !</th>
+    </tr>
+    <tr>
+      <th>5.2</th>
+      <th>-11.71</th>
+      <th>was huh there focus to world ?</th>
+    </tr>
+    <tr>
+      <th>5.3</th>
+      <th>-12.52</th>
+      <th>how could this baby how your parents we re with him ?</th>
+    </tr>
+    <tr>
+      <th>5.4</th>
+      <th>-18.36</th>
+      <th>are you wondering why to do it down the family time in home ?</th>
+    </tr>
+    <tr>
+      <th>5.5</th>
+      <th>-12.81</th>
+      <th>you know who was everything , was her ?</th>
+    </tr>
+    <tr>
+      <th colspan=3></th>
+    </tr>
+  </tbody>
+  <thead align="center">
+    <tr>
+      <th colspan=3>Component 18</th>
+    </tr>
+    <tr>
+      <th>#</th>
+      <th>Score</th>
+      <th>Decoded</th>
+    </tr>
+  </thead>
+  <tbody align="left">
+    <tr>
+    	<th>18.1</th>
+    	<th>-14.47</th>
+    	<th>the rest might change in any amount of worlds .</th>
+    </tr>
+    <tr>
+    	<th>18.2</th>
+    	<th>-11.44</th>
+    	<th>the houses shall look complete , both of prison .</th>
+    </tr>
+    <tr>
+    	<th>18.3</th>
+    	<th>-6.44</th>
+    	<th>men to the field too .</th>
+    </tr>
+    <tr>
+    	<th>18.4</th>
+    	<th>-6.97</th>
+    	<th>the prince will leave very somewhat surprised .</th>
+    </tr>
+    <tr>
+    	<th>18.5</th>
+    	<th>-8.49</th>
+    	<th>the last skill disappear .</th>
+    </tr>
+  </tbody>
+</table>
 
 From the decoded sentence, it can be observed that when a Gaussian mixture model is used, the type of sentences that cluster around each of the components are largely influenced by the first few words of the sentence. However, most of the decoded sentences are nonsensical. This is reflected by the sentence scores, which can be used as a metric to determine how likely a given vector can be decoded as a sensible sentence. This metric is used for further experiments to measure the viability of the decoded sentences.
 
