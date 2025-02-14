@@ -390,7 +390,7 @@ Using the trained model, different experiments were conducted to find interestin
 
 <div align="center">
 
-  <img src="graphics/gaussian_mixture.svg" width=500>
+  <img src="graphics/modified/gaussian_mixture.png" width=700>
   
   Figure 3: Gaussian mixture model can approximate distributions.
 </div>
@@ -575,7 +575,7 @@ The following shows the images and the decoded sentences of $\mathbf{z}_t$ for v
 <table>
   <tbody>
     <tr>
-      <th colspan=5><img src="graphics/interpolation.png"></th>
+      <th colspan=5><img src="graphics/modified/interpolation.png"></th>
     </tr>
   </tbody>
 </table>
