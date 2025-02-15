@@ -572,10 +572,45 @@ By decoding $\mathbf{z}_t$ for different values of $t$, it can be observed wheth
 
 The following shows the images and the decoded sentences of $\mathbf{z}_t$ for varying values of $t$:
 
-<table>
+<table align="center">
   <tbody>
     <tr>
-      <th colspan=5><img src="graphics/modified/interpolation.png"></th>
+      <th colspan=3><img src="graphics/modified/interpolation.png" width=700></th>
+    </tr>
+    <tr>
+      <th>t</th>
+      <th>$D(z_t)$</th>
+      <th>score</th>
+    </tr>
+    <tr>
+      <th>$0$</th>
+      <th>he stayed completely still for the next moment .</th>
+      <th>-1.09</th>
+    </tr>
+    <tr>
+      <th>$0.2$</th>
+      <th>he stayed completely still for the next then .</th>
+      <th>-4.12</th>
+    </tr>
+    <tr>
+      <th>$0.4$</th>
+      <th>she stayed now as his head barely i wondered .</th>
+      <th>-9.13</th>
+    </tr>
+    <tr>
+      <th>$0.6$</th>
+      <th>then she stayed silent as he ever watched .</th>
+      <th>-6.92</th>
+    </tr>
+    <tr>
+      <th>$0.8$</th>
+      <th>then she continued quietly as she could at my wounds .</th>
+      <th>-5.11</th>
+    </tr>
+    <tr>
+      <th>$1$</th>
+      <th>then she continued as calmly as she could .</th>
+      <th>-0.99</th>
     </tr>
   </tbody>
 </table>
