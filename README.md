@@ -575,7 +575,7 @@ The following shows the images and the decoded sentences of $\mathbf{z}_t$ for v
 <table align="center">
   <tbody>
     <tr>
-      <th colspan=3><img src="graphics/modified/interpolation.png" width=700></th>
+      <th colspan=3><img src="graphics/modified/interpolation.png"></th>
     </tr>
     <tr>
       <th>t</th>
