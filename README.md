@@ -578,7 +578,7 @@ The following shows the images and the decoded sentences of $\mathbf{z}_t$ for v
       <th colspan=3><img src="graphics/modified/interpolation.png"></th>
     </tr>
     <tr>
-      <th>t</th>
+      <th>$t$</th>
       <th>$D(z_t)$</th>
       <th>score</th>
     </tr>
@@ -615,62 +615,72 @@ The following shows the images and the decoded sentences of $\mathbf{z}_t$ for v
   </tbody>
 </table>
 
-\begin{figure}[h!]
-    \centering
-    \footnotesize
-    \ttfamily
-    \includegraphics[width=1\textwidth]{graphics/interpolation.png}
-    \begin{tabular}{l@{\hskip 1cm}l c}
-        \normalsize $t$ & \multicolumn{1}{c}{\normalsize $\mathbf{D}(\mathbf{z}_t)$} & \normalsize score \\
-        \hline
-        $0$ & \small \textbf{he stayed completely still for the next moment .} & -1.09 \\
-        $0.2$ & he stayed completely still for the next then . & -4.12\\
-        $0.4$ & she stayed now as his head barely i wondered . & -9.13 \\
-        $0.6$ & then she stayed silent as he ever watched . & -6.92 \\
-        $0.8$ & then she continued quietly as she could at my wounds . & -5.11 \\
-        $1$ & \small \textbf{then she continued as calmly as she could .} & -0.99
-    \end{tabular}
-    \label{fig:interpolation}
-\end{figure}
-
 The result shows a smooth transition of the images, and the token-wise transition of $\mathbf{D}(\mathbf{z}_t)$ seems acceptable but don't make a lot of sense grammatically or semantically, which is evident from the increased log-probability scores of the transition sentences. This is likely because the two sentences are not similar enough, so the experiment was repeated with more similar pairs of sentences. Below shows a linear interpolation between the sentences 
+
+```math
 \begin{align*}
-    \mathbf{s}^3 & =\texttt{\footnotesize my mom was upset when she saw me .} \\
-    \mathbf{s}^4 & = \texttt{\footnotesize my dad is happy to see you .}
+    \mathbf{s}^3 & =\texttt{my mom was upset when she saw me .} \\
+    \mathbf{s}^4 & = \texttt{my dad is happy to see you .}
 \end{align*}
-\begin{center}
-    \footnotesize
-    \ttfamily
-    {\renewcommand{\arraystretch}{1}
-    \begin{tabular}{l@{\hskip 1cm}l c}
-        \normalsize $t$ & \multicolumn{1}{c}{\normalsize $\mathbf{D}(\mathbf{z}_t)$} & \normalsize score \\
-        \hline
-        $0-0.2$ & \small \textbf{my mom was upset when she saw me .} & -0.76 \\
-        $0.5$ & my mom was happy to see me now . & -5.94\\
-        $0.6$ & my dad is upset to see you happy . & -5.66 \\
-        $0.7$ & my dad is happy to see you upset . & -2.37 \\
-        $0.8-1$ & \small \textbf{my dad is happy to see you .} & -0.99
-    \end{tabular}
-    }
-\end{center}
+```
+
+<table align="center">
+  <tbody>
+    <tr>
+      <th>$t$</th>
+      <th>$\mathbf{D}(\mathbf{z}_t)$</th>
+      <th>score</th>
+    </tr>
+    <tr>
+      <th>$0-0.2$</th>
+      <th>my mom was upset when she saw me .</th>
+      <th>-0.76</th>
+    </tr>
+    <tr>
+      <th>$0.5$</th>
+      <th>my mom was happy to see me now .</th>
+      <th>-5.94</th>
+    </tr>
+    <tr>
+      <th>$0.6$</th>
+      <th>my dad is upset to see you happy .</th>
+      <th>-5.66</th>
+    </tr>
+    <tr>
+      <th>$0.7$</th>
+      <th>my dad is happy to see you upset .</th>
+      <th>-2.37</th>
+    </tr>
+    <tr>
+      <th>$0.8-1$</th>
+      <th>my dad is happy to see you .</th>
+      <th>-0.99</th>
+    </tr>
+  </tbody>
+</table>
+
 These results show a smoother transition between the two sentences and the transitions are grammatically correct as well. This suggest a sparsity of vectors in the latent space that are likely to be sentences.
 
 Finally, a linear combination between three different sentences was done using words of emotion.
-\begin{center}
-    {\renewcommand{\arraystretch}{1}
-    \begin{tabular}{l l l l}
-        $\mathbf{s}_\text{happy}$ & = \: \texttt{\footnotesize i am happy .} & $\mathbf{E} \bigr(\mathbf{s}_\text{happy} \bigr)$ & = \: $\mathbf{z}_\text{happy}$ \\
-        $\mathbf{s}_\text{disappointed}$ & = \: \texttt{\footnotesize i am disappointed .} & $\mathbf{E} \bigr(\mathbf{s}_\text{disappointed} \bigr)$ & = \: $\mathbf{z}_\text{disappointed}$ \\
-        $\mathbf{s}_\text{excited}$ & = \: \texttt{\footnotesize i am excited .} & $\mathbf{E} \bigr(\mathbf{s}_\text{excited} \bigr)$ & = \: $\mathbf{z}_\text{excited}$
-    \end{tabular}
-    }
-\end{center}
-Below is a few combinations that produced interesting results:
+
+```math
+\begin{align}
+    \mathbf{s}_\text{happy} & = \: \texttt{i am happy .} & \mathbf{E} \bigr(\mathbf{s}_\text{happy} \bigr) & = \: \mathbf{z}_\text{happy} \\
+    \mathbf{s}_\text{disappointed} & = \: \texttt{i am disappointed .} & \mathbf{E} \bigr(\mathbf{s}_\text{disappointed} \bigr) & = \: \mathbf{z}_\text{disappointed} \\
+    \mathbf{s}_\text{excited} & = \: \texttt{i am excited .} & \mathbf{E} \bigr(\mathbf{s}_\text{excited} \bigr) & = \: \mathbf{z}_\text{excited}
+\end{align}
+```
+
+Below are few combinations that produced interesting results:
+
+```math
 \begin{gather*}
-    \mathbf{D}\bigr(0.5\,\mathbf{z}_\text{disappointed} + 0.5\,\mathbf{z}_\text{excited}\bigr) = \texttt{\footnotesize i am angry .} \\
-    \mathbf{D}\bigr(\shortminus 0.7\,\mathbf{z}_\text{happy} + 0.8\,\mathbf{z}_\text{disappointed} + 0.9\,\mathbf{z}_\text{excited}\bigr) = \texttt{\footnotesize i am annoyed .} \\
-    \mathbf{D}\bigr(\shortminus \mathbf{z}_\text{happy} + \mathbf{z}_\text{disappointed} + \mathbf{z}_\text{excited}\bigr) = \texttt{\footnotesize i am humor curious .}
+    \mathbf{D}\bigr(0.5\,\mathbf{z}_\text{disappointed} + 0.5\,\mathbf{z}_\text{excited}\bigr) = \texttt{i am angry .} \\
+    \mathbf{D}\bigr(-0.7\,\mathbf{z}_\text{happy} + 0.8\,\mathbf{z}_\text{disappointed} + 0.9\,\mathbf{z}_\text{excited}\bigr) = \texttt{i am annoyed .} \\
+    \mathbf{D}\bigr(-\mathbf{z}_\text{happy} + \mathbf{z}_\text{disappointed} + \mathbf{z}_\text{excited}\bigr) = \texttt{i am humor curious .}
 \end{gather*}
+```
+
 These results show that emotions may lie in a particular subset of the latent space, which may be traversed to produce different emotion for the output sentence.
 
 ## Vector Operations
