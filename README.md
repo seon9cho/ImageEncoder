@@ -714,7 +714,7 @@ Since each of these sentences are identical except for the subject pronouns, the
 
 <div align="center">
 
-  <img src="graphics/vector_operation.svg" width=500>
+  <img src="graphics/modified/vector_operation.png" width=500>
 
   Figure 4: Illustration of vector operations between<br>two pairs of vectors and their difference.
 </div>
