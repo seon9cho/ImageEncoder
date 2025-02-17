@@ -685,23 +685,24 @@ These results show that emotions may lie in a particular subset of the latent sp
 
 ## Vector Operations
 
- The Word2Vec \cite{word2vec} model showed that it is possible to perform vector operations of encoded words to manipulate the semantics of words. One famous example is \texttt{king} - \texttt{man} + \texttt{woman} = \texttt{queen} which is the expected and desired output. In this section, similar experiments are performed with encoded sentences.
+ The [Word2Vec](https://arxiv.org/abs/1301.3781) model showed that it is possible to perform vector operations of encoded words to manipulate the semantics of words. One famous example is $`\texttt{king} - \texttt{man} + \texttt{woman} = \texttt{queen}`$ which is the expected and desired output. In this section, similar experiments are performed with encoded sentences.
 
 ### Subject Pronoun Manipulation
+
 For the first experiment, the goal is to manipulate the subject pronouns. The following sentences are identical except for their subject pronouns:
-\begin{center}
-    {\renewcommand{\arraystretch}{1}
-    \begin{tabular}{l l l l}
-        $\mathbf{s}^1_\text{he}$ & = \: \texttt{\footnotesize he stayed completely still for the next moment .} & $\mathbf{E} \bigr(\mathbf{s}^1_\text{he} \bigr)$ & = \: $\mathbf{z}^1_\text{he}$ \\
-        $\mathbf{s}^1_\text{she}$ & = \: \texttt{\footnotesize she stayed completely still for the next moment .} & $\mathbf{E} \bigr(\mathbf{s}^1_\text{she}\bigr)$ & = \: $\mathbf{z}^1_\text{she}$ \\
-        $\mathbf{s}^1_\text{they}$ & = \: \texttt{\footnotesize they stayed completely still for the next moment .} & $\mathbf{E} \bigr(\mathbf{s}^1_\text{they}\bigr)$ & = \: $\mathbf{z}^1_\text{they}$ \\
-        $\mathbf{s}^1_\text{I}$ & = \: \texttt{\footnotesize i stayed completely still for the next moment .} & $\mathbf{E} \bigr(\mathbf{s}^1_\text{I}\bigr)$ & = \: $\mathbf{z}^1_\text{I}$ \\
-        $\mathbf{s}^1_\text{you}$ & = \: \texttt{\footnotesize you stayed completely still for the next moment .} & $\mathbf{E} \bigr(\mathbf{s}^1_\text{you}\bigr)$ & = \: $\mathbf{z}^1_\text{you}$ \\
-        $\mathbf{s}^1_\text{we}$ & = \: \texttt{\footnotesize we stayed completely still for the next moment .} & $\mathbf{E} \bigr(\mathbf{s}^1_\text{we}\bigr)$ & = \: $\mathbf{z}^1_\text{we}$ \\
-    \end{tabular}
-    }
-\end{center}
-Since each of these sentences are identical except for the subject pronouns, the difference of two sentences would represent the difference in the pronouns used. For example, since `I' is a first-person singular pronoun and `we' is a first-person plural pronoun, the difference $\mathbf{z}^1_\text{we} - \mathbf{z}^1_\text{I}$ will represent the plurality element. Then, the expected outcome when adding this difference to $\mathbf{z}^1_\text{he}$, a third-person singular pronoun, would be a vector close to $\mathbf{z}^1_\text{they}$, a third-person plural pronoun. The following shows the result of the experiment.
+
+```math
+\begin{align}
+    \mathbf{s}^1_\text{he} & = \: \texttt{he stayed completely still for the next moment .} & \mathbf{E} \bigr(\mathbf{s}^1_\text{he} \bigr) & = \: \mathbf{z}^1_\text{he} \\
+    \mathbf{s}^1_\text{she} & = \: \texttt{she stayed completely still for the next moment .} & \mathbf{E} \bigr(\mathbf{s}^1_\text{she}\bigr) & = \: \mathbf{z}^1_\text{she} \\
+    \mathbf{s}^1_\text{they} & = \: \texttt{they stayed completely still for the next moment .} & \mathbf{E} \bigr(\mathbf{s}^1_\text{they}\bigr) & = \: \mathbf{z}^1_\text{they} \\
+    \mathbf{s}^1_\text{I} & = \: \texttt{i stayed completely still for the next moment .} & \mathbf{E} \bigr(\mathbf{s}^1_\text{I}\bigr) & = \: \mathbf{z}^1_\text{I} \\
+    \mathbf{s}^1_\text{you} & = \: \texttt{you stayed completely still for the next moment .} & \mathbf{E} \bigr(\mathbf{s}^1_\text{you}\bigr) & = \: \mathbf{z}^1_\text{you} \\
+    \mathbf{s}^1_\text{we} & = \: \texttt{we stayed completely still for the next moment .} & \mathbf{E} \bigr(\mathbf{s}^1_\text{we}\bigr) & = \: \mathbf{z}^1_\text{we} \\
+\end{align}
+```
+
+Since each of these sentences are identical except for the subject pronouns, the difference of two sentences would represent the difference in the pronouns used. For example, since 'I' is a first-person singular pronoun and 'we' is a first-person plural pronoun, the difference $\mathbf{z}^1_\text{we} - \mathbf{z}^1_\text{I}$ will represent the plurality element. Then, the expected outcome when adding this difference to $\mathbf{z}^1_\text{he}$, a third-person singular pronoun, would be a vector close to $\mathbf{z}^1_\text{they}$, a third-person plural pronoun. The following shows the result of the experiment.
 \begin{align*}
     \mathbf{D} \bigr(\mathbf{z}^1_\text{we} - \mathbf{z}^1_\text{I} + \mathbf{z}^1_\text{he} \bigr) & = \texttt{\footnotesize they stayed completely still for the next moment .} \\
     \mathbf{D} \bigr(\mathbf{z}^1_\text{they} - \mathbf{z}^1_\text{he} + \mathbf{z}^1_\text{I} \bigr) & = \texttt{\footnotesize completely we stayed still for the next moment .} \\
