@@ -703,34 +703,47 @@ For the first experiment, the goal is to manipulate the subject pronouns. The fo
 ```
 
 Since each of these sentences are identical except for the subject pronouns, the difference of two sentences would represent the difference in the pronouns used. For example, since 'I' is a first-person singular pronoun and 'we' is a first-person plural pronoun, the difference $\mathbf{z}^1_\text{we} - \mathbf{z}^1_\text{I}$ will represent the plurality element. Then, the expected outcome when adding this difference to $\mathbf{z}^1_\text{he}$, a third-person singular pronoun, would be a vector close to $\mathbf{z}^1_\text{they}$, a third-person plural pronoun. The following shows the result of the experiment.
-\begin{align*}
-    \mathbf{D} \bigr(\mathbf{z}^1_\text{we} - \mathbf{z}^1_\text{I} + \mathbf{z}^1_\text{he} \bigr) & = \texttt{\footnotesize they stayed completely still for the next moment .} \\
-    \mathbf{D} \bigr(\mathbf{z}^1_\text{they} - \mathbf{z}^1_\text{he} + \mathbf{z}^1_\text{I} \bigr) & = \texttt{\footnotesize completely we stayed still for the next moment .} \\
-    \mathbf{D} \bigr(\mathbf{z}^1_\text{they} - \mathbf{z}^1_\text{he} + \mathbf{z}^1_\text{you} \bigr) & = \texttt{\footnotesize you stayed completely still for their next time .}
-\end{align*}
-Although there were some changes to the sentence itself for some, the subject pronouns of the output were changed as intended. The reverse of this experiment was conducted and showed a similar result.
-\begin{align*}
-    \mathbf{D} \bigr(\mathbf{z}^1_\text{I} - \mathbf{z}^1_\text{we} + \mathbf{z}^1_\text{they} \bigr) & = \texttt{\footnotesize completely he stayed still for her next moment .} \\
-    \mathbf{D} \bigr(\mathbf{z}^1_\text{he} - \mathbf{z}^1_\text{they} + \mathbf{z}^1_\text{we} \bigr) & = \texttt{\footnotesize i stayed completely still for the next moment .}
-\end{align*}
 
-\begin{figure}[t]
-    \centering
-    \captionsetup{justification=centering}
-    \includesvg[width=0.5\textwidth]{graphics/vector_operation.svg}
-    \caption{Illustration of vector operations between \\two pairs of vectors and their difference.}
-    \label{fig:vec-op}
-\end{figure}
+```math
+\begin{align*}
+    \mathbf{D} \bigr(\mathbf{z}^1_\text{we} - \mathbf{z}^1_\text{I} + \mathbf{z}^1_\text{he} \bigr) & = \texttt{they stayed completely still for the next moment .} \\
+    \mathbf{D} \bigr(\mathbf{z}^1_\text{they} - \mathbf{z}^1_\text{he} + \mathbf{z}^1_\text{I} \bigr) & = \texttt{completely we stayed still for the next moment .} \\
+    \mathbf{D} \bigr(\mathbf{z}^1_\text{they} - \mathbf{z}^1_\text{he} + \mathbf{z}^1_\text{you} \bigr) & = \texttt{you stayed completely still for their next time .}
+\end{align*}
+```
+
+<div align="center">
+
+  <img src="graphics/vector_operation.svg" width=500>
+
+  Figure 4: Illustration of vector operations between<br>two pairs of vectors and their difference.
+</div>
+
+Although there were some changes to the sentence itself for some, the subject pronouns of the output were changed as intended. The reverse of this experiment was conducted and showed a similar result.
+
+```math
+\begin{align*}
+    \mathbf{D} \bigr(\mathbf{z}^1_\text{I} - \mathbf{z}^1_\text{we} + \mathbf{z}^1_\text{they} \bigr) & = \texttt{completely he stayed still for her next moment .} \\
+    \mathbf{D} \bigr(\mathbf{z}^1_\text{he} - \mathbf{z}^1_\text{they} + \mathbf{z}^1_\text{we} \bigr) & = \texttt{i stayed completely still for the next moment .}
+\end{align*}
+```
 
 Similar experiment was conducted but instead adding the difference of sentences in $\mathbf{s}^1$ to a new sentence $\mathbf{s}^2$
+
+```math
 \begin{align*}
-    \mathbf{s}^2_\text{he} = \texttt{\footnotesize then he continued as calmly as he could .} \quad \mathbf{E} \bigr(\mathbf{s}^2_\text{he}\bigr) = \mathbf{z}^2_\text{he}
+    \mathbf{s}^2_\text{he} = \texttt{then he continued as calmly as he could .} \quad \mathbf{E} \bigr(\mathbf{s}^2_\text{he}\bigr) = \mathbf{z}^2_\text{he}
 \end{align*}
+```
+
+```math
 \begin{align*}
-    \mathbf{D} \bigr(\mathbf{z}^1_\text{they} - \mathbf{z}^1_\text{he} + \mathbf{z}^2_\text{he} \bigr) & = \texttt{\footnotesize then they continued as calmly as he could .} \\
-    \mathbf{D} \bigr(\mathbf{z}^1_\text{we} - \mathbf{z}^1_\text{i} + \mathbf{z}^2_\text{he} \bigr) & = \texttt{\footnotesize then they continued as he calmly as we could .} \\
-    \mathbf{D} \bigr(\mathbf{z}^1_\text{she} - \mathbf{z}^1_\text{he} + \mathbf{z}^2_\text{he} \bigr) & = \texttt{\footnotesize then she continued as calmly as he could .}
+    \mathbf{D} \bigr(\mathbf{z}^1_\text{they} - \mathbf{z}^1_\text{he} + \mathbf{z}^2_\text{he} \bigr) & = \texttt{then they continued as calmly as he could .} \\
+    \mathbf{D} \bigr(\mathbf{z}^1_\text{we} - \mathbf{z}^1_\text{i} + \mathbf{z}^2_\text{he} \bigr) & = \texttt{then they continued as he calmly as we could .} \\
+    \mathbf{D} \bigr(\mathbf{z}^1_\text{she} - \mathbf{z}^1_\text{he} + \mathbf{z}^2_\text{he} \bigr) & = \texttt{then she continued as calmly as he could .}
 \end{align*}
+```
+
 The subject pronouns changed as desired, but subject-object agreement wasn't achieved, which suggest that the vectors for the subject and the object may be parts of a separate subset of the latent space.
 
 ### Tense Manipulation
