@@ -854,21 +854,23 @@ Next, experiments were conducted to see whether statements could be turned into 
 ### Command vs. Request
 
 Finally, experiments were conducted to see whether commands could be turned into requests and vice-versa. 
-\begin{center}
-    {\renewcommand{\arraystretch}{1}
-    \begin{tabular}{l l l l}
-        $\mathbf{s}^7_\text{command}$ & = \: \texttt{\footnotesize clean your room .} & $\mathbf{E} \bigr(\mathbf{s}^7_\text{command} \bigr)$ & = \: $\mathbf{z}^7_\text{command}$ \\
-        $\mathbf{s}^7_\text{request}$ & = \: \texttt{\footnotesize can you clean your room ?} & $\mathbf{E} \bigr(\mathbf{s}^7_\text{request} \bigr)$ & = \: $\mathbf{z}^7_\text{request}$ \\
-        $\mathbf{s}^8_\text{command}$ & = \: \texttt{\footnotesize come to my house .} & $\mathbf{E} \bigr(\mathbf{s}^8_\text{command} \bigr)$ & = \: $\mathbf{z}^8_\text{command}$ \\
-        $\mathbf{s}^8_\text{request}$ & = \: \texttt{\footnotesize can you come to my house ?} & $\mathbf{E} \bigr(\mathbf{s}^8_\text{request} \bigr)$ & = \: $\mathbf{z}^8_\text{request}$
-    \end{tabular}
-    }
-\end{center}
+
+```math
+\begin{align}
+    \mathbf{s}^7_\text{command} & = \: \texttt{clean your room .} & \mathbf{E} \bigr(\mathbf{s}^7_\text{command} \bigr) & = \: \mathbf{z}^7_\text{command} \\
+    \mathbf{s}^7_\text{request} & = \: \texttt{can you clean your room ?} & \mathbf{E} \bigr(\mathbf{s}^7_\text{request} \bigr) & = \: \mathbf{z}^7_\text{request} \\
+    \mathbf{s}^8_\text{command} & = \: \texttt{come to my house .} & \mathbf{E} \bigr(\mathbf{s}^8_\text{command} \bigr) & = \: \mathbf{z}^8_\text{command} \\
+    \mathbf{s}^8_\text{request} & = \: \texttt{can you come to my house ?} & \mathbf{E} \bigr(\mathbf{s}^8_\text{request} \bigr) & = \: \mathbf{z}^8_\text{request}
+\end{align}
+```
+
+```math
 \begin{align*}
-    \mathbf{D} \bigr(\mathbf{z}^7_\text{request} - \mathbf{z}^7_\text{command} + \mathbf{z}^8_\text{command} \bigr) & = \texttt{\footnotesize can you come to my house ?} \\
-    \mathbf{D} \bigr(\mathbf{z}^7_\text{command} - \mathbf{z}^7_\text{request} + \mathbf{z}^8_\text{request} \bigr) & = \texttt{\footnotesize come to my house .} \\
-    \mathbf{D} \bigr(\mathbf{z}^8_\text{request} - \mathbf{z}^8_\text{command} + \mathbf{z}^7_\text{command} \bigr) & = \texttt{\footnotesize can you clean your room ?} \\
-    \mathbf{D} \bigr(\mathbf{z}^8_\text{command} - \mathbf{z}^8_\text{request} + \mathbf{z}^7_\text{request} \bigr) & = \texttt{\footnotesize clean your room .} 
+    \mathbf{D} \bigr(\mathbf{z}^7_\text{request} - \mathbf{z}^7_\text{command} + \mathbf{z}^8_\text{command} \bigr) & = \texttt{can you come to my house ?} \\
+    \mathbf{D} \bigr(\mathbf{z}^7_\text{command} - \mathbf{z}^7_\text{request} + \mathbf{z}^8_\text{request} \bigr) & = \texttt{come to my house .} \\
+    \mathbf{D} \bigr(\mathbf{z}^8_\text{request} - \mathbf{z}^8_\text{command} + \mathbf{z}^7_\text{command} \bigr) & = \texttt{can you clean your room ?} \\
+    \mathbf{D} \bigr(\mathbf{z}^8_\text{command} - \mathbf{z}^8_\text{request} + \mathbf{z}^7_\text{request} \bigr) & = \texttt{clean your room .} 
 \end{align*}
+```
 
 The results for this and the previous experiment suggest that the structure of the sentence may be a subset of the latent space as well. Isolating these elements could lead to a new way of building output sentences within the latent space.
