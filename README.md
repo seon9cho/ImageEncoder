@@ -768,33 +768,43 @@ The following experiment shows manipulation of tense for the predicate. The sent
 ```
 
 Using the sentences from $s^1$, further experiment is done to manipulate both the subject pronoun and the tense at once. 
-\begin{align*}
-    \mathbf{D} \bigr(\mathbf{z}^1_\text{they} - \mathbf{z}^1_\text{i} + \mathbf{z}^4_\text{present} \bigr) & = \texttt{\footnotesize they are going with you .} \\
-    \mathbf{D} \bigr(\mathbf{z}^1_\text{they} - \mathbf{z}^1_\text{i} + \mathbf{z}^3_\text{future} - \mathbf{z}^3_\text{present} + \mathbf{z}^4_\text{present} \bigr) & = \texttt{\footnotesize they will be going with you .} \\
-    \mathbf{D} \bigr(\mathbf{z}^1_\text{they} - \mathbf{z}^1_\text{i} + \mathbf{z}^3_\text{past} - \mathbf{z}^3_\text{present} + \mathbf{z}^4_\text{present} \bigr) & = \texttt{\footnotesize they was going with you .}
-\end{align*}
-The result shows that both the subject and the predicate changed as intended. Although the first result achieved subject-verb agreement, the third did not. This was fixed by adjusting the weight of the differences, as shown below:
-\begin{align*}
-    \mathbf{D} \bigr(\mathbf{z}^1_\text{they} - \mathbf{z}^1_\text{i} + 0.5(\mathbf{z}^3_\text{past} - \mathbf{z}^3_\text{present}) + \mathbf{z}^4_\text{present} \bigr) & = \texttt{\footnotesize they were going with you .}
-\end{align*}
 
-Further experiment was done using the verbs `run' and `ran'. The results weren't as consistent but produced some interesting outputs.
-\begin{center}
-    {\renewcommand{\arraystretch}{1}
-    \begin{tabular}{l l l l}
-        $\mathbf{s}^5_\text{present}$ & = \: \texttt{\footnotesize i run in the morning .} & $\mathbf{E} \bigr(\mathbf{s}^5_\text{present} \bigr)$ & = \: $\mathbf{z}^5_\text{present}$ \\
-        $\mathbf{s}^5_\text{past}$ & = \: \texttt{\footnotesize i ran in the morning .} & $\mathbf{E} \bigr(\mathbf{s}^5_\text{past} \bigr)$ & = \: $\mathbf{z}^5_\text{past}$
-    \end{tabular}
-    }
-\end{center}
+```math
 \begin{align*}
-    \mathbf{D} \bigr(\mathbf{z}^3_\text{future} - \mathbf{z}^3_\text{present} + \mathbf{z}^5_\text{present} \bigr) & = \texttt{\footnotesize i ll run in the morning being .} \\
-    \mathbf{D} \bigr(\mathbf{z}^3_\text{past} - \mathbf{z}^3_\text{present} + \mathbf{z}^5_\text{present} \bigr) & = \texttt{\footnotesize i run in the morning .} \\
-    \mathbf{D} \bigr(1.2(\mathbf{z}^3_\text{past} - \mathbf{z}^3_\text{present}) + \mathbf{z}^5_\text{present} \bigr) & = \texttt{\footnotesize i slid in the morning run .} \\
-    \mathbf{D} \bigr(\mathbf{z}^5_\text{past} - \mathbf{z}^5_\text{present} + \mathbf{z}^3_\text{present} \bigr) & = \texttt{\footnotesize i were there .}
+    \mathbf{D} \bigr(\mathbf{z}^1_\text{they} - \mathbf{z}^1_\text{i} + \mathbf{z}^4_\text{present} \bigr) & = \texttt{they are going with you .} \\
+    \mathbf{D} \bigr(\mathbf{z}^1_\text{they} - \mathbf{z}^1_\text{i} + \mathbf{z}^3_\text{future} - \mathbf{z}^3_\text{present} + \mathbf{z}^4_\text{present} \bigr) & = \texttt{they will be going with you .} \\
+    \mathbf{D} \bigr(\mathbf{z}^1_\text{they} - \mathbf{z}^1_\text{i} + \mathbf{z}^3_\text{past} - \mathbf{z}^3_\text{present} + \mathbf{z}^4_\text{present} \bigr) & = \texttt{they was going with you .}
 \end{align*}
+```
+
+The result shows that both the subject and the predicate changed as intended. Although the first result achieved subject-verb agreement, the third did not. This was fixed by adjusting the weight of the differences, as shown below:
+
+```math
+\begin{align*}
+    \mathbf{D} \bigr(\mathbf{z}^1_\text{they} - \mathbf{z}^1_\text{i} + 0.5(\mathbf{z}^3_\text{past} - \mathbf{z}^3_\text{present}) + \mathbf{z}^4_\text{present} \bigr) & = \texttt{they were going with you .}
+\end{align*}
+```
+
+Further experiment was done using the verbs 'run' and 'ran'. The results weren't as consistent but produced some interesting outputs.
+
+```math
+\begin{align}
+    \mathbf{s}^5_\text{present} & = \: \texttt{i run in the morning .} & \mathbf{E} \bigr(\mathbf{s}^5_\text{present} \bigr) & = \: \mathbf{z}^5_\text{present} \\
+    \mathbf{s}^5_\text{past} & = \: \texttt{i ran in the morning .} & \mathbf{E} \bigr(\mathbf{s}^5_\text{past} \bigr) & = \: \mathbf{z}^5_\text{past}
+\end{align}
+```
+
+```math
+\begin{align*}
+    \mathbf{D} \bigr(\mathbf{z}^3_\text{future} - \mathbf{z}^3_\text{present} + \mathbf{z}^5_\text{present} \bigr) & = \texttt{i ll run in the morning being .} \\
+    \mathbf{D} \bigr(\mathbf{z}^3_\text{past} - \mathbf{z}^3_\text{present} + \mathbf{z}^5_\text{present} \bigr) & = \texttt{i run in the morning .} \\
+    \mathbf{D} \bigr(1.2(\mathbf{z}^3_\text{past} - \mathbf{z}^3_\text{present}) + \mathbf{z}^5_\text{present} \bigr) & = \texttt{i slid in the morning run .} \\
+    \mathbf{D} \bigr(\mathbf{z}^5_\text{past} - \mathbf{z}^5_\text{present} + \mathbf{z}^3_\text{present} \bigr) & = \texttt{i were there .}
+\end{align*}
+```
 
 ### Negation
+
 This experiment shows negations of sentences using the word `not'.
 \begin{align*}
     \mathbf{s}^3_\text{not} = \texttt{\footnotesize i am not there .} \quad \mathbf{E} \bigr(\mathbf{s}^3_\text{not}\bigr) = \mathbf{z}^3_\text{not}
