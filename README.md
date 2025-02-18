@@ -747,22 +747,25 @@ Similar experiment was conducted but instead adding the difference of sentences 
 The subject pronouns changed as desired, but subject-object agreement wasn't achieved, which suggest that the vectors for the subject and the object may be parts of a separate subset of the latent space.
 
 ### Tense Manipulation
+
 The following experiment shows manipulation of tense for the predicate. The sentences used and the result of the vector operations are shown below.
-\begin{center}
-    {\renewcommand{\arraystretch}{1}
-    \begin{tabular}{l l l l}
-        $\mathbf{s}^3_\text{present}$ & = \: \texttt{\footnotesize i am there .} & $\mathbf{E} \bigr(\mathbf{s}^3_\text{present} \bigr)$ & = \: $\mathbf{z}^3_\text{present}$ \\
-        $\mathbf{s}^3_\text{future}$ & = \: \texttt{\footnotesize i will be there .} & $\mathbf{E} \bigr(\mathbf{s}^3_\text{future} \bigr)$ & = \: $\mathbf{z}^3_\text{future}$ \\
-        $\mathbf{s}^3_\text{past}$ & = \: \texttt{\footnotesize i was there .} & $\mathbf{E} \bigr(\mathbf{s}^3_\text{past} \bigr)$ & = \: $\mathbf{z}^3_\text{past}$ \\
-        $\mathbf{s}^4_\text{present}$ & = \: \texttt{\footnotesize i am going with you .} & $\mathbf{E} \bigr(\mathbf{s}^4_\text{present} \bigr)$ & = \: $\mathbf{z}^4_\text{present}$
-    \end{tabular}
-    }
-\end{center}
+
+```math
+\begin{align}
+    \mathbf{s}^3_\text{present} & = \: \texttt{i am there .} & \mathbf{E} \bigr(\mathbf{s}^3_\text{present} \bigr) & = \: \mathbf{z}^3_\text{present} \\
+    \mathbf{s}^3_\text{future} & = \: \texttt{i will be there .} & \mathbf{E} \bigr(\mathbf{s}^3_\text{future} \bigr) & = \: \mathbf{z}^3_\text{future} \\
+    \mathbf{s}^3_\text{past} & = \: \texttt{i was there .} & \mathbf{E} \bigr(\mathbf{s}^3_\text{past} \bigr) & = \: \mathbf{z}^3_\text{past} \\
+    \mathbf{s}^4_\text{present} & = \: \texttt{i am going with you .} & \mathbf{E} \bigr(\mathbf{s}^4_\text{present} \bigr) & = \: \mathbf{z}^4_\text{present}
+\end{align}
+```
+
+```math
 \begin{align*}
-    \mathbf{D} \bigr(\mathbf{z}^3_\text{future} + \mathbf{z}^3_\text{past} \bigr) & = \texttt{\footnotesize i m there .} \\
-    \mathbf{D} \bigr(\mathbf{z}^3_\text{future} - \mathbf{z}^3_\text{present} + \mathbf{z}^4_\text{present} \bigr) & = \texttt{\footnotesize i will be going with you .} \\
-    \mathbf{D} \bigr(\mathbf{z}^3_\text{past} - \mathbf{z}^3_\text{present} + \mathbf{z}^4_\text{present} \bigr) & = \texttt{\footnotesize i was going with you .}
+    \mathbf{D} \bigr(\mathbf{z}^3_\text{future} + \mathbf{z}^3_\text{past} \bigr) & = \texttt{i m there .} \\
+    \mathbf{D} \bigr(\mathbf{z}^3_\text{future} - \mathbf{z}^3_\text{present} + \mathbf{z}^4_\text{present} \bigr) & = \texttt{i will be going with you .} \\
+    \mathbf{D} \bigr(\mathbf{z}^3_\text{past} - \mathbf{z}^3_\text{present} + \mathbf{z}^4_\text{present} \bigr) & = \texttt{i was going with you .}
 \end{align*}
+```
 
 Using the sentences from $s^1$, further experiment is done to manipulate both the subject pronoun and the tense at once. 
 \begin{align*}
