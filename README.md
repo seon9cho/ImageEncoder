@@ -805,43 +805,54 @@ Further experiment was done using the verbs 'run' and 'ran'. The results weren't
 
 ### Negation
 
-This experiment shows negations of sentences using the word `not'.
+This experiment shows negations of sentences using the word 'not'.
+
+```math
 \begin{align*}
-    \mathbf{s}^3_\text{not} = \texttt{\footnotesize i am not there .} \quad \mathbf{E} \bigr(\mathbf{s}^3_\text{not}\bigr) = \mathbf{z}^3_\text{not}
+    \mathbf{s}^3_\text{not} = \texttt{i am not there .} \quad \mathbf{E} \bigr(\mathbf{s}^3_\text{not}\bigr) = \mathbf{z}^3_\text{not}
 \end{align*}
+```
+
+```math
 \begin{align*}
-    \mathbf{D} \bigr(\mathbf{z}^3_\text{not} - \mathbf{z}^3_\text{present} + \mathbf{z}^5_\text{future} \bigr) & = \texttt{\footnotesize i will not be there .} \\
-    \mathbf{D} \bigr(\mathbf{z}^3_\text{not} - \mathbf{z}^3_\text{present} + \mathbf{z}^5_\text{past} \bigr) & = \texttt{\footnotesize i was not there .} \\
-    \mathbf{D} \bigr(\mathbf{z}^3_\text{not} - \mathbf{z}^3_\text{present} + \mathbf{z}^5_\text{present} \bigr) & = \texttt{\footnotesize i run not in the morning .} \\
-    \mathbf{D} \bigr(\mathbf{z}^3_\text{not} - \mathbf{z}^3_\text{present} + \mathbf{z}^4_\text{present} \bigr) & = \texttt{\footnotesize i am not going with you .} \\
-    \mathbf{D} \bigr(\mathbf{z}^3_\text{not} - \mathbf{z}^3_\text{present} + \mathbf{z}^1_\text{he} \bigr) & = \texttt{\footnotesize he stayed completely not still for the next moment .} \\
-    \mathbf{D} \bigr(\mathbf{z}^3_\text{not} - \mathbf{z}^3_\text{present} + \mathbf{z}^2_\text{he} \bigr) & = \texttt{\footnotesize then he continued not as calmly as he could .}
+    \mathbf{D} \bigr(\mathbf{z}^3_\text{not} - \mathbf{z}^3_\text{present} + \mathbf{z}^5_\text{future} \bigr) & = \texttt{i will not be there .} \\
+    \mathbf{D} \bigr(\mathbf{z}^3_\text{not} - \mathbf{z}^3_\text{present} + \mathbf{z}^5_\text{past} \bigr) & = \texttt{i was not there .} \\
+    \mathbf{D} \bigr(\mathbf{z}^3_\text{not} - \mathbf{z}^3_\text{present} + \mathbf{z}^5_\text{present} \bigr) & = \texttt{i run not in the morning .} \\
+    \mathbf{D} \bigr(\mathbf{z}^3_\text{not} - \mathbf{z}^3_\text{present} + \mathbf{z}^4_\text{present} \bigr) & = \texttt{i am not going with you .} \\
+    \mathbf{D} \bigr(\mathbf{z}^3_\text{not} - \mathbf{z}^3_\text{present} + \mathbf{z}^1_\text{he} \bigr) & = \texttt{he stayed completely not still for the next moment .} \\
+    \mathbf{D} \bigr(\mathbf{z}^3_\text{not} - \mathbf{z}^3_\text{present} + \mathbf{z}^2_\text{he} \bigr) & = \texttt{then he continued not as calmly as he could .}
 \end{align*}
-When there isn't an auxiliary (be, will, can, do, etc.) verb, negation is done by inserting the `do' verb. Although the model wasn't able to achieve that, it still placed `not' in the grammatically correct places.
+```
+
+When there isn't an auxiliary (be, will, can, do, etc.) verb, negation is done by inserting the 'do' verb. Although the model wasn't able to achieve that, it still placed 'not' in the grammatically correct places.
 
 ### Statements vs. Questions
+
 Next, experiments were conducted to see whether statements could be turned into questions and vice-versa.
-\begin{center}
-    {\renewcommand{\arraystretch}{1}
-    \begin{tabular}{l l l l}
-        $\mathbf{s}^6_\text{statement}$ & = \: \texttt{\footnotesize you can go home .} & $\mathbf{E} \bigr(\mathbf{s}^6_\text{statement} \bigr)$ & = \: $\mathbf{z}^6_\text{statement}$ \\
-        $\mathbf{s}^6_\text{question}$ & = \: \texttt{\footnotesize can you go home ?} & $\mathbf{E} \bigr(\mathbf{s}^6_\text{question} \bigr)$ & = \: $\mathbf{z}^6_\text{question}$ \\
-        $\mathbf{s}^3_\text{question}$ & = \: \texttt{\footnotesize am i there ?} & $\mathbf{E} \bigr(\mathbf{s}^3_\text{question} \bigr)$ & = \: $\mathbf{z}^3_\text{question}$ \\
-        $\mathbf{s}^4_\text{question}$ & = \: \texttt{\footnotesize am i going with you ?} & $\mathbf{E} \bigr(\mathbf{s}^4_\text{question} \bigr)$ & = \: $\mathbf{z}^4_\text{question}$
-    \end{tabular}
-    }
-\end{center}
+
+```math
+\begin{align}
+    \mathbf{s}^6_\text{statement} & = \: \texttt{you can go home .} & \mathbf{E} \bigr(\mathbf{s}^6_\text{statement} \bigr) & = \: \mathbf{z}^6_\text{statement} \\
+    \mathbf{s}^6_\text{question} & = \: \texttt{can you go home ?} & \mathbf{E} \bigr(\mathbf{s}^6_\text{question} \bigr) & = \: \mathbf{z}^6_\text{question} \\
+    \mathbf{s}^3_\text{question} & = \: \texttt{am i there ?} & \mathbf{E} \bigr(\mathbf{s}^3_\text{question} \bigr) & = \: \mathbf{z}^3_\text{question} \\
+    \mathbf{s}^4_\text{question} & = \: \texttt{am i going with you ?} & \mathbf{E} \bigr(\mathbf{s}^4_\text{question} \bigr) & = \: \mathbf{z}^4_\text{question}
+\end{align}
+```
+
+```math
 \begin{align*}
-    \mathbf{D} \bigr(\mathbf{z}^6_\text{question} - \mathbf{z}^6_\text{statement} + \mathbf{z}^3_\text{present} \bigr) & = \texttt{\footnotesize am i there ?} \\
-    \mathbf{D} \bigr(\mathbf{z}^6_\text{question} - \mathbf{z}^6_\text{statement} + \mathbf{z}^3_\text{future} \bigr) & = \texttt{\footnotesize will i be there ?} \\
-    \mathbf{D} \bigr(\mathbf{z}^6_\text{question} - \mathbf{z}^6_\text{statement} + \mathbf{z}^3_\text{past} \bigr) & = \texttt{\footnotesize i was there ?} \\
-    \mathbf{D} \bigr(1.5(\mathbf{z}^6_\text{question} - \mathbf{z}^6_\text{statement}) + \mathbf{z}^3_\text{past} \bigr) & = \texttt{\footnotesize was i there ?} \\
-    \mathbf{D} \bigr(\mathbf{z}^6_\text{question} - \mathbf{z}^6_\text{statement} + \mathbf{z}^4_\text{present} \bigr) & = \texttt{\footnotesize am i going with you ?} \\
-    \mathbf{D} \bigr(\mathbf{z}^6_\text{statement} - \mathbf{z}^6_\text{question} + \mathbf{z}^3_\text{question} \bigr) & = \texttt{\footnotesize i am there .} \\
-    \mathbf{D} \bigr(\mathbf{z}^6_\text{question} - \mathbf{z}^6_\text{statement} + \mathbf{z}^4_\text{question} \bigr) & = \texttt{\footnotesize i am going with you .} 
+    \mathbf{D} \bigr(\mathbf{z}^6_\text{question} - \mathbf{z}^6_\text{statement} + \mathbf{z}^3_\text{present} \bigr) & = \texttt{am i there ?} \\
+    \mathbf{D} \bigr(\mathbf{z}^6_\text{question} - \mathbf{z}^6_\text{statement} + \mathbf{z}^3_\text{future} \bigr) & = \texttt{will i be there ?} \\
+    \mathbf{D} \bigr(\mathbf{z}^6_\text{question} - \mathbf{z}^6_\text{statement} + \mathbf{z}^3_\text{past} \bigr) & = \texttt{i was there ?} \\
+    \mathbf{D} \bigr(1.5(\mathbf{z}^6_\text{question} - \mathbf{z}^6_\text{statement}) + \mathbf{z}^3_\text{past} \bigr) & = \texttt{was i there ?} \\
+    \mathbf{D} \bigr(\mathbf{z}^6_\text{question} - \mathbf{z}^6_\text{statement} + \mathbf{z}^4_\text{present} \bigr) & = \texttt{am i going with you ?} \\
+    \mathbf{D} \bigr(\mathbf{z}^6_\text{statement} - \mathbf{z}^6_\text{question} + \mathbf{z}^3_\text{question} \bigr) & = \texttt{i am there .} \\
+    \mathbf{D} \bigr(\mathbf{z}^6_\text{question} - \mathbf{z}^6_\text{statement} + \mathbf{z}^4_\text{question} \bigr) & = \texttt{i am going with you .} 
 \end{align*}
+```
 
 ### Command vs. Request
+
 Finally, experiments were conducted to see whether commands could be turned into requests and vice-versa. 
 \begin{center}
     {\renewcommand{\arraystretch}{1}
