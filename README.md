@@ -874,3 +874,12 @@ Finally, experiments were conducted to see whether commands could be turned into
 ```
 
 The results for this and the previous experiment suggest that the structure of the sentence may be a subset of the latent space as well. Isolating these elements could lead to a new way of building output sentences within the latent space.
+
+
+## Conclusion
+
+The results and experiments of the trained model shows promise. One of the biggest challenges for this work was training a larger model with a bigger dataset, so that is the most important next step. Because the corpus only came from a book dataset, language of the data was limited to a single domain. It would be better to use a corpus gathered from multiple domains for a more general-purpose model. With a larger model, it could be possible to extract specific information from the encoded word vectors and also generate new sentences in the latent space by using different vectors as building blocks. This could lead to a new way of modeling a conversational AI. 
+
+It would also be beneficial to explore alternate model architectures or training schemes and compare their empirical results. The model could be designed as a denoising autoencoder by masking some of the input words, or as a variational autoencoder by sampling the latent vectors from a Gaussian. One thing that lacked in this work is empirical results using standard methods. Comparing this model to other existing language models in standard LM tasks could show unique properties of the model. 
+
+Another important work to be done is implementing the symbolic derivatives of the matrix-by-matrix functions to autograd libraries. Current autograd systems are not completely optimized for solving the gradients of matrix-by-matrix functions during the backward pass. By using the results from \ref{eq:dpsi-left}, the complexity of these derivative calculations and gradient multiplications can be reduced by a factor of 2. The rise in usage of transformers and attention mechanism leads to more and more matrix-by-matrix operations, hence a more optimal algorithm will greatly reduce time and cost of training large language models.
